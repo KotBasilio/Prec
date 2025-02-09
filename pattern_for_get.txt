@@ -1,0 +1,101 @@
+// example of a pattern: Here's a pattern for Get from an adjacent system (named banners).
+
+// -------------------------------------
+// SDK header part
+typedef void (*prosdk_on_banner_get_banners_spaces)(PROSDK_AUTH_HANDLER, void* context, prosdk_banner_get_banner_spaces_result*);
+PROSDKLIBRARY_API PROSDK_ERROR_CODE prosdk_banner_get_banner_spaces(PROSDK_AUTH_HANDLER, prosdk_banner_get_banner_spaces_parameters*, void* context, prosdk_on_banner_get_banners_spaces);
+
+
+// ------------------------------------------------
+// Banners.h part
+// delegates for:
+// -- incoming spaces
+DECLARE_DYNAMIC_DELEGATE_ThreeParams(FOnProsSpaceWithBannersReceived_BP, EProsdkErrorCodeBanners, ErrorCode, const FProsBannerConfig&, Config, const TArray<FProsSpaceWithBanners>&, Spaces);
+DECLARE_DELEGATE_ThreeParams(FOnProsSpaceWithBannersReceived, EProsdkErrorCodeBanners /*ErrorCode*/, const FProsBannerConfig& /*Config*/, const TArray<FProsSpaceWithBanners>& /*Spaces*/);
+
+
+UCLASS(Blueprintable)
+class PROS_API UProsBannerService : public UObject
+{
+	GENERATED_BODY()
+
+public:
+...
+
+	UFUNCTION(BlueprintCallable, Category = "Pros|Services|Banner")
+	EProsdkErrorCodeBanners GetSpaces(int32 LocalUserNum, const TArray<FString>& ContentIds, const TArray<FString>& SpaceFilters, FOnProsSpaceWithBannersReceived_BP Delegate);
+	EProsdkErrorCodeBanners GetSpaces(int32 LocalUserNum, const TArray<FString>& ContentIds, const TArray<FString>& SpaceFilters, FOnProsSpaceWithBannersReceived Delegate);
+
+	template <typename DeType>
+	EProsdkErrorCodeBanners CallImplGetSpaces(int32 LocalUserNum, const TArray<FString>& ContentIds, const TArray<FString>& SpaceFilters, const DeType& Delegate);
+
+
+// ------------------------------------------------
+// Banners.cpp part
+template<typename DeType>
+EProsdkErrorCodeBanners UProsBannerService::CallImplGetSpaces(int32 LocalUserNum, const TArray<FString>& ContentIds, const TArray<FString>& SpaceFilters, const DeType& Delegate)
+{
+	UE_LOG(LogPros, Verbose, TEXT("%s for Lun=%d by Ids=%s with Filters=%s"), FUNC_NAMETCH, LocalUserNum, *ArrayToDebugString(ContentIds), *ArrayToDebugString(SpaceFilters));
+
+	auto authSvc = UProsAuthorizationService::Get();
+	if (!authSvc) {
+		return EProsdkErrorCodeBanners::FAILED_PRECONDITION;
+	}
+	auto auth = authSvc->GetAuthHandlerByLocalUserNum(LocalUserNum);
+	if (!auth) {
+		return EProsdkErrorCodeBanners::UNAUTHENTICATED;
+	}
+
+	auto cb = [](PROSDK_AUTH_HANDLER auth, void* Context, prosdk_banner_get_banner_spaces_result* Result) {
+		UE_LOG(LogPros, Verbose, TEXT("GetSpaces cb in, code:%d"), Result->error_code);
+		LogWhenFailed(Result->error_code);
+		auto Delegate = static_cast<DeType*>(Context);
+
+		auto _this = UProsBannerService::TryGet();
+		if (_this) {
+			auto Spaces = SdkToTArray<FProsSpaceWithBanners>(Result->spaces, Result->spaces_size);
+			for (FProsSpaceWithBanners& space : Spaces) {
+				_this->FilterBannersByLocalization(space.Banners);
+			}
+			UE_LOG(LogPros, Verbose, TEXT("SpacesReceived: %s"), *ArrayToDebugString(Spaces));
+
+			Delegate->ExecuteIfBound(
+				ToBanners(Result->error_code),
+				FProsBannerConfig::FromSdk(&Result->config),
+				Spaces
+			);
+		}
+
+		delete Delegate;
+		prosdk_banner_get_banner_spaces_result_release(Result);
+	};
+
+	prosdk_banner_get_banner_spaces_parameters Params;
+	Params.extra_content_id = ProsStringArrayCast(ContentIds);
+	Params.extra_content_id_count = ContentIds.Num();
+	Params.space_filters = ProsStringArrayCast(SpaceFilters);
+	Params.space_filters_count = SpaceFilters.Num();
+
+	auto code = prosdk_banner_get_banner_spaces(
+		auth, &Params,
+		new DeType(Delegate), cb
+	);
+
+	ProsArrayRelease(Params.extra_content_id, (int32)ContentIds.Num());
+	ProsArrayRelease(Params.space_filters,    (int32)SpaceFilters.Num());
+
+	LogWhenFailed(code);
+	return ToBanners(code);
+}
+
+EProsdkErrorCodeBanners UProsBannerService::GetSpaces(int32 LocalUserNum, const TArray<FString>& ContentIds, const TArray<FString>& SpaceFilters, FOnProsSpaceWithBannersReceived_BP Delegate)
+{
+   return CallImplGetSpaces(LocalUserNum, ContentIds, SpaceFilters, Delegate);
+}
+
+EProsdkErrorCodeBanners UProsBannerService::GetSpaces(int32 LocalUserNum, const TArray<FString>& ContentIds, const TArray<FString>& SpaceFilters, FOnProsSpaceWithBannersReceived Delegate)
+{
+   return CallImplGetSpaces(LocalUserNum, ContentIds, SpaceFilters, Delegate);
+}
+
+

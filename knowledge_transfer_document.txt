@@ -1,0 +1,107 @@
+ChatGPT-Prec said: Here’s a structured way to ensure a seamless continuation of our work:
+
+🚀 Step 1: Key Data to Transfer
+I will preserve and migrate the following essential knowledge:
+
+1️⃣ Core Technical Context
+✔ You are working on UE integration with prosdk, wrapping SDK structures for Blueprint exposure.
+✔ Memory management is a top priority, with strict cleanup rules.
+✔ Structs require ToSdk(), FromSdk(), DestroySdkType(), and should follow COMBINED ToSdk() where applicable.
+✔ Logging strategy: Always log ToDebugString() or ArrayToDebugString(), never raw SDK pointers.
+
+2️⃣ Established Design Patterns
+✔ "Get" Function Pattern
+✔ "Async Empty Callback" Pattern
+✔ "COMBINED ToSdk" Pattern
+✔ "Private DestroySdkType()" Pattern
+✔ "Delegate Reuse for Generic Completion" Pattern
+
+3️⃣ Best Practices We've Agreed On
+✔ Use FOnProsModGenericComplete_BP for generic SDK completion callbacks.
+✔ Memory cleanup is handled only by destructors.
+✔ Avoid redundant DestroySdkType() calls in SDK-wrapped functions.
+✔ Enums should be converted using ProsEnumCast<>, and arrays using ProsStringArrayCast().
+
+🚀 Step 2: Transferring This Knowledge to the New Chat
+Here’s what I recommend:
+
+📌 Option 1: Manual Transfer (Preferred)
+You start a new chat and upload the latest files.
+I will immediately recreate the knowledge base, adding all essential details and patterns.
+This ensures a clean reset while keeping all accumulated insights.
+📌 Option 2: Summarized Knowledge Dump
+Before starting a new chat, I generate a structured summary of all our work.
+You copy & paste this into the new chat as a reference.
+I’ll use it to reconstruct our working context.
+📌 Option 3: File-Based Continuation
+You prepare a summary document (Markdown or plain text) containing key patterns and knowledge.
+Upload it in the new chat—I will parse it and rebuild our working memory.
+🎯 Next Steps
+🚀 Which approach would you prefer? Or do you have a different idea for transferring knowledge? 😊
+
+
+(User) said: :) Let's use Option 2: Summarized Knowledge Dump. That's because I'm a bit curious to read that dump too, hoping it will it be readable.
+
+
+ChatGPT-Prec said:
+Great choice! 🚀 I'll now generate a structured, human-readable summary of everything we've established so far. This will serve as a knowledge transfer document for your next chat.
+
+🚀 Prosdk UE Integration – Knowledge Transfer Summary
+📌 Context
+You are integrating prosdk with Unreal Engine (UE) by wrapping SDK data structures for Blueprint exposure. The goal is to provide clean, efficient, and well-structured UE APIs while handling memory management, conversions, and logging correctly.
+
+📍 1. Core Best Practices
+✅ Memory Management Rules
+All SDK structs must be properly managed.
+Use ToSdk() for conversion from UE structs to SDK structs.
+Use FromSdk() for conversion from SDK structs to UE structs.
+Use DestroySdkType() for cleanup.
+DestroySdkType() must always be private, called only from the destructor.
+Avoid redundant calls to DestroySdkType() in SDK-wrapped functions.
+✅ Conversion & Logging Strategy
+For Enums → Always use ProsEnumCast<>.
+For Arrays → Always use ProsStringArrayCast() or ProsArrayCast<FString>.
+For Logging → Always log converted UE data (ToDebugString()), never raw SDK pointers.
+📍 2. Standardized Function Patterns
+📌 "Get" Function Pattern (Retrieving Data)
+✅ Used for retrieving data from the SDK.
+✅ Has Blueprint (_BP) and C++ (Delegate) variants.
+✅ Uses a templated private function for shared logic (CallImpl...).
+✅ Converts SDK structs to UE structs (FromSdk()).
+✅ Logs the results after conversion (ToDebugString()).
+✅ Calls prosdk_mods_<function>_release(...) to free SDK memory.
+
+📌 "Async Empty Callback" Pattern (No Return Data)
+✅ Used for SDK functions that return only an error code.
+✅ Uses prosdk_authorization_async_empty_cb.
+✅ Converts Unreal types before passing to SDK:
+TArray<FString> → const char** (via ProsStringArrayCast()). 
+✅ Uses heap-allocated delegate callbacks:
+auto Delegate = new DeType(Delegate);
+✅ Calls the delegate and immediately deletes it:
+Delegate->ExecuteIfBound(Lun, ueCode);
+delete Delegate;
+✅ Logs before SDK call and inside the callback.
+
+📌 "COMBINED ToSdk" Pattern (SDK Struct Management)
+✅ Provides two versions of ToSdk():
+
+In-place conversion (ToSdk(SdkStruct*)).
+Standalone allocation (ToSdk()).
+✅ Ensures SDK struct is reused instead of reallocated. ✅ Always pairs with DestroySdkType() for cleanup.
+📍 3. Established Coding Conventions
+🚀 Struct Design Rules
+✅ Each struct must include:
+
+FromSdk() for converting SDK data to UE.
+ToSdk() for converting UE data to SDK.
+DestroySdkType() (which is always private).
+A destructor (~StructName()) that calls DestroySdkType().
+✅ Blueprint Exposure Rules:
+
+BlueprintReadOnly for read-only structs.
+BlueprintReadWrite for modifiable structs.
+✅ Delegate Reuse Strategy:
+
+Generic completion delegates (FOnProsModGenericComplete_BP) should be reused instead of creating new ones.
+

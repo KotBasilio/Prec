@@ -1,0 +1,891 @@
+I indroduce a new command for this chat: G-seek. 
+The steps are:  
+-- you search prosdk_service_mods.h file for the command parameter;
+-- you try to find the place most likely looking as a function signature;
+-- lines that start with PROSDKLIBRARY_API are the best candidates;
+-- if you detected a function signature, display to me for approval; otherwise tell me so -- i.e. don't invent signatures that are not in prosdk_service_mods.h.
+End of the command definition.
+Pls tell me if it's clear enough? 
+
+Now let's modify the commands:
+-- delete G-revert;
+-- 
+
+I adjust existing command for this chat: G-seek.
+I modify its step 1 ("Locate the SDK function definition") clarifying that this should be done exactly with G-seek
+
+
+G-hint prosdk_mods_upload_mod_image
+
+==============================================
+INPUT:
+struct prosdk_mods_account_info {// hint:RO
+   uint16_t status;
+   int64_t subscribed_at_timestamp_ms;
+   bool is_subscribed;
+};
+
+INPUT:
+struct prosdk_mods_dependency_info {// hint:RO
+   const char* id;
+   const char* name;
+   uint16_t status;
+};
+
+struct prosdk_mods_social {// hint:RO
+   int likes;
+   int dislikes;
+   int downloads;
+   int subscribers;
+};
+
+INPUT:
+struct prosdk_mods_data_info {// hint:RO
+   const char* file_name;
+   const char* file_id;
+   int64_t mod_size_in_bytes;
+   const char* file_url;
+   const char* validation_hash;
+};
+
+
+// hint:BI
+
+Just great, thanks! Let me add more input now.
+INPUT:
+struct prosdk_mods_add_version_additional_fields {// hint:BI
+   const char* version_name = nullptr;
+   prosdk_mods_provider_with_platform* supported_platforms = nullptr;
+   size_t supported_platforms_count = 0;
+   bool auto_publish = false;
+   const char* release_notes = nullptr;
+   const char* file_name = nullptr;
+   bool send_to_moderation = false;
+};
+
+
+Well done! I provide for you reference an example way to implement ToSdk(void) for a class with INPLACE ToSdk:
+prosdk_mods_provider_with_platform* FProsModsProviderWithPlatform::ToSdk(prosdk_mods_provider_with_platform* Out) const
+{
+   if (Out) {
+      Out->platform = ProsEnumCast<PROSDK_BUILD_PLATFORM>(Platform);
+      Out->provider = ProsEnumCast<PROSDK_PROVIDER>(Provider);
+   }
+   return Out;
+}
+
+prosdk_mods_provider_with_platform * FProsModsProviderWithPlatform::ToSdk() const
+{
+   MODS_FLIP_DATA(prosdk_mods_provider_with_platform);
+   return ToSdk(SdkType.Get());
+}
+
+let's name this technique "COMBINED ToSdk".
+Pls apply "COMBINED ToSdk" to FProsModsAccountSearchInfo.
+
+Well done! Let me add more input now.
+INPUT:
+struct prosdk_mods_user_model {// hint:BI, COMBINED ToSdk
+   const char* name = nullptr;
+   const char* postfix = nullptr;
+};
+
+
+Well done! Let me add more input now.
+INPUT:
+struct prosdk_mods_mod_upload_parameters {// hint:RO
+   int min_chunk_size = 0;
+   int max_chunk_size = 0;
+   int64_t max_file_size = 0;
+};
+
+
+struct prosdk_mods_account_search_info {// hint:BI, INPLACE
+   prosdk_mods_user_model author;
+   const char* account_id = nullptr;
+   const char* login = nullptr;
+};
+
+
+struct prosdk_mods_hide_info {// hint:BI
+   const char** mod_ids = nullptr;
+   size_t mod_ids_count = 0;
+   prosdk_mods_account_search_info* mod_author_account_infos = nullptr;
+   size_t mod_author_account_infos_count = 0;
+};
+
+
+
+Also I provide enums for your reference 
+UENUM(BlueprintType, Category = "Pros|Services|Mod")
+enum class EProsdkModCollectionType : uint8
+{
+   MCT_UNKNOWN = 0 UMETA(DisplayName = "Unknown"),
+   MCT_STATIC = 1 UMETA(DisplayName = "Static"),
+   MCT_DYNAMIC = 2 UMETA(DisplayName = "Dynamic"),
+};
+
+INPUT:
+struct prosdk_mods_list_result {
+   prosdk_mods_search_filter* continuation_token = nullptr;
+   prosdk_mods_list result;
+};
+
+struct prosdk_mods_collection_group_entry {
+   const char* collection_id = nullptr;
+   const char* collection_view_type = nullptr;
+   int order = 0;
+};
+
+struct prosdk_mods_collection_group_entry_info {
+   prosdk_mods_collection_group_entry mod_collection_group_entry;
+   const char* collection_name = nullptr;
+   const char* collection_name_localization_id = nullptr;
+   prosdk_loc_desc* collection_name_localizations = nullptr;
+   size_t collection_name_localizations_count = 0;
+   PROSDK_MOD_COLLECTION_TYPE collection_type = PROSDK_MOD_COLLECTION_TYPE::MOD_COLLECTION_TYPE_UNKNOWN;
+};
+
+
+struct prosdk_mods_collection_group {
+   const char* collection_group_name = nullptr;
+   prosdk_mods_collection_group_entry_info* collection_group_entries = nullptr;
+   size_t collection_group_entries_count = 0;
+};
+
+
+struct prosdk_mods_collection_group_array {
+   prosdk_mods_collection_group* groups = nullptr;
+   size_t groups_count = 0;
+};
+
+
+
+struct prosdk_mods_gallery_image {// hint:BI
+   const char* image = nullptr;
+   const char* thumbnail_small = nullptr;
+   const char* thumbnail_medium = nullptr;
+   const char* thumbnail_large = nullptr;
+};
+
+Well done! Let me add more input now.
+Also I provide for your reference so called in-place ToSdk() technique. Example:
+for struct PROS_API FProsModsProviderWithPlatform // reflects prosdk_mods_provider_with_platform
+I use
+prosdk_mods_provider_with_platform* FProsModsProviderWithPlatform::ToSdk(prosdk_mods_provider_with_platform* Out) const
+{
+   if (Out) {
+      Out->platform = ProsEnumCast<PROSDK_BUILD_PLATFORM>(Platform);
+      Out->provider = ProsEnumCast<PROSDK_PROVIDER>(Provider);
+   }
+   return Out;
+}
+When I want you to use the in-place ToSdk() technique, I will mark INPUT with a hint INPLACE. Alright?
+
+Also I provide enums for your reference 
+
+UENUM(BlueprintType, Category = "Pros|Services|Mod")
+enum class EProsdkModSortType : uint8
+{
+   MST_NONE = 0 UMETA(DisplayName = "None"),
+   MST_ALPHABETICAL = 1 UMETA(DisplayName = "Alphabetical"),
+   MST_DOWNLOADS = 2 UMETA(DisplayName = "Downloads"),
+};
+
+UENUM(BlueprintType, Category = "Pros|Services|Mod")
+enum class EProsdkModSortOrder : uint8
+{
+   MSO_NONE = 0 UMETA(DisplayName = "None"),
+   MSO_ASC = 1 UMETA(DisplayName = "Asc"),
+   MSO_DESC = 2 UMETA(DisplayName = "Desc"),
+};
+
+INPUT:
+struct prosdk_mods_interval_filter {// hint:BI, INPLACE
+   int64_t from = 0;
+   int64_t to = 0;
+};
+
+
+struct prosdk_mods_sorting {// hint:BI, INPLACE
+   PROSDK_MOD_SORT_TYPE sort_type = PROSDK_MOD_SORT_TYPE::MOD_SORT_TYPE_NONE;
+   PROSDK_MOD_SORT_ORDER sort_order = PROSDK_MOD_SORT_ORDER::MOD_SORT_ORDER_NONE;
+};
+
+
+struct prosdk_mods_search_filter {// hint:BI
+   prosdk_mods_view view;
+   prosdk_mods_user_model author;
+   const char** tags = nullptr;
+   size_t tags_count = 0;
+   const char* mod_name = nullptr;
+   const char** mod_types = nullptr;
+   size_t mod_types_count = 0;
+   PROSDK_MOD_STATUS* mod_statuses = nullptr;
+   size_t mod_statuses_count = 0;
+   const char* mod_collection_id = nullptr;
+   bool subscriptions_only = false;
+   prosdk_mods_interval_filter created_at_interval_filter;
+   prosdk_mods_interval_filter updated_at_interval_filter;
+   prosdk_mods_sorting sorting;
+};
+
+
+
+Well done! Let me add more input now.
+Also I provide enums for your reference 
+UENUM(BlueprintType, Category = "Pros|Services|Mod")
+enum class EProsdkModImageExtension : uint8
+{
+   MIE_UNKNOWN = 0 UMETA(DisplayName = "Unknown"),
+   MIE_JPG = 1 UMETA(DisplayName = "Jpg"),
+   MIE_PNG = 2 UMETA(DisplayName = "Png"),
+};
+UENUM(BlueprintType, Category = "Pros|Services|Mod")
+enum class EProsdkModLikeStatus : uint8
+{
+   MLS_NONE = 0 UMETA(DisplayName = "None"),
+   MLS_LIKE = 1 UMETA(DisplayName = "Like"),
+   MLS_DISLIKE = 2 UMETA(DisplayName = "Dislike"),
+};
+
+INPUT:
+struct prosdk_mods_image {// hint:BI
+   const uint8_t* image_data = nullptr;
+   size_t image_data_size = 0;
+   bool thumbnail_required = false;
+   PROSDK_MOD_IMAGE_EXTENSION extension = PROSDK_MOD_IMAGE_EXTENSION::MOD_IMAGE_EXTENSION_UNKNOWN;
+};
+
+struct prosdk_mods_rate_mod_id {// hint:BI
+   const char* mod_id = nullptr;
+   PROSDK_MOD_LIKE_STATUS like_status = PROSDK_MOD_LIKE_STATUS::MOD_LIKE_STATUS_NONE;
+};
+
+struct prosdk_mods_stat {// hint:RO
+   int new_mods_count = 0;
+   int public_mods_count = 0;
+   int subscriptions_mods_count = 0;
+   int created_mods_count = 0;
+};
+
+
+
+struct prosdk_mods_add_version {// hint:BI
+   const char* mod_id = nullptr;
+   const char* container_id = nullptr;
+   prosdk_mods_add_version_additional_fields version_additional_fields;
+};
+
+Splendid! Let me add more input now.
+INPUT:
+struct prosdk_mods_additional_fields {// hint:BI
+   const char* mod_type_id = nullptr;
+   const char** mod_tag_ids = nullptr;
+   size_t mod_tag_ids_count = 0;
+   const char* homepage = nullptr;
+   const char* profile_url = nullptr;
+   const char** youtube_links = nullptr;
+   size_t youtube_links_count = 0;
+};
+
+
+There are two more special cases:  
+when you need to convert string arrays within ToSdk() methods, use ProsStringArrayCast -- i.e.  SdkType->mod_tag_ids = ProsStringArrayCast(ModTagIDs); 
+when you need to free memory within DestroySdkType() methods, use ProsArrayRelease -- i.e. ProsArrayRelease(SdkType->mod_tag_ids, SdkType->mod_tag_ids_count);
+
+struct prosdk_loc_desc {// hint:BI
+   const char* language_code;
+   const char* country_code;
+   const char* text;
+};
+
+NEXT INPUT:
+struct prosdk_mods_description {// hint:RO
+   prosdk_mods_user_model author;
+   const char* name;
+   prosdk_mods_gallery_image logo_image;
+   prosdk_loc_desc* full_descriptions;
+   size_t full_descriptions_count;
+   prosdk_loc_desc* short_descriptions;
+   size_t short_descriptions_count;
+   prosdk_mods_gallery_image* images;
+   size_t images_count;
+   const char* homepage;
+   const char** youtube_links;
+   size_t youtube_links_count;
+   int64_t last_update_timestamp_ms;
+   int64_t last_created_at_timestamp_ms;
+   const char* profile_url;
+   int64_t deleted_at_timestamp_ms;
+   prosdk_mods_moderator_message* moderator_messages;
+   size_t moderator_messages_count;
+};
+
+
+ You will need this for TArray<FString> YoutubeLinks.
+Pls update the code. Generate OUTPUT only for the last structure I've provided. 
+
+Great! I like your precision and speed. 
+Here are more structures for you to process: 
+
+struct prosdk_mods_tag {// hint:RO
+   const char* id;
+   const char* localization_id;
+   prosdk_loc_desc* localizations;
+   size_t localizations_count;
+   int order;
+};
+
+
+struct prosdk_mods_tag_group {// hint:RO
+   const char* name = nullptr;
+   const char* localization_id = nullptr;
+   prosdk_loc_desc* localizations = nullptr;
+   size_t localizations_count = 0;
+   prosdk_mods_tag* tags = nullptr;
+   size_t tags_count = 0;
+   bool multiple_choice = false;
+   int order = 0;
+};
+
+
+
+
+
+hint:BI
+------------------------
+
+Hi. I want to setup a task of C++ code generation. The first I plan to do is to give you some context. The context I have is in .CPP and .H files. Pls advice how to pass the context to you. General ideas: 
+-- the code wraps of one system (named mods) of a library (named prosdk) to expose it to UE -- via class PROS_API UProsModsService : public UObject;
+-- a lot of data structures are already defined both for prosdk mods and for UE;
+-- also I have some example code for your reference -- it works for another system (named entitlements) from the same library (prossdk);
+-- I want you to grasp the pattern of the examples and to write a similar code.
+
+My first question: how to pass you all that context?
+
+
+Here's a part of the context -- regarding mods. Pls notice "G-hint" marks in the code -- they are in the places where are our points of gorth -- i.e. line like
+//FProsModsServiceStatus GetStatus(int32 LocalUserNum); // G-hint prosdk_mods_get_connection_state
+hints you that:
+-- you will implement GetStatus method in UProsModsService;
+-- the UProsModsService::GetStatus will use prosdk_mods_get_connection_state.
+Alright?
+
+Hmm... I understand what you did. I provide updated CPP and H. Pls notice how I've edited GetStatus(int32 LocalUserNum) -- it ended as UProsModsService::GetConnectionState.
+Tell me your thoughts. If you'd like to get more context, tell me 1-3 areas. For now I provide some enums context.
+Then we will continue with GetMod(...).
+
+prosdk_mods_get_mod details -- I provide prosdk_service_mods.h, find there.
+
+FProsModsServiceStatus -- it was my mistake. I'm correcting -- here's what I meant:
+	//UFUNCTION(BlueprintCallable, Category = "Pros|Services|Mods")
+	//EProsdkErrorCodeMods GetMod // G-hint prosdk_mods_get_mod
+
+
+=) Very well. Here's how to construct a next command for you: I'll show the process step by step. 
+1. retrieve the last "G-hint" command you've performed from this chat -- i.e. for now it is "G-hint prosdk_mods_get_mod_type_array".
+2. find a line with the key info in prosdk_service_mods.h -- i.e. for now it is line 428
+3. scan prosdk_service_mods.h for a next function declaration  -- i.e. for now it is line 429
+4. get function name from the line found
+5. the function name is used to construct next command.
+Do it, then show me the newly constructed command for approval to perform it.
+
+
+=) you perform amazing. I like to have you by my side!
+I upload updated files for your reference. Tell me only summaries new to me -- i.e. skip anything already covered earlier.
+
+Also here's some more context for your better understanding of our codebase:
+
+
+I indroduce a new command for this chat: G-commit.
+If I don't accompany the command with some uploaded files, the prompt me to do so.
+Once you have some files along with the command then you should:
+-- update our current codebase;
+-- review the changes and try to understand them;
+-- compare whether the code you proposed differs from what I've accepted, pay attention to all such differences and try to understand them too;
+-- consider updating our patterns in the light of your new knowledge. If you decide to update your patterns, tell me for approval;
+-- give short summary of your conclusions, preferrably New Insights Only -- i.e. consider skipping anything already covered earlier.
+End of the command definition.
+Pls tell me if it's clear enough?
+
+I've noticed that now I can commit my files pretty much like I do to normal source control. 
+So, tell me, does this analogy makes sense to you? Also I'd like to know whether you keep track of the files history -- maybe you should, so you can analyze through such history too.
+
+
+
+I indroduce a new command for this chat: G-seek.
+The step is: 
+-- you search prosdk_service_mods.h file for the command parameter;
+-- you try to find the place most likely looking as a function signature;
+-- lines that start with PROSDKLIBRARY_API are the best candidates;
+-- if you detected a function signature, display to me for approval; otherwise tell me so -- i.e. don't invent signatures that are not in prosdk_service_mods.h.
+End of the command definition.
+Pls tell me if it's clear enough?
+
+
+I indroduce a new command for this chat: G-hint <function_name>.
+It's goal is an attempt to code-generate methods of UProsModsService eventually calling <function_name>. 
+The steps are: 
+-- you perform G-seek <function_name>;
+-- if it results with function signature approved, then and only then you proceed to code generation applying our pattern on your discretion;
+End of the command definition.
+Pls tell me if it's clear enough?
+
+
+
+
+
+
+
+#define ProsEnumToString(evalue) (UEnum::GetValueAsString(evalue))
+
+#define FUNC_NAMETCH  ANSI_TO_TCHAR(__FUNCTION__)
+
+And I upload ProsCasts.h also FYI.
+
+Here's one more pattern for your reference, or maybe it's just a variation of the "Get" Function Pattern. A certain mark to use the variation is a usage of prosdk_authorization_async_empty_cb. 
+I have some example code for the variation -- it's from a system named CrossSave for the same library (prossdk). 
+The code in CrossSave is a little less organized than ours, so I expect you to take only essentials from there. 
+Once you've analyzed the variation, here's G-hint: prosdk_mods_subscribe_to_mod.
+While you're thinking, pls tell me your trace-of-thought just this time.
+
+
+
+===============================================
+
+Hi. Below is a task of C++ code generation. I give you examples. I want you to grasp the pattern of the examples and to write a similar code. 
+General ideas: 
+-- the code wraps data structures of one system (named prosdk) to expose it to UE;
+-- some of the structures are exposed as BlueprintReadOnly; I mark them with "hint:RO"; all other structures are exposed as BlueprintReadWrite; I mark them with "hint:BI" for your convenience;
+-- pls notice a special case how string arrays are converted: use ProsArrayCast<FString> instead of using SdkToTArray<FString>.
+-- when there's no "hint:" mark, treat it as "hint:RO".
+Special cases:
+-- when converting string arrays: use ProsArrayCast<FString> instead of using SdkToTArray<FString>. 
+-- when converting enums: use ProsEnumCast<> with a UE-style name -- i.e. ProsEnumCast<EProsdkModVersionStatus> for PROSDK_MOD_VERSION_STATUS.
+-- enums within ToDebugString(): use ProsEnumToString -- i.e. %s, *ProsEnumToString(Status).
+-- when I give several structures in INPUT section, I want each of them to be processed.
+
+----------------------- Example 1:
+INPUT:
+struct prosdk_mods_moderator_message { // hint:RO
+   const char* moderator_account_id = nullptr;
+   const char* message = nullptr;
+   int64_t posted_at_timestamp_ms = 3;
+};
+
+OUTPUT:
+// to .H
+USTRUCT(BlueprintType, Category = "Pros|Services|Mods")
+struct PROS_API FProsModsModeratorMessage // reflects prosdk_mods_moderator_message
+{
+   GENERATED_BODY()
+
+public:
+   FProsModsModeratorMessage()
+      : TimestampPostedAt(FDateTime(0))
+   {}
+
+   UPROPERTY(BlueprintReadOnly, Category = "Pros|Services|Mods")
+   FString ModeratorAccountID;
+    
+   UPROPERTY(BlueprintReadOnly, Category = "Pros|Services|Mods")
+   FString Message;
+
+   UPROPERTY(BlueprintReadWrite, Category = "Hydra|Services|Mods")
+   FDateTime TimestampPostedAt;
+
+   [[nodiscard]] const FString ToDebugString() const;
+   static FProsModsModeratorMessage FromSdk(const struct prosdk_mods_moderator_message* In);
+};
+
+// to .CPP
+const FString FProsModsModeratorMessage::ToDebugString() const
+{
+	return FString::Printf(TEXT("[ModeratorId=%s Msg=%s Posted at:%s]"), 
+		*ModeratorAccountID, *Message, *TimestampPostedAt.ToString());
+}
+
+FProsModsModeratorMessage FProsModsModeratorMessage::FromSdk(const prosdk_mods_moderator_message * In)
+{
+	FProsModsModeratorMessage Out;
+	if (In) {
+		Out.ModeratorAccountID = ProsCast<FString>(In->moderator_account_id);
+		Out.Message = ProsCast<FString>(In->message);
+		Out.TimestampPostedAt = FDateTime::FromUnixTimestamp(In->posted_at_timestamp_ms / 1000);
+	}
+	return Out;
+}
+
+----------------------- Example 2:
+INPUT:
+struct prosdk_mods_view {// hint:BI
+   uint16_t start_from = 0;
+   uint16_t max_results = 100;
+};
+
+OUTPUT:
+// to .H
+USTRUCT(BlueprintType, Category = "Pros|Services|Mods")
+struct PROS_API FProsModsView // reflects prosdk_mods_view
+{
+   GENERATED_BODY()
+
+public:
+   ~FProsModsView() { DestroySdkType(); }
+
+   UPROPERTY(BlueprintReadWrite, Category = "Pros|Services|Mods")
+   int32 StartFrom = 0;
+
+   UPROPERTY(BlueprintReadWrite, Category = "Pros|Services|Mods")
+   int32 MaxResults = 0;
+
+   [[nodiscard]] const FString ToDebugString() const;
+   static FProsModsView FromSdk(const struct prosdk_mods_view* In);
+   struct prosdk_mods_view* ToSdk() const;
+
+private:
+   void DestroySdkType() const;
+   mutable TSharedPtr<struct prosdk_mods_view> SdkType;
+};
+
+
+// to .CPP
+const FString FProsModsView::ToDebugString() const
+{
+	return FString::Printf(TEXT("[StartFrom=%d, MaxResults=%d]"), StartFrom, MaxResults);
+}
+
+FProsModsView FProsModsView::FromSdk(const prosdk_mods_view* In)
+{
+	FProsModsView Out;
+	if (In) {
+		Out.StartFrom = static_cast<int32>(In->start_from);
+		Out.MaxResults = static_cast<int32>(In->max_results);
+	}
+	return Out;
+}
+
+prosdk_mods_view* FProsModsView::ToSdk() const
+{
+	MODS_FLIP_DATA(prosdk_mods_view);
+	SdkType->start_from = static_cast<uint16_t>(StartFrom);
+	SdkType->max_results = static_cast<uint16_t>(MaxResults);
+	return SdkType.Get();
+}
+
+void FProsModsView::DestroySdkType() const
+{
+	if (SdkType.IsValid()) {
+		SdkType.Reset();
+	}
+}
+
+----------------------- Example 3:
+INPUT:
+struct prosdk_mods_profile_url {// hint:BI
+   const char* profile_url = nullptr;
+   prosdk_mods_view view;
+};
+
+OUTPUT:
+// to .H
+USTRUCT(BlueprintType, Category = "Pros|Services|Mods")
+struct PROS_API FProsModsProfileUrl // reflects prosdk_mods_profile_url
+{
+   GENERATED_BODY()
+
+public:
+   ~FProsModsProfileUrl() { DestroySdkType(); }
+
+   UPROPERTY(BlueprintReadWrite, Category = "Pros|Services|Mods")
+   FString ProfileUrl;
+
+   UPROPERTY(BlueprintReadWrite, Category = "Pros|Services|Mods")
+   FProsModsView  View;
+
+   [[nodiscard]] const FString ToDebugString() const;
+   static FProsModsProfileUrl FromSdk(const struct prosdk_mods_profile_url* In);
+   struct prosdk_mods_profile_url* ToSdk() const;
+private:
+   void DestroySdkType() const;
+   mutable TSharedPtr<struct prosdk_mods_profile_url> SdkType;
+};
+
+// to .CPP
+const FString FProsModsProfileUrl::ToDebugString() const
+{
+	return FString::Printf(TEXT("[Url=%d, View:%s]"), *ProfileUrl, *View.ToDebugString());
+}
+
+FProsModsProfileUrl FProsModsProfileUrl::FromSdk(const prosdk_mods_profile_url* In)
+{
+	FProsModsProfileUrl  Out;
+	if (In) {
+		Out.ProfileUrl = ProsCast<FString>(In->profile_url);
+		Out.View = FProsModsView::FromSdk(&In->view);
+	}
+	return Out;
+}
+
+prosdk_mods_profile_url* FProsModsProfileUrl::ToSdk() const
+{
+	MODS_FLIP_DATA(prosdk_mods_profile_url);
+	SdkType->profile_url = ProsCast<const char*>(ProfileUrl);
+	SdkType->view = *View.ToSdk();
+	return SdkType.Get();
+}
+
+void FProsModsProfileUrl::DestroySdkType() const
+{
+	if (SdkType.IsValid()) {
+		ProsRelease(SdkType->profile_url);
+		SdkType.Reset();
+	}
+}
+
+----------------------- Example 4:
+INPUT:
+struct prosdk_loc_desc {// hint:RO
+   const char* language_code;
+   const char* country_code;
+   const char* text;
+};
+
+OUTPUT:
+// to .H
+USTRUCT(BlueprintType, Category = "Pros|Services|Core")
+struct PROS_API FProsLocDesc
+{
+	GENERATED_BODY()
+
+public:
+	UPROPERTY(BlueprintReadOnly, Category = "Pros|Services|Core")
+	FString LanguageCode;
+
+	UPROPERTY(BlueprintReadOnly, Category = "Pros|Services|Core")
+	FString CountryCode;
+
+	UPROPERTY(BlueprintReadOnly, Category = "Pros|Services|Core")
+	FString Text;
+
+	[[nodiscard]] const FString ToDebugString() const;
+	static FProsLocDesc FromSdk(const struct prosdk_loc_desc* In);
+};
+
+// to .CPP
+const FString FProsLocDesc::ToDebugString() const
+{
+   return FString::Printf(TEXT("[%s-%s : %s]"),
+      *LanguageCode,
+      *CountryCode,
+      *Text
+   );
+}
+
+FProsLocDesc FProsLocDesc::FromSdk(const prosdk_loc_desc* In)
+{
+   FProsLocDesc Out;
+   if (In) {
+      Out.LanguageCode = ProsCast<FString>(In->language_code);
+      Out.CountryCode = ProsCast<FString>(In->country_code);
+      Out.Text = ProsCastHumanText<FString>(In->text);
+   }
+   return Out;
+}
+
+----------------------- Example 5:
+INPUT:
+struct prosdk_mods_type {// hint:RO
+   const char* id;
+   const char* localization_id;
+   prosdk_loc_desc* localizations;
+   size_t localizations_count;
+   int order;
+};
+
+OUTPUT:
+// to .H
+USTRUCT(BlueprintType, Category = "Pros|Services|Mods")
+struct PROS_API FProsModsType // reflects prosdk_mods_type
+{
+   GENERATED_BODY()
+
+public:
+   UPROPERTY(BlueprintReadOnly, Category = "Pros|Services|Mods")
+   FString ID;
+
+   UPROPERTY(BlueprintReadOnly, Category = "Pros|Services|Mods")
+   FString LocalizationID;
+
+   UPROPERTY(BlueprintReadOnly, Category = "Pros|Services|Mods")
+   TArray<FProsLocDesc> Localizations;
+
+   UPROPERTY(BlueprintReadOnly, Category = "Pros|Services|Mods")
+   int32 Order = 0;
+
+   [[nodiscard]] const FString ToDebugString() const;
+   static FProsModsType FromSdk(const struct prosdk_mods_type* In);
+};
+
+// to .CPP
+const FString FProsModsType::ToDebugString() const
+{
+   return FString::Printf(TEXT("[ID=%s, LocalizationID=%s, Order=%d, Localizations=%s]"), 
+      *ID, *LocalizationID, Order, *ArrayToDebugString(Localizations));
+}
+
+FProsModsType FProsModsType::FromSdk(const prosdk_mods_type* In)
+{
+   FProsModsType Out;
+   if (In) {
+      Out.ID = ProsCast<FString>(In->id);
+      Out.LocalizationID = ProsCast<FString>(In->localization_id);
+      Out.Order = static_cast<int32>(In->order);
+      Out.Localizations = SdkToTArray<FProsLocDesc>(In->localizations, In->localizations_count);
+   }
+   return Out;
+}
+
+----------------------- End of examples.
+INPUT:
+
+struct prosdk_mods_mandatory_fields {// hint:BI
+   const char* mod_name = nullptr;
+   prosdk_loc_desc* full_descriptions = nullptr;
+   size_t full_descriptions_count = 0;
+   prosdk_loc_desc* short_descriptions = nullptr;
+   size_t short_descriptions_count = 0;
+   prosdk_mods_gallery_image logo_image;
+   prosdk_mods_gallery_image* images = nullptr;
+   size_t images_count = 0;
+};
+
+
+struct prosdk_mods_version {// hint:RO
+   const char* version_tag;
+   const char* platform_id;
+   int64_t approved_at_timestamp_ms;
+   int64_t uploaded_at_timestamp_ms;
+   prosdk_mods_data_info mod_data_info;
+   const char* release_notes;
+   PROSDK_MOD_VERSION_STATUS status;
+   prosdk_mods_moderator_message* moderator_messages;
+   size_t moderator_messages_count = 0;
+   const char* version_name;
+   int64_t updated_at_timestamp_ms;
+};
+
+
+----------------------- Example 6:
+INPUT:
+struct prosdk_mods_description {// hint:RO
+   prosdk_mods_user_model author;
+   const char* name;
+   prosdk_mods_gallery_image logo_image;
+   prosdk_loc_desc* full_descriptions;
+   size_t full_descriptions_count;
+   prosdk_loc_desc* short_descriptions;
+   size_t short_descriptions_count;
+   prosdk_mods_gallery_image* images;
+   size_t images_count;
+   const char* homepage;
+   const char** youtube_links;
+   size_t youtube_links_count;
+   int64_t last_update_timestamp_ms;
+   int64_t last_created_at_timestamp_ms;
+   const char* profile_url;
+   int64_t deleted_at_timestamp_ms;
+   prosdk_mods_moderator_message* moderator_messages;
+   size_t moderator_messages_count;
+};
+
+OUTPUT:
+// to .H
+USTRUCT(BlueprintType, Category = "Pros|Services|Mods")
+struct PROS_API FProsModsDescription // reflects prosdk_mods_description
+{
+   GENERATED_BODY()
+
+public:
+   UPROPERTY(BlueprintReadOnly, Category = "Pros|Services|Mods")
+   FProsModsUserModel Author;
+
+   UPROPERTY(BlueprintReadOnly, Category = "Pros|Services|Mods")
+   FString Name;
+
+   UPROPERTY(BlueprintReadOnly, Category = "Pros|Services|Mods")
+   FProsModsGalleryImage LogoImage;
+
+   UPROPERTY(BlueprintReadOnly, Category = "Pros|Services|Mods")
+   TArray<FProsLocDesc> FullDescriptions;
+
+   UPROPERTY(BlueprintReadOnly, Category = "Pros|Services|Mods")
+   TArray<FProsLocDesc> ShortDescriptions;
+
+   UPROPERTY(BlueprintReadOnly, Category = "Pros|Services|Mods")
+   TArray<FProsModsGalleryImage> Images;
+
+   UPROPERTY(BlueprintReadOnly, Category = "Pros|Services|Mods")
+   FString Homepage;
+
+   UPROPERTY(BlueprintReadOnly, Category = "Pros|Services|Mods")
+   TArray<FString> YoutubeLinks;
+
+   UPROPERTY(BlueprintReadOnly, Category = "Pros|Services|Mods")
+   FDateTime LastUpdateTimestamp;
+
+   UPROPERTY(BlueprintReadOnly, Category = "Pros|Services|Mods")
+   FDateTime CreatedAtTimestamp;
+
+   UPROPERTY(BlueprintReadOnly, Category = "Pros|Services|Mods")
+   FString ProfileUrl;
+
+   UPROPERTY(BlueprintReadOnly, Category = "Pros|Services|Mods")
+   FDateTime DeletedAtTimestamp;
+
+   UPROPERTY(BlueprintReadOnly, Category = "Pros|Services|Mods")
+   TArray<FProsModsModeratorMessage> ModeratorMessages;
+
+   [[nodiscard]] const FString ToDebugString() const;
+   static FProsModsDescription FromSdk(const struct prosdk_mods_description* In);
+};
+
+// to .CPP
+const FString FProsModsDescription::ToDebugString() const
+{
+   return FString::Printf(TEXT("[Name=%s, Homepage=%s, ProfileUrl=%s, LastUpdate=%s, CreatedAt=%s, DeletedAt=%s,"
+      " YoutubeLinks=[%s], FullDescriptions=[%s], ShortDescriptions=[%s], Images=[%s], ModeratorMessages=[%s]"),
+      *Name, *Homepage, *ProfileUrl,
+      *LastUpdateTimestamp.ToString(), *CreatedAtTimestamp.ToString(), *DeletedAtTimestamp.ToString(),
+      *FString::Join(YoutubeLinks, TEXT(", ")),
+      *FString::JoinBy(FullDescriptions, TEXT(", "), [](const FProsLocDesc& Loc) { return Loc.ToDebugString(); }),
+      *FString::JoinBy(ShortDescriptions, TEXT(", "), [](const FProsLocDesc& Loc) { return Loc.ToDebugString(); }),
+      *FString::JoinBy(Images, TEXT(", "), [](const FProsModsGalleryImage& Img) { return Img.ToDebugString(); }),
+      *FString::JoinBy(ModeratorMessages, TEXT(", "), [](const FProsModsModeratorMessage& Msg) { return Msg.ToDebugString(); }));
+}
+
+FProsModsDescription FProsModsDescription::FromSdk(const prosdk_mods_description* In)
+{
+   FProsModsDescription Out;
+   if (In) {
+      Out.Author = FProsModsUserModel::FromSdk(&In->author);
+      Out.Name = ProsCast<FString>(In->name);
+      Out.LogoImage = FProsModsGalleryImage::FromSdk(&In->logo_image);
+      Out.FullDescriptions = SdkToTArray<FProsLocDesc>(In->full_descriptions, In->full_descriptions_count);
+      Out.ShortDescriptions = SdkToTArray<FProsLocDesc>(In->short_descriptions, In->short_descriptions_count);
+      Out.Images = SdkToTArray<FProsModsGalleryImage>(In->images, In->images_count);
+      Out.Homepage = ProsCast<FString>(In->homepage);
+      Out.YoutubeLinks = ProsArrayCast<FString>(In->youtube_links, In->youtube_links_count);
+      Out.LastUpdateTimestamp = FDateTime::FromUnixTimestamp(In->last_update_timestamp_ms / 1000);
+      Out.CreatedAtTimestamp = FDateTime::FromUnixTimestamp(In->last_created_at_timestamp_ms / 1000);
+      Out.ProfileUrl = ProsCast<FString>(In->profile_url);
+      Out.DeletedAtTimestamp = FDateTime::FromUnixTimestamp(In->deleted_at_timestamp_ms / 1000);
+      Out.ModeratorMessages = SdkToTArray<FProsModsModeratorMessage>(In->moderator_messages, In->moderator_messages_count);
+   }
+   return Out;
+}
+
+
+Perfect! I'm glad that you follow the pattern =) 
+

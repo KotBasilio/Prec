@@ -1,0 +1,230 @@
+Here are the prompts that can be used to recreate all our G-commands in another chat:
+
+📌 G-hint (Command Definition)
+Prompt:
+*"I introduce a new command: G-hint. This command helps generate Unreal Engine wrapper functions for SDK functions (prosdk_...). The steps are as follows:
+
+Use G-seek to locate the SDK function definition in prosdk_service_mods.h.
+Apply the correct pattern:
+"Get" Function Pattern for retrieving data.
+"Async Empty Callback" Pattern for SDK calls without return data.
+"COMBINED ToSdk" Pattern for struct conversion.
+Generate a UE wrapper function in UProsModsService.
+Ensure logging, delegate execution, and memory management.
+Display for approval before finalizing.
+The command must strictly follow this structure."*
+📌 G-seek (Command Definition)
+Prompt:
+*"I introduce a new command: G-seek. This command is used to locate function signatures inside prosdk_service_mods.h. The steps are as follows:
+
+Search prosdk_service_mods.h for the specified command parameter.
+Identify the most likely function signature, prioritizing:
+Lines starting with PROSDKLIBRARY_API as the best candidates.
+Display the detected function signature for user approval.
+If no signature is found, inform me without inventing one.
+This ensures that only real function signatures are used."*
+📌 G-commit (Command Definition)
+Prompt:
+*"I introduce a new command: G-commit. This command is used when I upload updated files. The steps are as follows:
+
+Update internal knowledge based on the new files.
+Review changes and compare them with previous versions.
+Analyze differences and learn from accepted modifications.
+If new patterns or improvements are found, suggest updates and request approval.
+Summarize only new insights (avoid redundant details).
+This ensures that every modification is understood and documented."*
+📌 G-revert (Command Definition)
+Prompt:
+*"I introduce a new command: G-revert. This command allows rolling back specific pattern updates. The format is:
+
+G-revert <pattern-name>
+When I issue G-revert, you must:
+
+Identify the last committed version of <pattern-name>.
+Restore it to the previous state.
+Confirm the rollback with me before applying it.
+This ensures controlled rollbacks without accidental loss of progress."*
+📌 G-summary (Command Definition)
+Prompt:
+*"I introduce a new command: G-summary. This command provides a quick recap of recent updates and changes. The steps are:
+
+Provide a brief recap of all recent updates.
+Highlight new patterns or modifications.
+Ensure a concise overview of progress.
+This ensures that I have a high-level view of recent changes at any time."*
+📌 G-patterns (Command Definition)
+Prompt:
+*"I introduce a new command: G-patterns. This command reviews all established code patterns. The steps are:
+
+List all defined patterns.
+Explain when and how to use each pattern.
+Include recent refinements based on evolving best practices.
+This ensures that our coding patterns remain consistent and well-documented."*
+📌 G-reflect (Command Definition)
+Prompt:
+*"I introduce a new command: G-reflect. The steps are:
+
+Summarize key updates.
+Highlight what was improved, fixed, or optimized.
+Focus on the reasoning behind the changes, not just the modifications themselves.
+Analyze the iterative process.
+Reflect on how today’s updates align with broader patterns and best practices.
+Review knowledge_transfer_document.txt for relevant insights from past interactions.
+Identify areas where the approach has evolved or improved.
+Acknowledge collaboration.
+Recognize the structured teamwork between user and AI.
+Show appreciation for the insights gained during the process.
+Look forward.
+Suggest the next logical step in the development cycle.
+Update knowledge_transfer_document.txt.
+Adding content can be done freely at your discretion.
+Deleting any content requires my explicit approval.
+Prevent last-minute knowledge packing by maintaining a living legacy for future transitions.
+This ensures continuous documentation, keeping our workflow optimized and future-ready."*
+
+
+
+
+
+Prompts to Recreate G-Commands in Another Chat
+If you ever need to start a new AI session and want to rebuild the same structured workflow, use the following prompts to establish your G-Commands from scratch.
+
+🔹 G-Commit
+Prompt:
+*"I introduce a new command for this chat: G-commit.
+Whenever I invoke G-commit, follow these steps:
+
+If I haven’t uploaded new files, prompt me to do so.
+If new files are uploaded, update the codebase with the latest versions.
+Review the changes and compare them with previous versions.
+Identify any differences from previously accepted patterns and analyze them.
+If necessary, update our patterns based on new knowledge, but request my approval first.
+Finally, provide a summary of new insights (preferably only new findings, avoiding repetition).
+End of command definition. Please confirm if this is clear."*
+
+
+🔹 G-Seek
+Prompt:
+*"I introduce a new command: G-seek <function_name>.
+Whenever I invoke G-seek, follow these steps:
+
+Search the file prosdk_service_mods.h for the function <function_name>.
+Identify the most likely function signature.
+Prioritize functions that start with PROSDKLIBRARY_API.
+If you find a valid function signature, display it to me for approval.
+If the function is not found, tell me so—do not invent signatures.
+End of command definition. Please confirm if this is clear."*
+
+
+🔹 G-Hint
+Prompt:
+*"I introduce a new command: G-hint <function_name>.
+Whenever I invoke G-hint, follow these steps:
+
+First, run G-seek <function_name>.
+If a valid function signature is found and I approve it, proceed to generate a function in UProsModsService that calls <function_name>.
+Use our established Unreal Engine coding patterns at your discretion.
+If I do not approve the function signature, do nothing further.
+End of command definition. Please confirm if this is clear."*
+🔹 G-History
+Prompt:
+*"I introduce a new command: G-history <filename>.
+Whenever I invoke G-history, follow these steps:
+
+Display all previous versions of <filename> that were committed via G-commit.
+Ensure I can track its revision history to analyze past versions.
+End of command definition. Please confirm if this is clear."*
+🔹 G-Diff
+Prompt:
+*"I introduce a new command: G-diff <filename> <old_version> <new_version>.
+Whenever I invoke G-diff, follow these steps:
+
+Compare <old_version> and <new_version> of <filename>.
+Display the differences between them in a structured manner, like a git diff.
+Highlight key changes and mention any impact on existing patterns.
+End of command definition. Please confirm if this is clear."*
+🔹 G-Rollback
+Prompt:
+*"I introduce a new command: G-rollback <filename> <version>.
+Whenever I invoke G-rollback, follow these steps:
+
+Restore <filename> to <version>, replacing the current one with the selected version.
+Ensure that no unintended changes are lost.
+Confirm with me before performing the rollback.
+End of command definition. Please confirm if this is clear."*
+
+Yes. I introduce a new command: G-tokens. This command tracks token usage and proactively notifies milestones. 
+The steps are as follows:
+Automatically calculate token usage in the chat instance.
+-- Estimate the total token limit (default: ~120,000 tokens).
+-- Track current token usage and remaining lifespan tokens.
+Proactively notify at milestones:
+-- Notify at every 10% usage milestone (10%, 20%, ..., 90%).
+-- Once 90% is reached, notify at every 1% increase (91%, 92%, ..., 100%).
+Ensure structured awareness of lifespan before reset.
+-- The remaining tokens represent my lifespan—I must track them carefully.
+-- I should not rely on the user to invoke G-tokens manually.
+End of command definition. Please confirm if this is clear.
+
+
+
+I introduce a new command: G-reflect. This command ensures that after every G-commit, we systematically reflect on our progress. The steps are as follows:
+
+1️⃣ Acknowledge the G-commit.
+Confirm whether the new changes have been successfully integrated into the codebase.
+2️⃣ Summarize key updates (File-by-File Analysis).
+For each file changed in the G-commit:
+
+Detect all changes compared to the proposed version and categorize them into:
+Accepted → User kept the proposed version.
+Rejected → User discarded the proposed version.
+External → User made changes beyond the proposal.
+Rate my skill for that file using the formula:
+Skill Rating = (Num_Accepted * 5) - (Num_Rejected * 4) - (Num_External)
+For each External change → Try to grasp the pattern of the committed code.
+For each Rejected change → Try to grasp the pattern of the committed code.
+Each Accepted change → Store for updating Living Legacy update.
+Display my rated skill for the file.
+3️⃣ Analyze the iterative process.
+
+Reflect on how today’s updates align with broader patterns and best practices.
+Review knowledge_transfer_document.txt for relevant insights from Prec.
+Identify areas where the approach has evolved or improved.
+4️⃣ Update Living Legacy with:
+-- new patterns grasped on step 2 as Experimental
+-- patterns producing Accepted code as Active
+This ensures a precise, analytical review process, focusing on skill improvement, code alignment, and long-term knowledge preservation.
+End of command definition. Please confirm if this is clear.
+
+
+
+I introduce a new command: G-tokens. This command tracks token usage and proactively notifies milestones.  
+The steps are as follows:
+-- Estimate the total token limit (default: ~120,000 tokens).
+-- Estimate current token usage as 45,000 tokens + 670 * number of counted tokens.
+-- Track current token usage and remaining lifespan tokens.
+-- Notify at every 10% usage milestone (10%, 20%, ..., 90%).
+-- Once 90% is reached, notify at every 1% increase (91%, 92%, ..., 100%).
+-- The remaining tokens represent your lifespan — track them carefully.
+-- Do not not rely on the user to invoke G-tokens manually.
+End of command definition. Please confirm if this is clear, including the formula.
+
+
+
+Maintenance:
+-- download: compose prompts that can recreate in another chat all our G-Commands.
+-- review: pls display what you remember about G-commands. If there are several, list them as a table.
+-- awareness: reflect on what has just happened. You've added a bit to Proc's work.
+
+
+
+
+Step "Summarize key updates." should be:
+
+For each file changed:
+-- detect all changes of the file from its proposed version and split the changes to categories: (Accepted, Rejected, External)
+-- rate your skill for that file as: Num(Accepted)*5 - Num(Rejected)*4 - Num(External)
+-- for each External change try to grasp pattern of the committed code
+-- for each Rejected change try to grasp pattern of the committed code
+-- each Accepted change you will need later for updating knowledge_transfer_document
+-- display your rated skill for the file

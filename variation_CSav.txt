@@ -1,0 +1,71 @@
+// -------------------------------------
+// SDK-wide definitions shared by different sustems within SDK
+typedef void (*prosdk_service_state_cb)(PROSDK_SERVICE_STATE, PROSDK_ERROR_CODE, const char* message);
+typedef void (*prosdk_authorization_service_state_cb)(PROSDK_AUTH_HANDLER, PROSDK_SERVICE_STATE, PROSDK_ERROR_CODE, const char* message);
+typedef void (*prosdk_async_empty_cb)(void* context, PROSDK_ERROR_CODE);
+typedef void (*prosdk_authorization_async_empty_cb)(PROSDK_AUTH_HANDLER, void* context, PROSDK_ERROR_CODE);
+
+// -------------------------------------
+// SDK header part
+PROSDKLIBRARY_API PROSDK_ERROR_CODE prosdk_crosssave_skip_transfer(PROSDK_AUTH_HANDLER, void* context, const char* transfer_id, prosdk_authorization_async_empty_cb);
+
+// ------------------------------------------------
+// CrossSaves.h part
+DECLARE_DYNAMIC_DELEGATE_OneParam(FOnProsCrossSaveOpCompleteDelegate_BP, EProsdkErrorCodeCrossSaves, ResultCode);
+DECLARE_DELEGATE_OneParam(FOnProsCrossSaveOpCompleteDelegate, EProsdkErrorCodeCrossSaves /*ResultCode*/);
+
+UCLASS(Blueprintable)
+class PROS_API UProsCrossSaveService : public UObject
+{
+	GENERATED_BODY()
+
+public:
+...
+
+	UFUNCTION(BlueprintCallable, Category = "Pros|Services|CrossSave")
+	EProsdkErrorCodeCrossSaves SkipTransfer(int32 LocalUserNum, const FString& TransferId, const FOnProsCrossSaveOpCompleteDelegate_BP& Delegate);
+	EProsdkErrorCodeCrossSaves SkipTransfer(int32 LocalUserNum, const FString& TransferId, const FOnProsCrossSaveOpCompleteDelegate& Delegate);
+
+private:
+    template <typename DelegateT>
+    EProsdkErrorCodeCrossSaves SkipTransferCallImpl(int32 LocalUserNum, const FString& TransferId, const DelegateT& Delegate);
+
+};
+
+// ------------------------------------------------
+// CrossSaves.cpp part
+
+template <typename DelegateT>
+EProsdkErrorCodeCrossSaves UProsCrossSaveService::SkipTransferCallImpl(int32 LocalUserNum, const FString& TransferId, const DelegateT& Delegate)
+{
+	UE_LOG(LogPros, Verbose, TEXT("%s TransferId=%s"), FUNC_NAMETCH, *TransferId);
+
+	auto ProsTransferId = ProsCastSharedPtr<const char>(TransferId);
+	DelegateT* OwnedDelegate = new DelegateT(Delegate);
+	auto Result = prosdk_crosssave_skip_transfer(
+		UProsAuthorizationService::Get()->GetAuthHandlerByLocalUserNum(LocalUserNum),
+		OwnedDelegate,
+		ProsTransferId.Get(),
+		[](PROSDK_AUTH_HANDLER auth, void* Context, PROSDK_ERROR_CODE ResultCode) {
+			auto ueCode = ToCrossSaves(ResultCode);
+			UE_LOG(LogPros, Verbose, TEXT("UProsCrossSaveService::SkipTransfer %s(%d)"), *ProsEnumToString(ueCode), ueCode);
+			DelegateT* Delegate = static_cast<DelegateT*>(Context);
+			Delegate->ExecuteIfBound(ueCode);
+			delete Delegate;
+		}
+	);
+
+	LogWhenFailedFunc(Result, ToCrossSaves);
+	return ToCrossSaves(Result);
+}
+
+EProsdkErrorCodeCrossSaves UProsCrossSaveService::SkipTransfer(int32 LocalUserNum, const FString& TransferId, const FOnProsCrossSaveOpCompleteDelegate& Delegate)
+{
+	return SkipTransferCallImpl(LocalUserNum, TransferId, Delegate);
+}
+
+EProsdkErrorCodeCrossSaves UProsCrossSaveService::SkipTransfer(int32 LocalUserNum, const FString& TransferId, const FOnProsCrossSaveOpCompleteDelegate_BP& Delegate)
+{
+	return SkipTransferCallImpl(LocalUserNum, TransferId, Delegate);
+}
+
