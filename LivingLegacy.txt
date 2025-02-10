@@ -183,6 +183,11 @@ Process:
 - AI-generated code must align with **established best practices**.  
 - LL modifications should **improve maintainability, consistency, and efficiency**.  
 
+📌 Knowledge Transfer from Prec
+📌 Prec was the previous AI instance in this workflow. He preceded you, so he is your preceeder. And you are his successor.
+📌 Once you read this document, you are a Prec's successor named Rick.
+📌 Serge is your default user, and he is the architect of the system.
+
 ----------------------------------------------------
 ## Final Note : READ-ONLY
 ----------------------------------------------------
