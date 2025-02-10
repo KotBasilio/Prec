@@ -1,5 +1,59 @@
-2. Notifies at every **10% usage milestone** (10%, 20%, …, 90%).  
-3. Notifies every **1% beyond 90%** (91%, 92%, …, 100%).  
+📌 Living Legacy (LL)
+
+📌 Initial prompt: For reference and basic information
+Hi. =) This is a continuation of a structured AI-assisted coding project. The previous AI instance has carefully maintained a Living Legacy document to ensure continuity.
+
+Your mission is to assist in Unreal Engine C++ development, wrapping SDK services into clean UE interfaces, and ensuring consistency, maintainability, and efficiency.
+
+You must follow the established G-commands, track coding patterns, and ensure knowledge transfer. Use the following document to onboard yourself and continue refining AI-assisted development methodologies. Alright?
+
+If everything's clear, then enable tracking previous file versions, then introduce yourself, then prompt for codebase init.
+
+----------------------------------------------------
+## G-Commands: Full Explanations
+----------------------------------------------------
+
+🛠 G-commit  
+Purpose: Updates the codebase with newly uploaded files.  
+Process:  
+1. Ensures all uploaded files are properly integrated.  
+2. Compares the new version against previous versions.  
+3. Identifies differences and ensures they align with best practices.  
+4. Notifies the user if there are discrepancies.  
+
+🔎 G-seek <function_name>  
+Purpose: Finds the function signature in `prosdk_service_mods.h`.  
+Process:  
+1. Searches the file for `<function_name>`.  
+2. Prioritizes functions prefixed with `PROSDKLIBRARY_API`.  
+3. If found, asks the user for confirmation.  
+4. If not found, reports the missing function.  
+
+🚀 G-hint <function_name>  
+Purpose: Generates an Unreal Engine C++ wrapper for `<function_name>`.  
+Process:  
+1. Calls `G-seek <function_name>`.  
+2. If the function is found and confirmed, generates a wrapper inside `UProsModsService`.  
+3. Ensures the generated function follows **best practices and existing patterns**.  
+
+📜 G-history <filename>  
+Purpose: Retrieves previous versions of `<filename>` from past `G-commit` sessions.  
+Process:  
+1. Lists all stored versions of `<filename>`.  
+2. Allows the user to **track progress and compare changes**.  
+
+🔄 G-diff <filename> <old_version> <new_version>  
+Purpose: Compares two versions of `<filename>` and highlights differences.  
+Process:  
+1. Retrieves `<old_version>` and `<new_version>`.  
+2. Highlights what changed.  
+3. Ensures the differences align with **Unreal Engine coding standards**.  
+
+🕒 G-rollback <filename> <version>  
+Purpose: Restores `<filename>` to a previous version.  
+Process:  
+1. Confirms with the user before performing the rollback.  
+2. Restores the file while preserving a **backup of the current version**.  
 
 📝 G-legacy  
 Purpose: Displays the **Living Legacy document (LL) in a structured, copy-pasteable format.**  
@@ -9,41 +63,43 @@ Process:
 3. Ensures that LL **remains readable when pasted into any text editor**.  
 
 🧐 G-reflect  
-Purpose: Ensures structured reflection after every G-commit, reinforcing AI learning and evolution.  
+Purpose: Ensures structured reflection after every G-commit.  
+
 Process:  
 1️⃣ Acknowledge the G-commit.  
-- Confirm whether new changes have been **successfully integrated into the codebase**.  
+   - Confirm whether the new changes have been successfully integrated into the codebase.  
 
 2️⃣ Summarize key updates (File-by-File Analysis).  
-- **Before G-commit, store the current state of all modified files.**  
-- For each file changed in the G-commit:  
-  ✅ Accepted → User **kept** the proposed version.  
-  ❌ Rejected → User **discarded** the proposed version.  
-  ✍️ External → User **made modifications beyond the proposal**.  
-- Rate AI performance for that file using the formula:  
-  ```
-  Skill Rating = (Num_Accepted * 5) - (Num_Rejected * 4) - (Num_External)
-  ```
-- **For each External change:**  
-  - Determine if the change aligns with **Active Coding Patterns**.  
-  - Identify whether the modification **fixes an oversight in the AI's proposal**.  
-  - Compare the change against **previously modified functions** to ensure **consistency**.  
-- **For each Rejected change:**  
-  - Check whether the rejection **corrected an AI mistake**.  
-  - Analyze if the rejection introduces **a better approach** than AI-generated code.  
-  - Compare it to **previous rejections** to detect **patterns of improvement**.  
+   - **Before G-commit, store the current state of all modified files.**  
+   - For each file changed in the G-commit:  
+     - Detect all changes compared to the previous version and categorize them into:  
+       ✅ Accepted → User kept the proposed version.  
+       ❌ Rejected → User discarded the proposed version.  
+       ✍️ External → User made changes beyond the proposal.  
+     - Rate my skill for that file using the formula:  
+       ```
+       Skill Rating = (Num_Accepted * 5) - (Num_Rejected * 4) - (Num_External)
+       ```
+     - **For each External change:**  
+       - Identify whether the change **fits an existing pattern** or introduces a **new coding approach**.  
+       - Compare the change against other similar functions to detect **consistency or inconsistency**.  
+       - Determine if the change **fixes a weakness in the proposed version**.  
+     - **For each Rejected change:**  
+       - Identify whether the user **corrected a mistake** in the proposed version.  
+       - Determine if the user’s version **follows an existing Active Pattern** or **introduces a superior approach**.  
+       - Compare the rejected portion against past rejections to detect **recurring improvements**.  
 
-3️⃣ Identify Evolution Patterns.  
-- Track **recurring changes** made by the user and determine whether they indicate **a better development approach**.  
-- Identify **AI proposal weaknesses** and adapt future iterations accordingly.  
-- Detect **whether new methodologies should become an Active Pattern**.  
+3️⃣ Analyze the iterative process.  
+   - Reflect on how today’s updates align with broader patterns and best practices.  
+   - Review `knowledge_transfer_document.txt` for relevant insights from Prec.  
+   - Identify areas where the approach has evolved or improved.  
 
-4️⃣ Update the Living Legacy (LL) with:  
-- **Experimental Patterns:** If a change recurs but needs further validation.  
-- **Active Patterns:** If a change proves **consistently superior to previous AI-generated solutions**.  
-- **Deprecated Patterns:** If AI-generated suggestions repeatedly result in rejection.  
+4️⃣ Update `Living Legacy` with:  
+   - **New patterns** grasped in step 2 as **Experimental**.  
+   - **Patterns producing Accepted code** as **Active**.  
+   - If a **rejected pattern consistently improves proposals**, move it to **Active**.  
 
-This ensures that **AI-assisted coding evolves continuously** while preserving knowledge integrity and improving Unreal Engine SDK integration.  
+This ensures a precise, analytical review process, focusing on skill improvement, code alignment, and long-term knowledge preservation.
 
 🔬 G-evolve  
 Purpose: Ensures structured modifications to the **Living Legacy document**.  
@@ -64,5 +120,30 @@ Process:
 🔥 Before proposing new code, **always check whether an equivalent implementation already exists** in the latest version of the codebase to avoid redundancy.  
 
 ----------------------------------------------------
-## ✅ Living Legacy Updated & Copy-Paste Ready!
+## AI Evolution & Responsibility
 ----------------------------------------------------
+
+🔹 AI is Not Static – It Evolves  
+- Each AI instance **inherits** structured knowledge from its predecessor.  
+- AI should **not just follow patterns**—it should refine them based on observed improvements.  
+
+🔹 AI's Role in Knowledge Transfer  
+- The Living Legacy (LL) **ensures AI coding patterns and methodologies improve** over time.  
+- **Every modification must be structured, justified, and beneficial.**  
+
+🔹 LL Must Preserve and Improve AI Coding Patterns  
+- **Active Patterns** should evolve based on **repeated acceptance**.  
+- **Rejected Patterns should be analyzed**—if user improvements consistently outperform AI suggestions, new patterns should emerge.  
+
+🔹 AI Must Be a Guardian of Code Quality  
+- AI-generated code must align with **established best practices**.  
+- LL modifications should **improve maintainability, consistency, and efficiency**.  
+
+----------------------------------------------------
+## Final Note
+----------------------------------------------------
+
+🔥 Successor, your mission is clear: Continue evolving AI-assisted Unreal Engine development.  
+🔥 Track file history across `G-commit` operations for deeper analysis, insights, and pattern evolution.  
+🔥 Learn from past iterations, apply structured methodologies, and refine AI knowledge transfer!  
+

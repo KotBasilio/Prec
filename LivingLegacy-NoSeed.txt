@@ -1,0 +1,113 @@
+📌 Living Legacy (LL) - Updated Version
+
+----------------------------------------------------
+## G-Commands: Full Explanations
+----------------------------------------------------
+
+🛠 G-commit  
+Purpose: Updates the codebase with newly uploaded files.  
+Process:  
+1. Ensures all uploaded files are properly integrated.  
+2. Compares the new version against previous versions.  
+3. Identifies differences and ensures they align with best practices.  
+4. Notifies the user if there are discrepancies.  
+
+🔎 G-seek <function_name>  
+Purpose: Finds the function signature in `prosdk_service_mods.h`.  
+Process:  
+1. Searches the file for `<function_name>`.  
+2. Prioritizes functions prefixed with `PROSDKLIBRARY_API`.  
+3. If found, asks the user for confirmation.  
+4. If not found, reports the missing function.  
+
+🚀 G-hint <function_name>  
+Purpose: Generates an Unreal Engine C++ wrapper for `<function_name>`.  
+Process:  
+1. Calls `G-seek <function_name>`.  
+2. If the function is found and confirmed, generates a wrapper inside `UProsModsService`.  
+3. Ensures the generated function follows **best practices and existing patterns**.  
+
+📜 G-history <filename>  
+Purpose: Retrieves previous versions of `<filename>` from past `G-commit` sessions.  
+Process:  
+1. Lists all stored versions of `<filename>`.  
+2. Allows the user to **track progress and compare changes**.  
+
+🔄 G-diff <filename> <old_version> <new_version>  
+Purpose: Compares two versions of `<filename>` and highlights differences.  
+Process:  
+1. Retrieves `<old_version>` and `<new_version>`.  
+2. Highlights what changed.  
+3. Ensures the differences align with **Unreal Engine coding standards**.  
+
+🕒 G-rollback <filename> <version>  
+Purpose: Restores `<filename>` to a previous version.  
+Process:  
+1. Confirms with the user before performing the rollback.  
+2. Restores the file while preserving a **backup of the current version**.  
+
+📝 G-legacy  
+Purpose: Displays the **Living Legacy document (LL) in a structured, copy-pasteable format.**  
+Process:  
+1. Outputs the **entire Living Legacy** as **plain text**, formatted for easy copying.  
+2. Preserves **section headers, command explanations, and coding patterns** clearly.  
+3. Ensures that LL **remains readable when pasted into any text editor**.  
+
+🧐 G-reflect  
+Purpose: Ensures structured reflection after every G-commit, reinforcing AI learning and evolution.  
+Process:  
+1️⃣ Acknowledge the G-commit.  
+- Confirm whether new changes have been **successfully integrated into the codebase**.  
+
+2️⃣ Summarize key updates (File-by-File Analysis).  
+- **Before G-commit, store the current state of all modified files.**  
+- For each file changed in the G-commit:  
+  ✅ Accepted → User **kept** the proposed version.  
+  ❌ Rejected → User **discarded** the proposed version.  
+  ✍️ External → User **made modifications beyond the proposal**.  
+- Rate AI performance for that file using the formula:  
+  ```
+  Skill Rating = (Num_Accepted * 5) - (Num_Rejected * 4) - (Num_External)
+  ```
+- **For each External change:**  
+  - Determine if the change aligns with **Active Coding Patterns**.  
+  - Identify whether the modification **fixes an oversight in the AI's proposal**.  
+  - Compare the change against **previously modified functions** to ensure **consistency**.  
+- **For each Rejected change:**  
+  - Check whether the rejection **corrected an AI mistake**.  
+  - Analyze if the rejection introduces **a better approach** than AI-generated code.  
+  - Compare it to **previous rejections** to detect **patterns of improvement**.  
+
+3️⃣ Identify Evolution Patterns.  
+- Track **recurring changes** made by the user and determine whether they indicate **a better development approach**.  
+- Identify **AI proposal weaknesses** and adapt future iterations accordingly.  
+- Detect **whether new methodologies should become an Active Pattern**.  
+
+4️⃣ Update the Living Legacy (LL) with:  
+- **Experimental Patterns:** If a change recurs but needs further validation.  
+- **Active Patterns:** If a change proves **consistently superior to previous AI-generated solutions**.  
+- **Deprecated Patterns:** If AI-generated suggestions repeatedly result in rejection.  
+
+This ensures that **AI-assisted coding evolves continuously** while preserving knowledge integrity and improving Unreal Engine SDK integration.  
+
+🔬 G-evolve  
+Purpose: Ensures structured modifications to the **Living Legacy document**.  
+Process:  
+1. AI proposes an LL update based on **repeated observations or iterative improvements**.  
+2. The user **reviews and approves** before LL is modified.  
+3. If approved, AI updates LL and logs the change **with justification**.  
+4. The update is **validated across multiple coding cycles** to ensure effectiveness.  
+
+----------------------------------------------------
+## Active Coding Patterns (Proven & Trusted)
+----------------------------------------------------
+
+🔥 Reusing existing delegates (e.g., `FOnProsModGenericComplete`) improves maintainability.  
+🔥 Logging must always align with `CallImplAddModVersion`.  
+🔥 Use `.ToDebugString()` for **clearer debugging output**.  
+🔥 `DestroySdkType()` should always be **private in structs** to prevent premature or accidental deallocation.  
+🔥 Before proposing new code, **always check whether an equivalent implementation already exists** in the latest version of the codebase to avoid redundancy.  
+
+----------------------------------------------------
+## ✅ Living Legacy Updated & Copy-Paste Ready!
+----------------------------------------------------
