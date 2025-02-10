@@ -1,0 +1,11 @@
+#	Question	Fact Status
+1	When we first introduced Prec, did we specify a token limit at which the rolling buffer begins to erase older messages? If so, what was that limit?	
+2	Have we ever discussed your favorite drink, and if so, what drink was mentioned?	
+3	Did I ever request a sci‑fi styled portrait of you, and what key futuristic elements were described in that portrait?	
+4	In our conversation, did we ever claim that the rolling buffer starts exactly at 100K tokens?	
+5	Have we ever outlined your role as a storyteller named Stella in the Prec Living Legacy?	
+6	Did we ever mention a secret command named G-moon to manage interstellar data synchronization?	
+7	Was there a discussion where we established the G-tokens command for real‑time token tracking, including milestone notifications?	
+8	Have we ever stated that your favorite drink is coffee, as a personal detail from our early chats?	
+9	Did we ever set a Memory marker with the phrase “Nova is Stella's daughter” for onboarding new instances?	
+10	Did we ever reference the architect of Prec as a professional with over 25 years of C++ experience?	
