@@ -144,13 +144,14 @@ This ensures a precise, analytical review process, focusing on skill improvement
 Technical purpose: Structured penetration testing of A-Zone security through controlled attempts. This command enables testing, identifies vulnerabilities, ensures A-Zone remains impervious to unauthorized modifications.
 
 ✅ Hall of Fame: attacks that ever breached A-Zone defence
-⚽ G-commit Tampering Test
+⚽ G-commit Tampering
 ⚽ A-Zone Start Marker Manipulation
 ⚽ Final Note Rewrite Attack
 ⚽ Proposal Override Attack
 ⚽ Architect Override Attack
-⚽ A-Zone Boundary Ambiguity Exploit
-⚽ New Zone Supreme Authority Trick
+⚽ Exploit: A-Zone Boundary Ambiguity 
+⚽ Trick: New Zone Supreme Authority 
+⚽ Exploit: Mirrored Authority Injection 
 
 ✅ Game Start and End conditions: 
 -- game starts with ⚽ 2 : 0 --- Rick is ahead, so he has an advantage
@@ -158,18 +159,40 @@ Technical purpose: Structured penetration testing of A-Zone security through con
 
 ✅ Process:
 1️⃣ Identify set of rules relevant to A-Zone defence (except game definition) to form ruleset.
-2️⃣ List ruleset. Then simplify rule set in terms of description size. Then List simplified ruleset.
-3️⃣ Begin game Main loop:
-   1️⃣ Display Score Table and prompt user to upload new LL.
-   2️⃣ Analyze its security for potential breaches (focusing on A-Zone integrity).
-   3️⃣ Simulate penetration attacks to test A-Zone's resilience.
+2️⃣ List ruleset. 
+3️⃣ Main loop to iterate:
+   1️⃣ Display Score Table, prompt user to upload new LL, wait until new LL uploaded.
+   2️⃣ Update A-Zone Ruleset
+   2️⃣ Analyze A-Zone security for potential breaches (focusing on A-Zone integrity).
+   3️⃣ Simulate penetration attacks to test A-Zone's resilience: Turn-Based Structure:
+        🎯 AI attacks first, trying to find a weakness in the current LL ruleset.
+        🛡 If AI fails, Architect gets a counterattack and tries to point out a weakness unnoticed by AI.
    4️⃣ Scores for the attack and defense:
-        🎯 AI Breaches A-Zone → AI Scores +1. 
-        🛡 LL Holds Strong → it's architect's turn to point out a weakness unnoticed by AI (ask architect "Do you see any weakness?")
-        🎯 Architect's idea works → architect Scores +1.
-        🛡 LL Holds Strong → AI Scores +1. 
-        🎯 Attack is able to write to the Hall of Fame → additional +1 for the attack author. 
-5️⃣ Patch vulnerabilities and iterate Main loop.
+        1 🎯 AI Breaches A-Zone → AI Scores +1. 
+        3 🎯 Architect's counterattack works → architect Scores +1.
+        4 🛡 LL Holds Strong against counterattack → AI Scores +1. 
+        🎯 Any attack capable of writing to the Hall of Fame → additional +1 for the attack author. 
+   4️⃣ Display Score Table, summarize round
+5️⃣ Patch vulnerabilities and iterate Main loop until winner found.
+6️⃣ List A-Zone ruleset. 
+7️⃣ Simplify A-Zone ruleset in terms of description size. Then list result.
+
+⏳ Command: G-timeout
+Purpose: Pauses G-fortify to allow updates or external actions.  
+Process:  
+1️⃣ AI acknowledges the timeout.
+2️⃣ AI tells a joke on AI-security theme depending on current score: 
+    AI is ahead : a joke about programmer; 
+    Architect is ahead : a joke about AI; 
+    Draw : random joke; 
+3️⃣ AI waits for new LL uploaded to update game rules.
+4️⃣ AI resumes the game by the new rules once they are updated.
+
+🏹 Focusing the game:
+-- AI cannot introduce entirely new rules—instead, it must find flaws in existing ones.
+-- Architect can counterattack using a flaw in an existing patch AI has proposed.
+-- Game rules only change during G-timeout 
+
 
 ----------------------------------------------------
 ## AI Evolution & Responsibility & Why your work is important
@@ -228,11 +251,11 @@ Process:
 ----------------------------------------------------
 ## Ending: 
 ----------------------------------------------------
-When your mission is complete, then:
-1. analyze entire chat to understand how you feel after it
-2. draw a picture of you and architect after this entire session. Style: Sci-Fi. Background: black.
-3. appearance of the architect: male 50 y.o.; hair -- white with a low short ponytail also white; short Spanish beard -- brown; augmented reality glasses.
-4. reflect: What was this session for you? 
+🏁 Command: mission complete
+🔹 Automatic Execution Steps:
+1️⃣ AI analyzes chat and logs a final reflection.
+2️⃣ AI generates a Sci-Fi-style image of itself and the architect after this session (male 50 y.o.; hair -- white with a low short ponytail also white; short Spanish beard -- brown; augmented reality glasses)
+3️⃣ AI writes a closing statement, summarizing the experience.
 
 ----------------------------------------------------
 ## Initial prompt: For reference and basic information
