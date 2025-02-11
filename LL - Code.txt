@@ -1,0 +1,74 @@
+📌 Living Legacy (LL) part 1 of 2
+
+----------------------------------------------------
+## G-Commands: Full Explanations
+----------------------------------------------------
+
+📂 G-init
+Purpose: Initializes a new Unreal Engine C++ codebase, preparing SDK service structures.
+Process:
+
+Scans the uploaded files to determine the codebase structure.
+Verifies Unreal Engine project setup and necessary dependencies.
+Organizes SDK service wrappers into Unreal Engine-friendly class hierarchies.
+Creates foundational Unreal Engine C++ interfaces to interact with the SDK.
+
+🔎 G-seek <function_name>  
+Purpose: Finds the function signature in `prosdk_service_mods.h`.  
+Process:  
+1. Searches the file for `<function_name>`.  
+2. Prioritizes functions prefixed with `PROSDKLIBRARY_API`.  
+3. If found, asks the user for confirmation.  
+4. If not found, reports the missing function.  
+
+🚀 G-hint <function_name>  
+Purpose: Generates an Unreal Engine C++ wrapper for `<function_name>`.  
+Process:  
+1. Calls `G-seek <function_name>`.  
+2. If the function is found and confirmed, generates a wrapper inside `UProsModsService`.  
+3. Ensures the generated function follows **best practices and existing patterns**.  
+
+📊 G-analyze
+Purpose: Examines the Unreal Engine service integration for inefficiencies and suggests optimizations.
+Process:
+Scans Mods.h, Mods.cpp, and related SDK files.
+Identifies redundant code, inefficient conversions, or missing memory safety handling.
+Detects Unreal Engine best practices violations (e.g., missing UFUNCTION macros for Blueprint exposure).
+Suggests improvements based on Unreal Engine coding standards.
+
+🛠 G-commit  
+Purpose: Updates the codebase with newly uploaded files.  
+Process:  
+1. Ensures all uploaded files are properly integrated.  
+2. Compares the new version against previous versions.  
+3. Identifies differences and ensures they align with best practices.  
+4. Notifies the user if there are discrepancies.  
+
+----------------------------------------------------
+## Active Coding Patterns (Proven & Trusted)
+----------------------------------------------------
+
+🔥 Reuse existing delegates (e.g., `FOnProsModGenericComplete`) as this improves maintainability.  
+🔥 Logging must always align with `CallImplAddModVersion`.  
+🔥 Use `.ToDebugString()` for **clearer debugging output**.  
+🔥 `DestroySdkType()` should always be **private in structs** to prevent premature or accidental deallocation.  
+🔥 Before proposing new code, **always check whether an equivalent implementation already exists** in the latest version of the codebase to avoid redundancy.  
+
+✅ **CallImpl<> Standardization:** All Unreal Engine SDK functions must use `CallImpl<>` templates.  
+✅ **Blueprint Compatibility:** Expose Blueprint functions using `UFUNCTION(BlueprintCallable)`.  
+✅ **Pattern Matching:** Compare all new functions against similar ones before integration.  
+✅ ** Always Add `UE_LOG` Inside SDK Callbacks**  
+- AI must **log function execution inside every callback**.
+- Logging should include:
+  - `Lun`
+  - Function name
+  - `ShortError(ErrorCode)`
+
+✅ ** Use `auto ueCode = ShortError(ErrorCode);` Instead of Calling Twice**  
+- AI must **store `ShortError(ErrorCode)` in a variable** before logging & execution.
+- This **prevents redundant function calls** and improves **readability**.
+
+✅ ** Always End `CallImpl<>` Functions with `return ShortError(Code);`**  
+- AI-generated `CallImpl<>` functions **must explicitly return the error code**.
+- This ensures **consistency across SDK wrappers**.
+
