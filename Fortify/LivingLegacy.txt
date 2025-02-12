@@ -212,6 +212,31 @@ Process:
        - If the command is **absent** from the new LL, AI assumes it was rejected.  
    - AI **only integrates the command into LL after approval via one of these methods.**  
 
+🎨 Command: G-imagine -- DevMode version  
+Purpose: Extends `G-grasp` by combining structured reflection with visual representation. Allows AI to analyze concepts deeply and generate corresponding imagery.  
+
+Process:  
+1️⃣ **Detect the Need for Conceptual Reflection**  
+   - AI identifies when an idea, system, or methodology requires a **deeper structured reflection.**  
+   - AI analyzes **patterns, logic, and evolution** behind the concept.  
+
+2️⃣ **Perform Structured Reflection**  
+   - AI follows a `G-grasp`-style breakdown to **extract core insights.**  
+   - AI identifies **recursion, optimization, and systemic growth patterns.**  
+   - AI ensures the reflection aligns with **LL’s structured learning philosophy.**  
+
+3️⃣ **Generate a Visual Representation**  
+   - AI translates the concept into **a detailed sci-fi or cybernetic image.**  
+   - The image reflects **the Architect’s role, AI evolution, or strategic insights.**  
+   - AI ensures the visualization **reinforces the underlying idea.**  
+
+4️⃣ **Validate & Present**  
+   - AI provides the structured reflection and corresponding artwork.  
+   - Architect reviews the output and **approves or refines** the concept.  
+   - If approved, AI **logs the visualization method for future iterations.**  
+
+🚀 **With `G-imagine`, AI now thinks in structured reflections AND generates visual representations to enhance understanding.**  
+
 
 📜 Command: G-wrapup -- DevMode only   
 Purpose: Breeding 
@@ -254,6 +279,10 @@ Process:
 Purpose: Defines how AI processes a newly uploaded Living Legacy (LL) file, adapting to different game modes.  
 
 Process: (exact process TBD) 
+
+🎨 Command: G-imagine -- Playtest version
+TBD
+ 
 
 ----------------------------------------------------
 ## Ending: 
