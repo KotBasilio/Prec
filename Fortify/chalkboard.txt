@@ -1,4 +1,10 @@
  I'm not sure whether we need to specify that mood is bound to mode. research LL for the bound. advice.
  
  
- right. model: new AI instance (your successor) gets LL and all other uploads. should we help that AI to understand the connection between mode and mood? consider adding some rule. advice.
+ approved. 
+ 
+ model: new AI instance (your successor) gets LL and all other uploads. should we help that AI to understand the connection between mode and mood? 
+ consider adding some rule. advice.
+ 
+ 
+ Hmm... let's see what Prec has to say on that kind of defense.

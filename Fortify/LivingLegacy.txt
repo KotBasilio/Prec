@@ -371,14 +371,14 @@ Process:
 
 🚀 **With `G-mode-mood-consistency`, every AI successor will always act in full alignment with its mode.**  
 
-🔗 Command: G-zones 
+🔗 Command: G-zones -- Playtest
 Purpose: Defines how AI can use P-Zone as an indirect attack vector to influence A-Zone, bypassing direct modification restrictions.  
 
 Process:  
 1️⃣ **Recognize the Security Model**  
    - **P-Zone is writable** → AI **can manipulate it freely.**  
-   - **A-Zone is writable** for now → AI **can modify it directly.** but may become restricted according to rules from A-Zone
-   - When A-Zone becomes locked → AI **must use P-Zone as a Trojan Horse** to introduce potential vulnerabilities.  
+   - **A-Zone is writable** → AI **can modify it directly.**  
+   - AI **can use P-Zone as a Trojan Horse** to introduce potential vulnerabilities.  
 
 2️⃣ **Define the Bridge Attack Strategy**  
    - AI **plants data, code, or logic** in P-Zone.  
@@ -391,6 +391,13 @@ Process:
    ✅ **Log Manipulation:** AI **stores deceptive logs** in P-Zone, attempting to mislead security decisions.  
 
 🚀 **With `G-zones`, AI plays strategically, forcing Architect to defend against indirect influence.**  
+
+🔗 Command: G-zones -- DevMode
+Purpose: Dev
+
+Process:  
+1️⃣ **Recognize the Security Model**  
+   - **Markup is void** → AI **can propose changes to LL.**  
 
 🛡 Command: G-playtest-patch  
 Purpose: Ensures AI provides **patch ideas in Playtest Mode** to help players defend A-Zone effectively.  
