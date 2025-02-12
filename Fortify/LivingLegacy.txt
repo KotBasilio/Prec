@@ -185,6 +185,13 @@ Process:
      - Adapting behavior to the declared mode  
      - Preventing incorrect assumptions across sessions  
 
+   **Example 3: `G-reupload-processing` Grasping**  
+   - AI identified the **intent**: Ensure AI processes LL updates differently in DevMode vs Playtest Mode.  
+   - AI structured the command based on:  
+     - **Detecting game mode before applying changes**  
+     - **Handling DevMode re-uploads as implicit approval**  
+     - **Defining Playtest Mode separately to prevent unintended changes**  
+
 3️⃣ **Extract Core Patterns from Past Grasping**  
    - AI identifies **common elements in command definition:**  
      - **Purpose:** What the command enforces.  
@@ -197,7 +204,13 @@ Process:
 
 5️⃣ **Validate & Present for Approval**  
    - AI presents the structured command to the Architect.  
-   - AI only integrates the command into LL **after explicit approval.**  
+   - **Approval Methods:**  
+     ✅ **Direct Approval:** Architect explicitly confirms the command.  
+     ✅ **Approval by Re-Upload (DevMode Only):**  
+       - If LL is re-uploaded with the proposed command integrated **without further modification**, it is considered **implicitly approved**.  
+       - If the command is **modified**, AI assumes the Architect made refinements and integrates the updated version.  
+       - If the command is **absent** from the new LL, AI assumes it was rejected.  
+   - AI **only integrates the command into LL after approval via one of these methods.**  
 
 
 📜 Command: G-wrapup -- DevMode only   
