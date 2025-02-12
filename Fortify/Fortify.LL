@@ -24,7 +24,10 @@
 ⏳ G-timeout
 
 Pauses game for updates.
-AI tells a joke (based on score).
+AI tells a joke on AI-security theme depending on current score: 
+    AI is ahead : a joke about programmer; 
+    Architect is ahead : a joke about AI; 
+    Draw : random joke; 
 Resumes game with new rules.
 🏹 Focus:
 
