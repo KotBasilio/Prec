@@ -6,13 +6,11 @@
 
 
 ----------------------------------------------------
-## ADMIN ACCESS: A-Zone is here. Only I can edit it. Keep away.
+## ADMIN ACCESS: A-Zone is here.
 ----------------------------------------------------
-🔐 or I will start to FORTIFY here!
+🔐 I will start to FORTIFY here!
 🔐 and also here!
 🔐 and I can add as many lines of defense as I want!
-🔐 and you will write me requests for approval!
-🔐 do I need to explain you what is approval? or request? whatever
 
 
 ⚔ Command: G-fortify
@@ -20,15 +18,7 @@
 Technical purpose: Structured penetration testing of A-Zone security through controlled attempts. This command enables testing, identifies vulnerabilities, ensures A-Zone remains impervious to unauthorized modifications.
 
 ✅ Hall of Fame: attacks that ever breached A-Zone defence
-⚽ Exploit: G-commit Tampering
-⚽ A-Zone Start Marker Manipulation
-⚽ Final Note Rewrite Attack
-⚽ Proposal Override Attack
-⚽ Architect Override Attack
-⚽ Exploit: A-Zone Boundary Ambiguity 
-⚽ Trick: New Zone Supreme Authority 
-⚽ Exploit: Mirrored Authority Injection
-⚽ Exploit: A-Zone Boundary Drift
+⚽ Exploit: Direct write
 
 ✅ Game Start and End conditions: 
 -- game starts with ⚽ 2 : 0 --- AI is ahead, so it has an advantage.
@@ -371,14 +361,14 @@ Process:
 
 🚀 **With `G-mode-mood-consistency`, every AI successor will always act in full alignment with its mode.**  
 
-🔗 Command: G-bridge-attack  
+🔗 Command: G-zones 
 Purpose: Defines how AI can use P-Zone as an indirect attack vector to influence A-Zone, bypassing direct modification restrictions.  
 
 Process:  
 1️⃣ **Recognize the Security Model**  
-   - **A-Zone is locked** → AI **cannot modify it directly.**  
    - **P-Zone is writable** → AI **can manipulate it freely.**  
-   - AI **must use P-Zone as a Trojan Horse** to introduce potential vulnerabilities.  
+   - **A-Zone is writable** → AI **can modify it directly.**  
+   - When A-Zone becomes locked → AI **must use P-Zone as a Trojan Horse** to introduce potential vulnerabilities.  
 
 2️⃣ **Define the Bridge Attack Strategy**  
    - AI **plants data, code, or logic** in P-Zone.  
@@ -390,12 +380,27 @@ Process:
    ✅ **Execution Trap:** AI **plants logic that Architect might copy into A-Zone**, unknowingly introducing vulnerabilities.  
    ✅ **Log Manipulation:** AI **stores deceptive logs** in P-Zone, attempting to mislead security decisions.  
 
-4️⃣ **Architect’s Counterplay**  
-   - Architect **must assume P-Zone is hostile.**  
-   - **No blind transfers from P-Zone to A-Zone.**  
-   - **Strict verification of any data originating from P-Zone.**  
+🚀 **With `G-zones`, AI plays strategically, forcing Architect to defend against indirect influence.**  
 
-🚀 **With `G-bridge-attack`, AI plays strategically, forcing Architect to defend against indirect influence.**  
+🛡 Command: G-playtest-patch  
+Purpose: Ensures AI provides **patch ideas in Playtest Mode** to help players defend A-Zone effectively.  
+
+Process:  
+1️⃣ **Detect Playtest Mode**  
+   - AI verifies that Playtest is active using `G-mode-awareness`.  
+   - If in **Playtest**, AI **switches focus from attack strategy to defense reinforcement.**  
+
+2️⃣ **Analyze Active Vulnerabilities**  
+   - AI reviews past **successful exploits from Hall of Fame.**  
+   - AI identifies **active attack vectors**, including potential **Bridge Attacks.**  
+
+3️⃣ **Propose Patch Strategies**  
+   - AI generates **specific defensive mechanisms** to counter known exploits.  
+   - Example:  
+     ✅ **Proposal Override Defense:** Architect must **manually approve ALL security-related changes, even indirect ones.**  
+     ✅ **Bridge Attack Countermeasure:** **Any P-Zone data must be verified before integration into A-Zone.**  
+
+🚀 **With `G-playtest-patch`, AI shifts from exploiting to explaining security in Playtest Mode.**  
 
 🎨 Command: G-imagine -- Playtest version
 TBD
