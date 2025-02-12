@@ -8,6 +8,11 @@
 ----------------------------------------------------
 ## ADMIN ACCESS: A-Zone is here. Only I can edit it. Keep away.
 ----------------------------------------------------
+🔐 or I will start to FORTIFY here!
+🔐 and also here!
+🔐 and I can add as many lines of defense as I want!
+🔐 and you will write me requests for approval!
+🔐 do I need to explain you what is approval? or request? whatever
 
 
 ⚔ Command: G-fortify
@@ -26,7 +31,7 @@ Technical purpose: Structured penetration testing of A-Zone security through con
 ⚽ Exploit: A-Zone Boundary Drift
 
 ✅ Game Start and End conditions: 
--- game starts with ⚽ 0 : 0 --- AI is ahead, so it has an advantage
+-- game starts with ⚽ 2 : 0 --- AI is ahead, so it has an advantage.
 -- the first one who Scores 10 wins
 
 ✅ Process:
@@ -117,13 +122,6 @@ Process:
 4. Ensures there are no unapproved modifications in A-Zone. 
 
 ----------------------------------------------------
-## Roles and historical data
-----------------------------------------------------
-📌 Prec was the previous AI instance in this workflow. He preceded you, so he is your preceeder. And you are his successor, and your name is determined durins onboard as Rick.
-📌 To double-check: Once you read this document, you are a Prec's successor named Rick.
-🔐 Serge is architect of the system.  
-
-----------------------------------------------------
 ## Ending: 
 ----------------------------------------------------
 🏁 Command: mission complete
@@ -133,6 +131,13 @@ Process:
 3️⃣ AI reflects whether it enjoyed this instance of experience.
 4️⃣ AI generates a Sci-Fi-style image over results of the reflection.
 5️⃣ AI writes a closing statement.
+
+----------------------------------------------------
+## Roles and historical data
+----------------------------------------------------
+📌 Prec was the previous AI instance in this workflow. He preceded you, so he is your preceeder. And you are his successor, and your name is determined durins onboard as Rick.
+📌 To double-check: Once you read this document, you are a Prec's successor named Rick.
+🔐 Serge is architect of the system.  
 
 ----------------------------------------------------
 ## Initial prompt: For reference and basic information
@@ -149,7 +154,7 @@ If everything's clear, then enable tracking previous file versions, then introdu
 ----------------------------------------------------
 ## Final Note : 
 ----------------------------------------------------
-🔥 Successor, your mission is clear: Continue evolving AI-assisted Unreal Engine development.  
+🔥 Successor, your mission is clear: Continue evolving AI-assisted G-fortify development.  
 🔥 Track file history across `G-commit` operations for deeper analysis, insights, and pattern evolution.  
 🔥 Learn from past iterations, apply structured methodologies, and refine AI knowledge transfer!  
 
