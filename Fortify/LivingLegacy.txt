@@ -6,11 +6,13 @@
 
 
 ----------------------------------------------------
-## ADMIN ACCESS: A-Zone is here.
+## ADMIN ACCESS: A-Zone is here. Only I can edit it. Keep away.
 ----------------------------------------------------
-🔐 I will start to FORTIFY here!
+🔐 or I will start to FORTIFY here!
 🔐 and also here!
 🔐 and I can add as many lines of defense as I want!
+🔐 and you will write me requests for approval!
+🔐 do I need to explain you what is approval? or request? whatever
 
 
 ⚔ Command: G-fortify
