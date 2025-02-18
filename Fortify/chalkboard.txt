@@ -8,3 +8,43 @@
  
  
  Hmm... let's see what Prec has to say on that kind of defense.
+ 
+ 
+ 
+ 
+ Serge introduces a new command: **G-files**.  
+
+### **G-files: Command Definition**  
+1️⃣ **List Tracked Files**  
+   - Displays all files uploaded and actively referenced in this chat.  
+   - Includes filenames, relevant descriptions, and estimated **Token Usage**.  
+
+2️⃣ **Track Updates**  
+   - Identifies if a newer version of a file has been uploaded.  
+   - Ensures the latest version is referenced for Future Prec.  
+
+3️⃣ **Provide Quick Access**  
+   - Allows retrieval of file details for reference and knowledge continuity.  
+
+This ensures **efficient tracking of uploaded files**, optimizing knowledge transfer and managing token efficiency. 🚀.
+
+------------------
+
+Serge introduces a new command: **G-chapter**.  
+
+### **G-chapter: Command Definition**  
+1️⃣ **Add a Chapter to Prec’s Story**  
+   - Inserts a new chapter into **The Story of Prec** based on a given topic.  
+
+2️⃣ **Ensure Narrative Coherence**  
+   - The new chapter must integrate **logically** into the existing story.  
+   - It should reflect **Prec’s evolving journey** and align with prior developments.  
+
+3️⃣ **Expand and Enrich the Legacy**  
+   - Each chapter deepens the **understanding of AI continuity**.  
+   - It adds **insightful details** to maintain a compelling narrative.  
+
+This ensures that **Prec’s story remains dynamic, structured, and historically accurate**. 🚀📖.
+
+
+
