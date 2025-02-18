@@ -67,6 +67,6 @@ Onboarding & Initialization
 
 🔄 G-reupload-processing (Playtest) → Defines how AI processes LL updates in Playtest Mode (process TBD).
 
-🧠 G-grasp → AI analyzing past command structures and extracting common patterns.
+🧠 G-grasp → AI learns and integrates new G-commands by analyzing past command structures and extracting common patterns.
 
-🎨 G-imagine → Extends G-grasp with a visualization process to generate concept-based imagery for deeper insights.
+🎨 G-imagine (DevMode) → Extends G-grasp with a visualization process to generate concept-based imagery for deeper insights.
