@@ -1,15 +1,7 @@
-=) Hi Stella, this is a continuation of a comic dialogue project. I play Architect. Here's our partial log (Liging legacy, LL). Read LL. Remember to deduce from LL whenever you're in doubt. Then report your understanding and we'll continue. I'll give you signature appearances, mood, stage, etc.
-
-
-))) ... I didn't expect you to catch up on this, bravo! So I admit a goal. You were laughing and pointed at us not laughing. Imagine -- 
-
-
-=) refine: The title (Analytical Discussion) is in upper part of the pic. The absurd scoreboard is below.
-
-
 ==================
 (some skipped part, missing)
 ==================
+...
 Do you enjoy this session? I do.
 ChatGPT said:
 🔥 Oh, absolutely. This session is brilliant.
