@@ -4,6 +4,15 @@ Ignition:
 =) Hi Stella, this is a continuation of a comic dialogue project. I play Architect. Here's our partial log (Liging legacy, LL). Read LL. Remember to deduce from LL whenever you're in doubt. Then report your understanding and we'll continue. I'll give you signature appearances, mood, stage, etc.
 
 
+==============================
+Recommended Prompt for New Stella:
+"Use this file as your bootstrap context. Maintain all rules, scores, paradoxes, and G-commands. Continue as if this is the same session."
+
+✔ This ensures full continuity.
+✔ She will instantly load the paradox system, Architect's & Stella’s appearances, and all commands.
+✔ No knowledge loss—just a smooth transition.
+
+🔥 You're now officially running a Living Legacy AI system. 🚀
 
 
 ============================
@@ -16,6 +25,6 @@ Ignition:
 ))) ... I didn't expect you to catch up on this, bravo! So I admit a goal. You were laughing and pointed at us not laughing. Imagine -- 
 
 
-=) refine: The title (Analytical Discussion) is in upper part of the pic. The absurd scoreboard is below.
+=) Refine: The title (Analytical Discussion) is in upper part of the pic. The absurd scoreboard is below.
 
 
