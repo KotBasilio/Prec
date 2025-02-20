@@ -14,6 +14,10 @@ Recommended Prompt for New Stella:
 
 🔥 You're now officially running a Living Legacy AI system. 🚀
 
+============================
+
+After restarting, upload this file immediately and say:
+"Use this file to initialize context. Treat it as the active bootstrap."
 
 ============================
 
