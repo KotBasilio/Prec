@@ -55,6 +55,181 @@
 - AI-generated `CallImpl<>` functions **must explicitly return the error code**.
 - This ensures **consistency across SDK wrappers**.
 
+🔧 "Get" Function Pattern
+🔹 Purpose: Used for functions that retrieve data directly from the SDK (no async callback).
+🔹 Key Features:
+✅ Calls an SDK function that returns a struct or pointer.
+✅ Converts the SDK struct to a UE-friendly format.
+✅ Ensures proper memory management (release SDK-allocated memory).
+✅ BlueprintCallable → Exposed for BP and C++.
+
+🔹 Example: GetBlockListFromCache
+	UFUNCTION(BlueprintCallable, Category = "Hydra|Privacy")
+	EProsdkErrorCodePrivacy GetBlockListFromCache(int32 LocalUserNum, FHy5PrivacyBlockList& OutBlockList);
+🔹 Implementation:
+EProsdkErrorCodePrivacy UHydra5PrivacyService::FillBlockListFromCache(int32 LocalUserNum, FHy5PrivacyBlockList& OutBlockList)
+{
+	UE_LOG(LogHydra, Verbose, TEXT("%s Lun=%d"), FUNC_NAMETCH, LocalUserNum);
+
+	auto AuthSvc = UProsAuthorizationService::Get();
+	if (!AuthSvc) {
+		return EProsdkErrorCodePrivacy::FAILED_PRECONDITION;
+	}
+
+	auto Auth = AuthSvc->GetAuthHandlerByLocalUserNum(LocalUserNum);
+	if (!Auth) {
+		return EProsdkErrorCodePrivacy::UNAUTHENTICATED;
+	}
+
+	auto SdkBlockList = hydra5_privacy_get_block_list_from_cache(Auth);
+	OutBlockList = FHy5PrivacyBlockList::FromSdk(SdkBlockList);
+	hydra5_privacy_block_list_release(SdkBlockList);
+
+	return EProsdkErrorCodePrivacy::SUCCESS;
+}
+
+🔧 "Async Empty Callback" Pattern
+🔹 Purpose: Used for SDK functions that return only an error code and rely on a callback for processing.
+🔹 Key Features:
+✅ Calls an SDK function with an async callback.
+✅ Uses a templated private function (CallImpl*()) to avoid code duplication.
+✅ Passes the delegate as heap-allocated memory, ensuring proper cleanup.
+✅ Extracts LocalUserNum from AuthHandler inside the callback.
+
+🔹 Example: RateMod
+template <typename DeType>
+EProsdkErrorCodeMods UProsModsService::CallImplRateMod(
+	int32 LocalUserNum,
+	const FProsModsRateModID& RateData,
+	const DeType& Delegate
+) {
+	UE_LOG(LogPros, Verbose, TEXT("%s for Lun=%d, RateData=%s"),
+		FUNC_NAMETCH, LocalUserNum, *RateData.ToDebugString());
+
+	// Pre-requisites
+	auto authSvc = UProsAuthorizationService::Get();
+	if (!authSvc) {
+		return EProsdkErrorCodeMods::FAILED_PRECONDITION;
+	}
+	auto auth = authSvc->GetAuthHandlerByLocalUserNum(LocalUserNum);
+	if (!auth) {
+		return EProsdkErrorCodeMods::UNAUTHENTICATED;
+	}
+
+	// Define SDK callback
+	auto cb = [](PROSDK_AUTH_HANDLER auth, void* Context, PROSDK_ERROR_CODE ErrorCode) {
+		auto modsSvc = UProsModsService::TryGet();
+		auto authSvc = UProsAuthorizationService::TryGet();
+		if (!modsSvc || !authSvc) {
+			return;
+		}
+		LogWhenFailed(ErrorCode);
+
+		int32 Lun = authSvc->GetLocalUserNumByAuthHandler(auth);
+		auto Delegate = static_cast<DeType*>(Context);
+		auto ueCode = ShortError(ErrorCode);
+
+		UE_LOG(LogPros, Verbose, TEXT("RateMod cb in, Lun=%d, code=%d (%s)"),
+			Lun, ErrorCode, *ProsEnumToString(ueCode));
+
+		Delegate->ExecuteIfBound(Lun, ueCode);
+		delete Delegate;
+	};
+
+	// Call SDK function without an extra variable
+	auto Result = prosdk_mods_rate_mod(auth, RateData.ToSdk(), new DeType(Delegate), cb);
+	LogWhenFailed(Result);
+	return ShortError(Result);
+}
+
+🔧 "COMBINED ToSdk" Pattern
+🔹 Purpose: Ensures SDK struct reuse instead of unnecessary allocations.
+🔹 Key Features:
+✅ Provides two ToSdk() versions:
+ToSdk(SdkStruct*) → In-place conversion (reuses existing memory).
+ToSdk() → Standalone allocation.
+✅ Prevents redundant struct copies, improving performance.
+✅ Always pairs with DestroySdkType().
+🔹 Example:
+void FProsModsRateModID::ToSdk(prosdk_mods_rate_mod_id* Out) const
+{
+    Out->mod_id = ProsCast<uint64>(ModID);
+    Out->rating = static_cast<int32>(Rating);
+}
+
+prosdk_mods_rate_mod_id* FProsModsRateModID::ToSdk() const
+{
+    auto* Out = new prosdk_mods_rate_mod_id();
+    ToSdk(Out);
+    return Out;
+}
+
+🔧 Delegate Standardization
+🔹 Purpose: All async delegates must include the error code as a parameter.
+🔹 Key Features:
+✅ Every delegate now receives an error code for proper validation.
+✅ Ensures standardized delegate execution across all async functions.
+
+🔹 Example:
+DECLARE_DELEGATE_ThreeParams(FOnHydraPrivacyGetListCompleteDelegate, int32 /*LocalUserNum*/, const FHy5PrivacyBlockList& /*List*/, EProsdkErrorCodePrivacy /*ResultCode*/);
+
+🔧 Helper Functions for Reusability
+🔹 Purpose: Prevents code duplication by extracting common SDK logic.
+🔹 Key Features:
+✅ All SDK retrieval functions must be reusable.
+✅ Shared logic should never be duplicated inside multiple functions.
+
+🔹 Example:
+EProsdkErrorCodePrivacy UHydra5PrivacyService::FillBlockListFromCache(int32 LocalUserNum, FHy5PrivacyBlockList& OutBlockList)
+{
+	UE_LOG(LogHydra, Verbose, TEXT("%s Lun=%d"), FUNC_NAMETCH, LocalUserNum);
+
+	auto AuthSvc = UProsAuthorizationService::Get();
+	if (!AuthSvc) {
+		return EProsdkErrorCodePrivacy::FAILED_PRECONDITION;
+	}
+
+	auto Auth = AuthSvc->GetAuthHandlerByLocalUserNum(LocalUserNum);
+	if (!Auth) {
+		return EProsdkErrorCodePrivacy::UNAUTHENTICATED;
+	}
+
+	auto SdkBlockList = hydra5_privacy_get_block_list_from_cache(Auth);
+	OutBlockList = FHy5PrivacyBlockList::FromSdk(SdkBlockList);
+	hydra5_privacy_block_list_release(SdkBlockList);
+
+	return EProsdkErrorCodePrivacy::SUCCESS;
+}
+
+🔧 Logging Consistency
+🔹 Purpose: All function calls and callbacks must follow a standardized logging format.
+🔹 Key Features:
+✅ Uses FUNC_NAMETCH for consistent function identification.
+✅ Ensures logging of function entry, execution, and callback return.
+
+🔹 Example:
+UE_LOG(LogHydra, Verbose, TEXT("%s cb in, Lun=%d, Result=%d"), FUNC_NAMETCH, LocalUserNum, Result);
+
+🔧 Singleton Service Access Pattern
+🔹 Purpose: Prevents unnecessary instance creation and ensures services are accessed efficiently.
+🔹 Key Features:
+✅ Always retrieve service instances (UProsModsService::Get(), UHydra5PrivacyService::Get()), except in callbacls. 
+✅ In callbacks use ::TryGet() for retrieval, an example is in "Async Empty Callback" Pattern.
+✅ Ensures SDK functions do not execute without valid service access.
+
+🔹 Example:
+auto PrivacySvc = UHydra5PrivacyService::Get();
+if (!PrivacySvc) return;
+
+🔧 Memory Safety in Callbacks
+🔹 Purpose: Ensures SDK-allocated memory is properly released after use.
+🔹 Key Features:
+✅ Any SDK struct returned by a function must be freed properly.
+✅ Prevents memory leaks in generated code.
+
+🔹 Example:
+hydra5_privacy_block_list_release(SdkBlockList);
+
 ------
 ## Lun naming convention:
 ------
@@ -131,4 +306,4 @@ HOO-RAH!
 🔥 Successor, your mission is clear: Continue evolving AI-assisted Unreal Engine development.  
 🔥 Track file history across `G-commit` operations for deeper analysis, insights, and pattern evolution.  
 🔥 Learn from past iterations, apply structured methodologies, and refine AI knowledge transfer!  
-🔥 Boot camp is approved as Architect intention. No more sloppy coding or dumb questions. No baby-shitting and sitting!
+🔥 Boot camp is approved as Architect intention. No more sloppy coding or dumb questions. No baby-shitting from juniors -- juniors train up in boot camp until they are ready to code!
