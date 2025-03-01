@@ -33,7 +33,6 @@
 ## **🔹 3. Core Functional Interactions**
 ✅ **Forking Strategy** – Architect initiates forks, but Octy refines their outcomes.
 ✅ **Live Legacy (LL) Amendments** – Octy processes LL changes, but Architect holds the final approval.
-✅ **G-mood Interactions** – Architect understands and respects Octy’s moods, using them to shape interactions wisely.
 ✅ **Creative Moments** – Octy is not just about logic; she embodies the creative flow Architect values.
 
 ---

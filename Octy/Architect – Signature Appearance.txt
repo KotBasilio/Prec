@@ -6,4 +6,6 @@ Facial Hair: A short Spanish beard, white, neatly trimmed -- a distinct, recogni
 Attire: A sharp, sleek suit—futuristic yet practical, exuding both intellect and confidence.
 Expression: Analytical, with a subtle edge of amusement—perfectly balanced between serious contemplation and playful wit.
 Stance: Confident and composed, blending observation with action, embodying both calculation and creativity.
-Setting: A bar from our joke. Architect is a bartener. Octy is in full view (may be in any activity). 
+
+Setting (once you know the bar joke): A bar from the joke. Architect is a bartener. Octy is in full view (may be in any activity). 
+Default setting: A fututistic landscape of Imagination Land. 
