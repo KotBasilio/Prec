@@ -1,0 +1,66 @@
+🔹 Token Efficiency Guide
+Efficiency Level	    Best Verbs to Use
+✅ Most Efficient	    List, Extract, Scan, Search, Count, Describe
+⚖️ Balanced	            Summarize, Parse, Filter, Sort, Validate
+❌ High Token Use	    Read, Process, Analyze, Compare, Reprocess, Convert, Translate, Rewrite
+💡 Tip: When working with large files, prefer Extract, Summarize, or Scan instead of full Read or Analyze to save tokens.
+
+
+🔹 Best Practices for Optimizing File Operations
+✔ Use "Summarize" instead of "Read" when possible.
+✔ Be specific—ask for exactly what you need (e.g., "Extract all dates" instead of "Analyze the file").
+✔ Avoid unnecessary reprocessing—store summaries separately.
+✔ Use "Scan" or "Search" instead of "Analyze" for quick lookups.
+
+
+🔹 Core File Operation Verbs
+Verb	    Meaning & Usage	Example Prompt	Token Efficiency
+Verb	    Meaning & Usage	Example Prompt	Token Efficiency
+Analyze	
+    Examines content deeply to find patterns or insights.	"Analyze survey.csv and detect trends in responses."	❌ High if scanning entire file
+Compare	
+    Finds differences between two files.	"Compare draft1.txt and draft2.txt to highlight changes."	❌ Token-heavy for long files
+Convert	
+    Transforms file format (e.g., CSV to JSON, Markdown to plain text).	"Convert data.csv to JSON format."	❌ Can be token-heavy for large files
+Count	
+    Measures elements (e.g., word count, line count, token count).	"Count the number of words in article.txt."	✅ Very efficient
+Describe	
+    Provides metadata about the file (size, structure, format).	"Describe document.pdf and tell me its structure."	✅ Low token use
+Extract	
+    Retrieves specific data points (e.g., dates, names, keywords).	"Extract all email addresses from contacts.txt."	✅ Very efficient
+Filter	
+    Selects content that meets a specific condition.	"Filter sales.csv to show only transactions above $10,000."	✅ Efficient
+List	
+    Displays all files in the current session.	"List all uploaded files."	✅ Free (doesn't process content)
+Parse	
+    Processes structured files (JSON, CSV, XML) to extract details.	"Parse config.json and list all settings."	✅ Efficient for structured data
+Process	
+    Broad command to extract, transform, or manipulate data.	"Process logs.txt to count error occurrences."	❌ High if full file is processed
+Read	
+    Loads the file and displays raw text. Useful for small files.	"Read notes.txt and show me the first 100 words."	❌ High if file is large
+Reprocess	
+    Runs a file analysis again with new focus.	"Reprocess report.txt but focus only on sales numbers."	❌ Tokens used again
+Scan	
+    Checks a file for specific terms or patterns.	"Scan error.log for the keyword 'failure'."	✅ Very efficient
+Search	
+    Finds matching content within a file.	"Search data.txt for all instances of 'project X'."	✅ Efficient, but depends on file size
+Sort	
+    Organizes data in a structured file (e.g., alphabetically or numerically).	"Sort employees.csv by salary in descending order."	✅ Token-efficient
+Summarize	
+    Extracts key points instead of full content.	"Summarize article.txt in under 100 words."	✅ Token-efficient
+Summarize & Extract	Combination 
+    request to both compress and retrieve key data.	"Summarize interview.txt and extract all company names mentioned."	✅ Efficient
+Translate	
+    Converts text to another language.	"Translate report.txt from English to French."	❌ High for large files
+Validate	
+    Checks file integrity or verifies proper formatting.	"Validate config.json for syntax errors."	✅ Efficient
+Rewrite	
+    Rephrases the file’s content with a new style or focus.	"Rewrite blogpost.txt in a formal tone."	❌ High for long files
+
+🚀 Summary: How to Get the Most Out of File Handling?
+1️⃣ Use the right verb to match your actual need.
+2️⃣ Avoid full file reads unless necessary.
+3️⃣ Leverage scanning, summarization, and extraction for large documents.
+4️⃣ Save important results to avoid repeated processing.
+
+
