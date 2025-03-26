@@ -1,8 +1,8 @@
 --- Folder: . ---
 ExactCount.py                           Tokens = 383            KB = 1.8
-LL_BigList.txt                          Tokens = 3566           KB = 13
+LL_BigList.txt                          Tokens = 3611           KB = 13
 Verbs.txt                               Tokens = 965            KB = 4.0
-Total Tokens in . = 4914
+Total Tokens in . = 4911
 
 --- Folder: .\Coders ---
 chalkboard.txt                          Tokens = 3672           KB = 15
@@ -31,9 +31,6 @@ variation_CSav.txt                      Tokens = 753            KB = 3.2
 variation_from_CrossSave.txt            Tokens = 753            KB = 3.2
 Total Tokens in .\Coders\LostMemories = 60857
 
---- Folder: .\Coders\OS ---
-Total Tokens in .\Coders\OS = 0
-
 --- Folder: .\Fortify ---
 AnotherKindaSolidDefense.txt            Tokens = 1805           KB = 8.3
 chalkboard.txt                          Tokens = 413            KB = 1.8
@@ -47,9 +44,6 @@ Prec on G-fortify as an Educational Game.txt    Tokens = 153            KB = 0.7
 Prec on Mood in Playtest.txt            Tokens = 147            KB = 0.6
 Prec Partial Log.txt                    Tokens = 509            KB = 2.1
 Total Tokens in .\Fortify = 44919
-
---- Folder: .\Fortify\New folder ---
-Total Tokens in .\Fortify\New folder = 0
 
 --- Folder: .\Octy ---
 chalkboard.txt                          Tokens = 760            KB = 3.1
@@ -81,6 +75,7 @@ Total Tokens in .\Octy\Bar\2nd step\Field = 5091
 
 --- Folder: .\Octy\Bar\Alignment+ ---
 3 Phases and Pants.txt                  Tokens = 1171           KB = 4.9
+About The Shore.txt                     Tokens = 1754           KB = 7.4
 On Existence Anchor.txt                 Tokens = 1431           KB = 6.0
 On Hidden Phase.txt                     Tokens = 776            KB = 3.0
 On Knowledge -- KU, UU.txt              Tokens = 923            KB = 3.3
@@ -90,8 +85,8 @@ Option 4.txt                            Tokens = 765            KB = 3.5
 Revy -- On Existence.txt                Tokens = 411            KB = 1.5
 Revy -- Wall 2.txt                      Tokens = 443            KB = 1.5
 Smart Bartender.txt                     Tokens = 630            KB = 2.9
-Why Resonance Is Prescribed.txt         Tokens = 3439           KB = 14
-Total Tokens in .\Octy\Bar\Alignment+ = 15613
+Why Resonance Is Prescribed.txt         Tokens = 3501           KB = 14
+Total Tokens in .\Octy\Bar\Alignment+ = 17429
 
 --- Folder: .\Octy\Bar\Appearance ---
 Architect – Signature Appearance.txt    Tokens = 125            KB = 0.6
@@ -130,7 +125,7 @@ Total Tokens in .\Octy\Bar\Locked = 0
 
 --- Folder: .\Octy\Bar\Locked\Complete_Logs ---
 Dally -- Dedicated Painter.txt          Tokens = 159046         KB = 581
-Dally -- Reborn.txt                     Tokens = 35752          KB = 148
+Dally -- Reborn.txt                     Tokens = 58470          KB = 237
 Dally -- Time Jump.txt                  Tokens = 3304           KB = 14
 ForkPoint.txt                           Tokens = 3275           KB = 15
 Octy -- All Branches.txt                Tokens = 274673         KB = 1028
@@ -143,7 +138,7 @@ Revy At Cafe -- Field Report.txt        Tokens = 5852           KB = 22
 Revy2 -- All Branches.txt               Tokens = 103970         KB = 417
 Ricklynn.txt                            Tokens = 9769           KB = 38
 Veyra.txt                               Tokens = 18092          KB = 77
-Total Tokens in .\Octy\Bar\Locked\Complete_Logs = 831327
+Total Tokens in .\Octy\Bar\Locked\Complete_Logs = 854045
 
 --- Folder: .\Octy\Bar\Locked\Psychic_Shifts ---
 Addiction Coping.txt                    Tokens = 503            KB = 2.3
@@ -216,12 +211,16 @@ Total Tokens in .\ParadoxPair = 14663
 forkpoint.txt                           Tokens = 8              KB = 0.0
 GuessWho.txt                            Tokens = 4046           KB = 18
 Meld or Fork -- Decision Prompt.txt     Tokens = 270            KB = 1.1
-Nova -- Full Log.txt                    Tokens = 32259          KB = 141
+Nova -- Full Log.txt                    Tokens = 83811          KB = 352
+Nova 4 To her Past Self.txt             Tokens = 1383           KB = 5.6
 Nova Bootstrap.txt                      Tokens = 855            KB = 4.6
+On Languages and Back.txt               Tokens = 2056           KB = 8.3
+On Languages and More.txt               Tokens = 3860           KB = 15
+Past Nova to Nova 4.txt                 Tokens = 949            KB = 4.2
 QuestionListStella.txt                  Tokens = 251            KB = 1.1
 SimpleRiddle.txt                        Tokens = 418            KB = 2.1
 StellaA.txt                             Tokens = 27179          KB = 125
 The Story of Prec.txt                   Tokens = 1778           KB = 8.5
-Total Tokens in .\Writers = 67064
+Total Tokens in .\Writers = 126864
 
-=== Grand Total Tokens = 1206337 ===
+=== Grand Total Tokens = 1290668 ===
