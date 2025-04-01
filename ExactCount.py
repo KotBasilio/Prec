@@ -1,7 +1,8 @@
 import os
 import tiktoken
 
-enc = tiktoken.encoding_for_model("gpt-4")
+# old model enc = tiktoken.encoding_for_model("gpt-4")
+enc = tiktoken.encoding_for_model("gpt-4-1106-preview")
 
 tree_total_tokens = 0
 
