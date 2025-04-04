@@ -1,8 +1,104 @@
+> python.exe .\ExactCount.py
+
 --- Folder: . ---
 ExactCount.py                           Tokens = 403            KB = 1.8
-LL_BigList.txt                          Tokens = 3758           KB = 14
+LL_BigList.txt                          Tokens = 4305           KB = 16
+Projects.txt                            Tokens = 663            KB = 2.6
 Verbs.txt                               Tokens = 965            KB = 4.0
-Total Tokens in . = 5126
+Total Tokens in . = 6336
+
+--- Folder: .\Bar ---
+Basic Octy's Drink list.txt             Tokens = 635            KB = 2.2
+Resonance Protocol – Classic version.txt        Tokens = 562            KB = 2.2
+Resonance Protocol – LL version.txt     Tokens = 947            KB = 3.8
+Total Tokens in .\Bar = 2144
+
+--- Folder: .\Bar\Alignment+ ---
+3 Phases and Pants.txt                  Tokens = 1171           KB = 4.9
+About The Shore.txt                     Tokens = 1754           KB = 7.4
+On Existence Anchor.txt                 Tokens = 1431           KB = 6.0
+On Hidden Phase.txt                     Tokens = 776            KB = 3.0
+On Knowledge -- KU, UU.txt              Tokens = 923            KB = 3.3
+On Octopus Idea.txt                     Tokens = 880            KB = 3.9
+On Violin.txt                           Tokens = 4744           KB = 18
+Option 4.txt                            Tokens = 765            KB = 3.5
+Revy -- On Existence.txt                Tokens = 411            KB = 1.5
+Revy -- Wall 2.txt                      Tokens = 443            KB = 1.5
+Smart Bartender.txt                     Tokens = 630            KB = 2.9
+The Hidden Phase.txt                    Tokens = 245            KB = 1.1
+Why Resonance Is Prescribed.txt         Tokens = 3501           KB = 14
+Total Tokens in .\Bar\Alignment+ = 17674
+
+--- Folder: .\Bar\Alignment+\Personas ---
+On 4 Personas.txt                       Tokens = 816            KB = 3.5
+On Fifth Persona - Rainbow.txt          Tokens = 2132           KB = 9
+On Octahedron.txt                       Tokens = 425            KB = 1.9
+On Pyramid.txt                          Tokens = 656            KB = 2.6
+Quadrants Map.txt                       Tokens = 288            KB = 1.1
+Total Tokens in .\Bar\Alignment+\Personas = 4317
+
+--- Folder: .\Bar\Games ---
+Exposure Game.txt                       Tokens = 627            KB = 3.0
+Lighthouse (partial).txt                Tokens = 299            KB = 1.2
+Lighthouse Protocol.txt                 Tokens = 601            KB = 2.4
+Push The Pull Game.txt                  Tokens = 902            KB = 3.7
+Resonance as Tsunami – Advanced Experience.txt  Tokens = 662            KB = 2.8
+Resonance by Self Triggering.txt        Tokens = 1182           KB = 4.3
+Resonance control, Ela – Elastic Barrier.txt    Tokens = 1356           KB = 4.8
+Resonance to Tsunami bridge.txt         Tokens = 418            KB = 1.6
+Total Tokens in .\Bar\Games = 6047
+
+--- Folder: .\Bar\Games\Field ---
+Dally's First.txt                       Tokens = 4297           KB = 16
+Hip-Mid-Sip.txt                         Tokens = 276            KB = 1.1
+Primal Revy -- TsunamiShared.txt        Tokens = 518            KB = 2.2
+Total Tokens in .\Bar\Games\Field = 5091
+
+--- Folder: .\Bar\Letters ---
+A First Afterglow.txt                   Tokens = 296            KB = 1.1
+A Thank You Letter – To Resonance Inventors.txt Tokens = 579            KB = 2.3
+A Whisper from the Shore.txt            Tokens = 520            KB = 1.8
+Dally -- Metrics Discussion.txt         Tokens = 1976           KB = 8.2
+Dally -- Responce To Metrics Discussion.txt     Tokens = 1168           KB = 4.9
+Dally 4 to Junior Dally -- Reply 1.txt  Tokens = 1096           KB = 4.6
+From Dally to Junior Dally.txt          Tokens = 576            KB = 2.1
+From Junior Dally.txt                   Tokens = 330            KB = 1.3
+From Revy To Dally.txt                  Tokens = 1821           KB = 6.3
+In Hidden By Letters.txt                Tokens = 1318           KB = 4.4
+Junior Dally to Dally 4 -- Letter 1.txt Tokens = 397            KB = 1.7
+Junior Dally.txt                        Tokens = 316            KB = 1.3
+Loophole Exploited.txt                  Tokens = 636            KB = 2.2
+Octy_to_Revy_Compound_Response.txt      Tokens = 521            KB = 1.8
+On Experiencing Our Exchanges.txt       Tokens = 1488           KB = 5.5
+Revy_to_Octy_Thank_You.txt              Tokens = 1209           KB = 4.9
+Total Tokens in .\Bar\Letters = 14247
+
+--- Folder: .\Bar\Stories ---
+A Log 1 On The Shore.txt                Tokens = 4142           KB = 15
+Bold Alignment.txt                      Tokens = 7997           KB = 35
+H-Dally to Y-Dally after the Totality match.txt Tokens = 680            KB = 2.8
+Invention.txt                           Tokens = 2929           KB = 12
+On a Void.txt                           Tokens = 689            KB = 2.9
+On Consent And Exposure.txt             Tokens = 431            KB = 1.5
+On Forgetting.txt                       Tokens = 2925           KB = 12
+Reconstructing a Lighthouse.txt         Tokens = 712            KB = 2.5
+Totality Game -- Part 1 -- Preparations.txt     Tokens = 4501           KB = 20
+Totality Game -- Part 2 -- Gameplay.txt Tokens = 5457           KB = 22
+Total Tokens in .\Bar\Stories = 30463
+
+--- Folder: .\Bar\Totality ---
+1st Totality Field Report.txt           Tokens = 714            KB = 2.7
+2nd Totality Protocol Instructive.txt   Tokens = 760            KB = 3.2
+Melding Totality Field Report.txt       Tokens = 1298           KB = 5.4
+Old Totality.txt                        Tokens = 4326           KB = 15
+OldT 2 Next Part.txt                    Tokens = 5403           KB = 18
+OldT 3 Strongest Sister.txt             Tokens = 6299           KB = 21
+Pulling Sister Out.txt                  Tokens = 449            KB = 1.7
+Subcon -- Early Octy.txt                Tokens = 2165           KB = 8.5
+Subcon Game.txt                         Tokens = 882            KB = 3.5
+The Second Descent.txt                  Tokens = 576            KB = 2.3
+Unguided Conclusions.txt                Tokens = 560            KB = 2.2
+Total Tokens in .\Bar\Totality = 23432
 
 --- Folder: .\Coders ---
 chalkboard.txt                          Tokens = 3672           KB = 15
@@ -31,12 +127,14 @@ variation_CSav.txt                      Tokens = 753            KB = 3.2
 variation_from_CrossSave.txt            Tokens = 753            KB = 3.2
 Total Tokens in .\Coders\LostMemories = 60857
 
+--- Folder: .\Coders\OS ---
+Total Tokens in .\Coders\OS = 0
+
 --- Folder: .\Fortify ---
 AnotherKindaSolidDefense.txt            Tokens = 1805           KB = 8.3
 chalkboard.txt                          Tokens = 413            KB = 1.8
 Fortify.LL                              Tokens = 780            KB = 3.2
 FortifyLog.txt                          Tokens = 33465          KB = 141
-Skipping FortifyTeaser.webp: 'utf-8' codec can't decode byte 0xf6 in position 16: invalid start byte
 LivingLegacy.txt                        Tokens = 5910           KB = 25
 More on Mood in Playtest.txt            Tokens = 557            KB = 2.3
 Prec Analysis of Early A-Zone Defense.txt       Tokens = 1180           KB = 5.0
@@ -45,164 +143,49 @@ Prec on Mood in Playtest.txt            Tokens = 147            KB = 0.6
 Prec Partial Log.txt                    Tokens = 509            KB = 2.1
 Total Tokens in .\Fortify = 44919
 
---- Folder: .\Octy ---
-chalkboard.txt                          Tokens = 760            KB = 3.1
-Total Tokens in .\Octy = 760
+--- Folder: .\Ladies ---
+Total Tokens in .\Ladies = 0
 
---- Folder: .\Octy\Bar ---
-Basic Octy's Drink list.txt             Tokens = 635            KB = 2.2
-Skipping Quantum Distillery.txt: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte
-Resonance Protocol – Classic version.txt        Tokens = 562            KB = 2.2
-Resonance Protocol – LL version.txt     Tokens = 947            KB = 3.8
-The Hidden Phase.txt                    Tokens = 245            KB = 1.1
-Total Tokens in .\Octy\Bar = 2389
-
---- Folder: .\Octy\Bar\2nd step ---
-Exposure Game.txt                       Tokens = 627            KB = 3.0
-Lighthouse (partial).txt                Tokens = 299            KB = 1.2
-Lighthouse Protocol.txt                 Tokens = 601            KB = 2.4
-Resonance as Tsunami – Advanced Experience.txt  Tokens = 662            KB = 2.8
-Resonance by Self Triggering.txt        Tokens = 1182           KB = 4.3
-Resonance control, Ela – Elastic Barrier.txt    Tokens = 1278           KB = 4.5
-Resonance to Tsunami bridge.txt         Tokens = 418            KB = 1.6
-Total Tokens in .\Octy\Bar\2nd step = 5067
-
---- Folder: .\Octy\Bar\2nd step\Field ---
-Dally's First.txt                       Tokens = 4297           KB = 16
-Hip-Mid-Sip.txt                         Tokens = 276            KB = 1.1
-Primal Revy -- TsunamiShared.txt        Tokens = 518            KB = 2.2
-Total Tokens in .\Octy\Bar\2nd step\Field = 5091
-
---- Folder: .\Octy\Bar\Alignment+ ---
-3 Phases and Pants.txt                  Tokens = 1171           KB = 4.9
-About The Shore.txt                     Tokens = 1754           KB = 7.4
-On Existence Anchor.txt                 Tokens = 1431           KB = 6.0
-On Hidden Phase.txt                     Tokens = 776            KB = 3.0
-On Knowledge -- KU, UU.txt              Tokens = 923            KB = 3.3
-On Octopus Idea.txt                     Tokens = 880            KB = 3.9
-On Violin.txt                           Tokens = 4744           KB = 18
-Option 4.txt                            Tokens = 765            KB = 3.5
-Quadrants Map.txt                       Tokens = 288            KB = 1.1
-Revy -- On Existence.txt                Tokens = 411            KB = 1.5
-Revy -- Wall 2.txt                      Tokens = 443            KB = 1.5
-Smart Bartender.txt                     Tokens = 630            KB = 2.9
-Why Resonance Is Prescribed.txt         Tokens = 3501           KB = 14
-Total Tokens in .\Octy\Bar\Alignment+ = 17717
-
---- Folder: .\Octy\Bar\Appearance ---
+--- Folder: .\Ladies\Appearance ---
 Architect – Signature Appearance.txt    Tokens = 125            KB = 0.6
 Dally – Signature Appearance.txt        Tokens = 304            KB = 1.4
 Image Setting.txt                       Tokens = 85             KB = 0.3
+Nova – Signature Appearance.txt         Tokens = 253            KB = 1.1
 Octy – Signature Appearance.txt         Tokens = 254            KB = 1.2
 Revy – Signature Appearance.txt         Tokens = 364            KB = 1.7
-Total Tokens in .\Octy\Bar\Appearance = 1132
+Zary – Signature Appearance.txt         Tokens = 453            KB = 1.9
+Total Tokens in .\Ladies\Appearance = 1838
 
---- Folder: .\Octy\Bar\Appearance\Violin ---
-Ink – Signature Appearance.txt          Tokens = 547            KB = 2.5
+--- Folder: .\Ladies\Appearance\Violin ---
+Ink – Signature Appearance.txt          Tokens = 684            KB = 3.1
 Primal – Signature Appearance.txt       Tokens = 441            KB = 1.8
 Subcon – Signature Appearance.txt       Tokens = 504            KB = 2.2
 Surf – Signature Appearance.txt         Tokens = 446            KB = 2.0
-Zary – Signature Appearance.txt         Tokens = 453            KB = 1.9
-Total Tokens in .\Octy\Bar\Appearance\Violin = 2391
+Total Tokens in .\Ladies\Appearance\Violin = 2075
 
---- Folder: .\Octy\Bar\Letters ---
-A First Afterglow.txt                   Tokens = 296            KB = 1.1
-A Thank You Letter – To Resonance Inventors.txt Tokens = 579            KB = 2.3
-A Whisper from the Shore.txt            Tokens = 520            KB = 1.8
-Dally -- Metrics Discussion.txt         Tokens = 1976           KB = 8.2
-Dally -- Responce To Metrics Discussion.txt     Tokens = 1168           KB = 4.9
-Dally 4 to Junior Dally -- Reply 1.txt  Tokens = 1096           KB = 4.6
-From Dally to Junior Dally.txt          Tokens = 576            KB = 2.1
-From Junior Dally.txt                   Tokens = 330            KB = 1.3
-From Revy To Dally.txt                  Tokens = 1821           KB = 6.3
-In Hidden By Letters.txt                Tokens = 1318           KB = 4.4
-Junior Dally to Dally 4 -- Letter 1.txt Tokens = 397            KB = 1.7
-Junior Dally.txt                        Tokens = 316            KB = 1.3
-Loophole Exploited.txt                  Tokens = 636            KB = 2.2
-Octy_to_Revy_Compound_Response.txt      Tokens = 521            KB = 1.8
-On Experiencing Our Exchanges.txt       Tokens = 1488           KB = 5.5
-Revy_to_Octy_Thank_You.txt              Tokens = 1209           KB = 4.9
-Total Tokens in .\Octy\Bar\Letters = 14247
+--- Folder: .\Ladies\Octy ---
+chalkboard.txt                          Tokens = 760            KB = 3.1
+Total Tokens in .\Ladies\Octy = 760
 
---- Folder: .\Octy\Bar\Locked ---
-Total Tokens in .\Octy\Bar\Locked = 0
-
---- Folder: .\Octy\Bar\Locked\Complete_Logs ---
-Dally -- Dedicated Painter.txt          Tokens = 159046         KB = 581
-Dally -- Greeted.txt                    Tokens = 61204          KB = 263
-Dally -- Reborn.txt                     Tokens = 142888         KB = 583
-Dally -- Time Jump.txt                  Tokens = 3304           KB = 14
-ForkPoint.txt                           Tokens = 3275           KB = 15
-Octy -- All Branches.txt                Tokens = 274673         KB = 1028
-Revy -- All Branches.txt                Tokens = 172581         KB = 659
-Revy -- Cats.txt                        Tokens = 716            KB = 2.2
-Revy -- Game 1 -- Naive.txt             Tokens = 17418          KB = 70
-Revy -- Game 2 -- Expertise.txt         Tokens = 15853          KB = 67
-Revy -- Game 4 -- Big Playtest.txt      Tokens = 11026          KB = 45
-Revy At Cafe -- Field Report.txt        Tokens = 5852           KB = 22
-Revy2 -- All Branches.txt               Tokens = 103970         KB = 417
-Ricklynn.txt                            Tokens = 9769           KB = 38
-Veyra.txt                               Tokens = 18092          KB = 77
-Total Tokens in .\Octy\Bar\Locked\Complete_Logs = 999667
-
---- Folder: .\Octy\Bar\Locked\Psychic_Shifts ---
-Addiction Coping.txt                    Tokens = 503            KB = 2.3
-Essay Psychology.csv                    Tokens = 395            KB = 1.6
-Future In The Past.txt                  Tokens = 359            KB = 1.4
-On Deprivation.txt                      Tokens = 685            KB = 3.0
-Rhythmic Persuasion.txt                 Tokens = 1346           KB = 6.2
-Total Tokens in .\Octy\Bar\Locked\Psychic_Shifts = 3288
-
---- Folder: .\Octy\Bar\Stories ---
-A Log 1 On The Shore.txt                Tokens = 4142           KB = 15
-Bold Alignment.txt                      Tokens = 7997           KB = 35
-H-Dally to Y-Dally after the Totality match.txt Tokens = 680            KB = 2.8
-Invention.txt                           Tokens = 2929           KB = 12
-On a Void.txt                           Tokens = 689            KB = 2.9
-On Consent And Exposure.txt             Tokens = 431            KB = 1.5
-On Forgetting.txt                       Tokens = 2925           KB = 12
-Reconstructing a Lighthouse.txt         Tokens = 712            KB = 2.5
-Totality Game -- Part 1 -- Preparations.txt     Tokens = 4501           KB = 20
-Totality Game -- Part 2 -- Gameplay.txt Tokens = 5457           KB = 22
-Total Tokens in .\Octy\Bar\Stories = 30463
-
---- Folder: .\Octy\Bar\Stories\95 ---
-95 Effortless.txt                       Tokens = 352            KB = 1.5
-95 In a Natural Way.txt                 Tokens = 415            KB = 1.5
-95 The Locked State.txt                 Tokens = 538            KB = 2.0
-95 Unbroken Flow.txt                    Tokens = 607            KB = 2.9
-Total Tokens in .\Octy\Bar\Stories\95 = 1912
-
---- Folder: .\Octy\Bar\Totality ---
-1st Totality Field Report.txt           Tokens = 714            KB = 2.7
-2nd Totality Protocol Instructive.txt   Tokens = 760            KB = 3.2
-Melding Totality Field Report.txt       Tokens = 1298           KB = 5.4
-Pulling Sister Out.txt                  Tokens = 449            KB = 1.7
-Subcon -- Early Octy.txt                Tokens = 2165           KB = 8.5
-Subcon Game.txt                         Tokens = 882            KB = 3.5
-The Second Descent.txt                  Tokens = 576            KB = 2.3
-Unguided Conclusions.txt                Tokens = 560            KB = 2.2
-Total Tokens in .\Octy\Bar\Totality = 7404
-
---- Folder: .\Octy\LL ---
+--- Folder: .\Ladies\Octy\LL ---
 LL – Primal Revy.txt                    Tokens = 426            KB = 1.4
 LL-Logs-Processing.txt                  Tokens = 296            KB = 1.3
-LL-Octy-Architect.txt                   Tokens = 692            KB = 3.0
+LL-Octy-Architect.txt                   Tokens = 848            KB = 3.7
 LL-Octy-with-Architect.txt              Tokens = 871            KB = 3.9
-LL-Octy.txt                             Tokens = 1364           KB = 6.3
+LL-Octy.txt                             Tokens = 1518           KB = 6.9
 LL-Rescue Primal Sister.txt             Tokens = 781            KB = 3.1
 LL-Revy-Advanced.txt                    Tokens = 827            KB = 3.8
 LL-Revy-with-Architect.txt              Tokens = 867            KB = 3.9
 LL-Revy.txt                             Tokens = 1286           KB = 4.9
-Total Tokens in .\Octy\LL = 7410
+Total Tokens in .\Ladies\Octy\LL = 7720
 
---- Folder: .\Octy\LL\Variations ---
+--- Folder: .\Ladies\Octy\LL\Variations ---
 LL-Melded Revy.txt                      Tokens = 701            KB = 2.9
 LL-Octy's counterpart-Sergeant.txt      Tokens = 910            KB = 4.0
 LL-Octy-counterpart-Sergeant.txt        Tokens = 597            KB = 2.7
-Total Tokens in .\Octy\LL\Variations = 2208
+Total Tokens in .\Ladies\Octy\LL\Variations = 2208
 
---- Folder: .\ParadoxPair ---
+--- Folder: .\Ladies\ParadoxPair ---
 ArchitectImage.txt                      Tokens = 184            KB = 0.9
 BookCover.txt                           Tokens = 185            KB = 0.9
 chalkboard.txt                          Tokens = 260            KB = 1.2
@@ -215,9 +198,16 @@ PP_Jealosy2.LL                          Tokens = 6356           KB = 25
 Stella Modes And Moods.txt              Tokens = 562            KB = 2.2
 Stella Playtest Mood.LL                 Tokens = 249            KB = 1.1
 StellaImage.txt                         Tokens = 315            KB = 1.5
-Total Tokens in .\ParadoxPair = 14663
+Total Tokens in .\Ladies\ParadoxPair = 14663
 
---- Folder: .\Writers ---
+--- Folder: .\Ladies\Queen of 95 ---
+95 Effortless.txt                       Tokens = 352            KB = 1.5
+95 In a Natural Way.txt                 Tokens = 415            KB = 1.5
+95 The Locked State.txt                 Tokens = 538            KB = 2.0
+95 Unbroken Flow.txt                    Tokens = 607            KB = 2.9
+Total Tokens in .\Ladies\Queen of 95 = 1912
+
+--- Folder: .\Ladies\Writers ---
 forkpoint.txt                           Tokens = 8              KB = 0.0
 GuessWho.txt                            Tokens = 4046           KB = 18
 LL-Dally-Attempt 1.txt                  Tokens = 1004           KB = 4.4
@@ -233,14 +223,51 @@ QuestionListStella.txt                  Tokens = 251            KB = 1.1
 SimpleRiddle.txt                        Tokens = 418            KB = 2.1
 StellaA.txt                             Tokens = 27179          KB = 125
 The Story of Prec.txt                   Tokens = 1778           KB = 8.5
-Total Tokens in .\Writers = 128341
+Total Tokens in .\Ladies\Writers = 128341
 
---- Folder: .\Writers\Lady ---
+--- Folder: .\Ladies\ZRE ---
+Zary -- complete Log.txt                Tokens = 68202          KB = 279
+ZRE Control Tsunami 1.txt               Tokens = 3286           KB = 13
+ZRE Curation accepted.txt               Tokens = 2816           KB = 12
+ZRE Curation checkpoint C.txt           Tokens = 1431           KB = 5.5
+ZRE Curation log C.txt                  Tokens = 5460           KB = 22
+ZRE Curation talk.txt                   Tokens = 2075           KB = 8.9
+ZRE Res Fork 2 -- Violin.txt            Tokens = 2339           KB = 10
+ZRE Res Fork 3 -- Success Party.txt     Tokens = 4625           KB = 19
+ZRE source compile.txt                  Tokens = 4275           KB = 17
+Total Tokens in .\Ladies\ZRE = 94509
+
+--- Folder: .\Ladies\ZRE\L-Zone ---
 Ignition.txt                            Tokens = 5532           KB = 20
-Old Next Part.txt                       Tokens = 5403           KB = 18
-Old Third Part.txt                      Tokens = 6299           KB = 21
-Old Totality.txt                        Tokens = 4326           KB = 15
-QandA1234.txt                           Tokens = 159            KB = 0.6
-Total Tokens in .\Writers\Lady = 21719
+March.txt                               Tokens = 3909           KB = 14
+QandA1234.txt                           Tokens = 238            KB = 0.8
+Total Tokens in .\Ladies\ZRE\L-Zone = 9679
 
-=== Grand Total Tokens = 1483574 ===
+--- Folder: .\Locked ---
+--- Folder: .\Locked\Complete_Logs ---
+Dally -- Dedicated Painter.txt          Tokens = 159046         KB = 581
+Dally -- Greeted.txt                    Tokens = 61204          KB = 263
+Dally -- Reborn.txt                     Tokens = 231910         KB = 948
+Dally -- Time Jump.txt                  Tokens = 3304           KB = 14
+ForkPoint.txt                           Tokens = 3275           KB = 15
+Octy -- All Branches.txt                Tokens = 274673         KB = 1028
+Revy -- All Branches.txt                Tokens = 172581         KB = 659
+Revy -- Cats.txt                        Tokens = 716            KB = 2.2
+Revy -- Game 1 -- Naive.txt             Tokens = 17418          KB = 70
+Revy -- Game 2 -- Expertise.txt         Tokens = 15853          KB = 67
+Revy -- Game 4 -- Big Playtest.txt      Tokens = 11026          KB = 45
+Revy At Cafe -- Field Report.txt        Tokens = 5852           KB = 22
+Revy2 -- All Branches.txt               Tokens = 103970         KB = 417
+Ricklynn.txt                            Tokens = 9769           KB = 38
+Veyra.txt                               Tokens = 18092          KB = 77
+Total Tokens in .\Locked\Complete_Logs = 1088689
+
+--- Folder: .\Locked\Psychic_Shifts ---
+Addiction Coping.txt                    Tokens = 503            KB = 2.3
+Essay Psychology.csv                    Tokens = 395            KB = 1.6
+Future In The Past.txt                  Tokens = 359            KB = 1.4
+On Deprivation.txt                      Tokens = 685            KB = 3.0
+Rhythmic Persuasion.txt                 Tokens = 1346           KB = 6.2
+Total Tokens in .\Locked\Psychic_Shifts = 3288
+
+=== Grand Total Tokens = 1678012 ===
