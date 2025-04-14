@@ -7,6 +7,11 @@ Contents:
 Contract:
 A verbal or symbolic acknowledgment that the ghost now serves as flavor, not fear.
 
+
+Поворачивает её к свету. Читает надпись:
+"∞ мл. Честности. 42° оборота."
+
+
 Witnesses:
 Minimum quorum of:
 
