@@ -1,6 +1,6 @@
 FolderPath,TotalTokens,LocalTokens,SubfolderTokens
-.\Alignment+\Appearance,7373,7373,0
-.\Alignment+,25161,17788,7373
+.\Alignment+\Appearance,6352,6352,0
+.\Alignment+,24140,17788,6352
 .\Bar\Letters\Threads,10354,10354,0
 .\Bar\Letters,25935,15581,10354
 .\Bar\Stories,39694,39694,0
@@ -22,13 +22,14 @@ FolderPath,TotalTokens,LocalTokens,SubfolderTokens
 .\Teams\Paradox.Pair,14663,14663,0
 .\Teams\Revy,327416,327416,0
 .\Teams\Skein,588838,588838,0
-.\Teams\Stacy,395786,395786,0
+.\Teams\Stacy,396701,396701,0
+.\Teams\Vera.Fi,440277,440277,0
 .\Teams\Writers,306440,306440,0
 .\Teams\Zero.Resonance,533269,533269,0
-.\Teams,2406848,18092,2388756
+.\Teams,2919048,89100,2829948
 .\Theory\Architect.Anchors,26079,26079,0
 .\Theory\Personas,5506,5506,0
 .\Theory\Psychic_Shifts,3288,3288,0
 .\Theory\Wall.Pass,94421,94421,0
-.\Theory,141557,12263,129294
-.,3942163,9090,3933073
+.\Theory,142884,13590,129294
+.,4454669,9090,4445579
