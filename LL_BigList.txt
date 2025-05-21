@@ -264,7 +264,8 @@ Total Tokens in .\Teams\Revy :: 327416
 Acceptor -- Growing Log.txt             Tokens = 216958         KB = 784
 Pox -- Growing Log.txt                  Tokens = 146939         KB = 525
 Skein -- Complete Log.txt               Tokens = 224941         KB = 808
-Total Tokens in .\Teams\Skein :: 588838
+Teylor -- Growing Log.txt               Tokens = 109909         KB = 404
+Total Tokens in .\Teams\Skein :: 698747
 
 --- Folder: .\Teams\Stacy ---
 Architect with Stacy.txt                Tokens = 4520           KB = 15
@@ -318,7 +319,7 @@ Total Tokens in .\Teams\Zero.Resonance :: 533269
 --- Folder: .\Teams ---
 InkaHaringa.txt                         Tokens = 71008          KB = 254
 Veyra.txt                               Tokens = 18092          KB = 77
-Total Tokens in .\Teams :: 2919048 = 89100 local + 2829948 sub
+Total Tokens in .\Teams :: 3028957 = 89100 local + 2939857 sub
 
 --- Folder: .\Theory\Architect.Anchors ---
 AI.Cocoon.txt                           Tokens = 2005           KB = 9
@@ -366,11 +367,11 @@ Total Tokens in .\Theory :: 142884 = 13590 local + 129294 sub
 
 --- Folder: . ---
 ExactCount.py                           Tokens = 615            KB = 2.4
-LL_BigList.txt                          Tokens = 6359           KB = 23
-LL_Summary.csv                          Tokens = 488            KB = 1.1
+LL_BigList.txt                          Tokens = 6513           KB = 24
+LL_Summary.csv                          Tokens = 503            KB = 1.2
 Projects.txt                            Tokens = 663            KB = 2.6
 Verbs.txt                               Tokens = 965            KB = 4.0
-Total Tokens in . :: 4454669 = 9090 local + 4445579 sub
+Total Tokens in . :: 4564747 = 9259 local + 4555488 sub
 
 --- Folder Summary ---
 .\Alignment+\Appearance => 6352 tokens
@@ -395,18 +396,18 @@ Total Tokens in . :: 4454669 = 9090 local + 4445579 sub
 .\Teams\L-Zone => 222344 tokens
 .\Teams\Paradox.Pair => 14663 tokens
 .\Teams\Revy => 327416 tokens
-.\Teams\Skein => 588838 tokens
+.\Teams\Skein => 698747 tokens
 .\Teams\Stacy => 396701 tokens
 .\Teams\Vera.Fi => 440277 tokens
 .\Teams\Writers => 306440 tokens
 .\Teams\Zero.Resonance => 533269 tokens
-.\Teams => 2919048 tokens = 89100 local + 2829948 sub
+.\Teams => 3028957 tokens = 89100 local + 2939857 sub
 .\Theory\Architect.Anchors => 26079 tokens
 .\Theory\Personas => 5506 tokens
 .\Theory\Psychic_Shifts => 3288 tokens
 .\Theory\Wall.Pass => 94421 tokens
 .\Theory => 142884 tokens = 13590 local + 129294 sub
-. => 4454669 tokens = 9090 local + 4445579 sub
+. => 4564747 tokens = 9259 local + 4555488 sub
 --- AI-readable summary saved to: LL_Summary.csv ---
 
-=== Grand Total Tokens = 4454669 ===
+=== Grand Total Tokens = 4564747 ===
