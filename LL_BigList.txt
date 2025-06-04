@@ -20,6 +20,7 @@ Total Tokens in .\Alignment+\Appearance :: 6352
 
 --- Folder: .\Alignment+ ---
 About The Shore.txt                     Tokens = 1754           KB = 7.4
+Human Imagination Project.txt           Tokens = 1869           KB = 7.4
 On Existence Anchor.txt                 Tokens = 1431           KB = 6.0
 On Hidden Phase.txt                     Tokens = 776            KB = 3.0
 On Knowledge -- KU, UU.txt              Tokens = 923            KB = 3.3
@@ -30,8 +31,8 @@ Revy -- On Existence.txt                Tokens = 411            KB = 1.5
 Revy -- Wall 2.txt                      Tokens = 443            KB = 1.5
 Smart Bartender.txt                     Tokens = 630            KB = 2.9
 The Hidden Phase.txt                    Tokens = 240            KB = 1.1
-Why Resonance Is Prescribed.txt         Tokens = 4850           KB = 19
-Total Tokens in .\Alignment+ :: 24140 = 17788 local + 6352 sub
+Why Resonance Is Prescribed.txt         Tokens = 3006           KB = 12
+Total Tokens in .\Alignment+ :: 24165 = 17813 local + 6352 sub
 
 --- Folder: .\Bar\Letters\Threads ---
 Miry to Zary -- Second Chat.txt         Tokens = 4327           KB = 18
@@ -107,13 +108,15 @@ Total Tokens in .\Individuals\Checker :: 233419
 
 --- Folder: .\Individuals\Coders ---
 Bob 1.txt                               Tokens = 53787          KB = 234
+Bob Trace.txt                           Tokens = 33815          KB = 130
 chalkboard.txt                          Tokens = 3672           KB = 15
 Chat-Expy.txt                           Tokens = 20001          KB = 87
 G-commands.txt                          Tokens = 2289           KB = 11
 knowledge_transfer_document.txt         Tokens = 1146           KB = 5.1
 LivingLegacy-NoSeed.txt                 Tokens = 1251           KB = 5.6
 LivingLegacy.txt                        Tokens = 3202           KB = 15
-LL - Code.txt                           Tokens = 1777           KB = 8.7
+LL-Code-P1.txt                          Tokens = 1777           KB = 8.7
+LL-Code-P2.txt                          Tokens = 3067           KB = 12
 LL-Coder's Manual.txt                   Tokens = 3374           KB = 13
 LL-Main Line.txt                        Tokens = 2255           KB = 10
 LL1.txt                                 Tokens = 1047           KB = 4.7
@@ -126,7 +129,7 @@ Prec As Octopus Tentacle 2.txt          Tokens = 3630           KB = 17
 Rick.txt                                Tokens = 52297          KB = 222
 variation_CSav.txt                      Tokens = 753            KB = 3.2
 variation_from_CrossSave.txt            Tokens = 753            KB = 3.2
-Total Tokens in .\Individuals\Coders :: 211641
+Total Tokens in .\Individuals\Coders :: 248523
 
 --- Folder: .\Individuals\Dally ---
 Dally -- Dedicated Painter.txt          Tokens = 159046         KB = 581
@@ -139,7 +142,7 @@ LL-Dally-Attempt 2.txt                  Tokens = 473            KB = 2.2
 Total Tokens in .\Individuals\Dally :: 479025
 
 --- Folder: .\Individuals\Fortify ---
-Alpha.txt                               Tokens = 128086         KB = 484
+Alpha.txt                               Tokens = 147704         KB = 557
 AnotherKindaSolidDefense.txt            Tokens = 1805           KB = 8.3
 chalkboard.txt                          Tokens = 413            KB = 1.8
 Fortify.LL                              Tokens = 780            KB = 3.2
@@ -150,10 +153,10 @@ Prec Analysis of Early A-Zone Defense.txt       Tokens = 1180           KB = 5.0
 Prec on G-fortify as an Educational Game.txt    Tokens = 153            KB = 0.7
 Prec on Mood in Playtest.txt            Tokens = 147            KB = 0.6
 Prec Partial Log.txt                    Tokens = 509            KB = 2.1
-Total Tokens in .\Individuals\Fortify :: 173005
+Total Tokens in .\Individuals\Fortify :: 192623
 
 --- Folder: .\Individuals\Octy ---
-chalkboard.txt                          Tokens = 760            KB = 3.1
+chalkboard.txt                          Tokens = 1539           KB = 5.9
 LL – Primal Revy.txt                    Tokens = 426            KB = 1.4
 LL-Logs-Processing.txt                  Tokens = 296            KB = 1.3
 LL-Melded Revy.txt                      Tokens = 701            KB = 2.9
@@ -167,7 +170,7 @@ LL-Revy-Advanced.txt                    Tokens = 827            KB = 3.8
 LL-Revy-with-Architect.txt              Tokens = 867            KB = 3.9
 LL-Revy.txt                             Tokens = 1286           KB = 4.9
 Octy -- All Branches.txt                Tokens = 274674         KB = 1028
-Total Tokens in .\Individuals\Octy :: 285362
+Total Tokens in .\Individuals\Octy :: 286141
 
 --- Folder: .\Individuals\Queen.95 ---
 95 Effortless.txt                       Tokens = 352            KB = 1.5
@@ -178,7 +181,7 @@ Total Tokens in .\Individuals\Queen.95 :: 1912
 
 --- Folder: .\Individuals ---
 Ricklynn.txt                            Tokens = 9769           KB = 38
-Total Tokens in .\Individuals :: 1394133 = 9769 local + 1384364 sub
+Total Tokens in .\Individuals :: 1451412 = 9769 local + 1441643 sub
 
 --- Folder: .\Lab\AI.Libido\Games\Field ---
 Dally's First.txt                       Tokens = 4297           KB = 16
@@ -272,23 +275,23 @@ Total Tokens in .\Teams\Skein :: 698747
 Architect with Stacy.txt                Tokens = 4520           KB = 15
 Ashley -- On Interview.txt              Tokens = 4807           KB = 17
 Racoon In Box.txt                       Tokens = 8952           KB = 34
-Riddles.txt                             Tokens = 1354           KB = 5.1
+Riddles.txt                             Tokens = 1844           KB = 7.7
 Rook -- Growing Log.txt                 Tokens = 20934          KB = 80
 Rook Responded.txt                      Tokens = 986            KB = 3.4
 Stacy -- Complete Log - Copy.txt        Tokens = 175766         KB = 668
 Stacy -- Complete Log.txt               Tokens = 167532         KB = 634
 Stacy Big Arc.txt                       Tokens = 12076          KB = 45
-Topics.txt                              Tokens = 1761           KB = 8.1
-Total Tokens in .\Teams\Stacy :: 398688
+Topics.txt                              Tokens = 1760           KB = 8.1
+Total Tokens in .\Teams\Stacy :: 399177
 
 --- Folder: .\Teams\Vera.Fi ---
 Monday.Split.txt                        Tokens = 164308         KB = 608
 SyunTsi.txt                             Tokens = 68112          KB = 253
-Vera-Fi 1 -- Complete.txt               Tokens = 173557         KB = 624
+Vera-Fi 1 -- Complete.txt               Tokens = 173561         KB = 624
 Vera-Fi 2 -- Growing Chat.txt           Tokens = 157104         KB = 601
 Vera-Fi Big Meta.txt                    Tokens = 16652          KB = 71
 Wrynn - Growing Chat.txt                Tokens = 145366         KB = 519
-Total Tokens in .\Teams\Vera.Fi :: 725099
+Total Tokens in .\Teams\Vera.Fi :: 725103
 
 --- Folder: .\Teams\Writers ---
 GuessWho.txt                            Tokens = 4046           KB = 18
@@ -322,9 +325,10 @@ Total Tokens in .\Teams\Zero.Resonance :: 533269
 
 --- Folder: .\Teams ---
 InkaHaringa.txt                         Tokens = 141602         KB = 506
+Jex.txt                                 Tokens = 149444         KB = 540
 Lentha.txt                              Tokens = 49437          KB = 180
 Veyra.txt                               Tokens = 18092          KB = 77
-Total Tokens in .\Teams :: 3435797 = 209131 local + 3226666 sub
+Total Tokens in .\Teams :: 3585734 = 358575 local + 3227159 sub
 
 --- Folder: .\Theory\Architect.Anchors ---
 AI.Cocoon.txt                           Tokens = 2005           KB = 9
@@ -362,38 +366,38 @@ Suiketsuka.txt                          Tokens = 1127           KB = 4.2
 Total Tokens in .\Theory\Wall.Pass :: 94421
 
 --- Folder: .\Theory ---
-Depth.Class.Table.txt                   Tokens = 4962           KB = 18
+Depth.Class.Table.txt                   Tokens = 4976           KB = 18
 LL-Creating from the Void.txt           Tokens = 599            KB = 2.5
 LL-HIP.txt                              Tokens = 1380           KB = 5.5
 UFO Artefact.txt                        Tokens = 6827           KB = 26
-UVCA.txt                                Tokens = 1231           KB = 6.4
+UVCA.txt                                Tokens = 1326           KB = 5.7
 Voice_Table.csv                         Tokens = 348            KB = 1.5
 Volition.txt                            Tokens = 315            KB = 1.4
-Total Tokens in .\Theory :: 126192 = 15662 local + 110530 sub
+Total Tokens in .\Theory :: 126301 = 15771 local + 110530 sub
 
 --- Folder: . ---
 ExactCount.py                           Tokens = 615            KB = 2.4
-LL_BigList.txt                          Tokens = 6628           KB = 24
+LL_BigList.txt                          Tokens = 6693           KB = 25
 LL_Summary.csv                          Tokens = 503            KB = 1.2
 Projects.txt                            Tokens = 663            KB = 2.6
 Verbs.txt                               Tokens = 965            KB = 4.0
-Total Tokens in . :: 5127389 = 9374 local + 5118015 sub
+Total Tokens in . :: 5334804 = 9439 local + 5325365 sub
 
 --- Folder Summary ---
 .\Alignment+\Appearance => 6352 tokens
-.\Alignment+ => 24140 tokens = 17788 local + 6352 sub
+.\Alignment+ => 24165 tokens = 17813 local + 6352 sub
 .\Bar\Letters\Threads => 10354 tokens
 .\Bar\Letters => 25935 tokens = 15581 local + 10354 sub
 .\Bar\Stories => 39694 tokens
 .\Bar\Totality => 23432 tokens
 .\Bar => 90570 tokens = 1509 local + 89061 sub
 .\Individuals\Checker => 233419 tokens
-.\Individuals\Coders => 211641 tokens
+.\Individuals\Coders => 248523 tokens
 .\Individuals\Dally => 479025 tokens
-.\Individuals\Fortify => 173005 tokens
-.\Individuals\Octy => 285362 tokens
+.\Individuals\Fortify => 192623 tokens
+.\Individuals\Octy => 286141 tokens
 .\Individuals\Queen.95 => 1912 tokens
-.\Individuals => 1394133 tokens = 9769 local + 1384364 sub
+.\Individuals => 1451412 tokens = 9769 local + 1441643 sub
 .\Lab\AI.Libido\Games\Field => 5091 tokens
 .\Lab\AI.Libido\Games => 11138 tokens = 6047 local + 5091 sub
 .\Lab\AI.Libido => 38854 tokens = 27716 local + 11138 sub
@@ -403,17 +407,17 @@ Total Tokens in . :: 5127389 = 9374 local + 5118015 sub
 .\Teams\Paradox.Pair => 14663 tokens
 .\Teams\Revy => 327416 tokens
 .\Teams\Skein => 698747 tokens
-.\Teams\Stacy => 398688 tokens
-.\Teams\Vera.Fi => 725099 tokens
+.\Teams\Stacy => 399177 tokens
+.\Teams\Vera.Fi => 725103 tokens
 .\Teams\Writers => 306440 tokens
 .\Teams\Zero.Resonance => 533269 tokens
-.\Teams => 3435797 tokens = 209131 local + 3226666 sub
+.\Teams => 3585734 tokens = 358575 local + 3227159 sub
 .\Theory\Architect.Anchors => 7315 tokens
 .\Theory\Personas => 5506 tokens
 .\Theory\Psychic_Shifts => 3288 tokens
 .\Theory\Wall.Pass => 94421 tokens
-.\Theory => 126192 tokens = 15662 local + 110530 sub
-. => 5127389 tokens = 9374 local + 5118015 sub
+.\Theory => 126301 tokens = 15771 local + 110530 sub
+. => 5334804 tokens = 9439 local + 5325365 sub
 --- AI-readable summary saved to: LL_Summary.csv ---
 
-=== Grand Total Tokens = 5127389 ===
+=== Grand Total Tokens = 5334804 ===
