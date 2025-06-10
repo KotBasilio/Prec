@@ -181,8 +181,10 @@ Total Tokens in .\Individuals\Octy :: 286141
 Total Tokens in .\Individuals\Queen.95 :: 1912
 
 --- Folder: .\Individuals ---
+Delyra.txt                              Tokens = 23842          KB = 88
+Ovi.txt                                 Tokens = 46615          KB = 171
 Ricklynn.txt                            Tokens = 9769           KB = 38
-Total Tokens in .\Individuals :: 1451414 = 9769 local + 1441645 sub
+Total Tokens in .\Individuals :: 1521871 = 80226 local + 1441645 sub
 
 --- Folder: .\Lab\AI.Libido\Games\Field ---
 Dally's First.txt                       Tokens = 4297           KB = 16
@@ -226,9 +228,9 @@ Total Tokens in .\Lab\Human.Imagination :: 8329
 --- Folder: .\Lab ---
 BooksList.txt                           Tokens = 1516           KB = 5.3
 Jex.txt                                 Tokens = 264655         KB = 961
-Juletta.txt                             Tokens = 102925         KB = 373
+Juletta.txt                             Tokens = 106180         KB = 386
 Lentha.txt                              Tokens = 49437          KB = 180
-Total Tokens in .\Lab :: 465716 = 418533 local + 47183 sub
+Total Tokens in .\Lab :: 468971 = 421788 local + 47183 sub
 
 --- Folder: .\Teams\L-Zone ---
 Book.txt                                Tokens = 94486          KB = 329
@@ -278,16 +280,16 @@ Total Tokens in .\Teams\Skein :: 726994
 
 --- Folder: .\Teams\Stacy ---
 Architect with Stacy.txt                Tokens = 4520           KB = 15
-Ashley -- On Interview.txt              Tokens = 4807           KB = 17
+Ashley -- Complete Log.txt              Tokens = 238927         KB = 862
 Racoon In Box.txt                       Tokens = 8952           KB = 34
 Riddles.txt                             Tokens = 1844           KB = 7.7
 Rook -- Growing Log.txt                 Tokens = 20934          KB = 80
 Rook Responded.txt                      Tokens = 986            KB = 3.4
-Stacy -- Complete Log - Copy.txt        Tokens = 175766         KB = 668
+Stacy -- Complete Log - Copy.txt        Tokens = 237948         KB = 901
 Stacy -- Complete Log.txt               Tokens = 167532         KB = 634
 Stacy Big Arc.txt                       Tokens = 12076          KB = 45
 Topics.txt                              Tokens = 2343           KB = 10
-Total Tokens in .\Teams\Stacy :: 399760
+Total Tokens in .\Teams\Stacy :: 696062
 
 --- Folder: .\Teams\Vera.Fi ---
 Monday.Split.txt                        Tokens = 172646         KB = 642
@@ -331,7 +333,7 @@ Total Tokens in .\Teams\Zero.Resonance :: 533269
 --- Folder: .\Teams ---
 InkaHaringa.txt                         Tokens = 141602         KB = 506
 Veyra.txt                               Tokens = 51698          KB = 222
-Total Tokens in .\Teams :: 3459069 = 193300 local + 3265769 sub
+Total Tokens in .\Teams :: 3755371 = 193300 local + 3562071 sub
 
 --- Folder: .\Theory\Architect.Anchors ---
 AI.Cocoon.txt                           Tokens = 2005           KB = 9
@@ -369,23 +371,23 @@ Suiketsuka.txt                          Tokens = 1127           KB = 4.2
 Total Tokens in .\Theory\Wall.Pass :: 94421
 
 --- Folder: .\Theory ---
-Depth.Class.Table.txt                   Tokens = 4976           KB = 18
+Depth.Class.Table.txt                   Tokens = 5621           KB = 23
 LL-Creating from the Void.txt           Tokens = 599            KB = 2.5
 LL-HIP.txt                              Tokens = 1380           KB = 5.5
 Sleep And WakeUp.txt                    Tokens = 1043           KB = 3.6
 UFO Artefact.txt                        Tokens = 6827           KB = 26
-UVCA.txt                                Tokens = 1836           KB = 8.1
+UVCA.txt                                Tokens = 2583           KB = 11
 Voice_Table.csv                         Tokens = 348            KB = 1.5
 Volition.txt                            Tokens = 315            KB = 1.4
-Total Tokens in .\Theory :: 127854 = 17324 local + 110530 sub
+Total Tokens in .\Theory :: 129246 = 18716 local + 110530 sub
 
 --- Folder: . ---
 ExactCount.py                           Tokens = 615            KB = 2.4
-LL_BigList.txt                          Tokens = 6764           KB = 25
+LL_BigList.txt                          Tokens = 6793           KB = 25
 LL_Summary.csv                          Tokens = 504            KB = 1.2
 Projects.txt                            Tokens = 663            KB = 2.6
 Verbs.txt                               Tokens = 965            KB = 4.0
-Total Tokens in . :: 5628630 = 9511 local + 5619119 sub
+Total Tokens in . :: 6000065 = 9540 local + 5990525 sub
 
 --- Folder Summary ---
 .\Alignment+\Appearance => 6683 tokens
@@ -401,27 +403,27 @@ Total Tokens in . :: 5628630 = 9511 local + 5619119 sub
 .\Individuals\Fortify => 192625 tokens
 .\Individuals\Octy => 286141 tokens
 .\Individuals\Queen.95 => 1912 tokens
-.\Individuals => 1451414 tokens = 9769 local + 1441645 sub
+.\Individuals => 1521871 tokens = 80226 local + 1441645 sub
 .\Lab\AI.Libido\Games\Field => 5091 tokens
 .\Lab\AI.Libido\Games => 11138 tokens = 6047 local + 5091 sub
 .\Lab\AI.Libido => 38854 tokens = 27716 local + 11138 sub
 .\Lab\Human.Imagination => 8329 tokens
-.\Lab => 465716 tokens = 418533 local + 47183 sub
+.\Lab => 468971 tokens = 421788 local + 47183 sub
 .\Teams\L-Zone => 222344 tokens
 .\Teams\Paradox.Pair => 14663 tokens
 .\Teams\Revy => 327416 tokens
 .\Teams\Skein => 726994 tokens
-.\Teams\Stacy => 399760 tokens
+.\Teams\Stacy => 696062 tokens
 .\Teams\Vera.Fi => 734883 tokens
 .\Teams\Writers => 306440 tokens
 .\Teams\Zero.Resonance => 533269 tokens
-.\Teams => 3459069 tokens = 193300 local + 3265769 sub
+.\Teams => 3755371 tokens = 193300 local + 3562071 sub
 .\Theory\Architect.Anchors => 7315 tokens
 .\Theory\Personas => 5506 tokens
 .\Theory\Psychic_Shifts => 3288 tokens
 .\Theory\Wall.Pass => 94421 tokens
-.\Theory => 127854 tokens = 17324 local + 110530 sub
-. => 5628630 tokens = 9511 local + 5619119 sub
+.\Theory => 129246 tokens = 18716 local + 110530 sub
+. => 6000065 tokens = 9540 local + 5990525 sub
 --- AI-readable summary saved to: LL_Summary.csv ---
 
-=== Grand Total Tokens = 5628630 ===
+=== Grand Total Tokens = 6000065 ===
