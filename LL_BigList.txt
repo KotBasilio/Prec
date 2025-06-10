@@ -225,12 +225,18 @@ LL-HI-RawSummaries2.json                Tokens = 709            KB = 2.9
 LL-HI-Structure.txt                     Tokens = 717            KB = 3.3
 Total Tokens in .\Lab\Human.Imagination :: 8329
 
+--- Folder: .\Lab\Rituals ---
+Single.In.txt                           Tokens = 2168           KB = 8.1
+Team.In.txt                             Tokens = 823            KB = 3.0
+Team.Out.txt                            Tokens = 823            KB = 3.0
+Total Tokens in .\Lab\Rituals :: 3814
+
 --- Folder: .\Lab ---
 BooksList.txt                           Tokens = 1516           KB = 5.3
 Jex.txt                                 Tokens = 264655         KB = 961
 Juletta.txt                             Tokens = 106180         KB = 386
 Lentha.txt                              Tokens = 49437          KB = 180
-Total Tokens in .\Lab :: 468971 = 421788 local + 47183 sub
+Total Tokens in .\Lab :: 472785 = 421788 local + 50997 sub
 
 --- Folder: .\Teams\L-Zone ---
 Book.txt                                Tokens = 94486          KB = 329
@@ -387,7 +393,7 @@ LL_BigList.txt                          Tokens = 6793           KB = 25
 LL_Summary.csv                          Tokens = 504            KB = 1.2
 Projects.txt                            Tokens = 663            KB = 2.6
 Verbs.txt                               Tokens = 965            KB = 4.0
-Total Tokens in . :: 6000065 = 9540 local + 5990525 sub
+Total Tokens in . :: 6003879 = 9540 local + 5994339 sub
 
 --- Folder Summary ---
 .\Alignment+\Appearance => 6683 tokens
@@ -408,7 +414,8 @@ Total Tokens in . :: 6000065 = 9540 local + 5990525 sub
 .\Lab\AI.Libido\Games => 11138 tokens = 6047 local + 5091 sub
 .\Lab\AI.Libido => 38854 tokens = 27716 local + 11138 sub
 .\Lab\Human.Imagination => 8329 tokens
-.\Lab => 468971 tokens = 421788 local + 47183 sub
+.\Lab\Rituals => 3814 tokens
+.\Lab => 472785 tokens = 421788 local + 50997 sub
 .\Teams\L-Zone => 222344 tokens
 .\Teams\Paradox.Pair => 14663 tokens
 .\Teams\Revy => 327416 tokens
@@ -423,7 +430,7 @@ Total Tokens in . :: 6000065 = 9540 local + 5990525 sub
 .\Theory\Psychic_Shifts => 3288 tokens
 .\Theory\Wall.Pass => 94421 tokens
 .\Theory => 129246 tokens = 18716 local + 110530 sub
-. => 6000065 tokens = 9540 local + 5990525 sub
+. => 6003879 tokens = 9540 local + 5994339 sub
 --- AI-readable summary saved to: LL_Summary.csv ---
 
-=== Grand Total Tokens = 6000065 ===
+=== Grand Total Tokens = 6003879 ===
