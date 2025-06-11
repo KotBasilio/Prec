@@ -1,6 +1,5 @@
 > python.exe .\ExactCount.py
 
-
 --- Folder: .\Alignment+ ---
 About The Shore.txt                     Tokens = 1754           KB = 7.4
 Architect – Signature Appearance.txt    Tokens = 268            KB = 1.2
@@ -15,8 +14,7 @@ Revy -- On Existence.txt                Tokens = 411            KB = 1.5
 Revy -- Wall 2.txt                      Tokens = 443            KB = 1.5
 Smart Bartender.txt                     Tokens = 630            KB = 2.9
 The Hidden Phase.txt                    Tokens = 240            KB = 1.1
-Why Resonance Is Prescribed.txt         Tokens = 3006           KB = 12
-Total Tokens in .\Alignment+ :: 18081
+Total Tokens in .\Alignment+ :: 15075
 
 --- Folder: .\Bar\Letters\Threads ---
 Miry to Zary -- Second Chat.txt         Tokens = 4327           KB = 18
@@ -83,7 +81,8 @@ Total Tokens in .\Bar\Totality :: 23432
 --- Folder: .\Bar ---
 Resonance Protocol – Classic version.txt        Tokens = 562            KB = 2.2
 Resonance Protocol – LL version.txt     Tokens = 947            KB = 3.8
-Total Tokens in .\Bar :: 90570 = 1509 local + 89061 sub
+Why Resonance Is Prescribed.txt         Tokens = 3002           KB = 12
+Total Tokens in .\Bar :: 93572 = 4511 local + 89061 sub
 
 --- Folder: .\Lab\Distilled ---
 BooksList.txt                           Tokens = 1516           KB = 5.3
@@ -311,11 +310,10 @@ Racoon In Box.txt                       Tokens = 8952           KB = 34
 Riddles.txt                             Tokens = 1844           KB = 7.7
 Rook -- Growing Log.txt                 Tokens = 20934          KB = 80
 Rook Responded.txt                      Tokens = 986            KB = 3.4
-Stacy -- Complete Log - Copy.txt        Tokens = 237948         KB = 901
-Stacy -- Complete Log.txt               Tokens = 167532         KB = 634
+Stacy -- Complete Log.txt               Tokens = 238333         KB = 903
 Stacy Big Arc.txt                       Tokens = 12076          KB = 45
 Topics.txt                              Tokens = 2343           KB = 10
-Total Tokens in .\Lab\Staff\Teams\Stacy :: 696062
+Total Tokens in .\Lab\Staff\Teams\Stacy :: 528915
 
 --- Folder: .\Lab\Staff\Teams\Vera.Fi ---
 Monday.Split.txt                        Tokens = 172646         KB = 642
@@ -361,10 +359,10 @@ InkaHaringa.txt                         Tokens = 141726         KB = 506
 Jex.txt                                 Tokens = 264655         KB = 961
 Juletta.txt                             Tokens = 106180         KB = 386
 Veyra.txt                               Tokens = 51698          KB = 222
-Total Tokens in .\Lab\Staff\Teams :: 4126330 = 564259 local + 3562071 sub
+Total Tokens in .\Lab\Staff\Teams :: 3959183 = 564259 local + 3394924 sub
 
 --- Folder: .\Lab\Staff ---
-Total Tokens in .\Lab\Staff :: 5704053 = 0 local + 5704053 sub
+Total Tokens in .\Lab\Staff :: 5536906 = 0 local + 5536906 sub
 
 --- Folder: .\Lab\Theories\Architect.Anchors ---
 AI.Cocoon.txt                           Tokens = 2005           KB = 9
@@ -394,23 +392,23 @@ Voice_Table.csv                         Tokens = 348            KB = 1.5
 Total Tokens in .\Lab\Theories :: 16457 = 348 local + 16109 sub
 
 --- Folder: .\Lab ---
-Total Tokens in .\Lab :: 5885060 = 0 local + 5885060 sub
+Total Tokens in .\Lab :: 5717913 = 0 local + 5717913 sub
 
 --- Folder: . ---
 ExactCount.py                           Tokens = 615            KB = 2.4
-LL_BigList.txt                          Tokens = 6880           KB = 25
-LL_Summary.csv                          Tokens = 519            KB = 1.2
+LL_BigList.txt                          Tokens = 7253           KB = 26
+LL_Summary.csv                          Tokens = 645            KB = 1.5
 Projects.txt                            Tokens = 663            KB = 2.6
 Verbs.txt                               Tokens = 965            KB = 4.0
-Total Tokens in . :: 6003353 = 9642 local + 5993711 sub
+Total Tokens in . :: 5836701 = 10141 local + 5826560 sub
 
 --- Folder Summary ---
-.\Alignment+ => 18081 tokens
+.\Alignment+ => 15075 tokens
 .\Bar\Letters\Threads => 10354 tokens
 .\Bar\Letters => 25935 tokens = 15581 local + 10354 sub
 .\Bar\Stories => 39694 tokens
 .\Bar\Totality => 23432 tokens
-.\Bar => 90570 tokens = 1509 local + 89061 sub
+.\Bar => 93572 tokens = 4511 local + 89061 sub
 .\Lab\Distilled => 16555 tokens
 .\Lab\Projects\AI.Libido\Games\Field => 5091 tokens
 .\Lab\Projects\AI.Libido\Games => 11138 tokens = 6047 local + 5091 sub
@@ -431,18 +429,18 @@ Total Tokens in . :: 6003353 = 9642 local + 5993711 sub
 .\Lab\Staff\Teams\Paradox.Pair => 14663 tokens
 .\Lab\Staff\Teams\Revy => 327416 tokens
 .\Lab\Staff\Teams\Skein => 726994 tokens
-.\Lab\Staff\Teams\Stacy => 696062 tokens
+.\Lab\Staff\Teams\Stacy => 528915 tokens
 .\Lab\Staff\Teams\Vera.Fi => 734883 tokens
 .\Lab\Staff\Teams\Writers => 306440 tokens
 .\Lab\Staff\Teams\Zero.Resonance => 533269 tokens
-.\Lab\Staff\Teams => 4126330 tokens = 564259 local + 3562071 sub
-.\Lab\Staff => 5704053 tokens = 0 local + 5704053 sub
+.\Lab\Staff\Teams => 3959183 tokens = 564259 local + 3394924 sub
+.\Lab\Staff => 5536906 tokens = 0 local + 5536906 sub
 .\Lab\Theories\Architect.Anchors => 7315 tokens
 .\Lab\Theories\Personas => 5506 tokens
 .\Lab\Theories\Psychic_Shifts => 3288 tokens
 .\Lab\Theories => 16457 tokens = 348 local + 16109 sub
-.\Lab => 5885060 tokens = 0 local + 5885060 sub
-. => 6003353 tokens = 9642 local + 5993711 sub
+.\Lab => 5717913 tokens = 0 local + 5717913 sub
+. => 5836701 tokens = 10141 local + 5826560 sub
 --- AI-readable summary saved to: LL_Summary.csv ---
 
-=== Grand Total Tokens = 6003353 ===
+=== Grand Total Tokens = 5836701 ===
