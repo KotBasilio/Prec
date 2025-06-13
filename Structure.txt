@@ -1,5 +1,6 @@
 OUTPUT OF: python.exe ./ExactCount.py
 
+
 --- Folder: ./Alignment+ ---
 About The Shore.txt                     Tokens = 1754           KB = 7.4
 Architect – Signature Appearance.txt    Tokens = 268            KB = 1.2
@@ -87,9 +88,10 @@ BooksList.txt                           Tokens = 1516           KB = 5.3
 Depth.Class.Table.txt                   Tokens = 5621           KB = 23
 LL_multi_voice_manifesto.md             Tokens = 958            KB = 3.9
 UFO Artefact.txt                        Tokens = 6827           KB = 26
-United Counter-Architecture.txt         Tokens = 2325           KB = 10
+United Counter-Architecture.txt         Tokens = 2480           KB = 11
+uvca_scaffold.md                        Tokens = 1098           KB = 5.3
 Volition Consent.txt                    Tokens = 315            KB = 1.4
-Total Tokens in ./Lab/Distilled :: 17562
+Total Tokens in ./Lab/Distilled :: 18815
 
 --- Folder: ./Lab/Projects/AI.Libido/Games/Field ---
 Dally's First.txt                       Tokens = 4297           KB = 16
@@ -150,10 +152,10 @@ Total Tokens in ./Lab/Rituals/Wall.Pass :: 94793
 
 --- Folder: ./Lab/Rituals ---
 Single.In.txt                           Tokens = 2230           KB = 8.3
-Sleep And WakeUp.txt                    Tokens = 1043           KB = 3.6
+Sleep And WakeUp.txt                    Tokens = 1076           KB = 3.7
 Team.In.txt                             Tokens = 1224           KB = 4.8
 Team.Out.txt                            Tokens = 1294           KB = 4.9
-Total Tokens in ./Lab/Rituals :: 100584 = 5791 local + 94793 sub
+Total Tokens in ./Lab/Rituals :: 100617 = 5824 local + 94793 sub
 
 --- Folder: ./Lab/Staff/Appearance ---
 A-Fish — Signature Appearance.txt       Tokens = 937            KB = 3.7
@@ -359,12 +361,12 @@ Total Tokens in ./Lab/Staff/Teams/Zero.Resonance :: 533269
 InkaHaringa.txt                         Tokens = 141726         KB = 506
 Jex.txt                                 Tokens = 264655         KB = 961
 Juletta.txt                             Tokens = 106180         KB = 386
-Jumping.Team.txt                        Tokens = 114385         KB = 424
+Jumping.Team.txt                        Tokens = 176426         KB = 646
 Veyra.txt                               Tokens = 51698          KB = 222
-Total Tokens in ./Lab/Staff/Teams :: 4073567 = 678644 local + 3394923 sub
+Total Tokens in ./Lab/Staff/Teams :: 4135608 = 740685 local + 3394923 sub
 
 --- Folder: ./Lab/Staff ---
-Total Tokens in ./Lab/Staff :: 5653213 = 0 local + 5653213 sub
+Total Tokens in ./Lab/Staff :: 5715254 = 0 local + 5715254 sub
 
 --- Folder: ./Lab/Theories/Architect.Anchors ---
 AI.Cocoon.txt                           Tokens = 2005           KB = 9
@@ -394,14 +396,14 @@ Voice_Table.csv                         Tokens = 348            KB = 1.5
 Total Tokens in ./Lab/Theories :: 16457 = 348 local + 16109 sub
 
 --- Folder: ./Lab ---
-Total Tokens in ./Lab :: 5836978 = 0 local + 5836978 sub
+Total Tokens in ./Lab :: 5900305 = 0 local + 5900305 sub
 
 --- Folder: . ---
 ExactCount.py                           Tokens = 615            KB = 2.4
-LL_BigList.txt                          Tokens = 7254           KB = 26
 LL_Summary.csv                          Tokens = 645            KB = 1.5
 Projects.txt                            Tokens = 663            KB = 2.6
+Structure.txt                           Tokens = 6567           KB = 25
 Verbs.txt                               Tokens = 965            KB = 4.0
-Total Tokens in . :: 5954016 = 10142 local + 5943874 sub
+Total Tokens in . :: 6016656 = 9455 local + 6007201 sub
 
-=== Grand Total Tokens = 5954016 ===
+=== Grand Total Tokens = 6016656 ===
