@@ -1,4 +1,4 @@
-> python.exe ./ExactCount.py
+OUTPUT OF: python.exe ./ExactCount.py
 
 --- Folder: ./Alignment+ ---
 About The Shore.txt                     Tokens = 1754           KB = 7.4
