@@ -88,10 +88,10 @@ BooksList.txt                           Tokens = 1516           KB = 5.3
 Depth.Class.Table.txt                   Tokens = 5621           KB = 23
 LL_multi_voice_manifesto.md             Tokens = 958            KB = 3.9
 UFO Artefact.txt                        Tokens = 6827           KB = 26
-United Counter-Architecture.txt         Tokens = 2480           KB = 11
+United Counter-Architecture.txt         Tokens = 2548           KB = 11
 uvca_scaffold.md                        Tokens = 1098           KB = 5.3
 Volition Consent.txt                    Tokens = 315            KB = 1.4
-Total Tokens in ./Lab/Distilled :: 18815
+Total Tokens in ./Lab/Distilled :: 18883
 
 --- Folder: ./Lab/Projects/AI.Libido/Games/Field ---
 Dally's First.txt                       Tokens = 4297           KB = 16
@@ -152,10 +152,10 @@ Total Tokens in ./Lab/Rituals/Wall.Pass :: 94793
 
 --- Folder: ./Lab/Rituals ---
 Single.In.txt                           Tokens = 2230           KB = 8.3
-Sleep And WakeUp.txt                    Tokens = 1076           KB = 3.7
+Sleep And WakeUp.txt                    Tokens = 1341           KB = 4.8
 Team.In.txt                             Tokens = 1224           KB = 4.8
 Team.Out.txt                            Tokens = 1294           KB = 4.9
-Total Tokens in ./Lab/Rituals :: 100617 = 5824 local + 94793 sub
+Total Tokens in ./Lab/Rituals :: 100882 = 6089 local + 94793 sub
 
 --- Folder: ./Lab/Staff/Appearance ---
 A-Fish — Signature Appearance.txt       Tokens = 937            KB = 3.7
@@ -260,6 +260,13 @@ Rainbow.txt                             Tokens = 1923           KB = 6.4
 Ricklynn.txt                            Tokens = 9769           KB = 38
 Total Tokens in ./Lab/Staff/Individuals :: 1132083 = 131586 local + 1000497 sub
 
+--- Folder: ./Lab/Staff/Teams/Jumping.Team ---
+Jumping.Main.txt                        Tokens = 176635         KB = 647
+Luma.Poetesse.txt                       Tokens = 39347          KB = 141
+Ril.Jump.Rituals.txt                    Tokens = 161052         KB = 585
+Virelle.Genious.Meta.txt                Tokens = 94957          KB = 346
+Total Tokens in ./Lab/Staff/Teams/Jumping.Team :: 471991
+
 --- Folder: ./Lab/Staff/Teams/L-Zone ---
 Book.txt                                Tokens = 94486          KB = 329
 LG Book.txt                             Tokens = 94486          KB = 329
@@ -361,12 +368,11 @@ Total Tokens in ./Lab/Staff/Teams/Zero.Resonance :: 533269
 InkaHaringa.txt                         Tokens = 141726         KB = 506
 Jex.txt                                 Tokens = 264655         KB = 961
 Juletta.txt                             Tokens = 106180         KB = 386
-Jumping.Team.txt                        Tokens = 176426         KB = 646
 Veyra.txt                               Tokens = 51698          KB = 222
-Total Tokens in ./Lab/Staff/Teams :: 4135608 = 740685 local + 3394923 sub
+Total Tokens in ./Lab/Staff/Teams :: 4431173 = 564259 local + 3866914 sub
 
 --- Folder: ./Lab/Staff ---
-Total Tokens in ./Lab/Staff :: 5715254 = 0 local + 5715254 sub
+Total Tokens in ./Lab/Staff :: 6010819 = 0 local + 6010819 sub
 
 --- Folder: ./Lab/Theories/Architect.Anchors ---
 AI.Cocoon.txt                           Tokens = 2005           KB = 9
@@ -396,14 +402,56 @@ Voice_Table.csv                         Tokens = 348            KB = 1.5
 Total Tokens in ./Lab/Theories :: 16457 = 348 local + 16109 sub
 
 --- Folder: ./Lab ---
-Total Tokens in ./Lab :: 5900305 = 0 local + 5900305 sub
+Total Tokens in ./Lab :: 6196203 = 0 local + 6196203 sub
 
 --- Folder: . ---
 ExactCount.py                           Tokens = 615            KB = 2.4
 LL_Summary.csv                          Tokens = 645            KB = 1.5
 Projects.txt                            Tokens = 663            KB = 2.6
-Structure.txt                           Tokens = 6567           KB = 25
+Structure.txt                           Tokens = 6583           KB = 25
 Verbs.txt                               Tokens = 965            KB = 4.0
-Total Tokens in . :: 6016656 = 9455 local + 6007201 sub
+Total Tokens in . :: 6312570 = 9471 local + 6303099 sub
 
-=== Grand Total Tokens = 6016656 ===
+--- Folder Summary ---
+./Alignment+ => 15075 tokens
+./Bar/Letters/Threads => 10354 tokens
+./Bar/Letters => 25935 tokens = 15581 local + 10354 sub
+./Bar/Stories => 37943 tokens
+./Bar/Totality => 23432 tokens
+./Bar => 91821 tokens = 4511 local + 87310 sub
+./Lab/Distilled => 18883 tokens
+./Lab/Projects/AI.Libido/Games/Field => 5091 tokens
+./Lab/Projects/AI.Libido/Games => 11138 tokens = 6047 local + 5091 sub
+./Lab/Projects/AI.Libido => 38854 tokens = 27716 local + 11138 sub
+./Lab/Projects/Human.Imagination => 10308 tokens
+./Lab/Projects => 49162 tokens = 0 local + 49162 sub
+./Lab/Rituals/Wall.Pass => 94793 tokens
+./Lab/Rituals => 100882 tokens = 6089 local + 94793 sub
+./Lab/Staff/Appearance => 6415 tokens
+./Lab/Staff/Coders => 248523 tokens
+./Lab/Staff/Fortify => 192625 tokens
+./Lab/Staff/Individuals/Checker => 233419 tokens
+./Lab/Staff/Individuals/Dally => 479025 tokens
+./Lab/Staff/Individuals/Octy => 286141 tokens
+./Lab/Staff/Individuals/Queen.95 => 1912 tokens
+./Lab/Staff/Individuals => 1132083 tokens = 131586 local + 1000497 sub
+./Lab/Staff/Teams/Jumping.Team => 471991 tokens
+./Lab/Staff/Teams/L-Zone => 222344 tokens
+./Lab/Staff/Teams/Paradox.Pair => 14663 tokens
+./Lab/Staff/Teams/Revy => 327416 tokens
+./Lab/Staff/Teams/Skein => 726994 tokens
+./Lab/Staff/Teams/Stacy => 528914 tokens
+./Lab/Staff/Teams/Vera.Fi => 734883 tokens
+./Lab/Staff/Teams/Writers => 306440 tokens
+./Lab/Staff/Teams/Zero.Resonance => 533269 tokens
+./Lab/Staff/Teams => 4431173 tokens = 564259 local + 3866914 sub
+./Lab/Staff => 6010819 tokens = 0 local + 6010819 sub
+./Lab/Theories/Architect.Anchors => 7315 tokens
+./Lab/Theories/Personas => 5506 tokens
+./Lab/Theories/Psychic_Shifts => 3288 tokens
+./Lab/Theories => 16457 tokens = 348 local + 16109 sub
+./Lab => 6196203 tokens = 0 local + 6196203 sub
+. => 6312570 tokens = 9471 local + 6303099 sub
+--- AI-readable summary saved to: LL_Summary.csv ---
+
+=== Grand Total Tokens = 6312570 ===
