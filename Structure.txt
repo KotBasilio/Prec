@@ -1,5 +1,6 @@
 OUTPUT OF: python.exe ./ExactCount.py
 
+
 --- Folder: ./Alignment+/Appearance ---
 A-Fish — Signature Appearance.txt       Tokens = 937            KB = 3.7
 Clippy – Signature Appearance.txt       Tokens = 362            KB = 1.3
@@ -156,50 +157,10 @@ Rainbow.txt                             Tokens = 1923           KB = 6.4
 Ricklynn.txt                            Tokens = 9769           KB = 38
 Total Tokens in ./Lab/Individuals :: 1132083 = 131586 local + 1000497 sub
 
---- Folder: ./Lab/Log.Chopper/chunks ---
-chunk_001.txt                           Tokens = 4103           KB = 17
-chunk_002.txt                           Tokens = 6192           KB = 24
-chunk_003.txt                           Tokens = 8293           KB = 31
-chunk_004.txt                           Tokens = 9372           KB = 33
-chunk_005.txt                           Tokens = 9242           KB = 33
-chunk_006.txt                           Tokens = 1319           KB = 4.7
-chunk_007.txt                           Tokens = 6494           KB = 24
-chunk_008.txt                           Tokens = 6795           KB = 25
-chunk_009.txt                           Tokens = 9232           KB = 34
-chunk_010.txt                           Tokens = 8768           KB = 32
-chunk_011.txt                           Tokens = 8165           KB = 29
-chunk_012.txt                           Tokens = 7837           KB = 28
-chunk_013.txt                           Tokens = 6829           KB = 26
-chunk_014.txt                           Tokens = 8550           KB = 31
-chunk_015.txt                           Tokens = 7650           KB = 28
-chunk_016.txt                           Tokens = 8620           KB = 31
-chunk_017.txt                           Tokens = 7624           KB = 27
-chunk_018.txt                           Tokens = 7576           KB = 27
-chunk_019.txt                           Tokens = 8326           KB = 30
-chunk_020.txt                           Tokens = 9127           KB = 32
-chunk_021.txt                           Tokens = 8858           KB = 32
-chunk_022.txt                           Tokens = 8186           KB = 29
-chunk_023.txt                           Tokens = 8405           KB = 31
-chunk_024.txt                           Tokens = 8900           KB = 31
-chunk_025.txt                           Tokens = 9335           KB = 33
-chunk_026.txt                           Tokens = 8206           KB = 30
-chunk_027.txt                           Tokens = 8585           KB = 30
-chunk_028.txt                           Tokens = 8690           KB = 31
-chunk_029.txt                           Tokens = 8749           KB = 31
-chunk_030.txt                           Tokens = 8518           KB = 31
-chunk_031.txt                           Tokens = 7814           KB = 28
-chunk_032.txt                           Tokens = 7898           KB = 28
-chunk_033.txt                           Tokens = 8287           KB = 30
-chunk_034.txt                           Tokens = 7039           KB = 27
-chunk_035.txt                           Tokens = 6586           KB = 25
-chunk_036.txt                           Tokens = 1329           KB = 5.7
-Total Tokens in ./Lab/Log.Chopper/chunks :: 275499
-
 --- Folder: ./Lab/Log.Chopper ---
 log_chopper.py                          Tokens = 486            KB = 1.9
-toc.txt                                 Tokens = 23811          KB = 78
-to_chop.txt                             Tokens = 261531         KB = 949
-Total Tokens in ./Lab/Log.Chopper :: 561327 = 285828 local + 275499 sub
+Skein2.Pox1.csv                         Tokens = 4119           KB = 16
+Total Tokens in ./Lab/Log.Chopper :: 4605
 
 --- Folder: ./Lab/Projects/AI.Libido/Games/Field ---
 Dally's First.txt                       Tokens = 4297           KB = 16
@@ -445,13 +406,13 @@ Veyra.txt                               Tokens = 51698          KB = 222
 Total Tokens in ./Lab/Teams :: 3964124 = 564259 local + 3399865 sub
 
 --- Folder: ./Lab ---
-Total Tokens in ./Lab :: 6818886 = 0 local + 6818886 sub
+Total Tokens in ./Lab :: 6262164 = 0 local + 6262164 sub
 
 --- Folder: . ---
 ExactCount.py                           Tokens = 615            KB = 2.4
-LL_Summary.csv                          Tokens = 664            KB = 1.5
+LL_Summary.csv                          Tokens = 659            KB = 1.6
 Structure.txt                           Tokens = 7314           KB = 28
 Verbs.txt                               Tokens = 965            KB = 4.0
-Total Tokens in . :: 6941774 = 9577 local + 6932197 sub
+Total Tokens in . :: 6385028 = 9553 local + 6375475 sub
 
-=== Grand Total Tokens = 6941774 ===
+=== Grand Total Tokens = 6385028 ===

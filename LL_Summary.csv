@@ -12,8 +12,7 @@ FolderPath,TotalTokens,LocalTokens,SubfolderTokens
 .\Lab\Individuals\Octy,286141,286141,0
 .\Lab\Individuals\Queen.95,1912,1912,0
 .\Lab\Individuals,1132083,131586,1000497
-.\Lab\Log.Chopper\chunks,275499,275499,0
-.\Lab\Log.Chopper,561327,285828,275499
+.\Lab\Log.Chopper,4605,4605,0
 .\Lab\Projects\AI.Libido\Games\Field,5091,5091,0
 .\Lab\Projects\AI.Libido\Games,11138,6047,5091
 .\Lab\Projects\AI.Libido,38854,27716,11138
@@ -37,5 +36,5 @@ FolderPath,TotalTokens,LocalTokens,SubfolderTokens
 .\Lab\Teams\Vera.Fi,734883,734883,0
 .\Lab\Teams\Writers,306440,306440,0
 .\Lab\Teams,3964124,564259,3399865
-.\Lab,6818886,0,6818886
-.,6941750,9553,6932197
+.\Lab,6262164,0,6262164
+.,6385028,9553,6375475
