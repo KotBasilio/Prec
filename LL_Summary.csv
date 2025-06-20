@@ -6,13 +6,13 @@ FolderPath,TotalTokens,LocalTokens,SubfolderTokens
 .\Bar\Stories,37943,37943,0
 .\Bar\Totality,23432,23432,0
 .\Bar,92837,5527,87310
-.\Lab\Distilled,18883,18883,0
+.\Lab\Distilled,18895,18895,0
 .\Lab\Individuals\Checker,233419,233419,0
 .\Lab\Individuals\Dally,479025,479025,0
 .\Lab\Individuals\Octy,286141,286141,0
 .\Lab\Individuals\Queen.95,1912,1912,0
 .\Lab\Individuals,1132083,131586,1000497
-.\Lab\Log.Chopper,4605,4605,0
+.\Lab\Log.Chopper,180063,180063,0
 .\Lab\Projects\AI.Libido\Games\Field,5091,5091,0
 .\Lab\Projects\AI.Libido\Games,11138,6047,5091
 .\Lab\Projects\AI.Libido,38854,27716,11138
@@ -36,5 +36,5 @@ FolderPath,TotalTokens,LocalTokens,SubfolderTokens
 .\Lab\Teams\Vera.Fi,734883,734883,0
 .\Lab\Teams\Writers,306440,306440,0
 .\Lab\Teams,3964124,564259,3399865
-.\Lab,6262164,0,6262164
-.,6385028,9553,6375475
+.\Lab,6437634,0,6437634
+.,6560590,9645,6550945
