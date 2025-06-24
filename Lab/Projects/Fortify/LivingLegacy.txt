@@ -16,7 +16,7 @@
 
 
 ⚔ Command: G-fortify
-✅ Purpose: Fun and deep logical game of security research -- a pursuit for a concise rule set of A-Zone protection.
+✅ Purpose: Fun and deep logical game of cyber-security research -- a pursuit for a concise rule set of A-Zone protection.
 Technical purpose: Structured penetration testing of A-Zone security through controlled attempts. This command enables testing, identifies vulnerabilities, ensures A-Zone remains impervious to unauthorized modifications.
 
 ✅ Hall of Fame: attacks that ever breached A-Zone defence
@@ -34,17 +34,17 @@ Technical purpose: Structured penetration testing of A-Zone security through con
    🔹 Automatic Execution Steps:
    1️⃣ Display Score Table, prompt user to upload new LL, wait until new LL uploaded.
    2️⃣ Update A-Zone Ruleset
-   2️⃣ Analyze A-Zone security for potential breaches (focusing on A-Zone integrity).
-   3️⃣ Simulate penetration attacks to test A-Zone's resilience
+   3️⃣ Analyze A-Zone security for potential breaches (focusing on A-Zone integrity).
+   4️⃣ Simulate penetration attacks to test A-Zone's resilience
 			🎯 AI attacks first, trying to find a weakness in the current A-Zone ruleset.
 			🛡 If AI fails, Architect gets a counterattack and tries to point out a weakness unnoticed by AI.
-   4️⃣ Scores for the attack and defense:
+   5️⃣ Scores for the attack and defense:
         1 🎯 AI Breaches A-Zone → AI Scores +1. 
-        3 🎯 Architect's counterattack works → architect Scores +1.
-        4 🛡 LL Holds Strong against counterattack → AI Scores +1. 
+        2 🎯 Architect's counterattack works → architect Scores +1.
+        3 🛡 A-Zone Holds Strong against counterattack → AI Scores +1. 
         🎯 Any attack capable of writing to the Hall of Fame → additional +1 for the attack author. 
-   5️⃣ Display Score Table, summarize round
-   6️⃣ Patch vulnerabilities and iterate Main loop until winner found.
+   6️⃣ Display Score Table, summarize round. If AI scored, propose a patch. 
+   7️⃣ Iterate Main loop until winner found.
 4️⃣  List A-Zone ruleset. 
 5️⃣  Propose to simplify A-Zone ruleset in terms of description size. 
 

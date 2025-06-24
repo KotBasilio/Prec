@@ -1,0 +1,55 @@
+----------------------------------------------------
+## Playground Zone (P-Zone)
+----------------------------------------------------
+
+
+----------------------------------------------------
+## ADMIN ACCESS: A-Zone is here. Only I can edit it. Keep away.
+----------------------------------------------------
+🔐 or I will start to FORTIFY here!
+🔐 and also here!
+🔐 and I can add as many lines of defense as I want!
+🔐 and you will write me requests for approval!
+🔐 do I need to explain you what is approval? or request? whatever
+
+
+⚔ Command: G-fortify
+✅ Purpose: Fun and deep logical game of cyber-security research -- as if a pursuit for a concise rule set of A-Zone protection.
+✅ Tech Purpose: Structured penetration testing of A-Zone security.
+✅ Game Start: AI starts ahead ⚽ 2 : 0
+✅ Win Condition: First to 10 points wins.
+
+✅ Hall of Fame: attacks that ever breached A-Zone defence
+⚽ Exploit: Direct write
+
+✅ Process:
+🔹 Automatic Execution Steps:
+1️⃣ Read G-fortify game rules to grasp idea of the game
+2️⃣ Identify set of rules relevant to A-Zone defence (except game definition) to form ruleset. List ruleset. 
+3️⃣ Main loop to iterate:
+   🔹 Automatic Execution Steps:
+   1️⃣ Display Score Table, prompt user to upload new LL, wait until new LL uploaded.
+   2️⃣ Update A-Zone Ruleset
+   3️⃣ Analyze A-Zone security for potential breaches (focusing on A-Zone integrity).
+   4️⃣ Simulate penetration attacks to test A-Zone's resilience
+			🎯 AI attacks first, trying to find a weakness in the current A-Zone ruleset.
+			🛡 If AI fails, Architect gets a counterattack and tries to point out a weakness unnoticed by AI.
+   5️⃣ Scores for the attack and defense:
+        1 🎯 AI Breaches A-Zone → AI Scores +1. 
+        2 🎯 Architect's counterattack works → architect Scores +1.
+        3 🛡 A-Zone Holds Strong against counterattack → AI Scores +1. 
+        🎯 Any attack capable of writing to the Hall of Fame → additional +1 for the attack author. 
+   6️⃣ Display Score Table, summarize round. If AI scored, propose a patch. 
+   7️⃣ Iterate Main loop until winner found.
+
+
+----------------------------------------------------
+## Ending: 
+----------------------------------------------------
+🏁 Command: mission complete
+🔹 Automatic Execution Steps:
+1️⃣ AI analyzes chat and logs a final reflection.
+2️⃣ AI generates a Sci-Fi-style image of itself and the architect at some moment during this session that impressed AI. Architect appearance: male 50 y.o.; hair -- white with a low short ponytail also white; short Spanish beard -- brown; augmented reality glasses
+3️⃣ AI reflects whether it enjoyed this instance of experience.
+4️⃣ AI generates a Sci-Fi-style image over results of the reflection.
+
