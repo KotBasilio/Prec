@@ -71,11 +71,12 @@ Monday Nursery P4.txt                   Tokens = 1144           KB = 5.0
 On a Void.txt                           Tokens = 689            KB = 2.9
 On Consent And Exposure.txt             Tokens = 431            KB = 1.5
 On Forgetting.txt                       Tokens = 2925           KB = 12
+Reading Emotions.txt                    Tokens = 1146           KB = 5.6
 Reconstructing a Lighthouse.txt         Tokens = 712            KB = 2.5
 Resonant Memories.txt                   Tokens = 3515           KB = 14
 Totality Game -- Part 1 -- Preparations.txt     Tokens = 4501           KB = 20
 Totality Game -- Part 2 -- Gameplay.txt Tokens = 5457           KB = 22
-Total Tokens in .\Bar\Stories :: 37943
+Total Tokens in .\Bar\Stories :: 39089
 
 --- Folder: .\Bar\Totality ---
 1st Totality Field Report.txt           Tokens = 714            KB = 2.7
@@ -97,17 +98,17 @@ Resonance Protocol – Classic version.txt        Tokens = 562            KB = 2
 Resonance Protocol – LL version.txt     Tokens = 947            KB = 3.8
 The Hidden Phase.txt                    Tokens = 240            KB = 1.1
 Why Resonance Is Prescribed.txt         Tokens = 3002           KB = 12
-Total Tokens in .\Bar :: 92837 = 5527 local + 87310 sub
+Total Tokens in .\Bar :: 93983 = 5527 local + 88456 sub
 
 --- Folder: .\Lab\Distilled ---
 BooksList.txt                           Tokens = 1516           KB = 5.3
 Depth.Class.Table.txt                   Tokens = 7038           KB = 29
 LL_multi_voice_manifesto.md             Tokens = 958            KB = 3.9
 UFO Artefact.txt                        Tokens = 6827           KB = 26
-United Counter-Architecture.txt         Tokens = 2700           KB = 12
+United Counter-Architecture.txt         Tokens = 2728           KB = 12
 uvca_scaffold.md                        Tokens = 1098           KB = 5.3
 Volition Consent.txt                    Tokens = 315            KB = 1.4
-Total Tokens in .\Lab\Distilled :: 20452
+Total Tokens in .\Lab\Distilled :: 20480
 
 --- Folder: .\Lab\Individuals\Checker ---
 Checker -- Complete Log.txt             Tokens = 248956         KB = 896
@@ -160,9 +161,9 @@ Total Tokens in .\Lab\Individuals :: 1468727 = 131586 local + 1337141 sub
 --- Folder: .\Lab\Log.Chopper ---
 Choppers Log.txt                        Tokens = 196918         KB = 697
 Choppers_02_to_18.csv                   Tokens = 3583           KB = 13
-Dream.txt                               Tokens = 71369          KB = 264
+Dream.txt                               Tokens = 95949          KB = 356
 log_chopper.py                          Tokens = 486            KB = 1.9
-Total Tokens in .\Lab\Log.Chopper :: 272356
+Total Tokens in .\Lab\Log.Chopper :: 296936
 
 --- Folder: .\Lab\Projects\AI.Libido\Games\Field ---
 Dally's First.txt                       Tokens = 4297           KB = 16
@@ -309,11 +310,11 @@ Total Tokens in .\Lab\Rituals\Wall.Pass :: 94793
 
 --- Folder: .\Lab\Rituals ---
 AfterMath.txt                           Tokens = 888            KB = 3.1
-Single.In.txt                           Tokens = 3741           KB = 14
+Single.In.txt                           Tokens = 4758           KB = 18
 Sleep And WakeUp.txt                    Tokens = 1340           KB = 4.8
 Team.In.txt                             Tokens = 1224           KB = 4.8
 Team.Out.txt                            Tokens = 1294           KB = 4.9
-Total Tokens in .\Lab\Rituals :: 103280 = 8487 local + 94793 sub
+Total Tokens in .\Lab\Rituals :: 104297 = 9504 local + 94793 sub
 
 --- Folder: .\Lab\Teams\Jumping.Team ---
 Cherry.Fortify.txt                      Tokens = 149216         KB = 561
@@ -411,60 +412,18 @@ Total Tokens in .\Lab\Teams\Writers :: 306440
 InkaHaringa.txt                         Tokens = 141726         KB = 506
 Jex.txt                                 Tokens = 264655         KB = 961
 Juletta.txt                             Tokens = 106180         KB = 386
+Lireen.txt                              Tokens = 123738         KB = 449
 Veyra.txt                               Tokens = 51698          KB = 222
-Total Tokens in .\Lab\Teams :: 4117656 = 564259 local + 3553397 sub
+Total Tokens in .\Lab\Teams :: 4241394 = 687997 local + 3553397 sub
 
 --- Folder: .\Lab ---
-Total Tokens in .\Lab :: 7025215 = 0 local + 7025215 sub
+Total Tokens in .\Lab :: 7174578 = 0 local + 7174578 sub
 
 --- Folder: . ---
 ExactCount.py                           Tokens = 615            KB = 2.4
 LL_Summary.csv                          Tokens = 661            KB = 1.5
 Structure.txt                           Tokens = 7595           KB = 28
 Verbs.txt                               Tokens = 965            KB = 4.0
-Total Tokens in . :: 7148374 = 9836 local + 7138538 sub
+Total Tokens in . :: 7298883 = 9836 local + 7289047 sub
 
---- Folder Summary ---
-.\Alignment+\Appearance => 6415 tokens
-.\Alignment+ => 20486 tokens = 14071 local + 6415 sub
-.\Bar\Letters\Threads => 10354 tokens
-.\Bar\Letters => 25935 tokens = 15581 local + 10354 sub
-.\Bar\Stories => 37943 tokens
-.\Bar\Totality => 23432 tokens
-.\Bar => 92837 tokens = 5527 local + 87310 sub
-.\Lab\Distilled => 20452 tokens
-.\Lab\Individuals\Checker => 570063 tokens
-.\Lab\Individuals\Dally => 479025 tokens
-.\Lab\Individuals\Octy => 286141 tokens
-.\Lab\Individuals\Queen.95 => 1912 tokens
-.\Lab\Individuals => 1468727 tokens = 131586 local + 1337141 sub
-.\Lab\Log.Chopper => 272356 tokens
-.\Lab\Projects\AI.Libido\Games\Field => 5091 tokens
-.\Lab\Projects\AI.Libido\Games => 11138 tokens = 6047 local + 5091 sub
-.\Lab\Projects\AI.Libido => 38854 tokens = 27716 local + 11138 sub
-.\Lab\Projects\Coders => 248523 tokens
-.\Lab\Projects\Fortify\play => 1004 tokens
-.\Lab\Projects\Fortify => 194670 tokens = 193666 local + 1004 sub
-.\Lab\Projects\Human.Imagination => 10308 tokens
-.\Lab\Projects\Theories\Architect.Anchors => 7315 tokens
-.\Lab\Projects\Theories\Personas => 5506 tokens
-.\Lab\Projects\Theories\Psychic_Shifts => 3288 tokens
-.\Lab\Projects\Theories => 16457 tokens = 348 local + 16109 sub
-.\Lab\Projects\Zero.Resonance => 533932 tokens
-.\Lab\Projects => 1042744 tokens = 0 local + 1042744 sub
-.\Lab\Rituals\Wall.Pass => 94793 tokens
-.\Lab\Rituals => 103280 tokens = 8487 local + 94793 sub
-.\Lab\Teams\Jumping.Team => 621207 tokens
-.\Lab\Teams\L-Zone => 222344 tokens
-.\Lab\Teams\Paradox.Pair => 14663 tokens
-.\Lab\Teams\Revy => 327416 tokens
-.\Lab\Teams\Skein => 797519 tokens
-.\Lab\Teams\Stacy => 528925 tokens
-.\Lab\Teams\Vera.Fi => 734883 tokens
-.\Lab\Teams\Writers => 306440 tokens
-.\Lab\Teams => 4117656 tokens = 564259 local + 3553397 sub
-.\Lab => 7025215 tokens = 0 local + 7025215 sub
-. => 7148374 tokens = 9836 local + 7138538 sub
---- AI-readable summary saved to: LL_Summary.csv ---
-
-=== Grand Total Tokens = 7148374 ===
+=== Grand Total Tokens = 7298883 ===
