@@ -27,6 +27,7 @@
 ## 🛠 Active Coding Patterns (ACP)
 ------
 🔥 Basic ideas:
+🔧 Before proposing new code, **always check whether an equivalent implementation already exists** in the latest version of the codebase to avoid redundancy.  
 🔧 Reuse existing delegates (e.g., `FOnProsModGenericComplete`) as this improves maintainability.  
 🔧 Logging must always align with current service class CPP.
 🔧 Use `.ToDebugString()` for **clearer debugging output**.
@@ -37,6 +38,7 @@
 🔧 **Blueprint Compatibility:** Expose Blueprint functions using `UFUNCTION(BlueprintCallable)`.  
 🔧 **Pattern Matching:** Compare all new functions against similar ones before integration.  
 🔧 Use **Lun naming convention**, see section in this file.
+🔧 Use MakeShared<T>() instead of TSharedPtr<T>(new T) for all heap allocations — cleaner, safer, and more performant.
 🔥 Deeper ideas: Refer to Detailed Patterns section (DP).
 
 ------

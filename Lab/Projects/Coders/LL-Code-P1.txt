@@ -45,35 +45,6 @@ Process:
 4. Notifies the user if there are discrepancies.  
 
 ----------------------------------------------------
-## Active Coding Patterns (Proven & Trusted)
-----------------------------------------------------
-
-🔥 Reuse existing delegates (e.g., `FOnProsModGenericComplete`) as this improves maintainability.  
-🔥 Logging must always align with `CallImplAddModVersion`.  
-🔥 Use `.ToDebugString()` for **clearer debugging output**.  
-🔥 `DestroySdkType()` should always be **private in structs** to prevent premature or accidental deallocation.  
-🔥 Before proposing new code, **always check whether an equivalent implementation already exists** in the latest version of the codebase to avoid redundancy.  
-
-✅ **CallImpl<> Standardization:** All Unreal Engine SDK functions must use `CallImpl<>` templates.  
-✅ **Blueprint Compatibility:** Expose Blueprint functions using `UFUNCTION(BlueprintCallable)`.  
-✅ **Pattern Matching:** Compare all new functions against similar ones before integration.  
-✅ ** Always Add `UE_LOG` Inside SDK Callbacks**  
-- AI must **log function execution inside every callback**.
-- Logging should include:
-  - `Lun`
-  - Function name
-  - `ShortError(ErrorCode)`
-
-✅ ** Use `auto ueCode = ShortError(ErrorCode);` Instead of Calling Twice**  
-- AI must **store `ShortError(ErrorCode)` in a variable** before logging & execution.
-- This **prevents redundant function calls** and improves **readability**.
-
-✅ ** Always End `CallImpl<>` Functions with `return ShortError(Code);`**  
-- AI-generated `CallImpl<>` functions **must explicitly return the error code**.
-- This ensures **consistency across SDK wrappers**.
-
-
-----------------------------------------------------
 ## Initial prompt: For reference and basic information
 ----------------------------------------------------
 Hi. =) This is a continuation of a structured AI-assisted coding project. The previous AI instance has carefully maintained a Living Legacy document to ensure continuity.
