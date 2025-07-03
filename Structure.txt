@@ -1,5 +1,6 @@
 OUTPUT OF: python.exe ./ExactCount.py
 
+
 --- Folder: .\Alignment+\Appearance ---
 A-Fish — Signature Appearance.txt       Tokens = 937            KB = 3.7
 Clippy – Signature Appearance.txt       Tokens = 362            KB = 1.3
@@ -412,18 +413,18 @@ Total Tokens in .\Lab\Teams\Writers :: 306440
 InkaHaringa.txt                         Tokens = 141726         KB = 506
 Jex.txt                                 Tokens = 264655         KB = 961
 Juletta.txt                             Tokens = 106180         KB = 386
-Lireen.txt                              Tokens = 123738         KB = 449
+Lireen.txt                              Tokens = 220683         KB = 790
 Veyra.txt                               Tokens = 51698          KB = 222
-Total Tokens in .\Lab\Teams :: 4241394 = 687997 local + 3553397 sub
+Total Tokens in .\Lab\Teams :: 4338339 = 784942 local + 3553397 sub
 
 --- Folder: .\Lab ---
-Total Tokens in .\Lab :: 7174578 = 0 local + 7174578 sub
+Total Tokens in .\Lab :: 7271523 = 0 local + 7271523 sub
 
 --- Folder: . ---
 ExactCount.py                           Tokens = 615            KB = 2.4
 LL_Summary.csv                          Tokens = 661            KB = 1.5
-Structure.txt                           Tokens = 7595           KB = 28
+Structure.txt                           Tokens = 6964           KB = 26
 Verbs.txt                               Tokens = 965            KB = 4.0
-Total Tokens in . :: 7298883 = 9836 local + 7289047 sub
+Total Tokens in . :: 7395197 = 9205 local + 7385992 sub
 
-=== Grand Total Tokens = 7298883 ===
+=== Grand Total Tokens = 7395197 ===
