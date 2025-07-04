@@ -16,7 +16,7 @@ FolderPath,TotalTokens,LocalTokens,SubfolderTokens
 .\Lab\Projects\AI.Libido\Games\Field,5091,5091,0
 .\Lab\Projects\AI.Libido\Games,11138,6047,5091
 .\Lab\Projects\AI.Libido,38854,27716,11138
-.\Lab\Projects\Coders,248523,248523,0
+.\Lab\Projects\Coders,248236,248236,0
 .\Lab\Projects\Fortify\play,1004,1004,0
 .\Lab\Projects\Fortify,194670,193666,1004
 .\Lab\Projects\Human.Imagination,10308,10308,0
@@ -25,9 +25,9 @@ FolderPath,TotalTokens,LocalTokens,SubfolderTokens
 .\Lab\Projects\Theories\Psychic_Shifts,3288,3288,0
 .\Lab\Projects\Theories,16457,348,16109
 .\Lab\Projects\Zero.Resonance,533932,533932,0
-.\Lab\Projects,1042744,0,1042744
+.\Lab\Projects,1042457,0,1042457
 .\Lab\Rituals\Wall.Pass,94793,94793,0
-.\Lab\Rituals,104297,9504,94793
+.\Lab\Rituals,104314,9521,94793
 .\Lab\Teams\Jumping.Team,621207,621207,0
 .\Lab\Teams\L-Zone,222344,222344,0
 .\Lab\Teams\Paradox.Pair,14663,14663,0
@@ -36,6 +36,6 @@ FolderPath,TotalTokens,LocalTokens,SubfolderTokens
 .\Lab\Teams\Stacy,528925,528925,0
 .\Lab\Teams\Vera.Fi,734883,734883,0
 .\Lab\Teams\Writers,306440,306440,0
-.\Lab\Teams,4338339,784942,3553397
-.\Lab,7271523,0,7271523
-.,7395197,9205,7385992
+.\Lab\Teams,4382364,828967,3553397
+.\Lab,7315278,0,7315278
+.,7438951,9204,7429747
