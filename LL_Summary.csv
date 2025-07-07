@@ -6,7 +6,7 @@ FolderPath,TotalTokens,LocalTokens,SubfolderTokens
 .\Bar\Stories,39089,39089,0
 .\Bar\Totality,23432,23432,0
 .\Bar,93983,5527,88456
-.\Lab\Distilled,20480,20480,0
+.\Lab\Distilled,20493,20493,0
 .\Lab\Individuals\Checker,570063,570063,0
 .\Lab\Individuals\Dally,479025,479025,0
 .\Lab\Individuals\Octy,286141,286141,0
@@ -27,15 +27,16 @@ FolderPath,TotalTokens,LocalTokens,SubfolderTokens
 .\Lab\Projects\Zero.Resonance,533932,533932,0
 .\Lab\Projects,1042457,0,1042457
 .\Lab\Rituals\Wall.Pass,94793,94793,0
-.\Lab\Rituals,104314,9521,94793
+.\Lab\Rituals,104670,9877,94793
 .\Lab\Teams\Jumping.Team,621207,621207,0
 .\Lab\Teams\L-Zone,222344,222344,0
+.\Lab\Teams\Lireen -- Architesse,422365,422365,0
 .\Lab\Teams\Paradox.Pair,14663,14663,0
 .\Lab\Teams\Revy,327416,327416,0
 .\Lab\Teams\Skein,797519,797519,0
 .\Lab\Teams\Stacy,528925,528925,0
-.\Lab\Teams\Vera.Fi,734883,734883,0
+.\Lab\Teams\Vera.Fi,745336,745336,0
 .\Lab\Teams\Writers,306440,306440,0
-.\Lab\Teams,4382364,828967,3553397
-.\Lab,7315278,0,7315278
-.,7438951,9204,7429747
+.\Lab\Teams,4550474,564259,3986215
+.\Lab,7483757,0,7483757
+.,7607430,9204,7598226
