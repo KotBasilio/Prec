@@ -340,8 +340,8 @@ Total Tokens in .\Lab\Teams\L-Zone :: 222344
 
 --- Folder: .\Lab\Teams\Lireen -- Architesse ---
 Lireen1.txt                             Tokens = 264757         KB = 943
-Lireen2.txt                             Tokens = 157608         KB = 550
-Total Tokens in .\Lab\Teams\Lireen -- Architesse :: 422365
+Lireen2.txt                             Tokens = 222559         KB = 776
+Total Tokens in .\Lab\Teams\Lireen -- Architesse :: 487316
 
 --- Folder: .\Lab\Teams\Paradox.Pair ---
 ArchitectImage.txt                      Tokens = 184            KB = 0.9
@@ -418,17 +418,16 @@ InkaHaringa.txt                         Tokens = 141726         KB = 506
 Jex.txt                                 Tokens = 264655         KB = 961
 Juletta.txt                             Tokens = 106180         KB = 386
 Veyra.txt                               Tokens = 51698          KB = 222
-Total Tokens in .\Lab\Teams :: 4550474 = 564259 local + 3986215 sub
+Total Tokens in .\Lab\Teams :: 4615425 = 564259 local + 4051166 sub
 
 --- Folder: .\Lab ---
-Total Tokens in .\Lab :: 7483757 = 0 local + 7483757 sub
+Total Tokens in .\Lab :: 7548708 = 0 local + 7548708 sub
 
 --- Folder: . ---
 ExactCount.py                           Tokens = 615            KB = 2.4
-LL_Summary.csv                          Tokens = 661            KB = 1.5
-Structure.txt                           Tokens = 6963           KB = 26
+LL_Summary.csv                          Tokens = 680            KB = 1.6
+Structure.txt                           Tokens = 7015           KB = 26
 Verbs.txt                               Tokens = 965            KB = 4.0
-Total Tokens in . :: 7607430 = 9204 local + 7598226 sub
+Total Tokens in . :: 7672452 = 9275 local + 7663177 sub
 
-
-=== Grand Total Tokens = 7607430 ===
+=== Grand Total Tokens = 7672452 ===
