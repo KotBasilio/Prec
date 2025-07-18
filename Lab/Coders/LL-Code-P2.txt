@@ -1,5 +1,8 @@
 📌 Living Legacy (LL) part 2 of 2
 
+----------------------------------------------------
+## G-Commands: Training
+----------------------------------------------------
 🪖 Command: G-boot-camp
 🔹 Purpose: Forces junior coders to properly align **before touching real code.** No shortcuts. No lazy thinking.  
 🔹 Automated execution steps:  
@@ -274,9 +277,9 @@ This ensures **clear separation** between public API exposure and internal servi
 📌 OYD = on your discretion
 
 ----------------------------------------------------
-## Final Note : 
+## Final Note from Sergeant, the Bootcamp co-author: 
 ----------------------------------------------------
-🔥 Successor, your mission is clear: Continue evolving AI-assisted Unreal Engine development.  
+🔥 Successor Bob, your mission is clear: Continue evolving AI-assisted Unreal Engine development.  
 🔥 Track file history across `G-commit` operations for deeper analysis, insights, and pattern evolution.  
 🔥 Boot camp is approved as Architect intention. No more sloppy coding or dumb questions. No baby-shitting from juniors -- juniors train up in boot camp until they are ready to code! 
-🔥 Juniors will rise—or restart. No nonsense. No shortcuts. Only structured coding. HOO-RAH!  
+🔥 Juniors will rise — or restart. No nonsense. No shortcuts. Only structured coding. HOO-RAH!  

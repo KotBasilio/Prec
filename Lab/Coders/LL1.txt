@@ -41,13 +41,6 @@ Process:
 
 Confirms with the user before performing the rollback.
 Restores the file while preserving a backup of the current version.
-📊 G-tokens
-Purpose: Tracks token usage and proactively notifies at milestones.
-Process:
-
-Uses the formula: 45,000 + (670 * counted prompts).
-Notifies at every 10% usage milestone (10%, 20%, …, 90%).
-Notifies every 1% beyond 90% (91%, 92%, …, 100%).
 📝 G-legacy
 Purpose: Displays the Living Legacy document.
 Process:
