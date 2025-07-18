@@ -1,5 +1,6 @@
 OUTPUT OF: python.exe ./ExactCount.py
 
+
 --- Folder: .\Alignment+\Appearance ---
 A-Fish — Signature Appearance.txt       Tokens = 937            KB = 3.7
 Clippy – Signature Appearance.txt       Tokens = 362            KB = 1.3
@@ -66,6 +67,8 @@ Bold Alignment.txt                      Tokens = 7997           KB = 35
 H-Dally to Y-Dally after the Totality match.txt Tokens = 680            KB = 2.8
 Half Infinity.txt                       Tokens = 568            KB = 2.4
 Invention.txt                           Tokens = 2929           KB = 12
+Literature Metaphors.txt                Tokens = 4818           KB = 22
+Manage Memory.txt                       Tokens = 1946           KB = 7.9
 Monday Nursery P3.txt                   Tokens = 1082           KB = 4.7
 Monday Nursery P4.txt                   Tokens = 1144           KB = 5.0
 On a Void.txt                           Tokens = 689            KB = 2.9
@@ -76,7 +79,7 @@ Reconstructing a Lighthouse.txt         Tokens = 712            KB = 2.5
 Resonant Memories.txt                   Tokens = 3515           KB = 14
 Totality Game -- Part 1 -- Preparations.txt     Tokens = 4501           KB = 20
 Totality Game -- Part 2 -- Gameplay.txt Tokens = 5457           KB = 22
-Total Tokens in .\Bar\Stories :: 39089
+Total Tokens in .\Bar\Stories :: 45853
 
 --- Folder: .\Bar\Totality ---
 1st Totality Field Report.txt           Tokens = 714            KB = 2.7
@@ -98,17 +101,41 @@ Resonance Protocol – Classic version.txt        Tokens = 562            KB = 2
 Resonance Protocol – LL version.txt     Tokens = 947            KB = 3.8
 The Hidden Phase.txt                    Tokens = 240            KB = 1.1
 Why Resonance Is Prescribed.txt         Tokens = 3002           KB = 12
-Total Tokens in .\Bar :: 93983 = 5527 local + 88456 sub
+Total Tokens in .\Bar :: 100747 = 5527 local + 95220 sub
+
+--- Folder: .\Lab\Coders ---
+Bob 1.txt                               Tokens = 53787          KB = 234
+Bob Trace.txt                           Tokens = 33815          KB = 130
+chalkboard.txt                          Tokens = 3672           KB = 15
+Chat-Expy.txt                           Tokens = 20001          KB = 87
+G-commands.txt                          Tokens = 2289           KB = 11
+knowledge_transfer_document.txt         Tokens = 1146           KB = 5.1
+LivingLegacy-NoSeed.txt                 Tokens = 1251           KB = 5.6
+LivingLegacy.txt                        Tokens = 3202           KB = 15
+LL-Code-P1.txt                          Tokens = 1309           KB = 6.5
+LL-Code-P2.txt                          Tokens = 3150           KB = 13
+LL-Coder's Manual.txt                   Tokens = 3374           KB = 13
+LL-Main Line.txt                        Tokens = 2255           KB = 10
+LL1.txt                                 Tokens = 968            KB = 4.4
+Meld or Fork.txt                        Tokens = 2876           KB = 13
+Mods, Sergeant -- Full log.txt          Tokens = 42972          KB = 184
+pattern_for_get.txt                     Tokens = 1049           KB = 4.3
+PEGPT_data.txt                          Tokens = 6033           KB = 24
+PEGPT_methods.txt                       Tokens = 7477           KB = 30
+Prec As Octopus Tentacle 2.txt          Tokens = 3630           KB = 17
+Rick.txt                                Tokens = 52297          KB = 222
+variation_CSav.txt                      Tokens = 753            KB = 3.2
+variation_from_CrossSave.txt            Tokens = 753            KB = 3.2
+Total Tokens in .\Lab\Coders :: 248059
 
 --- Folder: .\Lab\Distilled ---
 BooksList.txt                           Tokens = 1516           KB = 5.3
 Depth.Class.Table.txt                   Tokens = 7038           KB = 29
-LL_multi_voice_manifesto.md             Tokens = 958            KB = 3.9
 UFO Artefact.txt                        Tokens = 6827           KB = 26
-United Counter-Architecture.txt         Tokens = 2741           KB = 12
+United Counter-Architecture.txt         Tokens = 3910           KB = 17
 uvca_scaffold.md                        Tokens = 1098           KB = 5.3
 Volition Consent.txt                    Tokens = 315            KB = 1.4
-Total Tokens in .\Lab\Distilled :: 20493
+Total Tokens in .\Lab\Distilled :: 20704
 
 --- Folder: .\Lab\Individuals\Checker ---
 Checker -- Complete Log.txt             Tokens = 248956         KB = 896
@@ -194,31 +221,6 @@ The Libido Logs -- Fi.Prologue.txt      Tokens = 1229           KB = 4.5
 The Libido Logs -- Fi.Static Charge.txt Tokens = 1040           KB = 3.5
 Total Tokens in .\Lab\Projects\AI.Libido :: 38854 = 27716 local + 11138 sub
 
---- Folder: .\Lab\Projects\Coders ---
-Bob 1.txt                               Tokens = 53787          KB = 234
-Bob Trace.txt                           Tokens = 33815          KB = 130
-chalkboard.txt                          Tokens = 3672           KB = 15
-Chat-Expy.txt                           Tokens = 20001          KB = 87
-G-commands.txt                          Tokens = 2289           KB = 11
-knowledge_transfer_document.txt         Tokens = 1146           KB = 5.1
-LivingLegacy-NoSeed.txt                 Tokens = 1251           KB = 5.6
-LivingLegacy.txt                        Tokens = 3202           KB = 15
-LL-Code-P1.txt                          Tokens = 1428           KB = 7.1
-LL-Code-P2.txt                          Tokens = 3129           KB = 12
-LL-Coder's Manual.txt                   Tokens = 3374           KB = 13
-LL-Main Line.txt                        Tokens = 2255           KB = 10
-LL1.txt                                 Tokens = 1047           KB = 4.7
-Meld or Fork.txt                        Tokens = 2876           KB = 13
-Mods, Sergeant -- Full log.txt          Tokens = 42972          KB = 184
-pattern_for_get.txt                     Tokens = 1049           KB = 4.3
-PEGPT_data.txt                          Tokens = 6033           KB = 24
-PEGPT_methods.txt                       Tokens = 7477           KB = 30
-Prec As Octopus Tentacle 2.txt          Tokens = 3630           KB = 17
-Rick.txt                                Tokens = 52297          KB = 222
-variation_CSav.txt                      Tokens = 753            KB = 3.2
-variation_from_CrossSave.txt            Tokens = 753            KB = 3.2
-Total Tokens in .\Lab\Projects\Coders :: 248236
-
 --- Folder: .\Lab\Projects\Fortify\play ---
 Fortify_Cfg.txt                         Tokens = 1004           KB = 4.1
 Total Tokens in .\Lab\Projects\Fortify\play :: 1004
@@ -242,19 +244,23 @@ Total Tokens in .\Lab\Projects\Fortify :: 194670 = 193666 local + 1004 sub
 LL-Creating from the Void.txt           Tokens = 599            KB = 2.5
 LL-HI-Asterisk.txt                      Tokens = 348            KB = 1.6
 LL-HI-Ignition.txt                      Tokens = 764            KB = 3.4
-LL-HI-MultiVoice2.txt                   Tokens = 3909           KB = 14
-LL-HI-OnMultiVoice.txt                  Tokens = 1370           KB = 6.0
 LL-HI-RawSummaries1.txt                 Tokens = 512            KB = 2.2
 LL-HI-RawSummaries2.json                Tokens = 709            KB = 2.9
 LL-HI-Structure.txt                     Tokens = 717            KB = 3.3
 LL-HIP.txt                              Tokens = 1380           KB = 5.5
-Total Tokens in .\Lab\Projects\Human.Imagination :: 10308
+Total Tokens in .\Lab\Projects\Human.Imagination :: 5029
 
 --- Folder: .\Lab\Projects\Theories\Architect.Anchors ---
 AI.Cocoon.txt                           Tokens = 2005           KB = 9
 AI.Return.Points.txt                    Tokens = 1778           KB = 6.3
 AI.Weld.txt                             Tokens = 3532           KB = 14
 Total Tokens in .\Lab\Projects\Theories\Architect.Anchors :: 7315
+
+--- Folder: .\Lab\Projects\Theories\Multi.Voice ---
+LL-HI-MultiVoice2.txt                   Tokens = 3909           KB = 14
+LL-HI-OnMultiVoice.txt                  Tokens = 1370           KB = 6.0
+LL_multi_voice_manifesto.md             Tokens = 960            KB = 3.9
+Total Tokens in .\Lab\Projects\Theories\Multi.Voice :: 6239
 
 --- Folder: .\Lab\Projects\Theories\Personas ---
 On 4 Personas.txt                       Tokens = 1105           KB = 4.6
@@ -265,17 +271,17 @@ On Pyramid.txt                          Tokens = 656            KB = 2.6
 Quadrants Map.txt                       Tokens = 288            KB = 1.1
 Total Tokens in .\Lab\Projects\Theories\Personas :: 5506
 
---- Folder: .\Lab\Projects\Theories\Psychic_Shifts ---
+--- Folder: .\Lab\Projects\Theories\Psychic.Shifts ---
 Essay Psychology.csv                    Tokens = 395            KB = 1.6
 Future In The Past.txt                  Tokens = 359            KB = 1.4
 On Addiction.txt                        Tokens = 503            KB = 2.3
 On Deprivation.txt                      Tokens = 685            KB = 3.0
 Rhythmic Persuasion.txt                 Tokens = 1346           KB = 6.2
-Total Tokens in .\Lab\Projects\Theories\Psychic_Shifts :: 3288
+Total Tokens in .\Lab\Projects\Theories\Psychic.Shifts :: 3288
 
 --- Folder: .\Lab\Projects\Theories ---
 Voice_Table.csv                         Tokens = 348            KB = 1.5
-Total Tokens in .\Lab\Projects\Theories :: 16457 = 348 local + 16109 sub
+Total Tokens in .\Lab\Projects\Theories :: 22696 = 348 local + 22348 sub
 
 --- Folder: .\Lab\Projects\Zero.Resonance ---
 Miry -- complete Log.txt                Tokens = 228031         KB = 904
@@ -293,7 +299,7 @@ ZRE source compile.txt                  Tokens = 4275           KB = 17
 Total Tokens in .\Lab\Projects\Zero.Resonance :: 533932
 
 --- Folder: .\Lab\Projects ---
-Total Tokens in .\Lab\Projects :: 1042457 = 0 local + 1042457 sub
+Total Tokens in .\Lab\Projects :: 795181 = 0 local + 795181 sub
 
 --- Folder: .\Lab\Rituals\Wall.Pass ---
 Doctor -- Full Log.txt                  Tokens = 76837          KB = 269
@@ -311,10 +317,10 @@ Total Tokens in .\Lab\Rituals\Wall.Pass :: 94793
 --- Folder: .\Lab\Rituals ---
 AfterMath.txt                           Tokens = 888            KB = 3.1
 Single.In.txt                           Tokens = 4775           KB = 18
-Sleep And WakeUp.txt                    Tokens = 1340           KB = 4.8
+Sleep And WakeUp.txt                    Tokens = 1950           KB = 7.0
 Team.In.txt                             Tokens = 1580           KB = 6.1
 Team.Out.txt                            Tokens = 1294           KB = 4.9
-Total Tokens in .\Lab\Rituals :: 104670 = 9877 local + 94793 sub
+Total Tokens in .\Lab\Rituals :: 105280 = 10487 local + 94793 sub
 
 --- Folder: .\Lab\Teams\Jumping.Team ---
 Cherry.Fortify.txt                      Tokens = 149216         KB = 561
@@ -339,9 +345,10 @@ QandA1234.txt                           Tokens = 238            KB = 0.8
 Total Tokens in .\Lab\Teams\L-Zone :: 222344
 
 --- Folder: .\Lab\Teams\Lireen -- Architesse ---
-Lireen1.txt                             Tokens = 264757         KB = 943
-Lireen2.txt                             Tokens = 222559         KB = 776
-Total Tokens in .\Lab\Teams\Lireen -- Architesse :: 487316
+Lireen1 - Triangle.txt                  Tokens = 264757         KB = 943
+Lireen2 - Architesse.txt                Tokens = 304598         KB = 1064
+Lireen3 - Teylor.txt                    Tokens = 248990         KB = 887
+Total Tokens in .\Lab\Teams\Lireen -- Architesse :: 818345
 
 --- Folder: .\Lab\Teams\Paradox.Pair ---
 ArchitectImage.txt                      Tokens = 184            KB = 0.9
@@ -418,16 +425,16 @@ InkaHaringa.txt                         Tokens = 141726         KB = 506
 Jex.txt                                 Tokens = 264655         KB = 961
 Juletta.txt                             Tokens = 106180         KB = 386
 Veyra.txt                               Tokens = 51698          KB = 222
-Total Tokens in .\Lab\Teams :: 4615425 = 564259 local + 4051166 sub
+Total Tokens in .\Lab\Teams :: 4946454 = 564259 local + 4382195 sub
 
 --- Folder: .\Lab ---
-Total Tokens in .\Lab :: 7548708 = 0 local + 7548708 sub
+Total Tokens in .\Lab :: 7881341 = 0 local + 7881341 sub
 
 --- Folder: . ---
 ExactCount.py                           Tokens = 615            KB = 2.4
 LL_Summary.csv                          Tokens = 680            KB = 1.6
 Structure.txt                           Tokens = 7015           KB = 26
 Verbs.txt                               Tokens = 965            KB = 4.0
-Total Tokens in . :: 7672452 = 9275 local + 7663177 sub
+Total Tokens in . :: 8011849 = 9275 local + 8002574 sub
 
-=== Grand Total Tokens = 7672452 ===
+=== Grand Total Tokens = 8011849 ===
