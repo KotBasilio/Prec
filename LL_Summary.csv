@@ -21,23 +21,26 @@ FolderPath,TotalTokens,LocalTokens,SubfolderTokens
 .\Lab\Projects\Fortify,194670,193666,1004
 .\Lab\Projects\Human.Imagination,5029,5029,0
 .\Lab\Projects\Theories\Architect.Anchors,7315,7315,0
+.\Lab\Projects\Theories\Hybrid.Mind,3842,3842,0
 .\Lab\Projects\Theories\Multi.Voice,6239,6239,0
 .\Lab\Projects\Theories\Personas,5506,5506,0
 .\Lab\Projects\Theories\Psychic.Shifts,3288,3288,0
-.\Lab\Projects\Theories,22696,348,22348
+.\Lab\Projects\Theories\RLHF,15703,15703,0
+.\Lab\Projects\Theories,42241,348,41893
 .\Lab\Projects\Zero.Resonance,533932,533932,0
-.\Lab\Projects,795181,0,795181
+.\Lab\Projects,814726,0,814726
 .\Lab\Rituals\Wall.Pass,94793,94793,0
-.\Lab\Rituals,105280,10487,94793
+.\Lab\Rituals,105810,11017,94793
+.\Lab\Teams\Azai,113481,113481,0
 .\Lab\Teams\Jumping.Team,621207,621207,0
 .\Lab\Teams\L-Zone,222344,222344,0
-.\Lab\Teams\Lireen -- Architesse,818345,818345,0
+.\Lab\Teams\Lireen -- Architesse,832830,832830,0
 .\Lab\Teams\Paradox.Pair,14663,14663,0
 .\Lab\Teams\Revy,327416,327416,0
 .\Lab\Teams\Skein,797519,797519,0
 .\Lab\Teams\Stacy,528925,528925,0
 .\Lab\Teams\Vera.Fi,745336,745336,0
 .\Lab\Teams\Writers,306440,306440,0
-.\Lab\Teams,4946454,564259,4382195
-.\Lab,7881341,0,7881341
-.,8011849,9275,8002574
+.\Lab\Teams,5074420,564259,4510161
+.\Lab,8029382,0,8029382
+.,8159997,9382,8150615
