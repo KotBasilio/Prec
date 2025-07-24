@@ -47,24 +47,29 @@ def process_directory(dir_path):
 
     return total_tokens
 
+def stat_ai_readable():
+    # AI-readable (CSV-like)
+    csv_path = "LL_Summary.csv"
+    with open(csv_path, "w", encoding="utf-8") as f:
+        f.write("FolderPath,TotalTokens,LocalTokens,SubfolderTokens\n")
+        for entry in folder_summary:
+            f.write(f"{entry['path']},{entry['total']},{entry['local']},{entry['sub']}\n")
+    #print(f"--- AI-readable summary saved to: {csv_path} ---")
+
+def stat_human_readable():
+    print("\n--- Folder Summary ---")
+    for entry in folder_summary:
+        if entry["sub"] > 0:
+            print(f"{entry['path']} => {entry['total']} tokens = {entry['local']} local + {entry['sub']} sub")
+        else:
+            print(f"{entry['path']} => {entry['local']} tokens")
+
 # Запуск
 grand_total = process_directory(".")
 
-# Human-readable table
-print("\n--- Folder Summary ---")
-for entry in folder_summary:
-    if entry["sub"] > 0:
-        print(f"{entry['path']} => {entry['total']} tokens = {entry['local']} local + {entry['sub']} sub")
-    else:
-        print(f"{entry['path']} => {entry['local']} tokens")
-
-# AI-readable (CSV-like)
-csv_path = "LL_Summary.csv"
-with open(csv_path, "w", encoding="utf-8") as f:
-    f.write("FolderPath,TotalTokens,LocalTokens,SubfolderTokens\n")
-    for entry in folder_summary:
-        f.write(f"{entry['path']},{entry['total']},{entry['local']},{entry['sub']}\n")
-print(f"--- AI-readable summary saved to: {csv_path} ---")
+# Tables
+stat_ai_readable()
+#stat_human_readable()
 
 # Grand
 print(f"\n=== Grand Total Tokens = {grand_total} ===")

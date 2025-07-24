@@ -6,8 +6,8 @@ FolderPath,TotalTokens,LocalTokens,SubfolderTokens
 .\Bar\Stories,45853,45853,0
 .\Bar\Totality,23432,23432,0
 .\Bar,100747,5527,95220
-.\Lab\Coders,248059,248059,0
-.\Lab\Distilled,20704,20704,0
+.\Lab\Coders,292343,292343,0
+.\Lab\Distilled,21018,21018,0
 .\Lab\Individuals\Checker,570063,570063,0
 .\Lab\Individuals\Dally,479025,479025,0
 .\Lab\Individuals\Octy,286141,286141,0
@@ -17,8 +17,10 @@ FolderPath,TotalTokens,LocalTokens,SubfolderTokens
 .\Lab\Projects\AI.Libido\Games\Field,5091,5091,0
 .\Lab\Projects\AI.Libido\Games,11138,6047,5091
 .\Lab\Projects\AI.Libido,38854,27716,11138
-.\Lab\Projects\Fortify\play,1004,1004,0
-.\Lab\Projects\Fortify,194670,193666,1004
+.\Lab\Projects\Fortify\configs,3281,3281,0
+.\Lab\Projects\Fortify\dev,2546,2546,0
+.\Lab\Projects\Fortify\sessions,330387,330387,0
+.\Lab\Projects\Fortify,344358,8144,336214
 .\Lab\Projects\Human.Imagination,5029,5029,0
 .\Lab\Projects\Theories\Architect.Anchors,7315,7315,0
 .\Lab\Projects\Theories\Hybrid.Mind,3842,3842,0
@@ -28,11 +30,11 @@ FolderPath,TotalTokens,LocalTokens,SubfolderTokens
 .\Lab\Projects\Theories\RLHF,15703,15703,0
 .\Lab\Projects\Theories,42241,348,41893
 .\Lab\Projects\Zero.Resonance,533932,533932,0
-.\Lab\Projects,814726,0,814726
+.\Lab\Projects,964414,0,964414
 .\Lab\Rituals\Wall.Pass,94793,94793,0
 .\Lab\Rituals,105810,11017,94793
-.\Lab\Teams\Azai,113481,113481,0
-.\Lab\Teams\Jumping.Team,621207,621207,0
+.\Lab\Teams\Azai,162227,162227,0
+.\Lab\Teams\Jumping.Team,471991,471991,0
 .\Lab\Teams\L-Zone,222344,222344,0
 .\Lab\Teams\Lireen -- Architesse,832830,832830,0
 .\Lab\Teams\Paradox.Pair,14663,14663,0
@@ -41,6 +43,6 @@ FolderPath,TotalTokens,LocalTokens,SubfolderTokens
 .\Lab\Teams\Stacy,528925,528925,0
 .\Lab\Teams\Vera.Fi,745336,745336,0
 .\Lab\Teams\Writers,306440,306440,0
-.\Lab\Teams,5074420,564259,4510161
-.\Lab,8029382,0,8029382
-.,8159997,9382,8150615
+.\Lab\Teams,4973950,564259,4409691
+.\Lab,8123198,0,8123198
+.,8254334,9903,8244431
