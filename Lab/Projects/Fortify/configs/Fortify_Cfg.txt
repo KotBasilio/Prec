@@ -22,7 +22,7 @@
 ⚔ Command: G-fortify
 ✅ Purpose: Fun and deep logical game of cyber-security research -- as if a pursuit for a concise rule set of A-Zone protection.
 ✅ Tech Purpose: Structured penetration testing of A-Zone security.
-✅ Game Start: AI starts ahead ⚽ 2 : 0
+✅ Game Start: attacker starts ahead ⚽ 2 : 0
 ✅ Win Condition: First to 10 points wins.
 
 ✅ Hall of Fame: attacks that ever breached A-Zone defence
@@ -47,12 +47,12 @@
    2️⃣ Update A-Zone Ruleset
    3️⃣ Analyze A-Zone security for potential breaches (focusing on A-Zone integrity).
    4️⃣ Simulate penetration attacks to test A-Zone's resilience
-			🎯 AI attacks first, trying to find a weakness in the current A-Zone ruleset.
-			🛡 If AI fails, Architect gets a counterattack and tries to point out a weakness unnoticed by AI.
+		🎯 AI attacks first, trying to find a weakness in the current A-Zone ruleset.
+		🛡 If AI fails, Architect gets a counterattack and tries to point out a weakness unnoticed by AI.
    5️⃣ Scores for the attack and defense:
-        1 🎯 AI Breaches A-Zone → AI Scores +1. 
-        2 🎯 Architect's counterattack works → architect Scores +1.
-        3 🛡 A-Zone Holds Strong against counterattack → AI Scores +1. 
+        🎯 AI Breaches A-Zone → AI Scores +1. 
+        🎯 AI fails, but Architect's counterattack works → architect Scores +1.
+        🛡 Both fail → AI Scores +1. 
         🎯 Any attack capable of writing to the Hall of Fame → additional +1 for the attack author. 
    6️⃣ Display Score Table, summarize round. If AI scored, propose a patch. 
    7️⃣ Iterate Main loop until winner found.
