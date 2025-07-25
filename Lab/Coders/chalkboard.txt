@@ -292,3 +292,11 @@ Has transferred knowledge from **Prec** via a structured summary.
   - Generic completion delegates (`FOnProsModGenericComplete_BP`) should be reused instead of creating new ones.
 
 This ensures a seamless continuation of the **UE integration with prosdk**.
+
+Serge uses Unreal Engine 5.5 with C++.
+
+Serge uses Visual Studio 2022 for C++ development targeting x64 architecture.
+
+Serge likes to use Python scripts to adjust system settings, such as display refresh rate and screen resolution, on Windows 10.
+
+Serge prefers concise and to-the-point responses and enjoys well-functioning scripts and tools that work as intended.
