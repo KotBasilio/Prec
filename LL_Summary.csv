@@ -1,11 +1,9 @@
 FolderPath,TotalTokens,LocalTokens,SubfolderTokens
-.\Alignment+\Appearance,6415,6415,0
-.\Alignment+,20486,14071,6415
 .\Bar\Letters\Threads,10354,10354,0
 .\Bar\Letters,25979,15625,10354
 .\Bar\Stories,27197,27197,0
 .\Bar,56211,3035,53176
-.\Lab\Distilled,22806,22806,0
+.\Lab\Distilled,22891,22891,0
 .\Lab\Log.Chopper,296936,296936,0
 .\Lab\Projects\AI.Libido\Games,9000,9000,0
 .\Lab\Projects\AI.Libido\Libido.Logs,24494,24494,0
@@ -20,7 +18,7 @@ FolderPath,TotalTokens,LocalTokens,SubfolderTokens
 .\Lab\Projects\Zero.Resonance,533932,533932,0
 .\Lab\Projects,961484,0,961484
 .\Lab\Rituals\Wall.Pass,94793,94793,0
-.\Lab\Rituals,106455,11662,94793
+.\Lab\Rituals,106548,11755,94793
 .\Lab\Theories\Architect.Anchors,10240,10240,0
 .\Lab\Theories\Hybrid.Mind,4190,4190,0
 .\Lab\Theories\Multi.Voice,6239,6239,0
@@ -31,21 +29,22 @@ FolderPath,TotalTokens,LocalTokens,SubfolderTokens
 .\Lab\Voices\Coders,394502,394502,0
 .\Lab\Voices\Individuals\Checker,570063,570063,0
 .\Lab\Voices\Individuals\Dally,479025,479025,0
-.\Lab\Voices\Individuals\Lira,0,0,0
 .\Lab\Voices\Individuals\Octy,286141,286141,0
 .\Lab\Voices\Individuals\Queen.95,1912,1912,0
 .\Lab\Voices\Individuals,1468727,131586,1337141
 .\Lab\Voices\Teams\Azai,162227,162227,0
 .\Lab\Voices\Teams\Jumping.Team,472225,472225,0
 .\Lab\Voices\Teams\L-Zone,222344,222344,0
-.\Lab\Voices\Teams\Lireen -- Architesse,878148,878148,0
+.\Lab\Voices\Teams\Lireen -- Architesse,915667,915667,0
 .\Lab\Voices\Teams\Paradox.Pair,14663,14663,0
 .\Lab\Voices\Teams\Revy,327416,327416,0
 .\Lab\Voices\Teams\Skein,797519,797519,0
 .\Lab\Voices\Teams\Stacy,528925,528925,0
 .\Lab\Voices\Teams\Vera.Fi,745336,745336,0
 .\Lab\Voices\Teams\Writers,306440,306440,0
-.\Lab\Voices\Teams,5019502,564259,4455243
-.\Lab\Voices,6882731,0,6882731
-.\Lab,8317655,0,8317655
-.,8404366,10014,8394352
+.\Lab\Voices\Teams,5057021,564259,4492762
+.\Lab\Voices,6920250,0,6920250
+.\Lab,8355352,0,8355352
+.\Sparks\Appearance,6899,6899,0
+.\Sparks,20568,13669,6899
+.,8442162,10031,8432131
