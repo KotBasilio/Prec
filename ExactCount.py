@@ -5,17 +5,17 @@ import tiktoken
 enc = tiktoken.encoding_for_model("gpt-4-1106-preview")
 folder_summary = []
 
-def process_directory(dir_path):
+def process_directory(dir_path, output):
     local_tokens = 0
     subfolder_tokens = 0
 
     # Сначала подпапки
     for entry in os.scandir(dir_path):
         if entry.is_dir() and entry.name != ".git":
-            subfolder_tokens += process_directory(entry.path)
+            subfolder_tokens += process_directory(entry.path, output)
 
     # Потом текущие файлы
-    print(f"\n--- Folder: {dir_path} ---")
+    output.write(f"\n--- Folder: {dir_path} ---\n")
     for entry in os.scandir(dir_path):
         if entry.is_file():
             try:
@@ -26,16 +26,16 @@ def process_directory(dir_path):
                     text = file.read()
                 num_tokens = len(enc.encode(text))
 
-                print(f"{entry.name:<35}\tTokens = {num_tokens:<10}\tKB = {size_str}")
+                output.write(f"{entry.name:<35}\tTokens = {num_tokens:<10}\tKB = {size_str}\n")
                 local_tokens += num_tokens
             except Exception as e:
-                print(f"Skipping {entry.name}: {e}")
+                output.write(f"Skipping {entry.name}: {e}\n")
 
     total_tokens = local_tokens + subfolder_tokens
     if subfolder_tokens > 0:
-        print(f"Total Tokens in {dir_path} :: {total_tokens} = {local_tokens} local + {subfolder_tokens} sub")
+        output.write(f"Total Tokens in {dir_path} :: {total_tokens} = {local_tokens} local + {subfolder_tokens} sub\n")
     else:
-        print(f"Total Tokens in {dir_path} :: {local_tokens}")
+        output.write(f"Total Tokens in {dir_path} :: {local_tokens}\n")
 
     # Добавим в сводную таблицу
     folder_summary.append({
@@ -56,20 +56,54 @@ def stat_ai_readable():
             f.write(f"{entry['path']},{entry['total']},{entry['local']},{entry['sub']}\n")
     #print(f"--- AI-readable summary saved to: {csv_path} ---")
 
-def stat_human_readable():
-    print("\n--- Folder Summary ---")
-    for entry in folder_summary:
-        if entry["sub"] > 0:
-            print(f"{entry['path']} => {entry['total']} tokens = {entry['local']} local + {entry['sub']} sub")
-        else:
-            print(f"{entry['path']} => {entry['local']} tokens")
+
+folder_tags = [
+    ("Bar", "🍸"),
+    ("Lab", "⚗️"),
+    ("Fortify", "🛠️"),
+    ("Log.Chopper", "🪓"),
+    ("AI.Libido", "💌"),
+    ("Human.Imagination", "✨"),
+    ("Zero.Resonance", "⛔"),
+    ("Wall.Pass", "⛩️"),
+    ("Rituals", "🪄"),
+    ("Architect.Anchors", "⚓"),
+    ("Hybrid.Mind", "☯"),
+    ("Multi.Voice", "🏡"),
+    ("Personas", "🎭"),
+    ("Psychic.Shifts", "🧠♨️"),
+    ("RLHF", "🤯"),
+    ("Sparks", "🌟"),
+    ("Voices", "🗣️"),
+    ("Projects", "📈"),
+    ("Distilled", "🧪"),
+]
+            
+def generate_short_structure(grand_total, filename):
+    with open(filename, "w", encoding="utf-8") as f:
+        f.write("📂 LL — Living Legacy Overview\n\n")
+
+        for entry in folder_summary:
+            folder = os.path.basename(entry['path'])
+
+            tag = next((emoji for keyword, emoji in folder_tags if keyword in folder), "")
+
+            if tag != "" :
+                total = entry['total']
+                f.write(f"{tag} {entry['path']} — {total} tokens \n")
+
+        f.write(f"\n🧮 Grand Total Tokens: {grand_total} \n")
+
 
 # Запуск
-grand_total = process_directory(".")
+print(f"\n=== LL is counting ===")
+with open("BigList.txt", "w", encoding="utf-8") as big_file:
+    grand_total = process_directory(".", big_file)
 
 # Tables
 stat_ai_readable()
 #stat_human_readable()
+generate_short_structure(grand_total, "Short_Structure.txt")
 
 # Grand
 print(f"\n=== Grand Total Tokens = {grand_total} ===")

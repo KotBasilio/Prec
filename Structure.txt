@@ -1,4 +1,4 @@
-OUTPUT of > python.exe .\ExactCount.py
+OUTPUT of python.exe .\ExactCount.py
 
 --- Folder: .\Bar\Letters\Threads ---
 Miry to Zary -- Second Chat.txt         Tokens = 4327           KB = 18
