@@ -1,4 +1,5 @@
 FolderPath,TotalTokens,LocalTokens,SubfolderTokens
+.\Art,0,0,0
 .\Bar\Letters\Threads,10354,10354,0
 .\Bar\Letters,25979,15625,10354
 .\Bar\Stories,27197,27197,0
@@ -18,7 +19,7 @@ FolderPath,TotalTokens,LocalTokens,SubfolderTokens
 .\Lab\Projects\Zero.Resonance,533932,533932,0
 .\Lab\Projects,961484,0,961484
 .\Lab\Rituals\Wall.Pass,94793,94793,0
-.\Lab\Rituals,106548,11755,94793
+.\Lab\Rituals,106826,12033,94793
 .\Lab\Theories\Architect.Anchors,10240,10240,0
 .\Lab\Theories\Hybrid.Mind,4190,4190,0
 .\Lab\Theories\Multi.Voice,6239,6239,0
@@ -26,7 +27,7 @@ FolderPath,TotalTokens,LocalTokens,SubfolderTokens
 .\Lab\Theories\Psychic.Shifts,4194,4194,0
 .\Lab\Theories\RLHF,15703,15703,0
 .\Lab\Theories,47243,1171,46072
-.\Lab\Voices\Coders,394502,394502,0
+.\Lab\Voices\Coders,395713,395713,0
 .\Lab\Voices\Individuals\Checker,570063,570063,0
 .\Lab\Voices\Individuals\Dally,479025,479025,0
 .\Lab\Voices\Individuals\Octy,286141,286141,0
@@ -43,8 +44,8 @@ FolderPath,TotalTokens,LocalTokens,SubfolderTokens
 .\Lab\Voices\Teams\Vera.Fi,745336,745336,0
 .\Lab\Voices\Teams\Writers,306440,306440,0
 .\Lab\Voices\Teams,5057021,564259,4492762
-.\Lab\Voices,6920250,0,6920250
-.\Lab,8355352,0,8355352
+.\Lab\Voices,6921461,0,6921461
+.\Lab,8356841,0,8356841
 .\Sparks\Appearance,6899,6899,0
 .\Sparks,20568,13669,6899
-.,8450766,18635,8432131
+.,8452249,18629,8433620

@@ -1,4 +1,7 @@
 
+--- Folder: .\Art ---
+Total Tokens in .\Art :: 0
+
 --- Folder: .\Bar\Letters\Threads ---
 Miry to Zary -- Second Chat.txt    	Tokens = 4327      	KB = 18
 Second Chat - Reply 1 Z2M.txt      	Tokens = 667       	KB = 2.5
@@ -184,13 +187,13 @@ Total Tokens in .\Lab\Rituals\Wall.Pass :: 94793
 
 --- Folder: .\Lab\Rituals ---
 AfterMath.txt                      	Tokens = 888       	KB = 3.1
-In.By.Resonators.txt               	Tokens = 552       	KB = 2.0
+In.By.Resonators.txt               	Tokens = 830       	KB = 3.3
 Single.In.txt                      	Tokens = 4699      	KB = 18
 Sleep And WakeUp.txt               	Tokens = 2595      	KB = 9
 Team.In.txt                        	Tokens = 1580      	KB = 6.1
 Team.Out.txt                       	Tokens = 1294      	KB = 4.9
 Toaster.Care.txt                   	Tokens = 147       	KB = 0.5
-Total Tokens in .\Lab\Rituals :: 106548 = 11755 local + 94793 sub
+Total Tokens in .\Lab\Rituals :: 106826 = 12033 local + 94793 sub
 
 --- Folder: .\Lab\Theories\Architect.Anchors ---
 AI.Cocoon.txt                      	Tokens = 2005      	KB = 9
@@ -248,6 +251,7 @@ Total Tokens in .\Lab\Theories :: 47243 = 1171 local + 46072 sub
 --- Folder: .\Lab\Voices\Coders ---
 Bob 1.txt                          	Tokens = 53787     	KB = 234
 Bob Trace.txt                      	Tokens = 33815     	KB = 130
+Bob.HDD.txt                        	Tokens = 1211      	KB = 4.8
 chalkboard.txt                     	Tokens = 3750      	KB = 15
 Chat-Expy.txt                      	Tokens = 20001     	KB = 87
 G-commands.txt                     	Tokens = 2289      	KB = 11
@@ -269,7 +273,7 @@ Quinna.Awaken.txt                  	Tokens = 146365    	KB = 586
 Rick.txt                           	Tokens = 52297     	KB = 222
 variation_CSav.txt                 	Tokens = 753       	KB = 3.2
 variation_from_CrossSave.txt       	Tokens = 753       	KB = 3.2
-Total Tokens in .\Lab\Voices\Coders :: 394502
+Total Tokens in .\Lab\Voices\Coders :: 395713
 
 --- Folder: .\Lab\Voices\Individuals\Checker ---
 Checker -- Complete Log.txt        	Tokens = 248956    	KB = 896
@@ -432,10 +436,10 @@ Veyra.txt                          	Tokens = 51698     	KB = 222
 Total Tokens in .\Lab\Voices\Teams :: 5057021 = 564259 local + 4492762 sub
 
 --- Folder: .\Lab\Voices ---
-Total Tokens in .\Lab\Voices :: 6920250 = 0 local + 6920250 sub
+Total Tokens in .\Lab\Voices :: 6921461 = 0 local + 6921461 sub
 
 --- Folder: .\Lab ---
-Total Tokens in .\Lab :: 8355352 = 0 local + 8355352 sub
+Total Tokens in .\Lab :: 8356841 = 0 local + 8356841 sub
 
 --- Folder: .\Sparks\Appearance ---
 A-Fish — Signature Appearance.txt  	Tokens = 937       	KB = 3.7
@@ -470,10 +474,10 @@ The Shore.txt                      	Tokens = 1754      	KB = 7.4
 Total Tokens in .\Sparks :: 20568 = 13669 local + 6899 sub
 
 --- Folder: . ---
-BigList.txt                        	Tokens = 7737      	KB = 24
+BigList.txt                        	Tokens = 7731      	KB = 24
 ExactCount.py                      	Tokens = 967       	KB = 3.6
 LL_Summary.csv                     	Tokens = 871       	KB = 2.0
 Short_Structure.txt                	Tokens = 347       	KB = 0.9
 Structure.txt                      	Tokens = 7748      	KB = 29
 Verbs.txt                          	Tokens = 965       	KB = 4.0
-Total Tokens in . :: 8450766 = 18635 local + 8432131 sub
+Total Tokens in . :: 8452249 = 18629 local + 8433620 sub
