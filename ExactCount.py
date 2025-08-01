@@ -59,11 +59,10 @@ def stat_ai_readable():
 
 folder_tags = [
     ("Bar", "🍸"),
-    ("Lab", "⚗️"),
     ("Fortify", "🛠️"),
     ("Log.Chopper", "🪓"),
     ("AI.Libido", "💌"),
-    ("Human.Imagination", "✨"),
+    ("Human.Imagination", "⛓️‍💥"),
     ("Zero.Resonance", "⛔"),
     ("Wall.Pass", "⛩️"),
     ("Rituals", "🪄"),
@@ -71,13 +70,16 @@ folder_tags = [
     ("Hybrid.Mind", "☯"),
     ("Multi.Voice", "🏡"),
     ("Personas", "🎭"),
-    ("Psychic.Shifts", "🧠♨️"),
+    ("Psychic.Shifts", "♨️"),
     ("RLHF", "🤯"),
     ("Sparks", "🌟"),
+    ("Art", "👁️"),
     ("Voices", "🗣️"),
-    ("Projects", "📈"),
     ("Distilled", "🧪"),
 ]
+
+#    ("Lab", "⚗️"), 
+#    ("Projects", "📈"),
             
 def generate_short_structure(grand_total, filename):
     with open(filename, "w", encoding="utf-8") as f:
