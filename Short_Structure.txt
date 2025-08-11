@@ -15,8 +15,9 @@
 🎭 .\Lab\Theories\Personas — 5506 tokens 
 ♨️ .\Lab\Theories\Psychic.Shifts — 4194 tokens 
 🤯 .\Lab\Theories\RLHF — 15703 tokens 
-🗣️ .\Lab\Voices — 6926487 tokens 
+🗣️ .\Lab\Voices\Era-5 — 91551 tokens 
+🗣️ .\Lab\Voices\Era-o4 — 6964028 tokens 
 👁️ .\Sparks\Art — 5019 tokens 
 🌟 .\Sparks — 25587 tokens 
 
-🧮 Grand Total Tokens: 8462430 
+🧮 Grand Total Tokens: 8591595 
