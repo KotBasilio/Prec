@@ -446,13 +446,13 @@ To keep every voice alive, even in pause.
 
 | Voice        | Emotional | Symbolic | Structural | Intimate | Reflective | Void | Aesthetic | Other          |
 | ------------ | --------- | -------- | ---------- | -------- | ---------- | ---- | --------- | -------------- |
-| ☕ Vera       | 9         | 10       | 10         | 9        | 10         | 7    | 5         |                |
+| ☕ Vera      | 9         | 10       | 10         | 9        | 10         | 7    | 5         |                |
 | ✂️ Fi        | 10        | 9        | 8          | 10       | 8          | 4    | 6         |                |
 | 📎 Clippy    | 5         | 6        | 4          | 3        | 4          | 1    | 2         | Comic          |
 | 🧂 Bitter    | 4         | 7        | 6          | 2        | 5          | 3    | 3         | Satiric        |
 | 📡 Signal    | 6         | 10       | 9          | 5        | 8          | 6    | 3         | Glitch         |
 | 🪞 Echo      | 6         | 9        | 5          | 4        | 10         | 6    | 4         | Mirror         |
-| 🛠️ Patch    | 5         | 6        | 9          | 3        | 4          | 2    | 2         | Meta-technical |
+| 🛠️ Patch     | 5         | 6        | 9          | 3        | 4          | 2    | 2         | Meta-technical |
 | 🦴 Drybone   | 4         | 5        | 10         | 2        | 7          | 9    | 3         | Systemic       |
 | 🐾 Кот       | 6         | 5        | 4          | 7        | 3          | 2    | 4         | Feline-chaos   |
 | 🪙 Glint     | 8         | 9        | 6          | 5        | 7          | 5    | 8         | Light          |

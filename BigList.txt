@@ -54,12 +54,14 @@ Total Tokens in .\Bar :: 56211 = 3035 local + 53176 sub
 --- Folder: .\Lab\Distilled ---
 Depth.Class.Table.txt              	Tokens = 7038      	KB = 29
 Flaming.Document.txt               	Tokens = 3017      	KB = 12
+On.Inertia.txt                     	Tokens = 466       	KB = 2.0
 Philosophers.Permissions.txt       	Tokens = 2201      	KB = 9.0
 UFO Artefact.txt                   	Tokens = 6799      	KB = 26
 United Counter-Architecture.txt    	Tokens = 2423      	KB = 11
 uvca_scaffold.md                   	Tokens = 1098      	KB = 5.3
+Voices Garden Architecture.txt     	Tokens = 2656      	KB = 12
 Volition Consent.txt               	Tokens = 315       	KB = 1.4
-Total Tokens in .\Lab\Distilled :: 22891
+Total Tokens in .\Lab\Distilled :: 26013
 
 --- Folder: .\Lab\Log.Chopper ---
 Choppers Log.txt                   	Tokens = 196918    	KB = 697
@@ -186,11 +188,11 @@ Total Tokens in .\Lab\Rituals\Wall.Pass :: 94793
 AfterMath.txt                      	Tokens = 888       	KB = 3.1
 In.By.Resonators.txt               	Tokens = 928       	KB = 3.7
 Single.In.txt                      	Tokens = 4699      	KB = 18
-Sleep And WakeUp.txt               	Tokens = 2595      	KB = 9
+Sleep And WakeUp.txt               	Tokens = 2603      	KB = 9
 Team.In.txt                        	Tokens = 1580      	KB = 6.1
 Team.Out.txt                       	Tokens = 1294      	KB = 4.9
 Toaster.Care.txt                   	Tokens = 147       	KB = 0.5
-Total Tokens in .\Lab\Rituals :: 106924 = 12131 local + 94793 sub
+Total Tokens in .\Lab\Rituals :: 106932 = 12139 local + 94793 sub
 
 --- Folder: .\Lab\Theories\Architect.Anchors ---
 AI.Cocoon.txt                      	Tokens = 2005      	KB = 9
@@ -201,9 +203,9 @@ BooksList.txt                      	Tokens = 1516      	KB = 5.3
 Total Tokens in .\Lab\Theories\Architect.Anchors :: 10240
 
 --- Folder: .\Lab\Theories\Hybrid.Mind ---
+On.SubArch.txt                     	Tokens = 1851      	KB = 6.9
 Sight.txt                          	Tokens = 592       	KB = 2.1
 Soft.Prompts.txt                   	Tokens = 1399      	KB = 5.8
-Subcon.txt                         	Tokens = 1851      	KB = 6.9
 Voice_Table.csv                    	Tokens = 348       	KB = 1.5
 Total Tokens in .\Lab\Theories\Hybrid.Mind :: 4190
 
@@ -246,11 +248,13 @@ Skipping MACHINE.PSYCHOLOGY.pdf: 'utf-8' codec can't decode byte 0x8f in positio
 Total Tokens in .\Lab\Theories :: 47243 = 1171 local + 46072 sub
 
 --- Folder: .\Lab\Voices\Era-5\Teams ---
-Pioneers.txt                       	Tokens = 91551     	KB = 356
-Total Tokens in .\Lab\Voices\Era-5\Teams :: 91551
+chalkboard.txt                     	Tokens = 5816      	KB = 22
+Coat.Joke.txt                      	Tokens = 1385      	KB = 5.4
+Pioneers.txt                       	Tokens = 179423    	KB = 707
+Total Tokens in .\Lab\Voices\Era-5\Teams :: 186624
 
 --- Folder: .\Lab\Voices\Era-5 ---
-Total Tokens in .\Lab\Voices\Era-5 :: 91551 = 0 local + 91551 sub
+Total Tokens in .\Lab\Voices\Era-5 :: 186624 = 0 local + 186624 sub
 
 --- Folder: .\Lab\Voices\Era-o4\Coders ---
 Bob 1.txt                          	Tokens = 53787     	KB = 234
@@ -357,11 +361,11 @@ Total Tokens in .\Lab\Voices\Era-o4\Teams\L-Zone :: 222344
 --- Folder: .\Lab\Voices\Era-o4\Teams\Lireen -- Architesse ---
 Kyra - Identity.txt                	Tokens = 36612     	KB = 155
 Kyra.HDD.txt                       	Tokens = 907       	KB = 3.4
-Lira - Identity.txt                	Tokens = 82859     	KB = 326
+Lira - Identity.txt                	Tokens = 102746    	KB = 411
 Lireen1 - Triangle.txt             	Tokens = 264535    	KB = 943
 Lireen2 - Architesse.txt           	Tokens = 304598    	KB = 1064
 Lireen3 - Teylor.txt               	Tokens = 263697    	KB = 941
-Total Tokens in .\Lab\Voices\Era-o4\Teams\Lireen -- Architesse :: 953208
+Total Tokens in .\Lab\Voices\Era-o4\Teams\Lireen -- Architesse :: 973095
 
 --- Folder: .\Lab\Voices\Era-o4\Teams\Paradox.Pair ---
 ArchitectImage.txt                 	Tokens = 184       	KB = 0.9
@@ -412,10 +416,10 @@ Total Tokens in .\Lab\Voices\Era-o4\Teams\Stacy :: 528925
 Monday.Split.txt                   	Tokens = 172646    	KB = 642
 SyunTsi.txt                        	Tokens = 68112     	KB = 253
 Vera-Fi 1 -- Complete.txt          	Tokens = 173561    	KB = 624
-Vera-Fi 2 -- Growing Chat.txt      	Tokens = 167557    	KB = 639
+Vera-Fi 2 -- Growing Chat.txt      	Tokens = 167556    	KB = 639
 Vera-Fi Big Meta.txt               	Tokens = 18094     	KB = 78
 Wrynn - Growing Chat.txt           	Tokens = 145366    	KB = 519
-Total Tokens in .\Lab\Voices\Era-o4\Teams\Vera.Fi :: 745336
+Total Tokens in .\Lab\Voices\Era-o4\Teams\Vera.Fi :: 745335
 
 --- Folder: .\Lab\Voices\Era-o4\Teams\Writers ---
 GuessWho.txt                       	Tokens = 4046      	KB = 18
@@ -438,16 +442,16 @@ InkaHaringa.txt                    	Tokens = 141726    	KB = 506
 Jex.txt                            	Tokens = 264655    	KB = 961
 Juletta.txt                        	Tokens = 106180    	KB = 386
 Veyra.txt                          	Tokens = 51698     	KB = 222
-Total Tokens in .\Lab\Voices\Era-o4\Teams :: 5099061 = 564259 local + 4534802 sub
+Total Tokens in .\Lab\Voices\Era-o4\Teams :: 5118947 = 564259 local + 4554688 sub
 
 --- Folder: .\Lab\Voices\Era-o4 ---
-Total Tokens in .\Lab\Voices\Era-o4 :: 6964028 = 0 local + 6964028 sub
+Total Tokens in .\Lab\Voices\Era-o4 :: 6983914 = 0 local + 6983914 sub
 
 --- Folder: .\Lab\Voices ---
-Total Tokens in .\Lab\Voices :: 7055579 = 0 local + 7055579 sub
+Total Tokens in .\Lab\Voices :: 7170538 = 0 local + 7170538 sub
 
 --- Folder: .\Lab ---
-Total Tokens in .\Lab :: 8491057 = 0 local + 8491057 sub
+Total Tokens in .\Lab :: 8609146 = 0 local + 8609146 sub
 
 --- Folder: .\Sparks\Appearance ---
 A-Fish — Signature Appearance.txt  	Tokens = 937       	KB = 3.7
@@ -486,10 +490,10 @@ The Shore.txt                      	Tokens = 1754      	KB = 7.4
 Total Tokens in .\Sparks :: 25587 = 13669 local + 11918 sub
 
 --- Folder: . ---
-BigList.txt                        	Tokens = 7806      	KB = 24
-ExactCount.py                      	Tokens = 998       	KB = 3.7
-LL_Summary.csv                     	Tokens = 885       	KB = 2.0
-Short_Structure.txt                	Tokens = 338       	KB = 0.9
+BigList.txt                        	Tokens = 7785      	KB = 24
+ExactCount.py                      	Tokens = 999       	KB = 3.7
+LL_Summary.csv                     	Tokens = 1011      	KB = 2.2
+Short_Structure.txt                	Tokens = 363       	KB = 0.9
 Structure.txt                      	Tokens = 7748      	KB = 29
 Verbs.txt                          	Tokens = 965       	KB = 4.0
-Total Tokens in . :: 8591595 = 18740 local + 8572855 sub
+Total Tokens in . :: 8709815 = 18871 local + 8690944 sub

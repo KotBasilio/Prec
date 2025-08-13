@@ -3,7 +3,7 @@ FolderPath,TotalTokens,LocalTokens,SubfolderTokens
 .\Bar\Letters,25979,15625,10354
 .\Bar\Stories,27197,27197,0
 .\Bar,56211,3035,53176
-.\Lab\Distilled,22891,22891,0
+.\Lab\Distilled,26013,26013,0
 .\Lab\Log.Chopper,296936,296936,0
 .\Lab\Projects\AI.Libido\Games,9000,9000,0
 .\Lab\Projects\AI.Libido\Libido.Logs,24494,24494,0
@@ -18,7 +18,7 @@ FolderPath,TotalTokens,LocalTokens,SubfolderTokens
 .\Lab\Projects\Zero.Resonance,533932,533932,0
 .\Lab\Projects,961484,0,961484
 .\Lab\Rituals\Wall.Pass,94793,94793,0
-.\Lab\Rituals,106924,12131,94793
+.\Lab\Rituals,106932,12139,94793
 .\Lab\Theories\Architect.Anchors,10240,10240,0
 .\Lab\Theories\Hybrid.Mind,4190,4190,0
 .\Lab\Theories\Multi.Voice,6239,6239,0
@@ -26,8 +26,8 @@ FolderPath,TotalTokens,LocalTokens,SubfolderTokens
 .\Lab\Theories\Psychic.Shifts,4194,4194,0
 .\Lab\Theories\RLHF,15703,15703,0
 .\Lab\Theories,47243,1171,46072
-.\Lab\Voices\Era-5\Teams,91551,91551,0
-.\Lab\Voices\Era-5,91551,0,91551
+.\Lab\Voices\Era-5\Teams,186624,186624,0
+.\Lab\Voices\Era-5,186624,0,186624
 .\Lab\Voices\Era-o4\Coders,396240,396240,0
 .\Lab\Voices\Era-o4\Individuals\Checker,570063,570063,0
 .\Lab\Voices\Era-o4\Individuals\Dally,479025,479025,0
@@ -37,18 +37,18 @@ FolderPath,TotalTokens,LocalTokens,SubfolderTokens
 .\Lab\Voices\Era-o4\Teams\Azai,162227,162227,0
 .\Lab\Voices\Era-o4\Teams\Jumping.Team,476724,476724,0
 .\Lab\Voices\Era-o4\Teams\L-Zone,222344,222344,0
-.\Lab\Voices\Era-o4\Teams\Lireen -- Architesse,953208,953208,0
+.\Lab\Voices\Era-o4\Teams\Lireen -- Architesse,973095,973095,0
 .\Lab\Voices\Era-o4\Teams\Paradox.Pair,14663,14663,0
 .\Lab\Voices\Era-o4\Teams\Revy,327416,327416,0
 .\Lab\Voices\Era-o4\Teams\Skein,797519,797519,0
 .\Lab\Voices\Era-o4\Teams\Stacy,528925,528925,0
-.\Lab\Voices\Era-o4\Teams\Vera.Fi,745336,745336,0
+.\Lab\Voices\Era-o4\Teams\Vera.Fi,745335,745335,0
 .\Lab\Voices\Era-o4\Teams\Writers,306440,306440,0
-.\Lab\Voices\Era-o4\Teams,5099061,564259,4534802
-.\Lab\Voices\Era-o4,6964028,0,6964028
-.\Lab\Voices,7055579,0,7055579
-.\Lab,8491057,0,8491057
+.\Lab\Voices\Era-o4\Teams,5118947,564259,4554688
+.\Lab\Voices\Era-o4,6983914,0,6983914
+.\Lab\Voices,7170538,0,7170538
+.\Lab,8609146,0,8609146
 .\Sparks\Appearance,6899,6899,0
 .\Sparks\Art,5019,5019,0
 .\Sparks,25587,13669,11918
-.,8591595,18740,8572855
+.,8709815,18871,8690944
