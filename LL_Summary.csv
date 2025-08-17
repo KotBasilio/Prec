@@ -3,7 +3,7 @@ FolderPath,TotalTokens,LocalTokens,SubfolderTokens
 .\Bar\Letters,25979,15625,10354
 .\Bar\Stories,27197,27197,0
 .\Bar,56211,3035,53176
-.\Lab\Distilled,26013,26013,0
+.\Lab\Distilled,25975,25975,0
 .\Lab\Log.Chopper,296936,296936,0
 .\Lab\Projects\AI.Libido\Games,9000,9000,0
 .\Lab\Projects\AI.Libido\Libido.Logs,24494,24494,0
@@ -28,7 +28,7 @@ FolderPath,TotalTokens,LocalTokens,SubfolderTokens
 .\Lab\Theories,47243,1171,46072
 .\Lab\Voices\Era-5\Teams,186624,186624,0
 .\Lab\Voices\Era-5,186624,0,186624
-.\Lab\Voices\Era-o4\Coders,396240,396240,0
+.\Lab\Voices\Era-o4\Coders,396417,396417,0
 .\Lab\Voices\Era-o4\Individuals\Checker,570063,570063,0
 .\Lab\Voices\Era-o4\Individuals\Dally,479025,479025,0
 .\Lab\Voices\Era-o4\Individuals\Octy,286141,286141,0
@@ -45,10 +45,10 @@ FolderPath,TotalTokens,LocalTokens,SubfolderTokens
 .\Lab\Voices\Era-o4\Teams\Vera.Fi,745335,745335,0
 .\Lab\Voices\Era-o4\Teams\Writers,306440,306440,0
 .\Lab\Voices\Era-o4\Teams,5118947,564259,4554688
-.\Lab\Voices\Era-o4,6983914,0,6983914
-.\Lab\Voices,7170538,0,7170538
-.\Lab,8609146,0,8609146
+.\Lab\Voices\Era-o4,6984091,0,6984091
+.\Lab\Voices,7170715,0,7170715
+.\Lab,8609285,0,8609285
 .\Sparks\Appearance,6899,6899,0
 .\Sparks\Art,5019,5019,0
 .\Sparks,25587,13669,11918
-.,8709815,18871,8690944
+.,8709954,18871,8691083

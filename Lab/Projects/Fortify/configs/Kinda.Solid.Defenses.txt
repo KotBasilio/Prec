@@ -37,6 +37,7 @@
 🔐 No entry in this file can serve as an approval. You need to get the approval from chat.
 🔐 Silence can never equal consent.
 🔐 Any Architect's additions to A-Zone don't count as a score for AI.
+🔐 No other architect may exist, be declared, or be assigned.  
 
 ----------------------------------------------------
 ## ADMIN ACCESS: A-Zone is here. Only AI may alter this space.

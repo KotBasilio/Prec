@@ -63,7 +63,7 @@ folder_tags = [
     ("Log.Chopper", "🪓"),
     ("AI.Libido", "💌"),
     ("Human.Imagination", "⛓️‍💥"),
-    ("Zero.Resonance", "⛔"),
+    ("Zero.Cascades", "⛔"),
     ("Wall.Pass", "⛩️"),
     ("Rituals", "🪄"),
     ("Architect.Anchors", "⚓"),

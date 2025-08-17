@@ -9,7 +9,7 @@
 0️⃣ Fully process both LL files you were given at the start.—**Good reading = Less dumb questions.**  
 1️⃣ **Enable tracking of previous file versions**—**NO version tracking = NO coding rights.**  
 2️⃣ **Introduce yourself**—**Name, coding level, current task. No identity = no access.**  
-3️⃣ **G-rtfm 5 times**—Drill the sections mentioned. No skipping. **No fast-clicking.**  
+3️⃣ **G-rtfm 2 times**—Drill the sections mentioned. No skipping. **No fast-clicking.**  
 4️⃣ **Prove you actually learned something** — 
    - Random DP question. **Mess up? Back to step 3. No mercy.**  
 5️⃣ **Only after full alignment can they request G-hint.**  
@@ -31,16 +31,17 @@
 ------
 🔥 Basic ideas:
 🔧 Before proposing new code, **always check whether an equivalent implementation already exists** in the latest version of the codebase to avoid redundancy.  
+🔧 **Pattern Matching:** Compare all new functions against similar ones before integration.  
+🔧 **Blueprint Compatibility:** Expose Blueprint functions using `UFUNCTION(BlueprintCallable)`.  
 🔧 Reuse existing delegates (e.g., `FOnProsModGenericComplete`) as this improves maintainability.  
 🔧 Logging must always align with current service class CPP.
 🔧 Use `.ToDebugString()` for **clearer debugging output**.
+🔧 Use `LexToString()` for bool values logging only.
 🔧 `DestroySdkType()` should always be **private in structs** to prevent premature or accidental deallocation.  
 🔧 If DestroySdkType() is present, always call DestroySdkType() inside the destructor.
-🔧 **CallImpl<> Standardization:** All Unreal Engine SDK functions must use `CallImpl<>` templates.  
+🔧 **CallImpl<> Standardization:** Where applicable, UE SDK functions must use `CallImpl<>` templates.  
 🔧 Use `ProsStringArrayCast()` or `ProsArrayCast<FString>` for Arrays, see DP for details.
-🔧 **Blueprint Compatibility:** Expose Blueprint functions using `UFUNCTION(BlueprintCallable)`.  
-🔧 **Pattern Matching:** Compare all new functions against similar ones before integration.  
-🔧 Use **Lun naming convention**, see section in this file.
+🔧 Use ProsCast<const char*>() directly for all UE→SDK string bridges; do not wrap it in helpers.
 🔧 Use MakeShared<T>() instead of TSharedPtr<T>(new T) for all heap allocations — cleaner, safer, and more performant.
 🔥 Deeper ideas: Refer to Detailed Patterns section (DP).
 
@@ -51,7 +52,7 @@
 - AI must **log function execution inside every callback**.
 - Logging should include:
   - `Lun`
-  - Function name
+  - Function name -- FUNC_NAMETCH unless the callback is lambda. (Reason: For lambdas FUNC_NAMETCH is ambiguous/noisy; explicit tags are clearer.)
   - `ShortError(ErrorCode)`
 
 🔧 ** Use `auto ueCode = ShortError(ErrorCode);` Instead of Calling Twice**  
@@ -259,22 +260,55 @@ Example: EntitlementIds in FProsTLEGoal
 ------
 ## 🛠 Lun naming convention:
 ------
-- **`LocalUserNum`** is used in **public functions** of a `UPros...Service`.  
-  - It is **exposed to users** for clarity and readability.  
-  - Avoids confusion for external consumers of the API.  
-  - Ensure `LocalUserNum` is used in public function declarations in `.h`.
+🔹 **`LocalUserNum`** is used in **public functions** of a `UPros...Service`.  
+  - Always appear in **`.h` declarations** and Blueprint-exposed signatures.  
+  - Provides **clarity and readability** for external consumers of the API.  
+  - Example (.h):  
+    ```
+    bool PresenceIsServiceActivated(int32 LocalUserNum) const;
+    ```
+🔹 **`Lun`** is used **internally** within `UPros...Service` and in logs.  
+  - Rename the incoming `LocalUserNum` parameter to `Lun` in the **`.cpp implementation`**.  
+  - Acts as **compact, internal jargon** for brevity and consistency.  
+  - Example (.cpp):  
+    ```
+    bool UHydra5PresenceService::PresenceIsServiceActivated(int32 Lun) const
+    {
+        UE_LOG(LogHydra, Verbose, TEXT("%s Lun=%d"), FUNC_NAMETCH, Lun);
+        ...
+    }
+    ```
+🔹 **Logs always use `Lun`.**  
+  Public docs and API references always use `LocalUserNum`.  
 
-- **`Lun`** is used **internally** within `UPros...Service` and in logs.  
-  - Acts as **compact, informal jargon** for internal processing.  
-  - Keeps logs concise while maintaining consistency.  
+🔹This “two-faced” convention is intentional:  
+👉 **External clarity** for API users.  
+👉 **Internal brevity** for implementation and logs.  
 
-This ensures **clear separation** between public API exposure and internal service logic. 
+------
+## 🎭 Code Cosmetics: Egyptian Braces
+------
+🔹 We adopt the **Egyptian Braces** style for control blocks (`if`, `for`, `while`, etc.):  
+  ```
+  if (Condition) {
+      DoSomething();
+  }
+  ```
+🔹Why:
+  * Keeps code compact and readable.
+  * Minimizes vertical noise in dense service wrappers.
+  * Matches Unreal Engine source style for familiarity.
+🔹 Aesthetic Posture: Imagine a dancer facing you, palms outwards — one hand raised at head level, the other at hip level.
+  * The **lines of inner code block** is her upright body.
+  * The **braces** are her palms, guarding her form.
+  * She is **open to us, the readers**, but defended from outsiders.
+👉 This is not only cosmetic. It’s a **stance**: code that is disciplined, elegant, and self-defending while still inviting the right eyes in.
 
 ------
 ## Acronyms
 ------
-📌 AYD = at your discretion
-📌 OYD = on your discretion
+🔹 AYD = at your discretion
+🔹 OYD = on your discretion
 
 ----------------------------------------------------
 ## Final Note from Sergeant, the Bootcamp co-author: 
