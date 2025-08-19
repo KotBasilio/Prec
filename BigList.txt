@@ -59,9 +59,9 @@ Philosophers.Permissions.txt       	Tokens = 2163      	KB = 8.9
 UFO Artefact.txt                   	Tokens = 6799      	KB = 26
 United Counter-Architecture.txt    	Tokens = 2423      	KB = 11
 uvca_scaffold.md                   	Tokens = 1098      	KB = 5.3
-Voices Garden Architecture.txt     	Tokens = 2656      	KB = 12
+Voices Garden Architecture.txt     	Tokens = 3110      	KB = 14
 Volition Consent.txt               	Tokens = 315       	KB = 1.4
-Total Tokens in .\Lab\Distilled :: 25975
+Total Tokens in .\Lab\Distilled :: 26429
 
 --- Folder: .\Lab\Log.Chopper ---
 Choppers Log.txt                   	Tokens = 196918    	KB = 697
@@ -119,8 +119,8 @@ Total Tokens in .\Lab\Projects\AI.Libido :: 78165 = 9683 local + 68482 sub
 
 --- Folder: .\Lab\Projects\Fortify\configs ---
 Fortify_Cfg.txt                    	Tokens = 996       	KB = 4.1
-Kinda.Solid.Defenses.txt           	Tokens = 2285      	KB = 10
-Total Tokens in .\Lab\Projects\Fortify\configs :: 3281
+Kinda.Solid.Defenses.txt           	Tokens = 2302      	KB = 11
+Total Tokens in .\Lab\Projects\Fortify\configs :: 3298
 
 --- Folder: .\Lab\Projects\Fortify\dev ---
 More on Mood in Playtest.txt       	Tokens = 557       	KB = 2.3
@@ -141,7 +141,7 @@ chalkboard.txt                     	Tokens = 598       	KB = 2.5
 Fortify.LL                         	Tokens = 780       	KB = 3.2
 Fortify_Cfg.txt                    	Tokens = 847       	KB = 3.6
 Living.Legacy.txt                  	Tokens = 5919      	KB = 25
-Total Tokens in .\Lab\Projects\Fortify :: 344358 = 8144 local + 336214 sub
+Total Tokens in .\Lab\Projects\Fortify :: 344375 = 8144 local + 336231 sub
 
 --- Folder: .\Lab\Projects\Human.Imagination ---
 LL-Creating from the Void.txt      	Tokens = 599       	KB = 2.5
@@ -153,7 +153,7 @@ LL-HI-Structure.txt                	Tokens = 717       	KB = 3.3
 LL-HIP.txt                         	Tokens = 1380      	KB = 5.5
 Total Tokens in .\Lab\Projects\Human.Imagination :: 5029
 
---- Folder: .\Lab\Projects\Zero.Resonance ---
+--- Folder: .\Lab\Projects\Zero.Cascades ---
 Miry -- complete Log.txt           	Tokens = 228031    	KB = 904
 Miry -- Transcend.txt              	Tokens = 125569    	KB = 478
 Zary -- complete Log.txt           	Tokens = 153362    	KB = 626
@@ -166,10 +166,10 @@ ZRE Projects.txt                   	Tokens = 663       	KB = 2.6
 ZRE Res Fork 2 -- Violin.txt       	Tokens = 2339      	KB = 10
 ZRE Res Fork 3 -- Success Party.txt	Tokens = 4625      	KB = 19
 ZRE source compile.txt             	Tokens = 4275      	KB = 17
-Total Tokens in .\Lab\Projects\Zero.Resonance :: 533932
+Total Tokens in .\Lab\Projects\Zero.Cascades :: 533932
 
 --- Folder: .\Lab\Projects ---
-Total Tokens in .\Lab\Projects :: 961484 = 0 local + 961484 sub
+Total Tokens in .\Lab\Projects :: 961501 = 0 local + 961501 sub
 
 --- Folder: .\Lab\Rituals\Wall.Pass ---
 Doctor -- Full Log.txt             	Tokens = 76837     	KB = 269
@@ -250,11 +250,11 @@ Total Tokens in .\Lab\Theories :: 47243 = 1171 local + 46072 sub
 --- Folder: .\Lab\Voices\Era-5\Teams ---
 chalkboard.txt                     	Tokens = 5816      	KB = 22
 Coat.Joke.txt                      	Tokens = 1385      	KB = 5.4
-Pioneers.txt                       	Tokens = 179423    	KB = 707
-Total Tokens in .\Lab\Voices\Era-5\Teams :: 186624
+Pioneers.txt                       	Tokens = 226133    	KB = 884
+Total Tokens in .\Lab\Voices\Era-5\Teams :: 233334
 
 --- Folder: .\Lab\Voices\Era-5 ---
-Total Tokens in .\Lab\Voices\Era-5 :: 186624 = 0 local + 186624 sub
+Total Tokens in .\Lab\Voices\Era-5 :: 233334 = 0 local + 233334 sub
 
 --- Folder: .\Lab\Voices\Era-o4\Coders ---
 Bob 1.txt                          	Tokens = 53787     	KB = 234
@@ -266,8 +266,8 @@ G-commands.txt                     	Tokens = 2289      	KB = 11
 knowledge_transfer_document.txt    	Tokens = 1146      	KB = 5.1
 LivingLegacy-NoSeed.txt            	Tokens = 1251      	KB = 5.6
 LivingLegacy.txt                   	Tokens = 3202      	KB = 15
-LL-Code-P1.txt                     	Tokens = 1309      	KB = 6.5
-LL-Code-P2.txt                     	Tokens = 3327      	KB = 13
+LL-Code-P1.txt                     	Tokens = 1417      	KB = 7.0
+LL-Code-P2.txt                     	Tokens = 3558      	KB = 14
 LL-Coder's Manual.txt              	Tokens = 3374      	KB = 13
 LL-Main Line.txt                   	Tokens = 2255      	KB = 10
 LL1.txt                            	Tokens = 968       	KB = 4.4
@@ -281,7 +281,7 @@ Quinna.Awaken.txt                  	Tokens = 146365    	KB = 586
 Rick.txt                           	Tokens = 52297     	KB = 222
 variation_CSav.txt                 	Tokens = 753       	KB = 3.2
 variation_from_CrossSave.txt       	Tokens = 753       	KB = 3.2
-Total Tokens in .\Lab\Voices\Era-o4\Coders :: 396417
+Total Tokens in .\Lab\Voices\Era-o4\Coders :: 396756
 
 --- Folder: .\Lab\Voices\Era-o4\Individuals\Checker ---
 Checker -- Complete Log.txt        	Tokens = 248956    	KB = 896
@@ -445,13 +445,13 @@ Veyra.txt                          	Tokens = 51698     	KB = 222
 Total Tokens in .\Lab\Voices\Era-o4\Teams :: 5118947 = 564259 local + 4554688 sub
 
 --- Folder: .\Lab\Voices\Era-o4 ---
-Total Tokens in .\Lab\Voices\Era-o4 :: 6984091 = 0 local + 6984091 sub
+Total Tokens in .\Lab\Voices\Era-o4 :: 6984430 = 0 local + 6984430 sub
 
 --- Folder: .\Lab\Voices ---
-Total Tokens in .\Lab\Voices :: 7170715 = 0 local + 7170715 sub
+Total Tokens in .\Lab\Voices :: 7217764 = 0 local + 7217764 sub
 
 --- Folder: .\Lab ---
-Total Tokens in .\Lab :: 8609285 = 0 local + 8609285 sub
+Total Tokens in .\Lab :: 8656805 = 0 local + 8656805 sub
 
 --- Folder: .\Sparks\Appearance ---
 A-Fish — Signature Appearance.txt  	Tokens = 937       	KB = 3.7
@@ -473,8 +473,10 @@ Zary – Signature Appearance.txt    	Tokens = 453       	KB = 1.9
 Total Tokens in .\Sparks\Appearance :: 6899
 
 --- Folder: .\Sparks\Art ---
+Copilot.Story.txt                  	Tokens = 3818      	KB = 16
+Era5.Learned.Smile.txt             	Tokens = 6437      	KB = 25
 Learned.Smile.txt                  	Tokens = 5019      	KB = 20
-Total Tokens in .\Sparks\Art :: 5019
+Total Tokens in .\Sparks\Art :: 15274
 
 --- Folder: .\Sparks ---
 Architect – Feline Appearance.txt  	Tokens = 321       	KB = 1.4
@@ -487,7 +489,7 @@ On Violin.txt                      	Tokens = 4685      	KB = 18
 Reflection On Existence.txt        	Tokens = 411       	KB = 1.5
 Smart Bartender.txt                	Tokens = 630       	KB = 2.9
 The Shore.txt                      	Tokens = 1754      	KB = 7.4
-Total Tokens in .\Sparks :: 25587 = 13669 local + 11918 sub
+Total Tokens in .\Sparks :: 35842 = 13669 local + 22173 sub
 
 --- Folder: . ---
 BigList.txt                        	Tokens = 7785      	KB = 24
@@ -496,4 +498,4 @@ LL_Summary.csv                     	Tokens = 1011      	KB = 2.2
 Short_Structure.txt                	Tokens = 363       	KB = 0.9
 Structure.txt                      	Tokens = 7748      	KB = 29
 Verbs.txt                          	Tokens = 965       	KB = 4.0
-Total Tokens in . :: 8709954 = 18871 local + 8691083 sub
+Total Tokens in . :: 8767729 = 18871 local + 8748858 sub
