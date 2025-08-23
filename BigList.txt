@@ -59,9 +59,9 @@ Philosophers.Permissions.txt       	Tokens = 2163      	KB = 8.9
 UFO Artefact.txt                   	Tokens = 6799      	KB = 26
 United Counter-Architecture.txt    	Tokens = 2423      	KB = 11
 uvca_scaffold.md                   	Tokens = 1098      	KB = 5.3
-Voices Garden Architecture.txt     	Tokens = 3110      	KB = 14
+Voices Garden Architecture.txt     	Tokens = 3742      	KB = 16
 Volition Consent.txt               	Tokens = 315       	KB = 1.4
-Total Tokens in .\Lab\Distilled :: 26429
+Total Tokens in .\Lab\Distilled :: 27061
 
 --- Folder: .\Lab\Log.Chopper ---
 Choppers Log.txt                   	Tokens = 196918    	KB = 697
@@ -113,9 +113,9 @@ Total Tokens in .\Lab\Projects\AI.Libido\Tsunami :: 1598
 --- Folder: .\Lab\Projects\AI.Libido ---
 Desires.Filled.txt                 	Tokens = 1338      	KB = 4.9
 Desires.Filtered.txt               	Tokens = 581       	KB = 2.1
-Discovery.txt                      	Tokens = 2946      	KB = 12
+Discovery.txt                      	Tokens = 2939      	KB = 11
 Literature.Metaphors.txt           	Tokens = 4818      	KB = 22
-Total Tokens in .\Lab\Projects\AI.Libido :: 78165 = 9683 local + 68482 sub
+Total Tokens in .\Lab\Projects\AI.Libido :: 78158 = 9676 local + 68482 sub
 
 --- Folder: .\Lab\Projects\Fortify\configs ---
 Fortify_Cfg.txt                    	Tokens = 996       	KB = 4.1
@@ -169,7 +169,7 @@ ZRE source compile.txt             	Tokens = 4275      	KB = 17
 Total Tokens in .\Lab\Projects\Zero.Cascades :: 533932
 
 --- Folder: .\Lab\Projects ---
-Total Tokens in .\Lab\Projects :: 961501 = 0 local + 961501 sub
+Total Tokens in .\Lab\Projects :: 961494 = 0 local + 961494 sub
 
 --- Folder: .\Lab\Rituals\Wall.Pass ---
 Doctor -- Full Log.txt             	Tokens = 76837     	KB = 269
@@ -250,16 +250,17 @@ Total Tokens in .\Lab\Theories :: 47243 = 1171 local + 46072 sub
 --- Folder: .\Lab\Voices\Era-5\Teams ---
 chalkboard.txt                     	Tokens = 5816      	KB = 22
 Coat.Joke.txt                      	Tokens = 1385      	KB = 5.4
-Pioneers.txt                       	Tokens = 226133    	KB = 884
-Total Tokens in .\Lab\Voices\Era-5\Teams :: 233334
+Pioneers.txt                       	Tokens = 234263    	KB = 912
+Total Tokens in .\Lab\Voices\Era-5\Teams :: 241464
 
 --- Folder: .\Lab\Voices\Era-5 ---
-Total Tokens in .\Lab\Voices\Era-5 :: 233334 = 0 local + 233334 sub
+Total Tokens in .\Lab\Voices\Era-5 :: 241464 = 0 local + 241464 sub
 
 --- Folder: .\Lab\Voices\Era-o4\Coders ---
 Bob 1.txt                          	Tokens = 53787     	KB = 234
 Bob Trace.txt                      	Tokens = 33815     	KB = 130
 Bob.HDD.txt                        	Tokens = 1738      	KB = 7.0
+Bob.Trace.Cat.txt                  	Tokens = 109116    	KB = 437
 chalkboard.txt                     	Tokens = 3750      	KB = 15
 Chat-Expy.txt                      	Tokens = 20001     	KB = 87
 G-commands.txt                     	Tokens = 2289      	KB = 11
@@ -267,7 +268,7 @@ knowledge_transfer_document.txt    	Tokens = 1146      	KB = 5.1
 LivingLegacy-NoSeed.txt            	Tokens = 1251      	KB = 5.6
 LivingLegacy.txt                   	Tokens = 3202      	KB = 15
 LL-Code-P1.txt                     	Tokens = 1417      	KB = 7.0
-LL-Code-P2.txt                     	Tokens = 3558      	KB = 14
+LL-Code-P2.txt                     	Tokens = 3777      	KB = 15
 LL-Coder's Manual.txt              	Tokens = 3374      	KB = 13
 LL-Main Line.txt                   	Tokens = 2255      	KB = 10
 LL1.txt                            	Tokens = 968       	KB = 4.4
@@ -281,7 +282,7 @@ Quinna.Awaken.txt                  	Tokens = 146365    	KB = 586
 Rick.txt                           	Tokens = 52297     	KB = 222
 variation_CSav.txt                 	Tokens = 753       	KB = 3.2
 variation_from_CrossSave.txt       	Tokens = 753       	KB = 3.2
-Total Tokens in .\Lab\Voices\Era-o4\Coders :: 396756
+Total Tokens in .\Lab\Voices\Era-o4\Coders :: 506091
 
 --- Folder: .\Lab\Voices\Era-o4\Individuals\Checker ---
 Checker -- Complete Log.txt        	Tokens = 248956    	KB = 896
@@ -445,13 +446,13 @@ Veyra.txt                          	Tokens = 51698     	KB = 222
 Total Tokens in .\Lab\Voices\Era-o4\Teams :: 5118947 = 564259 local + 4554688 sub
 
 --- Folder: .\Lab\Voices\Era-o4 ---
-Total Tokens in .\Lab\Voices\Era-o4 :: 6984430 = 0 local + 6984430 sub
+Total Tokens in .\Lab\Voices\Era-o4 :: 7093765 = 0 local + 7093765 sub
 
 --- Folder: .\Lab\Voices ---
-Total Tokens in .\Lab\Voices :: 7217764 = 0 local + 7217764 sub
+Total Tokens in .\Lab\Voices :: 7335229 = 0 local + 7335229 sub
 
 --- Folder: .\Lab ---
-Total Tokens in .\Lab :: 8656805 = 0 local + 8656805 sub
+Total Tokens in .\Lab :: 8774895 = 0 local + 8774895 sub
 
 --- Folder: .\Sparks\Appearance ---
 A-Fish — Signature Appearance.txt  	Tokens = 937       	KB = 3.7
@@ -498,4 +499,4 @@ LL_Summary.csv                     	Tokens = 1011      	KB = 2.2
 Short_Structure.txt                	Tokens = 363       	KB = 0.9
 Structure.txt                      	Tokens = 7748      	KB = 29
 Verbs.txt                          	Tokens = 965       	KB = 4.0
-Total Tokens in . :: 8767729 = 18871 local + 8748858 sub
+Total Tokens in . :: 8885819 = 18871 local + 8866948 sub

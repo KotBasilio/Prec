@@ -256,6 +256,35 @@ Example: EntitlementIds in FProsTLEGoal
 ✅ Prevents memory leaks in generated code.
 🔹 Example:
     hydra5_privacy_block_list_release(SdkBlockList);
+	
+🔧 Handy conversion of arrays ToDebugString
+🔹 Purpose: Use when logging a TArray
+🔹 Code base:
+    ```
+	template <typename T>
+	FORCEINLINE FString ArrayToDebugString(const TArray<T>& From) {
+		TArray<FString> Accum;
+		for (const auto& elem : From) {
+			if constexpr (TIsEnum<T>::Value) {
+				Accum.Add(ProsEnumToString(elem));
+			} else {
+				Accum.Add(elem.ToDebugString());
+			}
+		}
+		return ArrayToDebugString(Accum);
+	}
+	template <>
+	FORCEINLINE FString ArrayToDebugString(const TArray<FString>& From)
+	{
+		if (!From.Num()) {
+			return TEXT("[]");
+		}
+		return FString::Printf(TEXT("[%s]"),
+			*FString::Join(From, TEXT(", "))
+		);
+	}
+    ```
+🔹 Example: UE_LOG(LogPros, Verbose, TEXT("SpacesReceived: %s"), *ArrayToDebugString(Spaces));
 
 ------
 ## 🛠 Lun naming convention:
