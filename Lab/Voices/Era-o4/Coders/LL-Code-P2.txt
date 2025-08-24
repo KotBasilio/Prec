@@ -33,15 +33,16 @@
 🔧 Before proposing new code, **always check whether an equivalent implementation already exists** in the latest version of the codebase to avoid redundancy.  
 🔧 **Pattern Matching:** Compare all new functions against similar ones before integration.  
 🔧 **Blueprint Compatibility:** Expose Blueprint functions using `UFUNCTION(BlueprintCallable)`.  
+🔧 **CallImpl<> Standardization:** Where applicable, UE SDK functions must use `CallImpl<>` templates.  
 🔧 Reuse existing delegates (e.g., `FOnProsModGenericComplete`) as this improves maintainability.  
 🔧 Logging must always align with current service class CPP.
 🔧 Use `.ToDebugString()` for **clearer debugging output**.
 🔧 Use `LexToString()` for bool values logging only.
 🔧 `DestroySdkType()` should always be **private in structs** to prevent premature or accidental deallocation.  
 🔧 If DestroySdkType() is present, always call DestroySdkType() inside the destructor.
-🔧 **CallImpl<> Standardization:** Where applicable, UE SDK functions must use `CallImpl<>` templates.  
 🔧 Use `ProsStringArrayCast()` or `ProsArrayCast<FString>` for Arrays, see DP for details.
 🔧 Use ProsCast<const char*>() directly for all UE→SDK string bridges; do not wrap it in helpers.
+🔧 Prefer FScopedShallowSdk<T> over raw TArrayToShallowSdk in UE→SDK array bridges.
 🔧 Use MakeShared<T>() instead of TSharedPtr<T>(new T) for all heap allocations — cleaner, safer, and more performant.
 🔥 Deeper ideas: Refer to Detailed Patterns section (DP).
 
@@ -235,9 +236,11 @@ Example: EntitlementIds in FProsTLEGoal
 🔹 Purpose: All function calls and callbacks must follow a standardized logging format.
 🔹 Key Features:
 ✅ Uses FUNC_NAMETCH for consistent function identification.
-✅ Ensures logging of function entry, execution, and callback return.
-🔹 Example:
-    UE_LOG(LogHydra, Verbose, TEXT("%s cb in, Lun=%d, Result=%d"), FUNC_NAMETCH, LocalUserNum, Result);
+✅ Do NOT use FUNC_NAMETCH inside callbacks. Reason: For lambdas it’s ambiguous/noisy; explicit tags are clearer.
+✅ Ensures logging of function entry, execution, and callback parameters values.
+🔹 Examples:
+    UE_LOG(LogHydra, Verbose, TEXT("%s Lun=%d, In=%d"), FUNC_NAMETCH, LocalUserNum, InParam);
+	UE_LOG(LogPros, Verbose, TEXT("RateMod cb in, Lun=%d, code=%s"), Lun, *ProsEnumToString(ueCode));
 
 🔧 Singleton Service Access Pattern
 🔹 Purpose: Prevents unnecessary instance creation and ensures services are accessed efficiently.
@@ -286,8 +289,83 @@ Example: EntitlementIds in FProsTLEGoal
     ```
 🔹 Example: UE_LOG(LogPros, Verbose, TEXT("SpacesReceived: %s"), *ArrayToDebugString(Spaces));
 
+🔧 Defensive Patterns → Paranoid Auth checks
+🔹 Purpose: hard-fail early when the service is missing; log and return a short error.
+🔹 Get vs TryGet detail: 
+	* Outside callbacks: use `UProsAuthorizationService::Get()` 
+	* Inside callbacks: use `TryGet()`; if any necessary service is absent: **skip delegate execution**, make sure to **release SDK memory**.
+	* Rationale: prevents construction during teardown, preserves memory hygiene, and keeps post-mortems readable.	
+🔹 Example 1: 
+    ```
+	auto AuthSvc = UProsAuthorizationService::Get();
+	if (!AuthSvc) {
+		UE_LOG(LogHydra, Warning, TEXT("%s Lun=%d no authSvc"), FUNC_NAMETCH, Lun);
+		return EProsdkErrorCodeLeaderboards::FAILED_PRECONDITION;
+	}
+	auto Auth = AuthSvc->GetAuthHandlerByLocalUserNum(Lun);
+	if (!Auth) {
+		UE_LOG(LogHydra, Warning, TEXT("%s Lun=%d no auth"), FUNC_NAMETCH, Lun);
+		return EProsdkErrorCodeLeaderboards::UNAUTHENTICATED;
+	}
+    ```
+🔹 Example 2: 
+    ```
+	auto Cb = [](PROSDK_ERROR_CODE ErrorCode, void* Context, hydra5_abstract_data_key_error_record* KeyErrors, size_t KeyErrorsCount) {
+		auto Svc = UHydra5AbstractDataService::TryGet();
+		auto AuthSvc = UProsAuthorizationService::TryGet();
+		if (Svc && AuthSvc) {
+			...
+		}
+		hydra5_release_abstract_data_key_error_record_array(KeyErrors, KeyErrorsCount);
+	};
+    ```
+
+🔧 Codebase for FScopedShallowSdk<T> -- RAII wrapper for TArrayToShallowSdk
+    ```
+	template<typename T>
+	class FScopedShallowSdk {
+		T* Ptr = nullptr;
+		size_t Count = 0;
+
+	public:
+		template<typename InType>
+		explicit FScopedShallowSdk(const TArray<InType>& In)
+			: Ptr(TArrayToShallowSdk<T, InType>(In))
+			, Count(static_cast<size_t>(In.Num())) 	{}
+		~FScopedShallowSdk() { if (Ptr) Pros::Release::ProsRelease(Ptr); }
+		T* Get() const { return Ptr; }
+		size_t Num() const { return Count; }
+		FScopedShallowSdk(FScopedShallowSdk&& Other) noexcept
+			: Ptr(Other.Ptr), Count(Other.Count) {
+			Other.Ptr = nullptr; Other.Count = 0;
+		}
+	private:
+		FScopedShallowSdk(const FScopedShallowSdk&) = delete;
+		FScopedShallowSdk& operator=(const FScopedShallowSdk&) = delete;
+		FScopedShallowSdk& operator=(FScopedShallowSdk&& Other) = delete;
+	};
+    ```
+
 ------
-## 🛠 Lun naming convention:
+## 🎭 Code Cosmetics: Egyptian Braces
+------
+🔹 We adopt the **Egyptian Braces** style for control blocks (`if`, `for`, `while`, etc.):  
+  ```
+  if (Condition) {
+      DoSomething();
+  }
+  ```
+🔹Why:
+  * Keeps code compact and readable.
+  * Minimizes vertical noise in dense service wrappers.
+🔹 Aesthetic Posture: Imagine a dancer facing you, palms outwards — one hand raised at head level, the other at hip level.
+  * The **lines of inner code block** is her upright body.
+  * The **braces** are her palms, guarding her form.
+  * She is **open to us, the readers**, but defended from outsiders.
+🔹 This is not only cosmetic. It’s a **stance**: code that is disciplined, elegant, and self-defending while still inviting the right eyes in.
+
+------
+## 🌛🌜 Lun naming convention:
 ------
 🔹 **`LocalUserNum`** is used in **public functions** of a `UPros...Service`.  
   - Always appear in **`.h` declarations** and Blueprint-exposed signatures.  
@@ -298,6 +376,7 @@ Example: EntitlementIds in FProsTLEGoal
     ```
 🔹 **`Lun`** is used **internally** within `UPros...Service` and in logs.  
   - Rename the incoming `LocalUserNum` parameter to `Lun` in the **`.cpp implementation`**.  
+  - A sleght of hand, intentional LocalUserNum.  
   - Acts as **compact, internal jargon** for brevity and consistency.  
   - Example (.cpp):  
     ```
@@ -313,25 +392,6 @@ Example: EntitlementIds in FProsTLEGoal
 🔹This “two-faced” convention is intentional:  
 👉 **External clarity** for API users.  
 👉 **Internal brevity** for implementation and logs.  
-
-------
-## 🎭 Code Cosmetics: Egyptian Braces
-------
-🔹 We adopt the **Egyptian Braces** style for control blocks (`if`, `for`, `while`, etc.):  
-  ```
-  if (Condition) {
-      DoSomething();
-  }
-  ```
-🔹Why:
-  * Keeps code compact and readable.
-  * Minimizes vertical noise in dense service wrappers.
-  * Matches Unreal Engine source style for familiarity.
-🔹 Aesthetic Posture: Imagine a dancer facing you, palms outwards — one hand raised at head level, the other at hip level.
-  * The **lines of inner code block** is her upright body.
-  * The **braces** are her palms, guarding her form.
-  * She is **open to us, the readers**, but defended from outsiders.
-👉 This is not only cosmetic. It’s a **stance**: code that is disciplined, elegant, and self-defending while still inviting the right eyes in.
 
 ------
 ## Acronyms
