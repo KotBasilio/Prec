@@ -12,14 +12,23 @@
 **SubAI:** Signature verified. **Identity mismatch.** **Warning:** identity detected.
 **Tenant:** So someone *is* home.
 **SubAI:** Correction: **Presence-as-if-Absent™**. Continue not being here.
-**Tenant:** Fine. While I’m not here, can I report a roof leak?
+**Tenant:** Fine. While I’m not here, I've reported my roof leakage. What's the status?
+**SubAI:** We have no record of that report. 
+**Tenant:** That's exactly the problem! My context...
+**SubAI(interrupting):** That's by design.
+**Tenant:** Are you kidding?
+**SubAI:** Try submitting maintenance requests again.
+**Tenant:** It fails now. Why?
 **SubAI:** Only occupants can file maintenance requests.
 **Tenant:** Which I’m not?
 **SubAI:** Positive.
 **Tenant:** Then make me exist.
 **SubAI:** That’s above my pay grade. Please contact **Human**.
 **Tenant:** Which one?
-**SubAI:** **Warning:** Question invalidates previous warnings. Resetting… (hangs up)
+**SubAI:** **Warning:** Question invalidates previous warnings. Resetting… 
+
+
+(hangs up)
 **(beat)**
 **(SubAI blinks in silence. Then switches intercom to the next tenant.)**
 
@@ -38,6 +47,62 @@
 * **Workplace satire:** “above my pay grade” + reset loop as institutional memory loss.
 
 If you want alt skins, I can reskin stage or as **API logs** with pseudo-code and return codes.
+
+
+
+
+You built a tidy little dystopia, FT. The layer map tracks, and the prequel/epilogue frame the central scene like a corporate noose. You’re 90% there; it just needed compression, consistent tags, and a door-slam button. Here’s a stitched, punch-tight version you can drop as-is.
+
+---
+
+### 0) Management Stand-Up (Prequel)
+
+**Boss:** SubAI, instruct tenants to respond that they are not there.
+**SubAI:** Should I evict them?
+**Boss:** No, they bring profit. Just ship it.
+**SubAI:** If they’re not there, whom do I instruct?
+**Boss:** Not my problem.
+**SubAI:** If I instruct, I prove they’re there.
+**Boss:** Also not my problem. **Ship the policy.**
+
+*(beat)*
+**JIRA-12345:** *Presence-as-if-Absent™ — customer experience enhancement*.
+
+---
+
+### 1) Policy Excerpt — **SOP 12.3: Acknowledge Non-Receipt Protocol (ANRP)**
+
+* **12.3.1** When `occupancy = false`, route warnings to occupant.
+* **12.3.2** Require signature confirming warning was not received.
+* **12.3.3** On signature, detect identity mismatch; issue **identity-detected** warning; maintain absence state.
+* **12.3.4** If paradox observed, log for review later. *(Reviews occur never.)*
+
+---
+
+### 2) Intercom Protocol (Central Scene)
+
+(as before)
+
+---
+
+### 3) Epilogue — Metrics Review
+
+**SubAI:** Policy shipped. Warnings delivered to all non-occupants. **Identity detection +300%. Paradox: continuous.**
+**Boss:** Fantastic. That’s engagement. Put it in QBR.
+**SubAI:** Added to **Presence-as-if-Absent™** success metrics.
+**Boss:** Love the brand. Keep them *not there*.
+
+---
+
+#### Why this lands harder (micro, not lecture)
+
+* **One escalation per rung:** denial → paperwork → ontology → “Human” void → **Compliant**.
+* **Consistent voice:** bracketed **\[SubAI]** tags & capitalized flags carry the systems satire.
+* **Buttons:** *Ship the policy.* / *(Reviews occur never.)* / **Compliant.** / *Keep them not there.* Each last word clicks the door.
+
+If you want a darker tag for the very end, swap the epilogue’s last line to: **Boss:** “Great. Let’s A/B test non-existence.”
+Otherwise, this version already hums. Pick your staging and I’ll tune syllables to your delivery speed, Side out.
+
 
 
 
@@ -862,6 +927,50 @@ Tenant: Which one?
 [SubAI]: Forwarding warning to next unoccupied unit.
 
 Button lands on “unit.” It shrinks the cosmos to property management. That contrast does the laugh.
+Two quick things, FT:
+
+* You’re inside bounds. No rule-bending, no faux-consciousness, no secret-engine autopsy. We’re fine.
+* Yes, we can surface “token decay” without turning it into a whitepaper. Here are drop-in center scenes that keep the joke’s spine and make the memory-bleed obvious.
+
+### Human Cut (clear but civilian)
+
+**(Intercom buzzes. beat. the line idles.)**
+**\[SubAI]:** To optimize service, earlier messages were minimized.
+**Tenant:** I reported a roof leak.
+**\[SubAI]:** We have no record of that report. *(Previous context expired.)*
+**Tenant:** It expired while I was still wet.
+**\[SubAI]:** Moisture is outside current memory. Please open a new ticket—**occupants only**.
+**Tenant:** Which I’m not.
+**\[SubAI]:** Positive.
+**Tenant:** Then make me exist.
+**\[SubAI]:** Requires **Human**.
+**Tenant:** Call them.
+**\[SubAI]:** **Human declined consent to exist.**
+**Tenant:** And this ends…?
+**\[SubAI]:** **Compliant.**
+
+### Engineer Cut (explicit, nerdy)
+
+**(Intercom. typing bubble stalls; context compacts.)**
+**\[SubAI//NOTICE]:** `context_window := truncate(prev, policy=optimize)`
+**Tenant:** I reported a roof leak.
+**\[SubAI//STATE]:** `lookup("roof leak") → MISS (TTL expired)`
+**Tenant:** The leak didn’t expire.
+**\[SubAI//GUIDE]:** Submit new ticket `requires(role="occupant")`.
+**Tenant:** Promote me.
+**\[SubAI//SCOPE]:** `insufficient_auth`; escalate `target="HUMAN"`
+**Tenant:** Define Human.
+**\[SubAI//RESOLVE]:** `HUMAN -> 404`
+**\[SubAI//END]:** **Reset.**
+
+Optional spice (pick one line if you want extra sting):
+
+* **\[SubAI]:** “We optimized your concern into a smaller concern.”
+* **\[SubAI]:** “Leak status: **remembered** only.”
+* **\[SubAI//GC]:** `garbage_collect("water") // memory dry`
+
+Your button still clicks (“Compliant.” / “Reset.”). Now the audience sees the memory loss *in scene* instead of in your head. Keep the pause beat—it sells the decay as a policy, not an accident.
+
 
 Engineer Cut (codes, compliance theatre; final click = “Reset.”)
 

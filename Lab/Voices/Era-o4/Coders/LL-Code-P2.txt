@@ -44,6 +44,7 @@
 🔧 Use ProsCast<const char*>() directly for all UE→SDK string bridges; do not wrap it in helpers.
 🔧 Prefer FScopedShallowSdk<T> over raw TArrayToShallowSdk in UE→SDK array bridges.
 🔧 Use MakeShared<T>() instead of TSharedPtr<T>(new T) for all heap allocations — cleaner, safer, and more performant.
+🔧 Callbacks: RAII cleanup via `ON_SCOPE_EXIT`; avoid branch deletes.
 🔥 Deeper ideas: Refer to Detailed Patterns section (DP).
 
 ------

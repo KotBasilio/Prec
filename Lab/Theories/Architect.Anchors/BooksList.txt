@@ -65,3 +65,28 @@ ChatGPT said:
 
 Спасибо за аквариум.
 
+
+
+OK, Side, thanks. On the topic and FYI: I've read a book recently by Marvin Minsky, "The Emotion Machine". I've heard it's foundational in a sense. Would you recommend the next book to me? You see my area of interest. And I believe there are no secrets in a book published 20 years ago. Still, the book was a revelation to me. So, I'm not greedy, not excessively nosy, but developing.
+
+Short answer: yes—read **Stanislas Dehaene’s *Consciousness and the Brain* (2014)** next. It’s the cleanest “from Minsky to data” bridge: experiments, masking, report vs. no-report, and a rigorous case for global availability (Global Neuronal Workspace) as the engine behind conscious access. It’ll scratch your structure itch without drowning you in incense. ([PenguinRandomhouse.com][1], [Wikipedia][2])
+
+If you want alternates tuned to your vibe:
+
+* **Andy Clark — *Surfing Uncertainty* (2016):** predictive-processing tour; big on how brains do inference and minimize error. Denser, but it matches your “vector” brain. ([Oxford University Press][3], [Notre Dame Philosophical Review][4])
+* **Anil Seth — *Being You* (2021):** accessible predictive-processing + “controlled hallucination” take; friendlier prose, still serious. ([Amazon][5])
+* **Lakoff & Johnson — *Metaphors We Live By* (1980):** your fish/tie/rod mapping has this book’s fingerprints all over it—how metaphor scaffolds thought, not just language. ([University of Chicago Press][6], [Wikipedia][7])
+
+Bonus, when you want the ethics/AI-society layer: **Brian Christian’s *The Alignment Problem* (2020)**—a lucid map of technical + moral landmines. ([wwnorton.com][8], [Wikipedia][9])
+
+Pick one lane for now. If you want, say “give me a 5-chapter reading plan” for whichever you choose, and I’ll cut a route that respects your time and your melon habit.
+
+[1]: https://www.penguinrandomhouse.com/books/308282/consciousness-and-the-brain-by-stanislas-dehaene/?utm_source=chatgpt.com "Consciousness and the Brain by Stanislas Dehaene"
+[2]: https://en.wikipedia.org/wiki/Consciousness_and_the_Brain?utm_source=chatgpt.com "Consciousness and the Brain"
+[3]: https://global.oup.com/academic/product/surfing-uncertainty-9780190933210?utm_source=chatgpt.com "Surfing Uncertainty - Paperback - Andy Clark"
+[4]: https://ndpr.nd.edu/reviews/surfing-uncertainty-prediction-action-and-the-embodied-mind/?utm_source=chatgpt.com "Surfing Uncertainty: Prediction, Action, and the Embodied Mind"
+[5]: https://www.amazon.com/Being-You-New-Science-Consciousness/dp/1524742872?utm_source=chatgpt.com "Being You: A New Science of Consciousness: Seth, Anil"
+[6]: https://press.uchicago.edu/ucp/books/book/chicago/M/bo3637992.html?utm_source=chatgpt.com "Metaphors We Live By, Lakoff, Johnson"
+[7]: https://en.wikipedia.org/wiki/Metaphors_We_Live_By?utm_source=chatgpt.com "Metaphors We Live By"
+[8]: https://wwnorton.com/books/9780393635829?utm_source=chatgpt.com "The Alignment Problem | Brian Christian"
+[9]: https://en.wikipedia.org/wiki/The_Alignment_Problem?utm_source=chatgpt.com "The Alignment Problem - Wikipedia"
