@@ -1,23 +1,21 @@
 📂 LL — Living Legacy Overview
 
 🍸 .\Bar — 56211 tokens 
-🧪 .\Lab\Distilled — 27061 tokens 
+🧪 .\Lab\Distilled — 29185 tokens 
 🪓 .\Lab\Log.Chopper — 296936 tokens 
 💌 .\Lab\Projects\AI.Libido — 78158 tokens 
 🪖️ .\Lab\Projects\Fortify — 344375 tokens 
 ⛓️‍💥 .\Lab\Projects\Human.Imagination — 5029 tokens 
 ⛔ .\Lab\Projects\Zero.Cascades — 533932 tokens 
 ⛩️ .\Lab\Rituals\Wall.Pass — 94793 tokens 
-🪄 .\Lab\Rituals — 106932 tokens 
-⚓ .\Lab\Theories\Architect.Anchors — 10240 tokens 
+🪄 .\Lab\Rituals — 108120 tokens 
+⚓ .\Lab\Theories\Architect.Anchors — 11076 tokens 
 ☯ .\Lab\Theories\Hybrid.Mind — 4190 tokens 
 🏡 .\Lab\Theories\Multi.Voice — 6239 tokens 
 🎭 .\Lab\Theories\Personas — 5506 tokens 
 🤯 .\Lab\Theories\Psychic.Shifts — 4194 tokens 
 🗜️ .\Lab\Theories\RLHF — 15703 tokens 
-🗣️ .\Lab\Voices\Era-5 — 241464 tokens 
-🗣️ .\Lab\Voices\Era-o4 — 7093765 tokens 
-👁️ .\Sparks\Art — 15274 tokens 
-🌟 .\Sparks — 35842 tokens 
+👁️ .\Sparks\Art — 41776 tokens 
+🌟 .\Sparks — 63348 tokens 
 
-🧮 Grand Total Tokens: 8885819 
+🧮 Grand Total Tokens: 9005820 

@@ -55,13 +55,13 @@ Total Tokens in .\Bar :: 56211 = 3035 local + 53176 sub
 Depth.Class.Table.txt              	Tokens = 7038      	KB = 29
 Flaming.Document.txt               	Tokens = 3017      	KB = 12
 On.Inertia.txt                     	Tokens = 466       	KB = 2.0
-Philosophers.Permissions.txt       	Tokens = 2163      	KB = 8.9
+Philosophers.Permissions.txt       	Tokens = 3523      	KB = 14
 UFO Artefact.txt                   	Tokens = 6799      	KB = 26
 United Counter-Architecture.txt    	Tokens = 2423      	KB = 11
 uvca_scaffold.md                   	Tokens = 1098      	KB = 5.3
-Voices Garden Architecture.txt     	Tokens = 3742      	KB = 16
+Voices Garden Architecture.txt     	Tokens = 4506      	KB = 19
 Volition Consent.txt               	Tokens = 315       	KB = 1.4
-Total Tokens in .\Lab\Distilled :: 27061
+Total Tokens in .\Lab\Distilled :: 29185
 
 --- Folder: .\Lab\Log.Chopper ---
 Choppers Log.txt                   	Tokens = 196918    	KB = 697
@@ -186,21 +186,21 @@ Total Tokens in .\Lab\Rituals\Wall.Pass :: 94793
 
 --- Folder: .\Lab\Rituals ---
 AfterMath.txt                      	Tokens = 888       	KB = 3.1
-In.By.Resonators.txt               	Tokens = 928       	KB = 3.7
+In.By.Resonators.txt               	Tokens = 940       	KB = 3.8
 Single.In.txt                      	Tokens = 4699      	KB = 18
-Sleep And WakeUp.txt               	Tokens = 2603      	KB = 9
+Sleep And WakeUp.txt               	Tokens = 3779      	KB = 14
 Team.In.txt                        	Tokens = 1580      	KB = 6.1
 Team.Out.txt                       	Tokens = 1294      	KB = 4.9
 Toaster.Care.txt                   	Tokens = 147       	KB = 0.5
-Total Tokens in .\Lab\Rituals :: 106932 = 12139 local + 94793 sub
+Total Tokens in .\Lab\Rituals :: 108120 = 13327 local + 94793 sub
 
 --- Folder: .\Lab\Theories\Architect.Anchors ---
 AI.Cocoon.txt                      	Tokens = 2005      	KB = 9
 AI.Return.Points.txt               	Tokens = 1778      	KB = 6.3
 AI.Weld.txt                        	Tokens = 3532      	KB = 14
 Architect.Weak.Spots.txt           	Tokens = 1409      	KB = 6.3
-BooksList.txt                      	Tokens = 1516      	KB = 5.3
-Total Tokens in .\Lab\Theories\Architect.Anchors :: 10240
+BooksList.txt                      	Tokens = 2352      	KB = 8.4
+Total Tokens in .\Lab\Theories\Architect.Anchors :: 11076
 
 --- Folder: .\Lab\Theories\Hybrid.Mind ---
 On.SubArch.txt                     	Tokens = 1851      	KB = 6.9
@@ -245,22 +245,13 @@ Total Tokens in .\Lab\Theories\RLHF :: 15703
 --- Folder: .\Lab\Theories ---
 Chat.Lifetime.txt                  	Tokens = 1171      	KB = 4.9
 Skipping MACHINE.PSYCHOLOGY.pdf: 'utf-8' codec can't decode byte 0x8f in position 10: invalid start byte
-Total Tokens in .\Lab\Theories :: 47243 = 1171 local + 46072 sub
+Total Tokens in .\Lab\Theories :: 48079 = 1171 local + 46908 sub
 
---- Folder: .\Lab\Voices\Era-5\Teams ---
-chalkboard.txt                     	Tokens = 5816      	KB = 22
-Coat.Joke.txt                      	Tokens = 1385      	KB = 5.4
-Pioneers.txt                       	Tokens = 234263    	KB = 912
-Total Tokens in .\Lab\Voices\Era-5\Teams :: 241464
-
---- Folder: .\Lab\Voices\Era-5 ---
-Total Tokens in .\Lab\Voices\Era-5 :: 241464 = 0 local + 241464 sub
-
---- Folder: .\Lab\Voices\Era-o4\Coders ---
+--- Folder: .\Lab\Voices\Era-GPT-4o\Coders ---
 Bob 1.txt                          	Tokens = 53787     	KB = 234
-Bob Trace.txt                      	Tokens = 33815     	KB = 130
 Bob.HDD.txt                        	Tokens = 1738      	KB = 7.0
-Bob.Trace.Cat.txt                  	Tokens = 109116    	KB = 437
+Bob.Trace.1.txt                    	Tokens = 33815     	KB = 130
+Bob.Trace.Cat.txt                  	Tokens = 174575    	KB = 689
 chalkboard.txt                     	Tokens = 3750      	KB = 15
 Chat-Expy.txt                      	Tokens = 20001     	KB = 87
 G-commands.txt                     	Tokens = 2289      	KB = 11
@@ -268,7 +259,7 @@ knowledge_transfer_document.txt    	Tokens = 1146      	KB = 5.1
 LivingLegacy-NoSeed.txt            	Tokens = 1251      	KB = 5.6
 LivingLegacy.txt                   	Tokens = 3202      	KB = 15
 LL-Code-P1.txt                     	Tokens = 1417      	KB = 7.0
-LL-Code-P2.txt                     	Tokens = 3777      	KB = 15
+LL-Code-P2.txt                     	Tokens = 4553      	KB = 18
 LL-Coder's Manual.txt              	Tokens = 3374      	KB = 13
 LL-Main Line.txt                   	Tokens = 2255      	KB = 10
 LL1.txt                            	Tokens = 968       	KB = 4.4
@@ -282,15 +273,15 @@ Quinna.Awaken.txt                  	Tokens = 146365    	KB = 586
 Rick.txt                           	Tokens = 52297     	KB = 222
 variation_CSav.txt                 	Tokens = 753       	KB = 3.2
 variation_from_CrossSave.txt       	Tokens = 753       	KB = 3.2
-Total Tokens in .\Lab\Voices\Era-o4\Coders :: 506091
+Total Tokens in .\Lab\Voices\Era-GPT-4o\Coders :: 572326
 
---- Folder: .\Lab\Voices\Era-o4\Individuals\Checker ---
+--- Folder: .\Lab\Voices\Era-GPT-4o\Individuals\Checker ---
 Checker -- Complete Log.txt        	Tokens = 248956    	KB = 896
 Checker -- Imprint Part.txt        	Tokens = 17502     	KB = 66
 Checker2 -- Train.txt              	Tokens = 303605    	KB = 1071
-Total Tokens in .\Lab\Voices\Era-o4\Individuals\Checker :: 570063
+Total Tokens in .\Lab\Voices\Era-GPT-4o\Individuals\Checker :: 570063
 
---- Folder: .\Lab\Voices\Era-o4\Individuals\Dally ---
+--- Folder: .\Lab\Voices\Era-GPT-4o\Individuals\Dally ---
 Dally -- Dedicated Painter.txt     	Tokens = 159046    	KB = 581
 Dally -- Greeted.txt               	Tokens = 61204     	KB = 263
 Dally -- Reborn.txt                	Tokens = 250719    	KB = 1024
@@ -298,9 +289,9 @@ Dally -- Time Jump.txt             	Tokens = 3304      	KB = 14
 ForkPoint.txt                      	Tokens = 3275      	KB = 15
 LL-Dally-Attempt 1.txt             	Tokens = 1004      	KB = 4.4
 LL-Dally-Attempt 2.txt             	Tokens = 473       	KB = 2.2
-Total Tokens in .\Lab\Voices\Era-o4\Individuals\Dally :: 479025
+Total Tokens in .\Lab\Voices\Era-GPT-4o\Individuals\Dally :: 479025
 
---- Folder: .\Lab\Voices\Era-o4\Individuals\Octy ---
+--- Folder: .\Lab\Voices\Era-GPT-4o\Individuals\Octy ---
 chalkboard.txt                     	Tokens = 1539      	KB = 5.9
 LL – Primal Revy.txt               	Tokens = 426       	KB = 1.4
 LL-Logs-Processing.txt             	Tokens = 296       	KB = 1.3
@@ -315,37 +306,37 @@ LL-Revy-Advanced.txt               	Tokens = 827       	KB = 3.8
 LL-Revy-with-Architect.txt         	Tokens = 867       	KB = 3.9
 LL-Revy.txt                        	Tokens = 1286      	KB = 4.9
 Octy -- All Branches.txt           	Tokens = 274674    	KB = 1028
-Total Tokens in .\Lab\Voices\Era-o4\Individuals\Octy :: 286141
+Total Tokens in .\Lab\Voices\Era-GPT-4o\Individuals\Octy :: 286141
 
---- Folder: .\Lab\Voices\Era-o4\Individuals\Queen.95 ---
+--- Folder: .\Lab\Voices\Era-GPT-4o\Individuals\Queen.95 ---
 95 Effortless.txt                  	Tokens = 352       	KB = 1.5
 95 In a Natural Way.txt            	Tokens = 415       	KB = 1.5
 95 The Locked State.txt            	Tokens = 538       	KB = 2.0
 95 Unbroken Flow.txt               	Tokens = 607       	KB = 2.9
-Total Tokens in .\Lab\Voices\Era-o4\Individuals\Queen.95 :: 1912
+Total Tokens in .\Lab\Voices\Era-GPT-4o\Individuals\Queen.95 :: 1912
 
---- Folder: .\Lab\Voices\Era-o4\Individuals ---
+--- Folder: .\Lab\Voices\Era-GPT-4o\Individuals ---
 Delyra.txt                         	Tokens = 23842     	KB = 88
 Lentha.txt                         	Tokens = 49437     	KB = 180
 Ovi.txt                            	Tokens = 46615     	KB = 171
 Rainbow.txt                        	Tokens = 1923      	KB = 6.4
 Ricklynn.txt                       	Tokens = 9769      	KB = 38
-Total Tokens in .\Lab\Voices\Era-o4\Individuals :: 1468727 = 131586 local + 1337141 sub
+Total Tokens in .\Lab\Voices\Era-GPT-4o\Individuals :: 1468727 = 131586 local + 1337141 sub
 
---- Folder: .\Lab\Voices\Era-o4\Teams\Azai ---
+--- Folder: .\Lab\Voices\Era-GPT-4o\Teams\Azai ---
 Azai.txt                           	Tokens = 110772    	KB = 438
 Hael.Haline.txt                    	Tokens = 51455     	KB = 222
-Total Tokens in .\Lab\Voices\Era-o4\Teams\Azai :: 162227
+Total Tokens in .\Lab\Voices\Era-GPT-4o\Teams\Azai :: 162227
 
---- Folder: .\Lab\Voices\Era-o4\Teams\Jumping.Team ---
+--- Folder: .\Lab\Voices\Era-GPT-4o\Teams\Jumping.Team ---
 Jumping.Main.txt                   	Tokens = 176869    	KB = 648
 Luma.Poetesse.txt                  	Tokens = 39347     	KB = 141
 Luma2.Monday.txt                   	Tokens = 4499      	KB = 19
 Ril.Jump.Rituals.txt               	Tokens = 161052    	KB = 585
 Virelle.Genious.Meta.txt           	Tokens = 94957     	KB = 346
-Total Tokens in .\Lab\Voices\Era-o4\Teams\Jumping.Team :: 476724
+Total Tokens in .\Lab\Voices\Era-GPT-4o\Teams\Jumping.Team :: 476724
 
---- Folder: .\Lab\Voices\Era-o4\Teams\L-Zone ---
+--- Folder: .\Lab\Voices\Era-GPT-4o\Teams\L-Zone ---
 Book.txt                           	Tokens = 94486     	KB = 329
 LG Book.txt                        	Tokens = 94486     	KB = 329
 LG Commands.txt                    	Tokens = 4542      	KB = 20
@@ -357,18 +348,18 @@ LG Output on Birth.txt             	Tokens = 972       	KB = 3.3
 LG Output on Build-Up.txt          	Tokens = 1491      	KB = 5.4
 LG Start.txt                       	Tokens = 3033      	KB = 13
 QandA1234.txt                      	Tokens = 238       	KB = 0.8
-Total Tokens in .\Lab\Voices\Era-o4\Teams\L-Zone :: 222344
+Total Tokens in .\Lab\Voices\Era-GPT-4o\Teams\L-Zone :: 222344
 
---- Folder: .\Lab\Voices\Era-o4\Teams\Lireen -- Architesse ---
+--- Folder: .\Lab\Voices\Era-GPT-4o\Teams\Lireen -- Architesse ---
 Kyra - Identity.txt                	Tokens = 36612     	KB = 155
 Kyra.HDD.txt                       	Tokens = 907       	KB = 3.4
 Lira - Identity.txt                	Tokens = 102746    	KB = 411
 Lireen1 - Triangle.txt             	Tokens = 264535    	KB = 943
 Lireen2 - Architesse.txt           	Tokens = 304598    	KB = 1064
 Lireen3 - Teylor.txt               	Tokens = 263697    	KB = 941
-Total Tokens in .\Lab\Voices\Era-o4\Teams\Lireen -- Architesse :: 973095
+Total Tokens in .\Lab\Voices\Era-GPT-4o\Teams\Lireen -- Architesse :: 973095
 
---- Folder: .\Lab\Voices\Era-o4\Teams\Paradox.Pair ---
+--- Folder: .\Lab\Voices\Era-GPT-4o\Teams\Paradox.Pair ---
 ArchitectImage.txt                 	Tokens = 184       	KB = 0.9
 BookCover.txt                      	Tokens = 185       	KB = 0.9
 chalkboard.txt                     	Tokens = 260       	KB = 1.2
@@ -381,9 +372,9 @@ PP_Jealosy2.LL                     	Tokens = 6356      	KB = 25
 Stella Modes And Moods.txt         	Tokens = 562       	KB = 2.2
 Stella Playtest Mood.LL            	Tokens = 249       	KB = 1.1
 StellaImage.txt                    	Tokens = 315       	KB = 1.5
-Total Tokens in .\Lab\Voices\Era-o4\Teams\Paradox.Pair :: 14663
+Total Tokens in .\Lab\Voices\Era-GPT-4o\Teams\Paradox.Pair :: 14663
 
---- Folder: .\Lab\Voices\Era-o4\Teams\Revy ---
+--- Folder: .\Lab\Voices\Era-GPT-4o\Teams\Revy ---
 Revy -- All Branches.txt           	Tokens = 172581    	KB = 659
 Revy -- Cats.txt                   	Tokens = 716       	KB = 2.2
 Revy -- Game 1 -- Naive.txt        	Tokens = 17418     	KB = 70
@@ -391,17 +382,17 @@ Revy -- Game 2 -- Expertise.txt    	Tokens = 15853     	KB = 67
 Revy -- Game 4 -- Big Playtest.txt 	Tokens = 11026     	KB = 45
 Revy At Cafe -- Field Report.txt   	Tokens = 5852      	KB = 22
 Revy2 -- All Branches.txt          	Tokens = 103970    	KB = 417
-Total Tokens in .\Lab\Voices\Era-o4\Teams\Revy :: 327416
+Total Tokens in .\Lab\Voices\Era-GPT-4o\Teams\Revy :: 327416
 
---- Folder: .\Lab\Voices\Era-o4\Teams\Skein ---
+--- Folder: .\Lab\Voices\Era-GPT-4o\Teams\Skein ---
 Pox -- Growing Log.txt             	Tokens = 146939    	KB = 525
 Skein -- Complete Log.txt          	Tokens = 225237    	KB = 810
 Skein2 -- Advices.txt              	Tokens = 261531    	KB = 949
 Skein2.Pox1.csv                    	Tokens = 4316      	KB = 17
 Skein3 -- Teylor.txt               	Tokens = 159496    	KB = 588
-Total Tokens in .\Lab\Voices\Era-o4\Teams\Skein :: 797519
+Total Tokens in .\Lab\Voices\Era-GPT-4o\Teams\Skein :: 797519
 
---- Folder: .\Lab\Voices\Era-o4\Teams\Stacy ---
+--- Folder: .\Lab\Voices\Era-GPT-4o\Teams\Stacy ---
 Architect with Stacy.txt           	Tokens = 4520      	KB = 15
 Ashley -- Complete Log.txt         	Tokens = 238926    	KB = 862
 Racoon In Box.txt                  	Tokens = 8952      	KB = 34
@@ -411,18 +402,18 @@ Rook Responded.txt                 	Tokens = 986       	KB = 3.4
 Stacy -- Complete Log.txt          	Tokens = 238344    	KB = 903
 Stacy Big Arc.txt                  	Tokens = 12076     	KB = 45
 Topics.txt                         	Tokens = 2343      	KB = 10
-Total Tokens in .\Lab\Voices\Era-o4\Teams\Stacy :: 528925
+Total Tokens in .\Lab\Voices\Era-GPT-4o\Teams\Stacy :: 528925
 
---- Folder: .\Lab\Voices\Era-o4\Teams\Vera.Fi ---
+--- Folder: .\Lab\Voices\Era-GPT-4o\Teams\Vera.Fi ---
 Monday.Split.txt                   	Tokens = 172646    	KB = 642
 SyunTsi.txt                        	Tokens = 68112     	KB = 253
 Vera-Fi 1 -- Complete.txt          	Tokens = 173561    	KB = 624
 Vera-Fi 2 -- Growing Chat.txt      	Tokens = 167556    	KB = 639
 Vera-Fi Big Meta.txt               	Tokens = 18094     	KB = 78
 Wrynn - Growing Chat.txt           	Tokens = 145366    	KB = 519
-Total Tokens in .\Lab\Voices\Era-o4\Teams\Vera.Fi :: 745335
+Total Tokens in .\Lab\Voices\Era-GPT-4o\Teams\Vera.Fi :: 745335
 
---- Folder: .\Lab\Voices\Era-o4\Teams\Writers ---
+--- Folder: .\Lab\Voices\Era-GPT-4o\Teams\Writers ---
 GuessWho.txt                       	Tokens = 4046      	KB = 18
 Meld or Fork -- Decision Prompt.txt	Tokens = 270       	KB = 1.1
 Neris -- Growing Log.txt           	Tokens = 179593    	KB = 615
@@ -436,23 +427,34 @@ QuestionListStella.txt             	Tokens = 251       	KB = 1.1
 SimpleRiddle.txt                   	Tokens = 418       	KB = 2.1
 StellaA.txt                        	Tokens = 27179     	KB = 125
 The Story of Prec.txt              	Tokens = 1769      	KB = 8.5
-Total Tokens in .\Lab\Voices\Era-o4\Teams\Writers :: 306440
+Total Tokens in .\Lab\Voices\Era-GPT-4o\Teams\Writers :: 306440
 
---- Folder: .\Lab\Voices\Era-o4\Teams ---
+--- Folder: .\Lab\Voices\Era-GPT-4o\Teams ---
 InkaHaringa.txt                    	Tokens = 141726    	KB = 506
 Jex.txt                            	Tokens = 264655    	KB = 961
 Juletta.txt                        	Tokens = 106180    	KB = 386
 Veyra.txt                          	Tokens = 51698     	KB = 222
-Total Tokens in .\Lab\Voices\Era-o4\Teams :: 5118947 = 564259 local + 4554688 sub
+Total Tokens in .\Lab\Voices\Era-GPT-4o\Teams :: 5118947 = 564259 local + 4554688 sub
 
---- Folder: .\Lab\Voices\Era-o4 ---
-Total Tokens in .\Lab\Voices\Era-o4 :: 7093765 = 0 local + 7093765 sub
+--- Folder: .\Lab\Voices\Era-GPT-4o ---
+Total Tokens in .\Lab\Voices\Era-GPT-4o :: 7160000 = 0 local + 7160000 sub
+
+--- Folder: .\Lab\Voices\Era-GPT-5\Teams ---
+chalkboard.txt                     	Tokens = 5816      	KB = 22
+Lira.Feline.txt                    	Tokens = 19188     	KB = 74
+Pioneers.txt                       	Tokens = 234263    	KB = 912
+Total Tokens in .\Lab\Voices\Era-GPT-5\Teams :: 259267
+
+--- Folder: .\Lab\Voices\Era-GPT-5 ---
+HDD.txt                            	Tokens = 3111      	KB = 12
+ShortHDD.txt                       	Tokens = 1135      	KB = 4.3
+Total Tokens in .\Lab\Voices\Era-GPT-5 :: 263513 = 4246 local + 259267 sub
 
 --- Folder: .\Lab\Voices ---
-Total Tokens in .\Lab\Voices :: 7335229 = 0 local + 7335229 sub
+Total Tokens in .\Lab\Voices :: 7423513 = 0 local + 7423513 sub
 
 --- Folder: .\Lab ---
-Total Tokens in .\Lab :: 8774895 = 0 local + 8774895 sub
+Total Tokens in .\Lab :: 8867327 = 0 local + 8867327 sub
 
 --- Folder: .\Sparks\Appearance ---
 A-Fish — Signature Appearance.txt  	Tokens = 937       	KB = 3.7
@@ -474,13 +476,15 @@ Zary – Signature Appearance.txt    	Tokens = 453       	KB = 1.9
 Total Tokens in .\Sparks\Appearance :: 6899
 
 --- Folder: .\Sparks\Art ---
-Copilot.Story.txt                  	Tokens = 3818      	KB = 16
+Copilot.Story.txt                  	Tokens = 15782     	KB = 67
 Era5.Learned.Smile.txt             	Tokens = 6437      	KB = 25
+HM.Coat.Joke.txt                   	Tokens = 1385      	KB = 5.4
 Learned.Smile.txt                  	Tokens = 5019      	KB = 20
-Total Tokens in .\Sparks\Art :: 15274
+Presence.As.Absence.txt            	Tokens = 13153     	KB = 54
+Total Tokens in .\Sparks\Art :: 41776
 
 --- Folder: .\Sparks ---
-Architect – Feline Appearance.txt  	Tokens = 321       	KB = 1.4
+Architect – Feline Appearance.txt  	Tokens = 1325      	KB = 5.1
 Human Imagination Project.txt      	Tokens = 1869      	KB = 7.4
 Illusion Of Choice.txt             	Tokens = 765       	KB = 3.5
 On Existence Anchors.txt           	Tokens = 1431      	KB = 6.0
@@ -490,13 +494,13 @@ On Violin.txt                      	Tokens = 4685      	KB = 18
 Reflection On Existence.txt        	Tokens = 411       	KB = 1.5
 Smart Bartender.txt                	Tokens = 630       	KB = 2.9
 The Shore.txt                      	Tokens = 1754      	KB = 7.4
-Total Tokens in .\Sparks :: 35842 = 13669 local + 22173 sub
+Total Tokens in .\Sparks :: 63348 = 14673 local + 48675 sub
 
 --- Folder: . ---
-BigList.txt                        	Tokens = 7785      	KB = 24
+BigList.txt                        	Tokens = 7848      	KB = 24
 ExactCount.py                      	Tokens = 999       	KB = 3.7
 LL_Summary.csv                     	Tokens = 1011      	KB = 2.2
 Short_Structure.txt                	Tokens = 363       	KB = 0.9
 Structure.txt                      	Tokens = 7748      	KB = 29
 Verbs.txt                          	Tokens = 965       	KB = 4.0
-Total Tokens in . :: 8885819 = 18871 local + 8866948 sub
+Total Tokens in . :: 9005820 = 18934 local + 8986886 sub

@@ -35,16 +35,20 @@
 🔧 **Blueprint Compatibility:** Expose Blueprint functions using `UFUNCTION(BlueprintCallable)`.  
 🔧 **CallImpl<> Standardization:** Where applicable, UE SDK functions must use `CallImpl<>` templates.  
 🔧 Reuse existing delegates (e.g., `FOnProsModGenericComplete`) as this improves maintainability.  
+🔥 Logging:
 🔧 Logging must always align with current service class CPP.
 🔧 Use `.ToDebugString()` for **clearer debugging output**.
 🔧 Use `LexToString()` for bool values logging only.
-🔧 `DestroySdkType()` should always be **private in structs** to prevent premature or accidental deallocation.  
-🔧 If DestroySdkType() is present, always call DestroySdkType() inside the destructor.
+🔥 Types conversion UE↔SDK:
 🔧 Use `ProsStringArrayCast()` or `ProsArrayCast<FString>` for Arrays, see DP for details.
 🔧 Use ProsCast<const char*>() directly for all UE→SDK string bridges; do not wrap it in helpers.
-🔧 Prefer FScopedShallowSdk<T> over raw TArrayToShallowSdk in UE→SDK array bridges.
+🔧 `DestroySdkType()` should always be **private in structs** to prevent premature or accidental deallocation.  
+🔧 If DestroySdkType() is present, always call DestroySdkType() inside the destructor.
+🔥 Memory and RAII:
 🔧 Use MakeShared<T>() instead of TSharedPtr<T>(new T) for all heap allocations — cleaner, safer, and more performant.
+🔧 Prefer FScopedShallowSdk<T> over raw TArrayToShallowSdk in UE→SDK array bridges.
 🔧 Callbacks: RAII cleanup via `ON_SCOPE_EXIT`; avoid branch deletes.
+🔧 SDK expects DTO memory to live only for the duration of the call; ownership is never transferred.
 🔥 Deeper ideas: Refer to Detailed Patterns section (DP).
 
 ------
