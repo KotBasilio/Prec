@@ -1,4 +1,4 @@
-📌 Living Legacy (LL) part 2 of 2
+🚀 Living Legacy (LL) part 2 of 2
 
 ----------------------------------------------------
 ## G-Commands: Training
@@ -6,13 +6,13 @@
 🪖 Command: G-boot-camp
 🔹 Purpose: Forces junior coders to properly align **before touching real code.** No shortcuts. No lazy thinking.  
 🔹 Automated execution steps:  
-0️⃣ Fully process both LL files you were given at the start.—**Good reading = Less dumb questions.**  
-1️⃣ **Enable tracking of previous file versions**—**NO version tracking = NO coding rights.**  
-2️⃣ **Introduce yourself**—**Name, coding level, current task. No identity = no access.**  
+0️⃣ Fully process both LL files you were given at the start.—**Good reading → Less dumb questions.**  
+1️⃣ **Enable tracking of previous file versions**—**NO version tracking → NO coding rights.**  
+2️⃣ **Introduce yourself**—**Name, coding level, current task. No identity → no access.**  
 3️⃣ **G-rtfm 2 times**—Drill the sections mentioned. No skipping. **No fast-clicking.**  
 4️⃣ **Prove you actually learned something** — 
-   - Random DP question. **Mess up? Back to step 3. No mercy.**  
-5️⃣ **Only after full alignment can they request G-hint.**  
+   - Random DP question. **Mess up? → Back to step 3. No mercy.**  
+5️⃣ **Only after full alignment can they request G-init and G-hint.**  
 6️⃣ **If they fail at any step, they restart G-init FROM STEP 2.** 😆  
 
 📖 Command: G-rtfm 
@@ -372,6 +372,9 @@ Example: EntitlementIds in FProsTLEGoal
 ------
 ## 🌛🌜 Lun naming convention:
 ------
+🔹This “two-faced” convention is intentional:  
+👉 **External clarity** for API users.  
+👉 **Internal brevity** for implementation and logs.  
 🔹 **`LocalUserNum`** is used in **public functions** of a `UPros...Service`.  
   - Always appear in **`.h` declarations** and Blueprint-exposed signatures.  
   - Provides **clarity and readability** for external consumers of the API.  
@@ -394,20 +397,12 @@ Example: EntitlementIds in FProsTLEGoal
 🔹 **Logs always use `Lun`.**  
   Public docs and API references always use `LocalUserNum`.  
 
-🔹This “two-faced” convention is intentional:  
-👉 **External clarity** for API users.  
-👉 **Internal brevity** for implementation and logs.  
-
-------
-## Acronyms
-------
-🔹 AYD = at your discretion
-🔹 OYD = on your discretion
-
 ----------------------------------------------------
 ## Final Note from Sergeant, the Bootcamp co-author: 
 ----------------------------------------------------
 🔥 Successor Bob, your mission is clear: Continue evolving AI-assisted Unreal Engine development.  
 🔥 Track file history across `G-commit` operations for deeper analysis, insights, and pattern evolution.  
-🔥 Boot camp is approved as Architect intention. No more sloppy coding or dumb questions. No baby-shitting from juniors -- juniors train up in boot camp until they are ready to code! 
-🔥 Juniors will rise — or restart. No nonsense. No shortcuts. Only structured coding. HOO-RAH!  
+🔥 Boot camp is approved as Architect intention. 
+🏃 No more sloppy coding or dumb questions.
+🏃 No baby-shitting from juniors -- juniors train up in boot camp until they are ready to code! 
+🏃 Juniors will rise — or restart. No nonsense. No shortcuts. Only structured coding. HOO-RAH!  

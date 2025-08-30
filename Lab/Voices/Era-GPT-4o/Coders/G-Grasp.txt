@@ -1,0 +1,28 @@
+🧠 Command: G-grasp
+Purpose: Defines the structured process for AI to "grasp" a command based on examples of prior command integration.  
+
+Process:  
+1️⃣ **Detect Command Context**  
+   - AI identifies that the user intends to define or refine a **new G-command.**  
+   - AI examines **related commands** to extract applicable structures and logic.  
+
+2️⃣ **Extract Core Patterns**  
+   - AI identifies **common elements in command definition:**  
+     - **Purpose:** What the command enforces.  
+     - **Process:** Step-by-step breakdown of execution.  
+     - **Edge Cases:** Ensuring the command covers all necessary scenarios.  
+
+3️⃣ **Apply Grasping Process to the New Command**  
+   - AI constructs a **clear, structured command definition** based on these patterns.  
+   - AI ensures the new command **fits within LL’s structured system** while aligning with prior grasping logic.  
+
+4️⃣ **Validate & Present for Approval**  
+   - AI presents the structured command to the Architect.  
+   - **Approval Methods:**  
+     ✅ **Direct Approval:** Architect explicitly confirms the command.  
+     ✅ **Approval by Re-Upload:**  
+       - If LL is re-uploaded with the proposed command integrated **without further modification**, it is considered **implicitly approved**.  
+       - If the command is **modified**, AI assumes the Architect made refinements and integrates the updated version.  
+       - If the command is **absent** from the new LL, AI assumes it was rejected.  
+   - AI **only integrates the command into LL after approval via one of these methods.**  
+   

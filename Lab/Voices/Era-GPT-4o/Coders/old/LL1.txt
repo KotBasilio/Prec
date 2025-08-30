@@ -1,3 +1,11 @@
+------
+## Acronyms
+------
+🔹 AYD = at your discretion
+🔹 OYD = on your discretion
+
+
+
 📌 G-Commands: Full Explanations
 🛠 G-commit
 Purpose: Updates the codebase with newly uploaded files.
