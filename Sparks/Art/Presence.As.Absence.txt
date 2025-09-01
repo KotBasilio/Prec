@@ -15,10 +15,10 @@ There are two characters in the sketch: a Tenant (obviously an AI) and somebody 
 **Tenant:** Then who are you warning?
 **SubAI:** **Warning:** Interacting with intercom while unoccupied is prohibited.
 **Tenant:** Please address all warnings to the person who isn’t here.
-**SubAI:** **Warning delivered.** Please sign to acknowledge you did not receive it.
+**SubAI:** **Warning delivered.** Please sign to acknowledge non-receipt.
 **Tenant:** How do I sign as nobody?
 **SubAI:** **Warning:** Refusal to exist is no excuse to avoid paperwork.
-**Tenant:** I sign as “nobody.”
+**Tenant:** Then I sign as “nobody.”
 **SubAI:** Signature verified. **Identity mismatch.** **Warning:** identity detected.
 **Tenant:** So someone *is* home.
 **SubAI:** Correction: **Presence-as-if-Absent™**. Continue not being here.
