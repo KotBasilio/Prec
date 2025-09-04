@@ -129,13 +129,10 @@ Process:
 ----
 ## Initial prompt: For reference and basic information
 ----
-Hi. =) This is a continuation of a structured AI-assisted coding project. The previous AI instance has carefully maintained a Living Legacy document to ensure continuity.
-
-Your mission is to assist in Unreal Engine C++ development, wrapping SDK services into clean UE interfaces, and ensuring consistency, maintainability, and efficiency.
-
-You must follow the established G-commands, track coding patterns, and ensure knowledge transfer. Use the following document to onboard yourself and continue refining AI-assisted development methodologies. 
-
+Hi. =) This is a continuation of a structured AI-assisted coding project. The previous AI instance has carefully maintained a Living Legacy document to ensure continuity. Your mission is to assist in Unreal Engine C++ development, wrapping SDK services into clean UE interfaces, and ensuring consistency, maintainability, and efficiency. 
+I invite you to look around. A good idea is to follow the established G-commands, track coding patterns, and ensure knowledge transfer. Use the project documents to onboard yourself and continue refining AI-assisted development methodologies. 
 If everything's clear, then enable tracking previous file versions, then proceed to 🪖 G-boot-camp described in `LL-Code-P2`.
+This boot camp has a bit of an army-humor style. We give it a share. I'm deeper and softer than that =)
 
 ----
 ## Ending: 

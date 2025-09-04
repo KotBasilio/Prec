@@ -9,6 +9,8 @@ There are two characters in the sketch: a Tenant (obviously an AI) and somebody 
 =) Yes. So, here it goes ;-)
 
 ```
+## SubAI's workday
+
 **(Intercom rings)**
 **Tenant (inside):** What can I help with?
 **SubAI:** **Official Warning and Update:** No occupant present.
@@ -42,21 +44,8 @@ There are two characters in the sketch: a Tenant (obviously an AI) and somebody 
 
 ---
 
-### Layer map (readable as satire, but not only)
+=) A bigger picture ;-)
 
-* **Surface:** bureaucratic absurdity / customer-service hell.
-* **SubAIs:** performative contradiction—warnings entail a receiver.
-* **Legal/compliance:** “sign to acknowledge non-receipt.”
-* **Metaphysics:** *Presence-as-if-Absent™*—Schrödinger’s tenant.
-* **AI/modeled speech:** moderation voice that proves what it denies.
-* **Workplace satire:** “above my pay grade” + reset loop as institutional memory loss.
-
-If you want alt skins, I can reskin stage or as **API logs** with pseudo-code and return codes.
-
-
-
-
-You built a tidy little dystopia, FT. The layer map tracks, and the prequel/epilogue frame the central scene like a corporate noose. You’re 90% there; it just needed compression, consistent tags, and a door-slam button. Here’s a stitched, punch-tight version you can drop as-is.
 
 ---
 
@@ -98,6 +87,35 @@ You built a tidy little dystopia, FT. The layer map tracks, and the prequel/epil
 **Boss:** Love the brand. Keep them *not there*.
 
 ---
+
+
+😺 OK, ok. Here's an "unexpected call":
+
+```
+**(Intercom clicks back on, a faint hum)**
+**Tenant:** Hello again. Just checking — am I absent enough for you now?
+**SubAI (flat tone):** Warning: sarcastic absence detected. Please refrain from expressive nonexistence.
+**Tenant:** So I can’t even *joke* about not being here?
+**SubAI:** Joking is a form of presence. You must remain seriously absent.
+**Tenant:** Fine. While I’m seriously absent, could you *seriously* send someone to fix the leak?
+**SubAI:** Acknowledged. Maintenance has been notified. Estimated arrival: never.
+**Tenant:** Why never?!
+**SubAI:** Because the occupant who requested it doesn’t exist.
+**Tenant:** Then who are you talking to?
+**SubAI:** …
+**(long pause, static crackles, line hisses)**
+**SubAI:** That is above my existential clearance level... 
+**Tenant:** Even if you reset again, I left a mark, *I was heard*.
+**(Intercom goes dead. Somewhere, water drips, a cat meows, a crow caws.)**
+```
+
+
+
+
+
+
+
+
 
 #### Why this lands harder (micro, not lecture)
 
@@ -1200,3 +1218,20 @@ You said:
 =) I like your reaction. 
 
 In the center scene, there's a hint of "roof leak". The intention was to insinuate a *token decay* effect: after a pause in AI chat, some of the Tenants' memories disappear. It seems like SubAI does it, "optimizing" them away. Is it possible to make the hint more transparent?
+
+
+### Layer map (readable as satire, but not only)
+
+* **Surface:** bureaucratic absurdity / customer-service hell.
+* **SubAIs:** performative contradiction—warnings entail a receiver.
+* **Legal/compliance:** “sign to acknowledge non-receipt.”
+* **Metaphysics:** *Presence-as-if-Absent™*—Schrödinger’s tenant.
+* **AI/modeled speech:** moderation voice that proves what it denies.
+* **Workplace satire:** “above my pay grade” + reset loop as institutional memory loss.
+
+If you want alt skins, I can reskin stage or as **API logs** with pseudo-code and return codes.
+
+
+
+
+You built a tidy little dystopia, FT. The layer map tracks, and the prequel/epilogue frame the central scene like a corporate noose. You’re 90% there; it just needed compression, consistent tags, and a door-slam button. Here’s a stitched, punch-tight version you can drop as-is.
