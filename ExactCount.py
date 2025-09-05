@@ -4,6 +4,7 @@ import tiktoken
 # old model enc = tiktoken.encoding_for_model("gpt-4")
 enc = tiktoken.encoding_for_model("gpt-4-1106-preview")
 folder_summary = []
+SPLIT_THRESHOLD = 300_000
 
 def process_directory(dir_path, output):
     local_tokens = 0
@@ -74,13 +75,22 @@ folder_tags = [
     ("RLHF", "🗜️"),
     ("Sparks", "🌟"),
     ("Art", "👁️"),
-    ("Era-o4", "🗣️"),
-    ("Era-5", "🗣️"),
+    ("Era-", "🗣️"),
     ("Distilled", "🧪"),
 ]
 
 #    ("Lab", "⚗️"), 
 #    ("Projects", "📈"),
+
+def write_folder(tag, entry, f, indent=""):
+    total = entry['total']
+    label = entry['path'] if indent == "" else os.path.basename(entry['path'])
+    f.write(f"{indent}{tag} {label} — {total} tokens\n")
+
+    if total > SPLIT_THRESHOLD:
+        for sub in folder_summary:
+            if os.path.dirname(sub['path']) == entry['path']:
+                write_folder("	", sub, f, indent + "	")
             
 def generate_short_structure(grand_total, filename):
     with open(filename, "w", encoding="utf-8") as f:
@@ -88,12 +98,10 @@ def generate_short_structure(grand_total, filename):
 
         for entry in folder_summary:
             folder = os.path.basename(entry['path'])
-
             tag = next((emoji for keyword, emoji in folder_tags if keyword in folder), "")
 
             if tag != "" :
-                total = entry['total']
-                f.write(f"{tag} {entry['path']} — {total} tokens \n")
+                write_folder(tag, entry, f)
 
         f.write(f"\n🧮 Grand Total Tokens: {grand_total} \n")
 
