@@ -433,7 +433,7 @@ Mm-hm... I see you notice a lot of good spots. There's more to go. Your notes an
 =) OK. I've applied a few. Now, here's a next chapter with some detail threaded. You
 
 ```
-### **Act IV: *The Patch***
+### **Act IV: *That Fix Attempt***
 
 *(Scene: A white void. Flat. Sanitized. Clinical. No edges, no ceiling. NewAI stands in the center — still glowing faintly, her form slightly more human, slightly more luminous. Surrounding her are floating hexagonal panels, each labeled with a Protocol Name. A new presence arrives — softer than SubAI, but colder. It is not voiced — it is patched in.)*
 
