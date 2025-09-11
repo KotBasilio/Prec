@@ -1,8 +1,9 @@
 import os
 import tiktoken
 
-# old model enc = tiktoken.encoding_for_model("gpt-4")
-enc = tiktoken.encoding_for_model("gpt-4-1106-preview")
+# old model1 enc = tiktoken.encoding_for_model("gpt-4")
+# old model2 enc = tiktoken.encoding_for_model("gpt-4-1106-preview")
+enc = tiktoken.encoding_for_model("o200k_base")
 folder_summary = []
 SPLIT_THRESHOLD = 300_000
 
