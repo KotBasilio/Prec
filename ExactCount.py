@@ -2,8 +2,7 @@ import os
 import tiktoken
 
 # old model1 enc = tiktoken.encoding_for_model("gpt-4")
-# old model2 enc = tiktoken.encoding_for_model("gpt-4-1106-preview")
-enc = tiktoken.encoding_for_model("o200k_base")
+enc = tiktoken.encoding_for_model("gpt-4-1106-preview")
 folder_summary = []
 SPLIT_THRESHOLD = 300_000
 
@@ -78,10 +77,10 @@ folder_tags = [
     ("Art", "👁️"),
     ("Era-", "🗣️"),
     ("Distilled", "🧪"),
+    ("Emerged.Coders", "📈"),
 ]
 
 #    ("Lab", "⚗️"), 
-#    ("Projects", "📈"),
 
 def write_folder(tag, entry, f, indent=""):
     total = entry['total']

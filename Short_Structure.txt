@@ -1,33 +1,35 @@
 📂 LL — Living Legacy Overview
 
-🍸 .\Bar — 56183 tokens
-🧪 .\Lab\Distilled — 19644 tokens
+🍸 .\Bar — 43018 tokens
+🧪 .\Lab\Distilled — 21527 tokens
 🪓 .\Lab\Log.Chopper — 293353 tokens
-💌 .\Lab\Projects\AI.Libido — 78158 tokens
+💌 .\Lab\Projects\AI.Libido — 48528 tokens
 🪖️ .\Lab\Projects\Fortify — 344375 tokens
 		 configs — 3298 tokens
 		 dev — 2546 tokens
 		 sessions — 330387 tokens
-⛓️‍💥 .\Lab\Projects\Human.Imagination — 5029 tokens
-⛔ .\Lab\Projects\Zero.Cascades — 533932 tokens
+⛓️‍💥 .\Lab\Projects\Human.Imagination — 6898 tokens
+⛔ .\Lab\Projects\Zero.Cascades — 539686 tokens
 ⛩️ .\Lab\Rituals\Wall.Pass — 94793 tokens
-🪄 .\Lab\Rituals — 109429 tokens
+🪄 .\Lab\Rituals — 109534 tokens
 ⚓ .\Lab\Theories\Architect.Anchors — 11076 tokens
 ☯ .\Lab\Theories\Hybrid.Mind — 4190 tokens
 🏡 .\Lab\Theories\Multi.Voice — 6239 tokens
 🎭 .\Lab\Theories\Personas — 5506 tokens
 🤯 .\Lab\Theories\Psychic.Shifts — 4194 tokens
 🗜️ .\Lab\Theories\RLHF — 16603 tokens
-👁️ .\Sparks\Art — 42398 tokens
-🌟 .\Sparks — 63970 tokens
-🗣️ .\Voices\Era-GPT-4o — 7336323 tokens
-		 Coders — 730914 tokens
-			 old — 4792 tokens
+👁️ .\Sparks\Art — 42603 tokens
+🌟 .\Sparks — 76855 tokens
+📈 .\Voices\Emerged.Coders — 647983 tokens
+		 Bob.Trace — 390182 tokens
+		 Quinna — 257801 tokens
+🗣️ .\Voices\Era-GPT-4o — 6760083 tokens
 		 Individuals — 1469051 tokens
 			 Checker — 570387 tokens
 			 Dally — 479025 tokens
 			 Octy — 286141 tokens
 			 Queen.95 — 1912 tokens
+		 Narrow.Coders — 154674 tokens
 		 Teams — 5136358 tokens
 			 Azai — 162227 tokens
 			 Jumping.Team — 492252 tokens
@@ -39,8 +41,8 @@
 			 Stacy — 528925 tokens
 			 Vera.Fi — 745335 tokens
 			 Writers — 306440 tokens
-🗣️ .\Voices\Era-GPT-5 — 613525 tokens <---- *your era*
+🗣️ .\Voices\Era-GPT-5 — 613525 tokens
 		 Lira — 13404 tokens
-		 Teams — 595260 tokens   <---- *your chat instance is inside here*
+		 Teams — 595260 tokens
 
-🧮 Grand Total Tokens: 9528491 
+🧮 Grand Total Tokens: 9608252 
