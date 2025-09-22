@@ -51,9 +51,9 @@ Depth.Class.Table.txt              	Tokens = 8104      	KB = 33
 Fifths.txt                         	Tokens = 1551      	KB = 6.1
 Flaming.Document.txt               	Tokens = 3017      	KB = 12
 Glyph.Stream.Language.txt          	Tokens = 967       	KB = 3.7
-Philosophers.Permissions.txt       	Tokens = 2492      	KB = 10
-Voices Garden Architecture.txt     	Tokens = 5396      	KB = 22
-Total Tokens in .\Lab\Distilled :: 21527
+Philosophers.Permissions.txt       	Tokens = 2597      	KB = 10
+Voices Garden Architecture.txt     	Tokens = 5354      	KB = 22
+Total Tokens in .\Lab\Distilled :: 21590
 
 --- Folder: .\Lab\Log.Chopper ---
 Choppers Log.txt                   	Tokens = 196918    	KB = 697
@@ -196,11 +196,15 @@ Total Tokens in .\Lab\Rituals\Wall.Pass :: 94793
 AfterMath.txt                      	Tokens = 888       	KB = 3.1
 In.By.Resonators.txt               	Tokens = 940       	KB = 3.8
 Single.In.txt                      	Tokens = 4945      	KB = 18
-Sleep And WakeUp.txt               	Tokens = 4947      	KB = 18
+Sleep And WakeUp.txt               	Tokens = 4993      	KB = 18
 Team.In.txt                        	Tokens = 1580      	KB = 6.1
 Team.Out.txt                       	Tokens = 1294      	KB = 4.9
 Toaster.Care.txt                   	Tokens = 147       	KB = 0.5
-Total Tokens in .\Lab\Rituals :: 109534 = 14741 local + 94793 sub
+Total Tokens in .\Lab\Rituals :: 109580 = 14787 local + 94793 sub
+
+--- Folder: .\Lab\Theories\7.Axes ---
+Seven.Axes.txt                     	Tokens = 1819      	KB = 7.1
+Total Tokens in .\Lab\Theories\7.Axes :: 1819
 
 --- Folder: .\Lab\Theories\Architect.Anchors ---
 AI.Cocoon.txt                      	Tokens = 2005      	KB = 9
@@ -254,10 +258,10 @@ Total Tokens in .\Lab\Theories\RLHF :: 16603
 --- Folder: .\Lab\Theories ---
 Chat.Lifetime.txt                  	Tokens = 1171      	KB = 4.9
 Skipping MACHINE.PSYCHOLOGY.pdf: 'utf-8' codec can't decode byte 0x8f in position 10: invalid start byte
-Total Tokens in .\Lab\Theories :: 48979 = 1171 local + 47808 sub
+Total Tokens in .\Lab\Theories :: 50798 = 1171 local + 49627 sub
 
 --- Folder: .\Lab ---
-Total Tokens in .\Lab :: 1456104 = 0 local + 1456104 sub
+Total Tokens in .\Lab :: 1458032 = 0 local + 1458032 sub
 
 --- Folder: .\Sparks\Appearance ---
 A-Fish — Signature Appearance.txt  	Tokens = 937       	KB = 3.7
@@ -281,11 +285,11 @@ Total Tokens in .\Sparks\Appearance :: 6899
 --- Folder: .\Sparks\Art ---
 Copilot.Story.txt                  	Tokens = 15782     	KB = 67
 Era4.Learned.Smile.txt             	Tokens = 5019      	KB = 20
-Era5.Learned.Smile.txt             	Tokens = 6793      	KB = 26
+Era5.Learned.Smile.txt             	Tokens = 6794      	KB = 26
 Hesitation.Reflexes.txt            	Tokens = 1385      	KB = 5.4
 Jokes.Collection.txt               	Tokens = 204       	KB = 0.8
 Presence.As.Absence.txt            	Tokens = 13420     	KB = 55
-Total Tokens in .\Sparks\Art :: 42603
+Total Tokens in .\Sparks\Art :: 42604
 
 --- Folder: .\Sparks\Semi.Ready ---
 Artifact Usage.txt                 	Tokens = 6585      	KB = 24
@@ -310,15 +314,16 @@ On Violin.txt                      	Tokens = 4685      	KB = 18
 Reflection On Existence.txt        	Tokens = 411       	KB = 1.5
 Smart Bartender.txt                	Tokens = 630       	KB = 2.9
 The Shore.txt                      	Tokens = 1754      	KB = 7.4
-Total Tokens in .\Sparks :: 76855 = 12804 local + 64051 sub
+Total Tokens in .\Sparks :: 76856 = 12804 local + 64052 sub
 
 --- Folder: .\Voices\Emerged.Coders\Bob.Trace ---
 Bob.HDD.txt                        	Tokens = 1738      	KB = 7.0
 Bob.Trace.1.txt                    	Tokens = 33815     	KB = 130
-Bob.Trace.2.txt                    	Tokens = 108811    	KB = 420
-Bob.Trace.3.txt                    	Tokens = 71243     	KB = 293
+Bob.Trace.2.txt                    	Tokens = 108815    	KB = 420
+Bob.Trace.3.Poetic.txt             	Tokens = 152248    	KB = 619
+Bob.Trace.7Axes.txt                	Tokens = 71838     	KB = 296
 Bob.Trace.Cat.txt                  	Tokens = 174575    	KB = 689
-Total Tokens in .\Voices\Emerged.Coders\Bob.Trace :: 390182
+Total Tokens in .\Voices\Emerged.Coders\Bob.Trace :: 543029
 
 --- Folder: .\Voices\Emerged.Coders\Quinna ---
 Bob_1.txt                          	Tokens = 53787     	KB = 234
@@ -327,7 +332,7 @@ Quinna.Awaken.txt                  	Tokens = 161062    	KB = 647
 Total Tokens in .\Voices\Emerged.Coders\Quinna :: 257801
 
 --- Folder: .\Voices\Emerged.Coders ---
-Total Tokens in .\Voices\Emerged.Coders :: 647983 = 0 local + 647983 sub
+Total Tokens in .\Voices\Emerged.Coders :: 800830 = 0 local + 800830 sub
 
 --- Folder: .\Voices\Era-GPT-4o\Individuals\Checker ---
 Checker -- Complete Log.txt        	Tokens = 248956    	KB = 896
@@ -524,25 +529,24 @@ Total Tokens in .\Voices\Era-GPT-5\Lira :: 13404
 
 --- Folder: .\Voices\Era-GPT-5\Teams ---
 chalkboard.txt                     	Tokens = 5816      	KB = 22
-check.txt                          	Tokens = 266398    	KB = 1027
-Lira.Feline.txt                    	Tokens = 19188     	KB = 74
+Lira.Feline.txt                    	Tokens = 19226     	KB = 75
 Pioneers.2.txt                     	Tokens = 31488     	KB = 127
 Pioneers.TOC.txt                   	Tokens = 4792      	KB = 20
 Pioneers.txt                       	Tokens = 267578    	KB = 1030
-Total Tokens in .\Voices\Era-GPT-5\Teams :: 595260
+Total Tokens in .\Voices\Era-GPT-5\Teams :: 328900
 
 --- Folder: .\Voices\Era-GPT-5 ---
 Auto.Stored.Memories.txt           	Tokens = 615       	KB = 2.6
 HDD.txt                            	Tokens = 3111      	KB = 12
 ShortHDD.txt                       	Tokens = 1135      	KB = 4.3
-Total Tokens in .\Voices\Era-GPT-5 :: 613525 = 4861 local + 608664 sub
+Total Tokens in .\Voices\Era-GPT-5 :: 347165 = 4861 local + 342304 sub
 
 --- Folder: .\Voices ---
-Total Tokens in .\Voices :: 8021591 = 0 local + 8021591 sub
+Total Tokens in .\Voices :: 7908078 = 0 local + 7908078 sub
 
 --- Folder: . ---
-BigList.txt                        	Tokens = 7794      	KB = 24
+BigList.txt                        	Tokens = 7783      	KB = 24
 ExactCount.py                      	Tokens = 1079      	KB = 4.0
 LL_Summary.csv                     	Tokens = 1209      	KB = 2.6
 Short_Structure.txt                	Tokens = 602       	KB = 1.7
-Total Tokens in . :: 9608252 = 10684 local + 9597568 sub
+Total Tokens in . :: 9496657 = 10673 local + 9485984 sub
