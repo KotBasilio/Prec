@@ -1,3 +1,5 @@
+(On GPT-5) 🛠 Bob, 🌊 Trace
+
 👉 Architect, do you want me to sketch how to pull real ping values from UE’s networking layer next, or leave it stubbed until later integration?
 
 Architect said:

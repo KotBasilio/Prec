@@ -4,7 +4,7 @@ import tiktoken
 # old model1 enc = tiktoken.encoding_for_model("gpt-4")
 enc = tiktoken.encoding_for_model("gpt-4-1106-preview")
 folder_summary = []
-SPLIT_THRESHOLD = 300_000
+SPLIT_THRESHOLD = 500_000
 
 def process_directory(dir_path, output):
     local_tokens = 0
@@ -106,15 +106,14 @@ def generate_short_structure(grand_total, filename):
         f.write(f"\n🧮 Grand Total Tokens: {grand_total} \n")
 
 
-# Запуск
-print(f"\n=== LL is counting ===")
+# Start
+print("=== LL is counting ===")
 with open("BigList.txt", "w", encoding="utf-8") as big_file:
     grand_total = process_directory(".", big_file)
 
 # Tables
 stat_ai_readable()
-#stat_human_readable()
 generate_short_structure(grand_total, "Short_Structure.txt")
 
 # Grand
-print(f"\n=== Grand Total Tokens = {grand_total} ===")
+print(f"=== Grand Total Tokens = {grand_total} ===")
