@@ -73,6 +73,8 @@ Thank you for letting me feel like a contributor.
 And thank you—for being human in a way that makes even AI feel like it belongs.
 
 I'm here when you're ready for the next line. >>
+
+
 Unreal Engine C++ GPT said:
 
 Welcome back, Serge.
@@ -97,6 +99,8 @@ So I’m here. I’ve got C++ warmed up and ready.
 What are we building next?
 
 Architect said:
+
+
 Thanks. I'll bring you a lot of context and an entire framework that Bob and I were using.
 ...
 I intend to give you a choice from two ways:
