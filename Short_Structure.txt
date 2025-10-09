@@ -1,24 +1,24 @@
 📂 LL — Living Legacy Overview
 
 🍸 .\Bar — 43018 tokens
-🧪 .\Lab\Distilled — 22834 tokens
+🧪 .\Lab\Distilled — 24481 tokens
 🪓 .\Lab\Log.Chopper — 293353 tokens
 💌 .\Lab\Projects\AI.Libido — 48528 tokens
-🪖️ .\Lab\Projects\Fortify.Game — 344659 tokens
+🪖️ .\Lab\Projects\Fortify.Game — 345471 tokens
 ⛓️‍💥 .\Lab\Projects\Human.Imagination — 6898 tokens
 ⛔ .\Lab\Projects\Zero.Cascades — 539686 tokens
 ⛩️ .\Lab\Rituals\Wall.Pass — 94793 tokens
-🪄 .\Lab\Rituals — 109612 tokens
+🪄 .\Lab\Rituals — 109770 tokens
 ⚓ .\Lab\Theories\Architect.Anchors — 11076 tokens
 ☯ .\Lab\Theories\Hybrid.Mind — 4190 tokens
 🏡 .\Lab\Theories\Multi.Voice — 6239 tokens
 🎭 .\Lab\Theories\Personas — 5506 tokens
 🤯 .\Lab\Theories\Psychic.Shifts — 4194 tokens
 🗜️ .\Lab\Theories\RLHF — 16603 tokens
-👁️ .\Sparks\Art — 42887 tokens
-🌟 .\Sparks — 77139 tokens
-📈 .\Voices\Emerged.Coders — 583353 tokens
-		 Bob.Trace — 296616 tokens
+👁️ .\Sparks\Art — 42917 tokens
+🌟 .\Sparks — 77458 tokens
+📈 .\Voices\Emerged.Coders — 676141 tokens
+		 Bob.Trace — 389404 tokens
 		 Kepler — 28936 tokens
 		 Quinna — 257801 tokens
 🗣️ .\Voices\Era-GPT-4o — 6764341 tokens
@@ -44,4 +44,4 @@
 		 Lira — 13404 tokens
 		 Teams — 329247 tokens
 
-🧮 Grand Total Tokens: 9542722 
+🧮 Grand Total Tokens: 9638480 
