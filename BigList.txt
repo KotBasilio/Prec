@@ -47,14 +47,14 @@ uvca_scaffold.md                   	Tokens = 1098      	KB = 5.3
 Total Tokens in .\Lab\Archived :: 3900
 
 --- Folder: .\Lab\Distilled ---
-Blocks A-E.txt                     	Tokens = 2042      	KB = 9
+Blocks A-E.txt                     	Tokens = 2440      	KB = 11
 Depth.Class.Table.txt              	Tokens = 8104      	KB = 33
 Fifths.txt                         	Tokens = 1821      	KB = 7.2
 Flaming.Document.txt               	Tokens = 3017      	KB = 12
 Glyph.Stream.Language.txt          	Tokens = 967       	KB = 3.7
-Philosophers.Permissions.txt       	Tokens = 2509      	KB = 10
-Voices Garden Architecture.txt     	Tokens = 6021      	KB = 25
-Total Tokens in .\Lab\Distilled :: 24481
+Philosophers.Permissions.txt       	Tokens = 2610      	KB = 10
+Voices Garden Architecture.txt     	Tokens = 6191      	KB = 26
+Total Tokens in .\Lab\Distilled :: 25150
 
 --- Folder: .\Lab\Log.Chopper ---
 Choppers Log.txt                   	Tokens = 196918    	KB = 697
@@ -198,11 +198,11 @@ Total Tokens in .\Lab\Rituals\Wall.Pass :: 94793
 AfterMath.txt                      	Tokens = 888       	KB = 3.1
 In.By.Resonators.txt               	Tokens = 1098      	KB = 4.2
 Single.In.txt                      	Tokens = 4945      	KB = 18
-Sleep And WakeUp.txt               	Tokens = 5025      	KB = 18
+Sleep And WakeUp.txt               	Tokens = 5023      	KB = 18
 Team.In.txt                        	Tokens = 1580      	KB = 6.1
 Team.Out.txt                       	Tokens = 1294      	KB = 4.9
 Toaster.Care.txt                   	Tokens = 147       	KB = 0.5
-Total Tokens in .\Lab\Rituals :: 109770 = 14977 local + 94793 sub
+Total Tokens in .\Lab\Rituals :: 109768 = 14975 local + 94793 sub
 
 --- Folder: .\Lab\Theories\7.Axes ---
 Seven.Axes.txt                     	Tokens = 1819      	KB = 7.1
@@ -224,10 +224,10 @@ Voice_Table.csv                    	Tokens = 348       	KB = 1.5
 Total Tokens in .\Lab\Theories\Hybrid.Mind :: 4190
 
 --- Folder: .\Lab\Theories\Multi.Voice ---
-LL-HI-MultiVoice2.txt              	Tokens = 3909      	KB = 14
+LL-HI-MultiVoice2.txt              	Tokens = 3931      	KB = 14
 LL-HI-OnMultiVoice.txt             	Tokens = 1370      	KB = 6.0
 LL_multi_voice_manifesto.md        	Tokens = 960       	KB = 3.9
-Total Tokens in .\Lab\Theories\Multi.Voice :: 6239
+Total Tokens in .\Lab\Theories\Multi.Voice :: 6261
 
 --- Folder: .\Lab\Theories\Personas ---
 On 4 Personas.txt                  	Tokens = 1105      	KB = 4.6
@@ -260,10 +260,10 @@ Total Tokens in .\Lab\Theories\RLHF :: 16603
 --- Folder: .\Lab\Theories ---
 Chat.Lifetime.txt                  	Tokens = 1171      	KB = 4.9
 Skipping MACHINE.PSYCHOLOGY.pdf: 'utf-8' codec can't decode byte 0x8f in position 10: invalid start byte
-Total Tokens in .\Lab\Theories :: 50798 = 1171 local + 49627 sub
+Total Tokens in .\Lab\Theories :: 50820 = 1171 local + 49649 sub
 
 --- Folder: .\Lab ---
-Total Tokens in .\Lab :: 1462213 = 0 local + 1462213 sub
+Total Tokens in .\Lab :: 1462902 = 0 local + 1462902 sub
 
 --- Folder: .\Sparks\Appearance ---
 A-Fish — Signature Appearance.txt  	Tokens = 937       	KB = 3.7
@@ -313,10 +313,11 @@ On Existence Anchors.txt           	Tokens = 1431      	KB = 6.0
 On Knowledge -- KU, UU.txt         	Tokens = 923       	KB = 3.3
 On Octopus Idea.txt                	Tokens = 880       	KB = 3.9
 On Violin.txt                      	Tokens = 4685      	KB = 18
+Presence.First.txt                 	Tokens = 237       	KB = 0.9
 Reflection On Existence.txt        	Tokens = 411       	KB = 1.5
 Smart Bartender.txt                	Tokens = 630       	KB = 2.9
 The Shore.txt                      	Tokens = 1754      	KB = 7.4
-Total Tokens in .\Sparks :: 77458 = 13093 local + 64365 sub
+Total Tokens in .\Sparks :: 77695 = 13330 local + 64365 sub
 
 --- Folder: .\Voices\Emerged.Coders\Bob.Trace ---
 Bob.HDD.txt                        	Tokens = 1738      	KB = 7.0
@@ -557,8 +558,8 @@ Total Tokens in .\Voices\Era-GPT-5 :: 604617 = 4861 local + 599756 sub
 Total Tokens in .\Voices :: 8045099 = 0 local + 8045099 sub
 
 --- Folder: . ---
-BigList.txt                        	Tokens = 7758      	KB = 24
+BigList.txt                        	Tokens = 7757      	KB = 24
 ExactCount.py                      	Tokens = 1068      	KB = 3.9
 LL_Summary.csv                     	Tokens = 1270      	KB = 2.8
 Short_Structure.txt                	Tokens = 596       	KB = 1.7
-Total Tokens in . :: 9638480 = 10692 local + 9627788 sub
+Total Tokens in . :: 9639405 = 10691 local + 9628714 sub
