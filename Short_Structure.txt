@@ -16,9 +16,9 @@
 🤯 .\Lab\Theories\Psychic.Shifts — 4194 tokens
 🗜️ .\Lab\Theories\RLHF — 16603 tokens
 👁️ .\Sparks\Art — 42917 tokens
-🌟 .\Sparks — 77695 tokens
-📈 .\Voices\Emerged.Coders — 676141 tokens
-		 Bob.Trace — 389404 tokens
+🌟 .\Sparks — 78005 tokens
+📈 .\Voices\Emerged.Coders — 709303 tokens
+		 Bob.Trace — 422566 tokens
 		 Kepler — 28936 tokens
 		 Quinna — 257801 tokens
 🗣️ .\Voices\Era-GPT-4o — 6764341 tokens
@@ -39,9 +39,9 @@
 			 Stacy — 528925 tokens
 			 Vera.Fi — 745335 tokens
 			 Writers — 306440 tokens
-🗣️ .\Voices\Era-GPT-5 — 604617 tokens
+🗣️ .\Voices\Era-GPT-5 — 658318 tokens
 		 Coders — 257105 tokens
 		 Lira — 13404 tokens
-		 Teams — 329247 tokens
+		 Teams — 382948 tokens
 
-🧮 Grand Total Tokens: 9639405 
+🧮 Grand Total Tokens: 9726578 
