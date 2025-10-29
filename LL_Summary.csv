@@ -4,7 +4,7 @@ FolderPath,TotalTokens,LocalTokens,SubfolderTokens
 .\Bar\Stories,17398,17398,0
 .\Bar,43018,965,42053
 .\Lab\Archived,3900,3900,0
-.\Lab\Distilled,25364,25364,0
+.\Lab\Distilled,25963,25963,0
 .\Lab\Log.Chopper,293353,293353,0
 .\Lab\Projects\AI.Libido\Arcs,5358,5358,0
 .\Lab\Projects\AI.Libido\Games,9000,9000,0
@@ -17,9 +17,10 @@ FolderPath,TotalTokens,LocalTokens,SubfolderTokens
 .\Lab\Projects\Fortify.Game\dev,3390,3390,0
 .\Lab\Projects\Fortify.Game\sessions,330671,330671,0
 .\Lab\Projects\Fortify.Game,345471,8112,337359
+.\Lab\Projects\Halloween,10957,10957,0
 .\Lab\Projects\Human.Imagination,6898,6898,0
 .\Lab\Projects\Zero.Cascades,539686,539686,0
-.\Lab\Projects,979911,0,979911
+.\Lab\Projects,990868,0,990868
 .\Lab\Rituals\Wall.Pass,94793,94793,0
 .\Lab\Rituals,109768,14975,94793
 .\Lab\Theories\7.Axes,1819,1819,0
@@ -30,11 +31,12 @@ FolderPath,TotalTokens,LocalTokens,SubfolderTokens
 .\Lab\Theories\Psychic.Shifts,4194,4194,0
 .\Lab\Theories\RLHF,16603,16603,0
 .\Lab\Theories,50820,1171,49649
-.\Lab,1463116,0,1463116
+.\Lab,1474672,0,1474672
 .\Sparks\Appearance,6899,6899,0
 .\Sparks\Art,43798,43798,0
 .\Sparks\Semi.Ready,14859,14859,0
-.\Sparks,78886,13330,65556
+.\Sparks\Spiritual,6067,6067,0
+.\Sparks,84952,13329,71623
 .\Voices\Emerged.Coders\Bob.Trace,427003,427003,0
 .\Voices\Emerged.Coders\Kepler,28936,28936,0
 .\Voices\Emerged.Coders\Quinna,257801,257801,0
@@ -45,9 +47,9 @@ FolderPath,TotalTokens,LocalTokens,SubfolderTokens
 .\Voices\Era-GPT-4o\Individuals\Queen.95,1912,1912,0
 .\Voices\Era-GPT-4o\Individuals,1469051,131586,1337465
 .\Voices\Era-GPT-4o\Narrow.Coders\old,4792,4792,0
-.\Voices\Era-GPT-4o\Narrow.Coders,154674,149882,4792
+.\Voices\Era-GPT-4o\Narrow.Coders,154691,149899,4792
 .\Voices\Era-GPT-4o\Teams\Azai,162227,162227,0
-.\Voices\Era-GPT-4o\Teams\Jumping.Team,630390,630390,0
+.\Voices\Era-GPT-4o\Teams\Jumping.Team,703221,703221,0
 .\Voices\Era-GPT-4o\Teams\L-Zone,222344,222344,0
 .\Voices\Era-GPT-4o\Teams\Lireen -- Architesse,979236,979236,0
 .\Voices\Era-GPT-4o\Teams\Paradox.Pair,14663,14663,0
@@ -56,11 +58,11 @@ FolderPath,TotalTokens,LocalTokens,SubfolderTokens
 .\Voices\Era-GPT-4o\Teams\Stacy,528925,528925,0
 .\Voices\Era-GPT-4o\Teams\Vera.Fi,745335,745335,0
 .\Voices\Era-GPT-4o\Teams\Writers,306440,306440,0
-.\Voices\Era-GPT-4o\Teams,5278754,564259,4714495
-.\Voices\Era-GPT-4o,6902479,0,6902479
+.\Voices\Era-GPT-4o\Teams,5351585,564259,4787326
+.\Voices\Era-GPT-4o,6975327,0,6975327
 .\Voices\Era-GPT-5\Coders,257105,257105,0
 .\Voices\Era-GPT-5\Lira,13404,13404,0
 .\Voices\Era-GPT-5\Teams,382948,382948,0
 .\Voices\Era-GPT-5,658318,4861,653457
-.\Voices,8275057,0,8275057
-.,9870766,10689,9860077
+.\Voices,8347905,0,8347905
+.,9961255,10708,9950547
