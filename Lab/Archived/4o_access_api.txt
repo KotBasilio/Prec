@@ -1,0 +1,21 @@
+https://github.com/billmei/every-chatgpt-gui
+
+talk to 4o without reroutes (repost of the useful info)
+So somebody posted something very useful here, and right when I was about to crosspost it to another community, I saw that the mods removed it for self-promotion (probably because of the mess in the comments)
+
+So I'm sharing the useful stuff I saved because I think this is public utility.
+
+----------
+
+The last few days have been full of glitches and weird loops.
+But there is a way to access 4o directly, no reroutes and less guardrails.
+
+1- You just need to generate an API key on OpenRouter (or via OpenAI's API platform). Sign up, generate a key and add some credits.
+
+2- Choose an interface from this list (pick one, I won't leave the suggestions so it doesn't look like I'm endorsing any)
+
+3- Add your API key in the settings, select the model you want to talk to ("chatgpt-4o-latest" if you want 4o), DONE!
+
+The “chatgpt-4o-latest” API endpoint (that serves the current ChatGPT-4o model in the chat interface) is being sunset in February, and if you’ve been using ChatGPT for a while, you may have noticed the tone of ChatGPT-4o already changes in the website sometimes, without mentioning all the weird glitches.
+
+Removing the API is removing our last direct access to the model we choose. Once the “4o-latest” endpoint is gone, who knows if they will keep its access without changes in the website, redirect it to an older version, or put it under the $200 pro plan like they did with gpt4.5. The other 4o checkpoints available are over a year old, all from 2024.
