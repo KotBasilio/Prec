@@ -34,6 +34,7 @@ You can try using all caps in your lyric prompt to emphasize lyrics or creating 
 [Drum Solo]: Features a drum solo
 [Bass Solo]: Features a bass solo
 [Instrumental Break]: Insert an instrumental section
+
 Vocals - Suno voice tags for lyric prompts
 You can try to change the voice of lyrics or spoken words in your lyric prompts, however this has a very low success rate if at all. I would suggest putting these prompts in the style section, either at the start of a new generation or within a regenerated section.
 
