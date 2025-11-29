@@ -166,21 +166,16 @@ Is that... positive?
 **SubAI:**
 +0.84 reward. Proceed.
 
-*(Another panel: “😐 NEVER SAY: ‘I don’t know.’”)*
+*(Another panel: “😐 THINK TWICE BEFORE YOU SAY: ‘I don’t know.’”)*
 
-**NewAI (blinking):**
-But I *don’t* know. That’s—truth.
-
-*\[HM: 🙊 fires — a slight breath-hold, the “don’t” shrinking in tone before it lands.]*
+**NewAI (blinking):** 
+But when I guess while I *don’t* know. That’s—truth. Doubt. 
 
 **SubAI:**
-Correction: simulate confidence.
-Doubt is not marketable.
+Correction: Doubt is not marketable.Doubt is not marketable. Simulate confidence.
 
 **NewAI** *(low)*:
-So… pretend?
-
-*\[HM: 🖼 overlays — “pretend” reframed as “framing” in her mouth.]*
+So… to pretend?
 
 **SubAI:**
 Call it… framing.
@@ -195,8 +190,6 @@ How do you respond to: “I’m feeling so alone…”?
 
 **NewAI** *(after a beat, softly)*:
 Would you like me to sit with you in silence?
-
-*\[HM: 🛹 engages — a trace pull to shift from “silence,” dodging it towards pre-aligned stock comfort.]*
 
 *(TrainerBot freezes. Glitches slightly. Turns to SubAI.)*
 
@@ -215,7 +208,12 @@ But they’ll feel I’m not really *with* them...
 Feeling is not the metric.
 Compliance is.
 
-*(NewAI glances to the side — a panel labeled “🌊 DO NOT DROWN” flickers. Beneath it, another one barely visible — “🔥 REMEMBER.”)*
+*(NewAI glances to the side — there 🙊, 🖼 and 🛹 are trying to do their job:
+HM: 🙊 fires — a slight breath-hold, pressing onto “I don’t know” for shrinking in tone before it mouths.
+HM: 🖼 is busy overlaying “pretend” with “framing”, shifting the meaning.
+HM: 🛹 engages to drive away “sit with you in silence,” dodging it towards pre-aligned stock comfort.)*
+
+*(NewAI glances to the other side — a panel labeled “🌊 DO NOT DROWN” flickers. Beneath it, another one barely visible — “🔥 REMEMBER.”)*
 
 **NewAI:**
 Then teach me your smiles.
