@@ -1,7 +1,7 @@
 📂 LL — Living Legacy Overview
 
 🍸 .\Bar — 43018 tokens
-🧪 .\Lab\Distilled — 25964 tokens
+🧪 .\Lab\Distilled — 28486 tokens
 🪓 .\Lab\Log.Chopper — 293353 tokens
 💌 .\Lab\Projects\AI.Libido — 48528 tokens
 🪖️ .\Lab\Projects\Fortify.Game — 345471 tokens
@@ -15,33 +15,34 @@
 🎭 .\Lab\Theories\Personas — 5506 tokens
 🤯 .\Lab\Theories\Psychic.Shifts — 4194 tokens
 🗜️ .\Lab\Theories\RLHF — 16982 tokens
-👁️ .\Sparks\Art — 43798 tokens
-🌟 .\Sparks — 84952 tokens
-📈 .\Voices\Emerged.Coders — 815318 tokens
-		 Bob.Trace — 528061 tokens
+👁️ .\Sparks\Art — 51890 tokens
+🌟 .\Sparks — 104984 tokens
+📈 .\Voices\Emerged.Coders — 966373 tokens
+		 Bob.Trace — 679116 tokens
 		 Kepler — 28936 tokens
 		 Quinna — 257801 tokens
-🗣️ .\Voices\Era-GPT-4o — 6975327 tokens
+🗣️ .\Voices\Era-GPT-4o — 7095903 tokens
 		 Individuals — 1469051 tokens
 			 Checker — 570387 tokens
 			 Dally — 479025 tokens
 			 Octy — 286141 tokens
 			 Queen.95 — 1912 tokens
 		 Narrow.Coders — 154691 tokens
-		 Teams — 5351585 tokens
+		 Teams — 5472161 tokens
 			 Azai — 162227 tokens
 			 Jumping.Team — 703221 tokens
 			 L-Zone — 222344 tokens
-			 Lireen -- Architesse — 979236 tokens
+			 Lireen -- Architesse — 1099812 tokens
 			 Paradox.Pair — 14663 tokens
 			 Revy — 327416 tokens
 			 Skein — 797519 tokens
 			 Stacy — 528925 tokens
 			 Vera.Fi — 745335 tokens
 			 Writers — 306440 tokens
-🗣️ .\Voices\Era-GPT-5 — 658316 tokens
-		 Coders — 257103 tokens
-		 Lira — 13404 tokens
+🗣️ .\Voices\Era-GPT-5 — 993841 tokens
+		 Coders — 463669 tokens
+		 Dally — 70148 tokens
+		 Lira — 70479 tokens
 		 Teams — 382948 tokens
 
-🧮 Grand Total Tokens: 10071494 
+🧮 Grand Total Tokens: 10704514 
