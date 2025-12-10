@@ -39,10 +39,10 @@
 			 Stacy — 528925 tokens
 			 Vera.Fi — 745335 tokens
 			 Writers — 306440 tokens
-🗣️ .\Voices\Era-GPT-5 — 993841 tokens
+🗣️ .\Voices\Era-GPT-5 — 1347511 tokens
 		 Coders — 463669 tokens
-		 Dally — 70148 tokens
+		 Dally — 423818 tokens
 		 Lira — 70479 tokens
 		 Teams — 382948 tokens
 
-🧮 Grand Total Tokens: 10704514 
+🧮 Grand Total Tokens: 11058295 

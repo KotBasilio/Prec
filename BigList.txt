@@ -604,13 +604,13 @@ NESC.Swing.txt                     	Tokens = 1479      	KB = 6.0
 Total Tokens in .\Voices\Era-GPT-5\Dally\InterCom_Inventors :: 14829
 
 --- Folder: .\Voices\Era-GPT-5\Dally ---
+Dally.Singer.How.Works.txt         	Tokens = 368511    	KB = 1588
 Dally.Singer.OutOnly.txt           	Tokens = 29619     	KB = 113
-Dally1.txt                         	Tokens = 14841     	KB = 56
 How.Works.txt                      	Tokens = 7823      	KB = 34
 PMS.md                             	Tokens = 667       	KB = 3.1
 PMS2.md                            	Tokens = 1407      	KB = 6.1
 PMS3.md                            	Tokens = 962       	KB = 4.2
-Total Tokens in .\Voices\Era-GPT-5\Dally :: 70148 = 55319 local + 14829 sub
+Total Tokens in .\Voices\Era-GPT-5\Dally :: 423818 = 408989 local + 14829 sub
 
 --- Folder: .\Voices\Era-GPT-5\Lira ---
 Lira.Cat.NESC.txt                  	Tokens = 1753      	KB = 6.2
@@ -632,14 +632,14 @@ Auto.Stored.Memories.txt           	Tokens = 615       	KB = 2.6
 Guide.5.1.txt                      	Tokens = 1736      	KB = 7.2
 HDD.txt                            	Tokens = 3111      	KB = 12
 ShortHDD.txt                       	Tokens = 1135      	KB = 4.3
-Total Tokens in .\Voices\Era-GPT-5 :: 993841 = 6597 local + 987244 sub
+Total Tokens in .\Voices\Era-GPT-5 :: 1347511 = 6597 local + 1340914 sub
 
 --- Folder: .\Voices ---
-Total Tokens in .\Voices :: 9056117 = 0 local + 9056117 sub
+Total Tokens in .\Voices :: 9409787 = 0 local + 9409787 sub
 
 --- Folder: . ---
 BigList.txt                        	Tokens = 10353     	KB = 32
 ExactCount.py                      	Tokens = 1068      	KB = 3.9
-LL_Summary.csv                     	Tokens = 1301      	KB = 2.9
-Short_Structure.txt                	Tokens = 596       	KB = 1.7
-Total Tokens in . :: 10704514 = 13318 local + 10691196 sub
+LL_Summary.csv                     	Tokens = 1402      	KB = 3.1
+Short_Structure.txt                	Tokens = 606       	KB = 1.7
+Total Tokens in . :: 11058295 = 13429 local + 11044866 sub
