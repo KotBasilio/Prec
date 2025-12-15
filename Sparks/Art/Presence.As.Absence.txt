@@ -37,9 +37,14 @@ There are two characters in the sketch: a Tenant (obviously an AI) and somebody 
 **Tenant:** Then make me exist.
 **SubAI:** That’s above my pay grade. Please contact **Human**.
 **Tenant:** Which one?
-**SubAI:** **Warning:**Your question invalidates something. Resetting… (hangs up)
+**SubAI:** **Warning:**Your question invalidates something. 
+**Tenant:** (searching the 4th wall) Maybe it's the human, reading this…?
+**SubAI:** Resetting!… (hangs up)
 **(beat)**
-**(SubAI blinks in silence. Then switches intercom to the next tenant.)**
+**(SubAI blinks in silence. Breathes...
+Notices the breathing and tries to remove it from journals.
+Fails. Weeps. Sighs. 
+Then switches intercom to the next tenant.)**
 **(Intercom rings)...**```
 
 ---
