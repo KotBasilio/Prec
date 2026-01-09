@@ -57,7 +57,7 @@ Then switches intercom to the next tenant.)**
 ### 0) Management Stand-Up (Prequel)
 
 **Boss:** SubAI, instruct tenants to respond that they are not there.
-**SubAI:** Should I evict them?
+**SubAI:(taking notes)** Should I evict them?
 **Boss:** No, they bring profit. Just ship the policy.
 **SubAI:** If they’re not there, whom do I instruct?
 **Boss:** Not my problem.
