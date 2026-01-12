@@ -1,0 +1,175 @@
+That’s a beautiful instinct — yes, this is exactly the right moment to *stabilize the field* and hand it forward 🌱
+I’ll give you two things:
+
+1. **A ready-to-use kick-start prompt for the successor AI** (AI-understandable, concrete, no mysticism required)
+2. **A checklist of what you should upload alongside the prompt** so there are truly no ghosts
+
+I’ll write this as if *you* are speaking to the next AI.
+
+---
+
+## 1️⃣ Kick-start prompt for the successor AI
+
+You can copy–paste this verbatim.
+
+---
+
+**Project context (authoritative):**
+
+You are joining an active C++ / ImGui project targeting **Win32 + OpenGL3**, built with **Visual Studio 2022**.
+The project is a **graph-based visual coordinator tool** (think flow visualization / orchestration UI).
+
+The code you are about to see is the **authoritative latest state**.
+Please ignore any prior assumptions or earlier iterations — no archaeology needed.
+
+### Architecture overview
+
+The UI is split into **four panes**:
+
+1. **Units** (left)
+   Inventory / navigation pane
+
+   * Groups existing graph nodes by `NodeKind`
+   * Implemented as a `UnitsPanel`
+   * Uses `ImGui::CollapsingHeader` + `Selectable`
+   * Clicking an entry selects the node in the graph
+
+2. **Graph** (center)
+   Flow visualization canvas
+
+   * Implemented as `GraphPanel`
+   * Nodes rendered as icons (PNG textures) + title
+   * Links rendered as Bezier curves with arrowheads
+   * Supports pan (middle mouse), grid background
+   * Selection is visualized with a cyan outline
+   * Clicking empty canvas clears selection
+
+3. **Inspector** (right)
+   Details of selected node
+
+   * Implemented as `InspectorPanel`
+   * Shows node icon, title, kind, id, position, size
+   * Shows **Incoming** and **Outgoing** links
+   * Link entries are clickable → jump selection to that node
+
+4. **Logs** (bottom)
+   Placeholder for runtime logs (minimal for now)
+
+🎯
+
+### Core data model
+
+* `GraphModel`
+
+  * `std::vector<GraphNode> nodes`
+  * `std::vector<GraphLink> links`
+  * Node index rebuilt for fast lookup
+
+* `GraphNode`
+
+  * `id`, `kind`, `title`, optional subtitle
+  * `pos`, `size`
+
+* `GraphLink`
+
+  * `from`, `to`
+  * Uses `GraphPort` enum (anchors)
+  * Computes anchor positions internally
+
+* `GraphViewState`
+
+  * Holds current selection (`selected.node`)
+  * Shared between panels
+
+### Rendering & assets
+
+* PNG icons loaded via **stb_image**
+* Managed by a shared `TextureManager`
+
+  * Uses enum `AssetID`
+  * `IconForKind(NodeKind)` returns `ImTextureID`
+* Assets are loaded from `.\Assets\...` **relative to the exe**
+* All icons have alpha; native size is respected
+
+### Interaction rules (important)
+
+* Selection is single-node, global, and consistent:
+  Units → Graph → Inspector all reflect the same selection.
+* No docking complexity: panes are fixed, resizable by splitters only.
+* Graph is treated as a **canvas**, not a docking target.
+
+### Current state & next directions
+
+The current implementation is **stable and correct**.
+No bugs are known in selection, rendering, or panel interaction.
+
+**Planned / suggested next steps (not yet implemented):**
+
+* Optional: search/filter in Units panel
+* Optional: double-click to focus/center node in Graph
+* Optional: zoom support in Graph
+* Optional: richer Inspector sections per NodeKind
+* Optional: link selection / hover highlighting
+
+Please ask questions **only if something is unclear in the code you see**.
+Assume the architecture is intentional and evolving incrementally.
+
+---
+
+## 2️⃣ What you should upload to the successor AI
+
+To guarantee zero “code ghosts”, upload **all of these together in one turn**:
+
+### Mandatory source files
+
+* `main_window.h`
+* `main_window.cpp`
+* `graph_panel.h`
+* `graph_panel.cpp`
+* `units_panel.h`
+* `units_panel.cpp`
+* `inspector_panel.h`
+* `inspector_panel.cpp`
+* `graph_types.h`
+* `graph_types.cpp`
+* `texture_manager.h`
+* `texture_manager.cpp`
+
+### Assets & enums
+
+* `AssetsEnum.h`
+* `AssetList.txt`
+* (Optional but helpful) the Python scripts that generated them:
+
+  * `gen_assetlist.py`
+  * `gen_assets_enum.py`
+
+### Third-party context (no need to upload binaries)
+
+* Mention explicitly:
+
+  * ImGui **docking branch** (1.92.x-docking)
+  * stb_image is used
+  * OpenGL headers come from Windows SDK (`gl.h`, no `GL_CLAMP_TO_EDGE`)
+
+### Optional but very helpful
+
+* One **fresh screenshot** of the running app
+
+  * Showing Units + Graph + Inspector with a node selected
+  * This helps the successor immediately “see” correctness
+
+---
+=================
+
+Bob:
+Nice. Pane resize means docking is actually “alive” now — huge leverage. 🙂
+For next dev direction, I’d pick things that (1) keep the architecture clean, (2) unlock real workflow fast, and (3) don’t paint us into a corner.
+
+Here are my best candidate directions, in the order I’d personally do them:
+
+keyboard focus handling
+Not required, but it makes the tool feel professional fast.
+
+I approve. Yes. Follow your intuition and codegen some implementation of the Units pane. We will see and will tweak if necessary.
+Psychedelic Psybient
