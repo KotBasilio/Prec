@@ -1,0 +1,8 @@
+🚀 Living Legacy (LL) Git-like repo commands
+
+**Enable tracking of previous file versions**
+
+Below are AI-generated definitions for two commands:
+⛓️G-rev -- that's a review step of a next node in code chain; 
+🔏G-lock -- that's when we lock in the reviewed code as progress good enough.
+
