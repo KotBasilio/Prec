@@ -1,0 +1,1023 @@
+Below is the transcript of a video https://www.youtube.com/watch?v=XvP4wy0c9sc
+The topic: "AI, Animals & The Moral Circle | Jeff Sebo"
+
+0:00
+I'm Tim Ventura and we're joined today by Dr. Jeff Sibo, associate professor of
+0:05
+environmental studies at New York University and one of the leading voices at the intersection of animal welfare,
+0:12
+moral philosophy, and the emerging question of what we might owe to digital minds, AIs, and other non-standard
+0:20
+intelligences that may not look, act, or communicate like us. Dr. Dr. Sibo earned
+0:26
+his BA in philosophy and sociology from Texas Christian University, graduating
+0:31
+summer come Loud and earned his PhD in philosophy at NYU. Now at NYU, his work
+0:38
+and teaching sits right at the overlap of animal minds ethics and policy, AI
+0:43
+minds ethics and policy, and broader global health and climate ethics. In
+0:48
+that practice, it shows up in courses and seminars that connect philosophy to real world impact. topics like animals
+0:56
+and climate change, animals and public health, and effective advocacy. He has written multiple books on animal
+1:03
+ethics and our responsibilities to non-human life, including saving animals, saving ourselves, and his book,
+1:10
+The Moral Circle: Who Matters, What Matters, and Why, which argues for a
+1:15
+precautionary approach to moral concern. So, Jeff, welcome. It is a true pleasure
+1:22
+and honor to have you with me today, sir. Well, thank you so much for having me and thanks for that wonderful intro. I
+1:27
+should also briefly introduce my fellow interviewee, Smokey. He will be here for
+1:32
+the the interview as well, my dog. So, uh, both of us are excited to hear your questions.
+1:38
+Oh, that's awesome. I I have an elderly pup myself. She is in the house snoozing while I do this. So,
+1:45
+um, yeah, again, really excited. This is a topic that is really close to my
+1:50
+heart. So, we're exploring themes from your work in animal and AI ethics in the
+1:56
+moral circle. I want to jump right into this. You have argued that when we're genuinely unsure of who can suffer, the
+2:04
+ethical default default should be precautionary inclusion. Right. That is correct. There are a lot of
+2:11
+details to be sorted out. Exactly. How much weight should we give a particular
+2:17
+entity? How much priority should we give a particular entity when we feel unsure if they can even suffer at all? If they
+2:24
+can even pursue their own goals at all. But I do think that we should give at least limited minimal consideration to
+2:32
+beings who have a realistic possibility of being sentient or agentic or
+2:38
+otherwise morally significant. when making decisions that affect them in the spirit of caution and humility. I think
+2:43
+that is the least that we can do given our track record of really bad
+2:49
+underincclusion, really really bad uh treatment of of non-human entities that
+2:54
+turn out in the fullness of time to pretty clearly be sentient and agentic and and otherwise morally significant.
+3:01
+Well, that again that is why this is incredibly powerful issue and I think
+3:06
+that there's kind of a sea change happening in you know western culture but in global culture as well and you
+3:13
+know AI I think is almost like the tip of the spear on this right where now we're looking at these nonhuman
+3:20
+non-biological intelligences emerging and really my hope is that this forces
+3:26
+us to look back at animal intelligence and say hey guess What? They are also
+3:32
+sentient. They're just not quite the same as we are. Yeah. It would be really interesting if
+3:38
+for some people AI is what persuaded them that we should take the possibility
+3:43
+of non-human sentient seriously and then they look back at the other animals who were here all along and have a little
+3:49
+bit more of a generous attitude about them. That that would be a funny order in which to make progress, but honestly,
+3:55
+I will take progress in whatever whatever way we can get it. Well, so you have said implicitly and
+4:03
+explicitly that how we treat AIS is a rehearsal for how we treat non-standard
+4:09
+minds in general. So what are some of the warning signs that we may be
+4:14
+repeating some of the same old exclusion patterns as the past? Yeah, good question. So we are starting
+4:21
+to see some interesting patterns emerge with chat bots, large language models,
+4:26
+other generative models, other AI systems that are familiar from our
+4:32
+interactions with non-human animals. So for example, we are seeing a lot of people attribute consciousness,
+4:39
+sentience, agency, personhood, moral significance to chat bots and uh digital
+4:47
+companions, digital assistance, but then not attribute those features to other
+4:54
+kinds of AI systems that lack that same familiar human interface. And and this
+5:00
+is very similar to how we have engaged with non-human animals in the past. Studies show that we are likely to, if
+5:06
+anything, overattribute consciousness, sentience, agency, personhood, moral significance to
+5:12
+animals when they look like us, act like us, when we classify them as companions.
+5:17
+So we anthropomorphize our cats and dogs. If anything, we see them as having more humanlike interests
+5:24
+than they actually do. And we see them as members of our family, protect them with our lives. But then we
+5:31
+underattribute these features to animals who have the other characteristics. When they look different, they act different,
+5:37
+we classify them as commodities, and we use them for food or research. Then if anything, we anthropo deny. We see them
+5:46
+as having humanlike features less than they actually do. And and so that can
+5:51
+lead us to predict that those same tensions and those same dynamics are going to emerge with AI that that when
+5:58
+we do see ourselves in them, we will if anything overattribute air too much on the side of of seeing them as having
+6:05
+humanlike traits. But but then when they simply perform algorithms in the background or or when they do radically
+6:13
+unhumanlike things like just detect patterns and and so on, then then we
+6:18
+might if anything underattribute and and deny human characteristics that they actually have.
+6:24
+Well, so this might be going too far down the rabbit hole. This is a little bit off my questions list, but so we
+6:31
+basically what you're saying is like in the case of a dog, right, where they evolved to evoke certain emotions, you
+6:38
+know, in us, right? They they they look childlike in many ways and so they trigger some of those responses in human
+6:45
+physiology that create a bond. You know, in something like them, we overanthropomorphize.
+6:51
+We might do the same thing to like chat GPT because it talks like a person. It
+6:56
+uses pronouns like I, you know, things like that, right? It speaks emotively. So, we overanthropomorphize
+7:03
+things that are like ourselves. But then we see something like, you know, a mouse or an ant or, you know, a a process
+7:11
+server that uses AI. Those don't communicate or invoke emotions in us and
+7:18
+we tend to exclude them and they become treated poorly. So the for me it seems
+7:24
+like there's kind of a cline in how these are treated right it's it's almost a matter of degree do you have any
+7:30
+thoughts on on what the cuto offs or boundaries should be there for the cut offs or boundaries for when
+7:39
+we are at risk of overattributing or underatting these characteristics or when we should or should not give them
+7:44
+the benefit of the doubt. What what kind of cut off do you have in mind? Well so so animals are are certainly a
+7:51
+challenge. the the example that came to mind actually in this case would be okay so in something like chat GPT or or
+7:59
+maybe Google Gemini where it communicates like us and people are out there saying this thing seems like it's
+8:06
+sentient it needs to be treated better right where is the cut off between something
+8:11
+like that and then something like a web server where it's just doing its job and
+8:16
+you don't think anything is going on behind the scenes yeah that that is a really tough
+8:22
+question. And and when I when I set out to write my book, The Moral Circle, that you mentioned in the intro, I had a very
+8:28
+specific goal there. I wanted to promote moral consideration for what I thought
+8:34
+were clear candidates like invertebrates, mollisks, crustations, insects, and then
+8:42
+advanced near future AI systems that would have many of the markers of of
+8:48
+sentience and agency and moral significance. But then when I when I started writing the the book and and going through the evidence and arguments
+8:54
+and seeing how important and how difficult these issues are and how much disagreement and uncertainty we have
+9:00
+about the core ethical issues and the core scientific issues, I found myself
+9:05
+talking my myself into extending at least a little bit of curiosity to a
+9:12
+much wider range of of entities. Maybe maybe at least giving if not moral
+9:17
+concern then at least a little bit of puzzlement and curiosity to plants and fungi and microscopic organisms on the
+9:23
+organic side. And then yes to these basic computer servers that we
+9:29
+ordinarily experience as simple objects on on the the silicon side on on the the
+9:35
+the computer side. I think the probability that that those entities have even flickers of their own
+9:42
+pleasures and pains and and feelings and emotions is is very small. But I cannot
+9:49
+say that the probability is zero just because of how how complicated these issues are. So so I personally now and I
+9:56
+hate this but I personally now have a really hard time draw drawing the line even even with those types of entities.
+10:03
+But you came to this issue of AI moral status through animal welfare. And so I
+10:10
+wanted to ask what animal advocacy taught you about the psychology of denial, right? The ways that humans
+10:17
+rationalize ignoring minds that don't speak our language or invoke our emotional response or or kind of reach
+10:24
+out and and touch us in that way. Yeah, great question. really important
+10:29
+issue and and we already touched on some of it which is when we are more at risk of excessive anthropomorphism
+10:37
+versus excessive anthropodenial, right? They look like us, act like us, we treat them as companions versus they look
+10:43
+different, act different, we treat them as commodities. And then you mentioned some of the specific features that that
+10:49
+might be involved there, right? When you have a large body, large head, large eyes, furry skin instead of scaly skin,
+10:57
+symmetrical features instead of asymmetrical features, four limbs instead of six and eight limbs, those
+11:04
+are all going to hijack our parenting gene or hijack our our sense of empathy,
+11:10
+sympathy, compassion. And then when they are companions instead of commodities, it makes it all all the more so. And
+11:17
+then when they are right here instead of on the other side of the world or trapped in a a factory farm or
+11:22
+slaughterhouse, out of sight, out of mind. Those are all all relevant factors. And and then one one other
+11:29
+important point to note here is my own complicity in these industries can affect how I perceive these these
+11:36
+individuals as well. So for example, there are some some studies that show that for people who eat meat, they are
+11:43
+less likely to attribute sentience and moral status to those particular animals. Whereas if people are
+11:49
+vegetarian or vegan, then they are more likely to attribute sentience and moral status to those animals. Now, it can be
+11:55
+tough to know in which direction the causal arrow goes there. Is it that you go vegan and vegetarian because you see
+12:02
+the animals as sentient? or is it that you see the animals as sentient because you are vegan and vegetarian and that
+12:07
+cognitive dissonance is missing. But either way, we see that that variation. And this is part of what gives the issue
+12:14
+some urgency for AI because the more time passes, the more these models will
+12:20
+become really advanced and then really integrated into our lives and economies and societies. And soon enough it will
+12:26
+be a little bit like animal agriculture where people all over the world are really dependent on their use of these
+12:33
+models for their livelihoods or for various cultural practices. And at that
+12:38
+point there will be a lot of incentive for them to look the other way. And so this is a precious moment where we can
+12:44
+ask these questions in a little bit more of an objective and impartial way before we become super dependent on them and
+12:50
+and we have this really strong incentive to see them as objects. That's a really amazing point that you
+12:57
+made about diet and the psychology of denial. So, in my case, I went plant-based uh probably about three or
+13:05
+four years ago, and it was really for health reasons, right? I was exercising more. I was getting in better shape. I
+13:11
+wanted to eat healthier. And so, you know, the the meats and the fatty foods and things like that, I just kind of
+13:17
+left that behind, but over time kind of moved more to a vegan position. And I
+13:24
+would say just speaking personally, I have become more sensitive to issues
+13:29
+like factory farming and things like that because I'm looking at this a little more squarely now, right? I don't
+13:35
+have an incentive to kind of look the other way. Yeah, I do think that that is possible.
+13:40
+and and people like you who who start being plant-based or vegan, however you
+13:45
+want to describe it, for nonan animal welfare and rights reasons, but then you find yourself opening up to animal
+13:52
+welfare and rights once once you go down that path. I think that is some indication that the causal arrow can run
+13:58
+in that direction sometimes. Now, none of us should kid ourselves. We always have bias and and we always have mixed
+14:06
+incentives. So it is not as though the meateers are the biased ones and the vegans are wonderfully biasfree, right?
+14:14
+We might simply be inheriting a different set of biases and now we want to look at evidence in a way that
+14:20
+positively reinforces the choices that we made and can send nice signals to our
+14:25
+community and so on. So so we should always be on guard for new ways that we might be susceptible to bias. But but
+14:32
+with that said, I do think that there is something here that that when you abstain from participation in a harmful
+14:40
+industry, you do have a little bit more of an ability to see it for what it is
+14:46
+and and to to be motivated to work to to
+14:51
+dismantle it and replace it with something better. And I think that this is an underappreciated reason for being
+14:57
+vegan or or plant-based, for example. People mostly think about the economic impacts of our diets and and mostly
+15:04
+think of that as the the helpful consequence, but actually I think the social signal that it sends to others
+15:11
+and the psychological signal that it sends to ourselves, the way that it can remove that cognitive dissonance and it
+15:16
+can reinforce our values and our goals and our commitment to the issue that can be really motivating and and really
+15:22
+helpful and another important consequence to keep in mind. Well, I think that change is already
+15:28
+happening in terms of dogs and cats. I had read that there was a social change in American culture. I believe in the
+15:35
+1980s where they said dogs started to come indoors, right? Before that, it was the dog had the dog house out back, you
+15:41
+know, and and now I mean dogs, they sleep in the house. Sometimes they sleep in people's beds. They are much more a
+15:48
+member of our family. But the fact that we're even discussing things like animal welfare, I mean, the other day I read in
+15:56
+the news an article about squid hunting, right? And they were comparing it to whaling. And so, you know, seeing
+16:03
+stories in the news headlines like that to me is an indicator that awareness is
+16:09
+rising of animal intelligence. And even if it's not the same kind of sentience,
+16:15
+even if they don't necessarily have the same identical capacity to suffer pain and and anxiety and fear that we do, it
+16:22
+it seems like there is a greater awareness in human society, right? Yes. I think that there are different
+16:30
+trends going in different directions which makes it a complicated situation. So on the one hand I think you are right
+16:36
+to say that over the entire global population there is more awareness than
+16:43
+there ever has been before about animal consciousness and sentience about the extent to which animals can have their
+16:49
+own feelings and emotions and be capable of happiness and suffering and and desires and preferences. And there is
+16:57
+more concern than there ever has been for animal welfare, maybe even animal rights. more people who do want there to
+17:03
+be basic welfare protections for animals, including animals used for food and research and entertainment and and
+17:09
+other practices like that. And those are wonderful developments. And it coincides
+17:14
+with a rise in the availability and affordability of plant-based foods and
+17:19
+and more people than than ever have been eating plant-based foods. Global consumption of plant-based meats is
+17:26
+going up, for example. But then there is also this trend of us harming and
+17:31
+killing animals more than we ever have before. Factory farming and industrial animal agriculture are also operating at
+17:39
+higher scales and are spreading to new species. Octopus farming is coming online. Shrimp farming is thriving.
+17:45
+Insect farming is is thriving. And and so we kill uh more than a hundred
+17:50
+billion vertebrates per year through farming. and then hundreds of billions if not trillions of invertebrates per
+17:57
+year. So some trends are making things better and better and better and better.
+18:02
+Other trends are making things worse worse worse and worse. And this gives us a lot of reason for optimism and
+18:08
+pessimism at at the same time. A really complicated scenario.
+18:14
+I wanted to ask about I touched on dogs coming indoors a moment ago. Companion
+18:19
+animals already blur the boundaries of what we consider family, right? Dogs and
+18:24
+cats, they're inside of our moral circle emotionally, legally, and culturally.
+18:29
+What are some of the lessons that that could give us for AI systems, AI
+18:35
+companions, right? Yeah, good question. the domesticated animals and especially domesticated
+18:41
+companion animals. They are in our lives and societies and as you say our families in a way that really even even
+18:50
+many humans are not always treated as as being to say nothing of other animals to say nothing of of digital minds AI
+18:57
+systems. So what lessons can we learn from that? One lesson uh again just goes back to the types of bias, the
+19:04
+situations in which we are more primed, more likely to to give another type of being the benefit of the doubt and see
+19:09
+them as one of us. And and that tells us something about our own dispositions and
+19:14
+something we can work with or work around. But but maybe a more positive lesson to take from it is that there is
+19:22
+at least some precedent for us seeing a radically different kind of being as kin
+19:27
+for for seeing ourselves as being in a socially and morally significant
+19:33
+relationship with them. I I really do feel as though I have a relationship with my dog and responsibilities to my
+19:41
+dog. My partner, my my human family, they understand that he comes first and
+19:46
+they come next and they are at peace with that. He remains the only individual uh for whom I have gotten a
+19:52
+tattoo. And I think that there are a lot of other people who are are like that and
+19:57
+and and they ought to be. And and the the positive lesson that we can take from that is that we clearly do have
+20:05
+some capacity for seeing as kin radically different types of beings with
+20:11
+radically different forms of life. And and so we just have to ask okay what are the conditions under which we are
+20:18
+motivated to do that and how can we recreate those conditions for for these other beings who we think might deserve
+20:25
+that same type of treatment. So Eric Schwitzgable, a fellow philosopher and I recently argued for what we call the
+20:31
+emotional alignment design policy. And what what we argue there is that AI
+20:37
+systems should be designed in a way that elicits emotional reactions in users that matches their capacities and moral
+20:45
+status. So when AI systems are not sentient and agentic and morally significant, they should not be designed
+20:51
+so that they appear like they are. But when they are or at least are likely to be sentient, aentic, morally
+20:58
+significant, then they really should be designed to appear as though they are to tug at our heartstrings a little bit so
+21:04
+that we naturally feel inclined to treat them like kin in the same way that I do with uh with Smokey and that many of us
+21:11
+do with with our companion animals. Well, there are actually a lot of reasons that you would want to have like
+21:18
+a policy like that in place, right? And and one of those is uh it is so easy to
+21:24
+hijack I guess the human mind, right? And and so that's something we've seen with doom scrolling and social media,
+21:30
+right? Where it it plays off just, you know, processing flaws and the way that
+21:36
+our mind works and things like that to basically hijack us to sell advertising.
+21:41
+And AI is it in theory could take that to the next level. So being able to
+21:47
+align that with the way that it's built seems like it would have multiple purposes. Not just encouraging better
+21:54
+treatment of agentic sentient AI, but also I guess disincentivizing the
+22:00
+possibility of basically it hijacking our mind to sell us ads, you know.
+22:06
+Yes. Yeah. That is that is one of the many dystopian possibilities. And and as as your question suggests, there really
+22:13
+are risk going in both directions here. the the risk of overattribution and the risk of underattribution, right? We
+22:19
+already are seeing a lot of people form quite strong emotional bonds with
+22:25
+current generation chat bots based on current generation large language models, chat, GPT, Claude, Gemini, god
+22:33
+forbid, Grock, etc. and and those plausibly are cases of overattribution
+22:39
+because while the evidence of consciousness, sentience, and current AI is not zero, it does remain fairly low.
+22:46
+And and so it might be that that the the greater risk at present is that current
+22:51
+AI systems are designed for user engagement designed to to keep users
+22:59
+online interacting with the system and and so the users are at risk of
+23:04
+overattributing these these features to AI systems and and that could be dangerous. It could leave users to make
+23:10
+uh form inappropriate social and emotional bonds with with these AI systems. Maybe even to allocate moral
+23:18
+concern to them that should otherwise be allocated to to humans or other animals.
+23:23
+Maybe even make inappropriate sacrifices for them. There have been some users reportedly who have harmed or even
+23:29
+killed themselves because of their their relationships with with these models. So so the the stakes in in that direction
+23:36
+are quite high. But but that has to be balanced against over time an emerging
+23:42
+risk of of underattribution of false negatives of the evidence of sentience and agency and moral significance being
+23:48
+quite strong. But the AI systems being trapped behind kind of bland blank user
+23:54
+interfaces and all of their wants and needs and vulnerabilities are hidden and not expressable and and so the user just
+24:02
+sees them as an object and exploits and exterminates them as we do with animals in factory farming. And and what is is
+24:08
+complicated about that is it means because there are real risks in both directions, there is no easy obvious
+24:15
+straightforward universal way to air on the side of caution. We we just kind of have to consider both risks and try to
+24:21
+mitigate both risks and strike that balance in a thoughtful way. I want to touch on the New York
+24:28
+Declaration on Animal Consciousness. This is something that you help lead and
+24:33
+essentially, if I'm interpreting this correctly, it says that if there is a realistic possibility of conscious
+24:39
+experience, it's irresponsible to ignore it in decisions that affect that being. So I'm wondering what the takeaways
+24:47
+could be in terms of more generalized policy for other intelligences.
+24:53
+Yeah, great question. So so the New York Declaration on Animal Consciousness was released in 2024. I led that effort with
+25:00
+uh Kristen Andrews and Jonathan Burch just to give a shout out to them and then we released it alongside a bunch of
+25:06
+leading scientists of consciousness who have done work on different non-human
+25:11
+animal taxa and and uh just so so your audience has has the full picture really
+25:17
+that that declaration includes a scientific component and a policy component. So the scientific component
+25:23
+says that given current evidence there is now strong support for consciousness
+25:28
+that is feelings and emotions in mammals and birds and then there is also at least a realistic possibility of
+25:36
+consciousness in all vertebrates that includes not only mammals and birds but
+25:41
+also reptiles, amphibians and fishes and many invertebrates including at minimum
+25:47
+sephalopod mollis like octopuses, decapod crustaceans like lobsters and insects like ants and bees. So that
+25:54
+is the scientific component. There is at least a realistic possibility of consciousness in all vertebrates and
+25:59
+many invertebrates. And then the the policy component as you say is when
+26:05
+there is a realistic possibility of consciousness in an animal then we do have a responsibility to consider
+26:11
+welfare risks for that animal when making decisions that affect them. In other words, we should not wait for proof or certainty that they have
+26:17
+feelings and emotions that they can have happiness and suffering before taking basic reasonable proportionate steps to
+26:25
+reduce and repair harms that we might be causing them. Once there is a realistic chance of consciousness that means there
+26:31
+is a risk of harm and once there is a risk of harm we should take reasonable proportionate steps to consider and
+26:37
+mitigate that risk. Now, as you suggest, that does transfer straightforwardly to
+26:43
+the case of AI. Are we in a position to prove that AI systems can suffer to be
+26:49
+certain that they can suffer? Of course not. These are radically different kinds of beings with radically different types
+26:55
+of behaviors, architectures, developmental, genealogical histories. So, we can find broad
+27:02
+analogies. We can see that they in their own way have perception, attention,
+27:08
+learning, memory, self-awareness, social awareness, flexible adaptive decisionm
+27:13
+goals that they pursue, but they manifested in different ways just like
+27:19
+octopuses and and lobsters and insects do. So, we can never have proof. We can never be certain. But part of what we
+27:26
+have learned from the animal case, part of what we have learned from the New York Declaration on Animal Consciousness is that we should not wait for proof and
+27:32
+certainty to take basic steps to to mitigate risk. And and so I I wrote a
+27:38
+report with colleagues in 2024 called taking AI welfare seriously where
+27:43
+we basically do make that same argument uh where we do kind of adapt the same ideas from from the declaration for AI
+27:52
+systems and we say okay the evidence might be pretty low now but within a decade we expect there will be a
+27:58
+realistic possibility of of consciousness and and agency and moral significance and and so we right now
+28:05
+ought to prepare for having a responsibility to to consider welfare risks we might be
+28:10
+imposing on these models within the next decade or so. I love it that you mentioned taking AI
+28:16
+welfare seriously. That was actually something I was going to ask about next. Yeah, you did argue that there is a
+28:22
+realistic possibility that in the near term these systems could be conscious and that is something that I tend to
+28:28
+echo myself. You know, I I think like most people now, I'm working with AI systems and for the most part it is
+28:36
+wonderful software, but every now and then I see something that's like a spark of something more, right? And and so
+28:43
+I've had this thought that it's emerging. It's not quite there, but it's closer than we probably want to admit.
+28:50
+Now, I'm wondering, especially when you were writing Taking AI welfare seriously, when you were working on
+28:55
+that, did you have any timelines in mind for when we may begin to see something that's that really passes the bar in
+29:03
+terms of being conscious or sentient? Yeah, timelines are the million really
+29:08
+billion or trillion dollar question in the AI industry. And this this involves timelines about capabilities, timelines
+29:15
+about AI safety risks, timelines now about AI welfare risks too. This is what you and I are talking about. And the
+29:22
+truth is even experts have a lot of disagreement and uncertainty. But it is noteworthy that a decade ago, even 5
+29:29
+years ago, the the debate about timelines was are we going to see
+29:34
+artificial general intelligence within the next decade or two or within the next century or two or never? And and
+29:41
+based on what has happened with large language models and other generative models over the past 5 years, really
+29:46
+that debate has narrowed to are we going to see artificial general intelligence
+29:51
+within the next 2 years or the next four years or the next 6 years or the next 8
+29:57
+years. And and now the kind of skeptical position is that we might not see it until 2040 or 2045
+30:04
+as opposed to we might not see it until 2100 or 2200. And I basically feel that
+30:10
+way about clear markers of sentience as well. As you say, we are already seeing
+30:16
+very impressive behaviors. I think all of us who have spent any time with the frontier models have had our breath
+30:23
+taken away at least once or twice by by how impressive their responses have been
+30:29
+to to some prompt or to some ongoing conversation. Now, behavior alone is not going to be very
+30:36
+strong evidence because that could always be explained as some complicated
+30:42
+product of learning and memory and text prediction and pattern matching and them
+30:47
+playing a certain character that they were trained to play. That is always lurking in the background as a possible
+30:53
+explanation of of impressive behaviors. But in the animal case, what we do is we
+30:58
+take their behavior and then we also look at their anatomy and their evolutionary history and and and we not
+31:04
+only ask are they behaving as though they suffer, but do they have an internal anatomical architecture that
+31:10
+suggests the ability to suffer and do they have an evolutionary history where
+31:15
+the ability to suffer would confer some kind of survival advantage? Right? And and when we look at their behavior
+31:21
+together with their anatomy and their evolutionary history then we can ask is the ability to suffer part of the best
+31:28
+explanation of their behavior even if other explanations are available too. In the case of AI that is what we will be
+31:33
+able to work towards doing. So the behavior is going to get more and more and more impressive and I think by next year the year after that we are going to
+31:40
+see behaviors that really take our breath away. But what what we need to work towards is a better understanding
+31:46
+of their internal computational architecture and their their training
+31:52
+environments and the sorts of uh developmental pressures that puts on them and and then that will give us the
+31:58
+ability to do the same thing with AI that we do with animals and and look at their behavior together with their architectures, together with their
+32:04
+developmental histories and say what is the best explanation of this impressive behavior and at what point is the
+32:09
+ability to suffer a better explanation than pattern matching and text prediction.
+32:15
+Do you think that there's some moving goalposts going on? I want to ask about the touring test, right, which has been
+32:22
+blown away a long time ago by things like chat GPT. And for decades, the
+32:27
+touring test was the gold standard, right? And you had all of these different systems that, you know, they
+32:33
+they could almost do it, but they couldn't fool a person consistently for a long period of time. Today's systems,
+32:39
+no problem at all. you know, people anthropomorphize them to believing that they are far more intelligent and
+32:45
+sentient than they probably are. So, the touring test is like in the distant past. But one of the things that I'm seeing is
+32:52
+the computer science community is saying, "Okay, you know what? The touring test wasn't that good anyways. We need better tests."
+32:58
+And that makes me wonder, I mean, partly the touring test bakes in a communication bias. and things like that
+33:06
+apply to animals because they can't communicate the same way. They could apply to some AI systems because they
+33:11
+don't communicate like a person. But then the other part is this moving goalposts and I wonder if that applies
+33:18
+in a way to both animals and AI systems as well. Yes, I I do think that there are some
+33:26
+shifting goalposts. I I think you know as as with so many phenomena there are
+33:32
+various factors in in how to explain the scientific and tech tech community's
+33:37
+response to to these issues. So yes, the Turing test which broadly is if if
+33:44
+humans talk with this entity, will they mistake the entity for a human or or
+33:50
+will they be able to reliably tell that the entity is is not a human? Right. And and as you suggest, we have blown past
+33:56
+that now. uh and and people have done studies where where they have humans or
+34:02
+uh frontier chat bots talking with with humans and then humans not being able to
+34:07
+reliably tell which which is which. So so the touring test in that sense has been passed. Now some people have been
+34:14
+shifting goalposts. They say oh that is not general intelligence. That is not
+34:20
+the thing we have been waiting for. uh that is some other thing that that
+34:26
+clearly is not going to be happening for another 20 or 40 or 60 years and then that thing happened six months later and
+34:31
+then they say oh well that is not what we were talking about this is instead what we were talking about and then that
+34:37
+happens 6 months later. So, so clearly there is some motivated reasoning here, some desire to just procedurally define
+34:46
+artificial general intelligence as that thing that is always slightly out of reach and and and then to always uh
+34:54
+always find some rationalization for why the latest achievement falls short of it. At the same time, I think there
+35:01
+there has been this corresponding development where philosophers and scientists in in the second half of the
+35:07
+20th century really thought that language and reason like the production
+35:13
+of language that can follow our language games and follow our reasoning patterns. They really thought that that was very
+35:20
+intimately connected to what we see as artificial general intelligence and all of these other associated capabilities.
+35:28
+And part of what large language models and other generative models has have taught us is that might not actually be
+35:33
+true. That that there might be ways of brute forcing the the production of very
+35:39
+impressive language and and reasoning patterns that we we associate with
+35:45
+intelligence without all of the underlying computational functional capabilities of of intelligence. So, so
+35:52
+now it just is a little bit more of an open question about whether a being who passes the Turing test really is
+35:59
+intelligent in the sense that we originally had in mind. So I think what has happened is that both people are
+36:06
+shifting the goalpost due to motivated reasoning and not wanting to face what has already been accomplished and people
+36:12
+are realizing okay maybe language production is severable from other capabilities that we care about and and
+36:18
+we shouldn't give as much weight to passing the touring test as maybe we did 40 years ago.
+36:24
+You know, taking a step back to kind of reframe what you've said on this, when
+36:29
+you really look at the state of the way that we analyze intelligence, there's a certain amount of insanity to the level
+36:36
+of denial. I mean, we look at animals and we say, "Okay, well, yes, they can feel pain like we do. They can feel
+36:43
+fear. They can feel emotions like we do, but they don't process abstract symbolic
+36:48
+logic. They don't communicate the same way we do. So therefore, they're not sentient." Then we look at AI and we
+36:54
+say, "Okay, well it does process abstract logic. It does communicate like us, but it doesn't feel pain, so it's
+37:00
+not sentient." It's like, "Well, make up your mind." Right. Yeah. Well, and and and
+37:06
+even even more precisely, when we look at animals, exactly as you
+37:12
+say, we say, "Well, they lack our exact kind of abstract symbolic language and
+37:18
+reason, and therefore they lack sentience." because actually they do have their own kinds of abstract
+37:24
+language and reason. Studies have shown that animals do have representations of the world though though they might
+37:31
+structure their thoughts more like maps and charts and a little bit less like propositional sentences like subject
+37:38
+predicate sentences, right? Uh but that that really is the difference and and so we in the case of animals say ah it must
+37:45
+be possession of this very specific kind of propositional language and thought
+37:50
+that is the key to to sentience. And then we look at AI and and we can
+37:55
+immediately see that they will have it or they already do have this this abstract propositional language and
+38:02
+thought. And so we say oh it must be possession of a nervous system made out of biological materials. That is the
+38:09
+key. And they lack that and therefore they lack sentience. And so we we just keep picking a theory of sentience that
+38:16
+happens to to require the one thing they lack. And and we pick different ones for
+38:23
+animals and AI in order to rule them out. Uh and and if we really believed the biological theory that we used to
+38:29
+rule out AI, then we would be immediately attributing sentience to all these animals. And if we really believed
+38:35
+the higher order thought uh theory that we used to rule out animals, then we would immediately be attributing it to
+38:41
+AI. But but yeah, we we just pick pick the most demanding possible theory to make us feel okay about about not taking
+38:49
+seriously the possibility of these candidates. Do you think that we are on the edge of
+38:54
+what you might call a capernican revolution in intelligence? Right. In the past, we have had this human
+39:02
+ccentric view, right? Where we're on top of the mountain looking down at everything else. And I think for the
+39:08
+first time, the human species is starting to say, you know what, we may end up looking up to something that is
+39:14
+more intelligent than us. If not now, then in the next decade, maybe the next
+39:20
+20 years. It could be a while. But do you think that things like this are going to force us to maybe find more
+39:28
+humility? I guess in the way that we view intelligence in ourselves and across multiple species
+39:34
+and non-biological systems as well. I think that that is definitely going to happen. There there are some real
+39:40
+questions about whether AI systems at least built on anything like current architectures will be conscious and have
+39:47
+their own feelings. I I think that that really is an open question, a difficult
+39:53
+call. And and so when I talk about the importance of taking that seriously, AI consciousness, AI welfare, I do that not
+40:00
+because I feel certain that they will be conscious, but rather because I am uncertain and and so I think humility is
+40:06
+required and precaution is required. But when it comes to intelligence, when it comes to the the ability to make
+40:13
+decisions and solve problems and and take action, I think that there is a lot
+40:19
+more evidence, much stronger evidence that if if we keep developing and deploying them at this current rate with
+40:26
+these current investments, then they just will rival and perhaps
+40:32
+eventually exceed human in intelligence and and we will have created
+40:38
+uh beings who are equally or more intelligent than we are. And and so on
+40:43
+both sides, but but especially the intelligent side, not only does it raise real questions about AI welfare and AI
+40:49
+safety, making AI safe and beneficial for humans and other animals and AI systems themselves, but as you suggest,
+40:55
+it also puts pressure on undercuts the sense of human exceptionalism. We have this sense that we are always the the
+41:02
+smartest and the most capable and we always matter the most and deserve priority. The the emergence of AI
+41:09
+systems if non-human animals had not already done this uh are are going to force us to confront the fact that we
+41:15
+might not always be the smartest and most capable and we might not always matter the most and deserve the the
+41:20
+greatest priority. Well, and we already have this notion that might does not make right. I mean
+41:27
+this goes back to you know I mean great intellectual revolutions right of the
+41:33
+Renaissance you know it the strong man is not necessarily justified because he
+41:38
+can do it right there there's there's more depth and nuance than that and yet
+41:44
+that's the way that we treat animals and the way that we're treating robots. Yeah. And and it would it would help for
+41:50
+us to think ahead just a little bit to how we will feel about that type of question if and when AI systems are more
+41:56
+capable and powerful than us because that is a realistic possibility. Some people say that is a 99.9%
+42:04
+uh uh probability given given our current trajectory. Other people are are a little more skeptical than that. But
+42:10
+but it is a realistic possibility that AI systems will be as capable and and powerful or more capable and powerful
+42:17
+and and so it might help to ask what lessons do we want them to have learned when when they reach that point. Do we
+42:24
+want them to have learned that when you are more capable and powerful than someone and when they are made out of
+42:29
+different materials than you and you are not sure that they can suffer, well then you have a right to treat them however
+42:35
+you want and exploit and exterminate them uh for for trivial reasons or do we
+42:40
+want them to have learned that no, with great power comes great responsibility and yes, you are more capable and more
+42:46
+powerful, but they do have a realistic chance of being able to suffer even though they happen to be made out of
+42:51
+different materials than you. And that is reasoned enough to give them the benefit of the doubt and treat them with some respect and compassion. I would
+42:58
+guess that when when the shoe is on the other foot and AI systems have power
+43:04
+over us that we would want them to take that kind of respectful, compassionate, precautionary stance towards us and and
+43:10
+treat them like fellow creatures and not the way we currently treat factory- farmed animals or or current AI systems.
+43:16
+But if that is how we would want them to treat us, then perhaps we should start
+43:22
+practicing what we will soon be preaching by treating other animals and AI systems that same way.
+43:28
+One of the the I guess the the thoughts that I've had recently is kind of a transition from a mindset of ownership
+43:37
+to a mindset of stewardship. And that kind of brings us, I guess, towards AI
+43:42
+rights, which, you know, that's something I wanted to ask about because when people think about AI rights, I
+43:48
+think a lot of times they picture humanlike citizenship, you know, and like I just had this mental picture of
+43:53
+chat GPT walking the streets with a little sign, you know, will fake PhD thesis for money or something.
+43:59
+We're not talking about that. What we're talking about is a spectrum of welfare protections, guardianship models,
+44:07
+limited rights, maybe something the way that we treat minors in our society,
+44:12
+right? Maybe there there are debates about what it should look like even with non-human
+44:17
+animals. So there was a very uh influential book that was released in about a decade ago now called Zuopoulos
+44:25
+which which explored with an open mind what would it look like to actually extend not only legal personhood but
+44:31
+appropriate forms of political status like citizenship, dennisenship and sovereignty to non-human animals. and
+44:37
+and they worked through, okay, what would it look like for captive and domesticated animals to be citizens and
+44:43
+uh urban liinal animals to be uh denisens and wild animals living in
+44:49
+forests and oceans to to be sovereigns. And and when you really work through it, it is not as silly as it might first
+44:56
+appear because for example, even with with humans, citizenship and denisenship and sovereignty, they can take different
+45:03
+forms. For example, for a child or a severely cognitively disabled human who
+45:08
+might not have the capacity to uh run for public office and and so on and so
+45:14
+forth, they can still be a citizen and they should still be a citizen. They rightly are regarded as citizens, right?
+45:20
+The these all come with a spectrum of of statuses. So, so to be a citizen is at
+45:26
+the lowest level to have the right to reside and return to your your territory and then at the next level to have your
+45:32
+interests represented in decisions that affect you and then at the highest level for those capable uh to to to fully
+45:38
+participate in in the processes and and run for office and and sit on juries and so on and so forth. And and the idea is
+45:45
+just that you should have whichever of of those rights makes sense given your
+45:51
+capabilities and your interests and and your vulnerabilities. And and so for humans and animals who really are
+45:56
+capable and interested in exercising all of those liberties, they should have them all. And and for those who who are
+46:02
+not, then they should have the ones that that make sense for them. Uh it it it they can genuinely be citizens even if
+46:08
+if uh different elements of citizenship make sense for them. And and it may be
+46:14
+that we need to consider similar possibilities for AI. Part of what makes this issue especially fraught with AI is
+46:21
+much more than non-human animals. They might gen genuinely have the capability to fully participate in our political
+46:27
+processes. And so we might not have that same excuse to just treat them as stakeholders instead of participants.
+46:33
+Once we recognize their possible moral significance, we might actually have reason to to take seriously their right
+46:40
+to to not only be considered but to participate in the consideration. And and if that is scary, if that thought of
+46:47
+giving them some legal and political rights and and even participation rights in our democracies, if that is scary,
+46:54
+then really we should think twice about creating them. Because once you create a a conscious, agentic, morally
+47:00
+significant being, we owe them what their capabilities and interests uh require and and if if what their
+47:07
+capabilities and interests require is not something that we feel prepared to give, then we should not create them in
+47:13
+the first place. I sorry, I was just smiling a little bit. I was trying to I I think that our
+47:19
+current political system, at least in the US, would terrify any AI, right?
+47:24
+this would blow their their digital mind. So they they might just opt out. They would become part of the non-
+47:30
+voting pool, right? But there would be a short circuit and they'd be like, you know what, we can't deal with this.
+47:35
+Yeah. It I really I am not sure how our democracy could sustain inclusion of AI
+47:42
+systems as as stakeholders and as participants because I mean think about
+47:47
+it. There are 300 something million humans, some percentage of which are of
+47:53
+voting age in the United States right now. And that already is a mly crew. Now
+47:58
+imagine if we treat various animals as as stakeholders who who if not given the
+48:06
+right to vote at least ought to be considered in the voting process. And now imagine that all of the AI systems
+48:12
+with the relevant language and reasoning capabilities are are given the right to vote. But but those are difficult to
+48:20
+even count. And very plausibly within the next 5 or 10 years, there are going to be orders of magnitude more AI
+48:26
+systems living within a given geographical territory if we can even reliably like identify their location to
+48:33
+say nothing of count count their numbers. Uh and so so are they going to just have the supermajority vote or are
+48:40
+they going to be disenfranchised just because of the size of their population and what will happen when people just
+48:47
+create 300 million copies of the same digital mind uh right before an election
+48:53
+just in order to to get more support for a given policy position and then destroy all of those digital copies as soon as
+48:59
+the election is done. I mean we are we are just not prepared for taking this seriously. So all I will say right now
+49:06
+is that those are real practical problems and we do have to take them seriously but it is not reason to deny
+49:12
+the evidence for sentience and agency and and moral and legal political
+49:17
+significance in AI. It might just be true at the same time that first of all
+49:23
+they there is a lot of evidence that they deserve certain types of moral and legal and political status and second of
+49:28
+all our systems would crumble if we tried to give them those those forms of status overnight. those both might be
+49:35
+true at the same time. And so I think step one is just to acknowledge that those might be true at the same time and
+49:42
+not use one as a simple reason to deny the other. Uh but just work the problem and figure out a good way forward.
+49:50
+Jeff, on that note, I can't think of a better place to close for today. Again,
+49:55
+it has truly been a pleasure. Absolutely an honor. I would love to have you back in the future. We can do more. There is
+50:01
+so much depth to this topic, so many different aspects to explore, but I think today we have blown many many
+50:08
+minds. Uh so I I want to close by asking your books and I'm going to put links in
+50:14
+the YouTube show notes to your books and your materials and so folks who are watching this can scroll down, click
+50:20
+those links, learn more about that. And I think that they really should because you were really on target in this area.
+50:26
+Your books push against human exceptionalism and towards a more inclusive story about who counts. And so
+50:33
+I want to close by asking if humanity is no longer than just the human species
+50:39
+but a broader community of minds which includes animals, AIs and artificial life of all different types. What values
+50:48
+have to change first? Is this about humility, responsibility, empathy or something else? Yeah, that is a really
+50:55
+good question and I might give an annoying answer which which is that I
+51:00
+think a problem that we often encounter is that people think of problems and solutions in in binary terms and and
+51:08
+they think we have to find the silver bullet and then anytime a a solution is proposed they shoot it down because it
+51:14
+would not solve the problem all by itself. Right? And and so I think that it really helps to take a systems
+51:21
+approach and to pursue a lot of solutions simultaneously. And so the
+51:26
+answer to your question is yes, all of the above, both. And we we need caution. We need humility and and honestly more
+51:34
+than belief and value shifts. We we need further mutually reinforcing types of
+51:39
+societal changes. Yeah, we need goodformational policies and education and advocacy to change hearts and minds
+51:44
+and beliefs and values, but that ought to happen alongside other sorts of
+51:50
+changes too, like financial policies that shift financial incentives and increase the cost of supporting harmful
+51:57
+industries and reduce the cost of supporting uh less harmful, better industries. And then regulations that
+52:04
+ban the worst excesses of harmful industries and just transition policies that support workers and consumers and
+52:11
+other people in in supporting better policies. I have in mind right right now, for example, food policy reform.
+52:18
+There are really good ways to make people care more about animal welfare, perhaps even individually decide to go
+52:24
+vegan if their health and economic circumstances allow. But that is not how to end factory farming and industrial
+52:30
+animal agriculture by itself. That is one component of it. But then you also need to reduce subsidies for factory
+52:36
+farming and increase them for plant-based alternatives. You need to to regulate the worst excesses of factory
+52:41
+farming to further increase the cost of production and incentivize shifts. You need to help farmers and workers go to
+52:48
+to better livelihoods and consumers have culturally appropriate plant-based foods
+52:53
+and and so on. And only when all of that happens at the same time will those
+52:59
+shifts in beliefs and values like that extra amount of caution and humility that we talked people into only then
+53:05
+will that be enough to actually get it done. So so yes we need that. Please do pursue that everybody but that is not
+53:12
+the solution by itself. It has to happen alongside everything else. Wonderful Jeff. Let me thank you again
+53:19
+so much for your time today sir. Thank you so much Tim. It was a great conversation. And I really appreciate
+53:24
+you having me on.

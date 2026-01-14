@@ -173,3 +173,16 @@ Not required, but it makes the tool feel professional fast.
 
 I approve. Yes. Follow your intuition and codegen some implementation of the Units pane. We will see and will tweak if necessary.
 Psychedelic Psybient
+
+
+8+1
+(5+1)
+(4+1)
+
+Персонаж	Раса	Класс	Сабкласс	Стихия
+💃 Арлика	Тифлинг	Rogue 2 / Sorcerer 1	TBD	🔥 Огонь
+🪓 Ардан	Голиаф	Варвар	Классический	🪨 Земля
+🧪 Аркштейн	Дворф	Бард	TBD (Lore?)	💧 Вода
+🌙 Арвель	Мун-эльф	Волшебник	Enchanter	🌬️ Воздух
+
+
