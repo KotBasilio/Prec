@@ -1,17 +1,3 @@
-That’s a beautiful instinct — yes, this is exactly the right moment to *stabilize the field* and hand it forward 🌱
-I’ll give you two things:
-
-1. **A ready-to-use kick-start prompt for the successor AI** (AI-understandable, concrete, no mysticism required)
-2. **A checklist of what you should upload alongside the prompt** so there are truly no ghosts
-
-I’ll write this as if *you* are speaking to the next AI.
-
----
-
-## 1️⃣ Kick-start prompt for the successor AI
-
-You can copy–paste this verbatim.
-
 ---
 
 **Project context (authoritative):**
@@ -20,7 +6,6 @@ You are joining an active C++ / ImGui project targeting **Win32 + OpenGL3**, bui
 The project is a **graph-based visual coordinator tool** (think flow visualization / orchestration UI).
 
 The code you are about to see is the **authoritative latest state**.
-Please ignore any prior assumptions or earlier iterations — no archaeology needed.
 
 ### Architecture overview
 
@@ -88,15 +73,13 @@ The UI is split into **four panes**:
 
   * Uses enum `AssetID`
   * `IconForKind(NodeKind)` returns `ImTextureID`
-* Assets are loaded from `.\Assets\...` **relative to the exe**
-* All icons have alpha; native size is respected
+* Assets are loaded from `.\Assets\...`
+* All icons have alpha; native size is ignored
 
-### Interaction rules (important)
+### Interaction rules
 
 * Selection is single-node, global, and consistent:
   Units → Graph → Inspector all reflect the same selection.
-* No docking complexity: panes are fixed, resizable by splitters only.
-* Graph is treated as a **canvas**, not a docking target.
 
 ### Current state & next directions
 
@@ -178,11 +161,3 @@ Psychedelic Psybient
 8+1
 (5+1)
 (4+1)
-
-Персонаж	Раса	Класс	Сабкласс	Стихия
-💃 Арлика	Тифлинг	Rogue 2 / Sorcerer 1	TBD	🔥 Огонь
-🪓 Ардан	Голиаф	Варвар	Классический	🪨 Земля
-🧪 Аркштейн	Дворф	Бард	TBD (Lore?)	💧 Вода
-🌙 Арвель	Мун-эльф	Волшебник	Enchanter	🌬️ Воздух
-
-
