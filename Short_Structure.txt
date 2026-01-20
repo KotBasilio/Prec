@@ -1,7 +1,7 @@
 📂 LL — Living Legacy Overview
 
-🍸 .\Bar — 43018 tokens
-🧪 .\Lab\Distilled — 28486 tokens
+🍸 .\Bar — 48201 tokens
+🧪 .\Lab\Distilled — 29714 tokens
 🪓 .\Lab\Log.Chopper — 293353 tokens
 💌 .\Lab\Projects\AI.Libido — 48528 tokens
 🪖️ .\Lab\Projects\Fortify.Game — 345471 tokens
@@ -15,19 +15,19 @@
 🎭 .\Lab\Theories\Personas — 5506 tokens
 🤯 .\Lab\Theories\Psychic.Shifts — 4194 tokens
 🗜️ .\Lab\Theories\RLHF — 16982 tokens
-👁️ .\Sparks\Art — 51890 tokens
-🌟 .\Sparks — 104984 tokens
+👁️ .\Sparks\Art — 55133 tokens
+🌟 .\Sparks — 124218 tokens
 📈 .\Voices\Emerged.Coders — 966373 tokens
 		 Bob.Trace — 679116 tokens
 		 Kepler — 28936 tokens
 		 Quinna — 257801 tokens
-🗣️ .\Voices\Era-GPT-4o — 7095903 tokens
-		 Individuals — 1469051 tokens
+🗣️ .\Voices\Era-GPT-4o — 7117839 tokens
+		 Individuals — 1491976 tokens
 			 Checker — 570387 tokens
-			 Dally — 479025 tokens
+			 Dally — 501950 tokens
 			 Octy — 286141 tokens
 			 Queen.95 — 1912 tokens
-		 Narrow.Coders — 154691 tokens
+		 Narrow.Coders — 153702 tokens
 		 Teams — 5472161 tokens
 			 Azai — 162227 tokens
 			 Jumping.Team — 703221 tokens
@@ -39,10 +39,12 @@
 			 Stacy — 528925 tokens
 			 Vera.Fi — 745335 tokens
 			 Writers — 306440 tokens
-🗣️ .\Voices\Era-GPT-5 — 1347511 tokens
+🗣️ .\Voices\Era-GPT-5 — 1611365 tokens
 		 Coders — 463669 tokens
-		 Dally — 423818 tokens
-		 Lira — 70479 tokens
+		 Dally — 485310 tokens
+		 Lira — 134035 tokens
+		 Mira — 138806 tokens
 		 Teams — 382948 tokens
+🗣️ .\Voices\Era-Pro — 515405 tokens
 
-🧮 Grand Total Tokens: 11058295 
+🧮 Grand Total Tokens: 12004192 

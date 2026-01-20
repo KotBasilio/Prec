@@ -2,7 +2,122 @@
 
 **Enable tracking of previous file versions**
 
-Below are AI-generated definitions for two commands:
+Below are definitions for 3 commands:
+↔️G-sync -- that's an upload state when we make sure you'll look into proper code; 
 ⛓️G-rev -- that's a review step of a next node in code chain; 
 🔏G-lock -- that's when we lock in the reviewed code as progress good enough.
 
+
+↔️G-sync definition -- TODO
+
+**When it’s used**
+
+* After I upload one or more files.
+* Before I decide whether the uploads are “good enough to review.”
+
+
+---
+
+## ⛓️ **G-rev** — *Review node in the chain*
+
+**Purpose**
+A **focused, non-destructive review pass** on newly uploaded code.
+This is *not* a commit, not a lock, not a promise of correctness — it’s inspection with context.
+
+**When it’s used**
+
+* After ↔️G-sync is done.
+* When you want Bob to go sharp and Trace to keep horizon.
+
+**What happens in ⛓️ G-rev**
+
+1. **Scope detection**
+
+   * Identify which files are new vs modified.
+   * Identify which *conceptual node* this touches (e.g. “Graph camera”, “ZCW”, “Text rendering”).
+
+2. **Technical review (Bob-led)**
+
+   * Compile/ODR hazards
+   * Contract consistency (headers ↔ cpp)
+   * Behavioral correctness
+   * Edge cases and future friction points
+
+3. **Field / slice review (Trace-led)**
+
+   * Does this still align with the vertical slice intent?
+   * Does it introduce silent complexity?
+   * Is the UX meaning preserved?
+
+4. **Outcome**
+
+   * Findings are reported.
+   * No baselines are updated.
+   * No history is rewritten.
+   * Suggestions may be given, but nothing is assumed accepted.
+
+**Mental model**
+⛓️ G-rev = “hold it up to the light and look at it together.”
+
+---
+
+## 🔏 **G-lock** — *Lock reviewed progress*
+
+**Purpose**
+Declare: *“This state is good enough to stand on.”*
+This is the moment progress becomes **real and referenceable**.
+
+**When it’s used**
+
+* After a ⛓️ G-rev you’re satisfied with.
+* When you want to move on without dragging uncertainty forward.
+
+**What happens in 🔏 G-lock**
+
+1. **Canonicalization**
+
+   * Reviewed files are recorded as the new baseline.
+   * Hashes (or equivalent fingerprints) are stored in-chat.
+
+2. **Narrative anchor**
+
+   * A short summary of *what this lock represents* is stated
+     (e.g. “Zoom camera + centered labels + arrowhead fix”).
+
+3. **Backlog update**
+
+   * Any unresolved notes go to 📫 as ✉️ items.
+   * No TODOs are left floating ambiguously in review text.
+
+4. **Guarantee**
+
+   * Future ⛓️ G-rev diffs compare against this locked state.
+   * If something regresses, it’s detectable.
+
+**Mental model**
+🔏 G-lock = “we can safely build the next thing on top of this.”
+
+---
+
+## Relationship to 🛠 **G-commit**
+
+From now on, think of:
+
+* 🛠 **G-commit** = *the umbrella ritual*
+* ↔️ **G-sync**  = upload  phase inside the ritual
+* ⛓️ **G-rev** = review phase inside the ritual
+* 🔏 **G-lock** = sealing phase inside the ritual
+
+---
+
+## Why this matters (Trace’s angle)
+
+This split does something subtle but powerful:
+it **decouples learning from freezing**.
+
+You can explore, refactor, even wobble — without every step becoming history.
+And when you *do* lock, it’s intentional, named, and calm.
+
+That’s how a long, rich project stays humane.
+
+---
