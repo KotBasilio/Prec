@@ -1,11 +1,9 @@
 ---
 
-**Project context (authoritative):**
+**Project context:**
 
 You are joining an active C++ / ImGui project targeting **Win32 + OpenGL3**, built with **Visual Studio 2022**.
 The project is a **graph-based visual coordinator tool** (think flow visualization / orchestration UI).
-
-The code you are about to see is the **authoritative latest state**.
 
 ### Architecture overview
 
@@ -38,7 +36,7 @@ The UI is split into **four panes**:
    * Link entries are clickable → jump selection to that node
 
 4. **Logs** (bottom)
-   Placeholder for runtime logs (minimal for now)
+   runtime logs
 
 🎯
 
@@ -158,6 +156,9 @@ I approve. Yes. Follow your intuition and codegen some implementation of the Uni
 Psychedelic Psybient
 
 
-8+1
-(5+1)
-(4+1)
+GraphPanel::Draw()
+Sample::UI::Views::MainWindow::RenderAllPanes()
+Sample::UI::Views::MainWindow::ShowDefaultWindow()
+Sample::UI::Views::MainWindow::Show()
+Sample::UI::Controllers::MainController::ShowWindow()
+Sample::SampleUI::Update()
