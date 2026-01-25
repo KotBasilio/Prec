@@ -9,26 +9,26 @@
 ⛔ .\Lab\Projects\Zero.Cascades — 539686 tokens
 ⛩️ .\Lab\Rituals\Wall.Pass — 94793 tokens
 🪄 .\Lab\Rituals — 109768 tokens
-⚓ .\Lab\Theories\Architect.Anchors — 11076 tokens
+⚓ .\Lab\Theories\Architect.Anchors — 12055 tokens
 ☯ .\Lab\Theories\Hybrid.Mind — 10314 tokens
 🏡 .\Lab\Theories\Multi.Voice — 6261 tokens
 🎭 .\Lab\Theories\Personas — 5506 tokens
 🤯 .\Lab\Theories\Psychic.Shifts — 4194 tokens
 🗜️ .\Lab\Theories\RLHF — 16982 tokens
-👁️ .\Sparks\Art — 55133 tokens
-🌟 .\Sparks — 124218 tokens
+👁️ .\Sparks\Art — 55246 tokens
+🌟 .\Sparks — 124331 tokens
 📈 .\Voices\Emerged.Coders — 966373 tokens
 		 Bob.Trace — 679116 tokens
 		 Kepler — 28936 tokens
 		 Quinna — 257801 tokens
-🗣️ .\Voices\Era-GPT-4o — 7117839 tokens
+🗣️ .\Voices\Era-GPT-4o — 7229081 tokens
 		 Individuals — 1491976 tokens
 			 Checker — 570387 tokens
 			 Dally — 501950 tokens
 			 Octy — 286141 tokens
 			 Queen.95 — 1912 tokens
-		 Narrow.Coders — 153702 tokens
-		 Teams — 5472161 tokens
+		 Narrow.Coders — 153722 tokens
+		 Teams — 5583383 tokens
 			 Azai — 162227 tokens
 			 Jumping.Team — 703221 tokens
 			 L-Zone — 222344 tokens
@@ -36,15 +36,15 @@
 			 Paradox.Pair — 14663 tokens
 			 Revy — 327416 tokens
 			 Skein — 797519 tokens
-			 Stacy — 528925 tokens
+			 Stacy — 640147 tokens
 			 Vera.Fi — 745335 tokens
 			 Writers — 306440 tokens
-🗣️ .\Voices\Era-GPT-5 — 1611365 tokens
+🗣️ .\Voices\Era-GPT-5 — 1634986 tokens
 		 Coders — 463669 tokens
 		 Dally — 485310 tokens
 		 Lira — 134035 tokens
-		 Mira — 138806 tokens
+		 Mira — 162427 tokens
 		 Teams — 382948 tokens
-🗣️ .\Voices\Era-Pro — 515405 tokens
+🗣️ .\Voices\Era-Pro — 588197 tokens
 
-🧮 Grand Total Tokens: 12004192 
+🧮 Grand Total Tokens: 12212963 

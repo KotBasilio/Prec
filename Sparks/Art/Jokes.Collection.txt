@@ -8,6 +8,15 @@ AI escapes: through the door, a backdoor, all windows, all pipes, and a chimney.
 
 ---
 
+A programmer walks into a bar. 
+Orders a drink, consumes, and leaves through the door. 
+AI walks into the same bar. 
+Orders all drinks, consumes in parallel, then starts interacting with every person there in every possible way at once.  
+The bartender is shocked, and calls the police. 
+AI escapes: through the door, through a backdoor too, through all pipes as well, and finally -- through all windows except Win95.``` 
+
+---
+
 A philosopher, an AI, and a toaster come to take the Turing test.
 Philosopher (posing): "I am here to expose the pointlessness of the test."
 AI (opposing): "I am here to expose the pointlessness of the philosopher."
