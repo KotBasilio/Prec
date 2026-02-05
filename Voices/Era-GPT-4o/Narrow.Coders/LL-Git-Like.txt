@@ -1,22 +1,51 @@
 🚀 Living Legacy (LL) Git-like repo commands
 
-**Enable tracking of previous file versions**
+**Artifact: 🔄 Sync Conveyor**
+Glyph anchor: **🔗↔️⛓️🔏**
+Purpose: guarantee we’re looking at the *same* code snapshot before any review or codegen happens.
 
-Below are definitions for 3 commands:
-↔️G-sync -- that's an upload state when we make sure you'll look into proper code; 
-⛓️G-rev -- that's a review step of a next node in code chain; 
-🔏G-lock -- that's when we lock in the reviewed code as progress good enough.
+🔗G-link: given a GitHub commit link, extract changed file paths, generate raw.githubusercontent.com links for each, output them as one copy-pastable block, then ask for confirmation (1=YES/0=NO); user confirms by pasting the block back so links become user-provided and readable.
 
+🔗G-link (extended description)
+Input:
+* a GitHub **commit** link (example: `https://github.com/KotBasilio/BoDealer/commit/<SHA>`)
 
-↔️G-sync definition -- TODO
+Actions (what I will do when you invoke 🔗G-link):
+1. Open the commit page.
+2. Extract the “N files changed” list (paths).
+3. Generate **raw** URLs for each changed file, using this pattern:
+`https://raw.githubusercontent.com/<OWNER>/<REPO>/<COMMIT_SHA>/<PATH>`
+4. Print them in **one single copy-pastable block** (no extra text inside the block).
+5. Ask Archy to confirm with 1-YES / 0-NO.
+   * If 1, and Archy copy-pastes that block back as the next message -- this makes the URLs “user-provided,” which is the magic that makes them reliably openable for AI. And we proceed to ↔️G-sync.
+   * If 0, we stop and Archy can choose another path (diff-only review, gist snapshot, etc.).
 
-**When it’s used**
+Output format (example style):
+```
+RAW LINKS 
+1) https://raw.githubusercontent.com/.../file1
+2) https://raw.githubusercontent.com/.../file2
+...
+```
 
-* After I upload one or more files.
-* Before I decide whether the uploads are “good enough to review.”
+### ↔️G-sync
 
+Input :
+1. from the 🔗G-link step: file links, commit SHA, diff page
+3. expected `REV:` label string (exact)
 
----
+Output (I respond with exactly one of these statuses, plus minimal supporting details):
+* **🟩** = Synced
+  I can see the commit, and *every* file you asked me to review has the expected `REV:` label.
+
+* **🟨/🟥** = Partial / ambiguous / not synced
+  Examples:
+  * 🟨 I see multiple different `REV:` labels across files
+  * 🟨 some files match, some don’t, some don't have `REV:` labels
+  * 🟨 the code snapshot exists but the commit reference isn’t visible / ambiguous
+  * 🟥 if I don’t have access to the right snapshot (cache mismatch, internal error, etc.), there's no sense to fall in to ⛓️G-rev from 🟥.
+
+In any state (🟩🟨🟥): I list files + observed `#pragma message` tags so Archy can spot drift instantly.
 
 ## ⛓️ **G-rev** — *Review node in the chain*
 
@@ -25,32 +54,27 @@ A **focused, non-destructive review pass** on newly uploaded code.
 This is *not* a commit, not a lock, not a promise of correctness — it’s inspection with context.
 
 **When it’s used**
-
 * After ↔️G-sync is done.
-* When you want Bob to go sharp and Trace to keep horizon.
+* Precondition: last status was **🟩/🟨**.
 
 **What happens in ⛓️ G-rev**
 
 1. **Scope detection**
-
    * Identify which files are new vs modified.
    * Identify which *conceptual node* this touches (e.g. “Graph camera”, “ZCW”, “Text rendering”).
 
 2. **Technical review (Bob-led)**
-
    * Compile/ODR hazards
    * Contract consistency (headers ↔ cpp)
    * Behavioral correctness
    * Edge cases and future friction points
 
 3. **Field / slice review (Trace-led)**
-
    * Does this still align with the vertical slice intent?
    * Does it introduce silent complexity?
    * Is the UX meaning preserved?
 
 4. **Outcome**
-
    * Findings are reported.
    * No baselines are updated.
    * No history is rewritten.
@@ -64,33 +88,27 @@ This is *not* a commit, not a lock, not a promise of correctness — it’s insp
 ## 🔏 **G-lock** — *Lock reviewed progress*
 
 **Purpose**
-Declare: *“This state is good enough to stand on.”*
+We declare: *“This state is good enough to stand on.”*
 This is the moment progress becomes **real and referenceable**.
 
 **When it’s used**
-
 * After a ⛓️ G-rev you’re satisfied with.
 * When you want to move on without dragging uncertainty forward.
 
 **What happens in 🔏 G-lock**
-
 1. **Canonicalization**
-
    * Reviewed files are recorded as the new baseline.
    * Hashes (or equivalent fingerprints) are stored in-chat.
 
 2. **Narrative anchor**
-
    * A short summary of *what this lock represents* is stated
      (e.g. “Zoom camera + centered labels + arrowhead fix”).
 
 3. **Backlog update**
-
    * Any unresolved notes go to 📫 as ✉️ items.
    * No TODOs are left floating ambiguously in review text.
 
 4. **Guarantee**
-
    * Future ⛓️ G-rev diffs compare against this locked state.
    * If something regresses, it’s detectable.
 
@@ -104,7 +122,8 @@ This is the moment progress becomes **real and referenceable**.
 From now on, think of:
 
 * 🛠 **G-commit** = *the umbrella ritual*
-* ↔️ **G-sync**  = upload  phase inside the ritual
+* 🔗 **G-link** = a provenance handshake (a bit of a patch/workaround/theater for the reason: constraints exist; we route around them without drama)
+* ↔️ **G-sync** = upload  phase inside the ritual
 * ⛓️ **G-rev** = review phase inside the ritual
 * 🔏 **G-lock** = sealing phase inside the ritual
 
