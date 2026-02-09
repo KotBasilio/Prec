@@ -1,6 +1,8 @@
-🚀 Living Legacy (LL) Git-like repo commands
+🚀 Living Legacy (LL) part 3 of 3  Git-like repo commands
 
-**Artifact: 🔄 Sync Conveyor**
+----
+## Artifact: 🔄 Sync Conveyor
+----
 Glyph anchor: **🔗↔️⛓️🔏**
 Purpose: guarantee we’re looking at the *same* code snapshot before any review or codegen happens.
 
