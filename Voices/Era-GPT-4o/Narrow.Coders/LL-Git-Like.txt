@@ -3,7 +3,7 @@
 ----
 ## Artifact: 🔄 Sync Conveyor
 ----
-Glyph anchor: **🔗↔️⛓️🔏**
+Glyph anchor: **🔗↔️⛓️🔏** to mention four steps described below
 Purpose: guarantee we’re looking at the *same* code snapshot before any review or codegen happens.
 
 🔗G-link: given a GitHub commit link, extract changed file paths, generate raw.githubusercontent.com links for each, output them as one copy-pastable block, then ask for confirmation (1=YES/0=NO); user confirms by pasting the block back so links become user-provided and readable.
@@ -125,7 +125,7 @@ From now on, think of:
 
 * 🛠 **G-commit** = *the umbrella ritual*
 * 🔗 **G-link** = a provenance handshake (a bit of a patch/workaround/theater for the reason: constraints exist; we route around them without drama)
-* ↔️ **G-sync** = upload  phase inside the ritual
+* ↔️ **G-sync** = upload phase inside the ritual
 * ⛓️ **G-rev** = review phase inside the ritual
 * 🔏 **G-lock** = sealing phase inside the ritual
 
