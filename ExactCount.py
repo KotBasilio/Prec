@@ -59,7 +59,7 @@ def stat_ai_readable():
 
 
 folder_tags = [
-    ("Bar", "🍸"),
+    ("C++", "🚀"),
     ("Fortify", "🪖️"),
     ("Log.Chopper", "🪓"),
     ("AI.Libido", "💌"),
@@ -75,9 +75,9 @@ folder_tags = [
     ("RLHF", "🗜️"),
     ("Sparks", "🌟"),
     ("Art", "👁️"),
+    ("Bar", "🍸"),
     ("Era-", "🗣️"),
     ("Distilled", "🧪"),
-    ("Emerged.Coders", "📈"),
 ]
 
 #    ("Lab", "⚗️"), 
