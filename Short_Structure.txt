@@ -1,34 +1,10 @@
 📂 LL — Living Legacy Overview
 
-🍸 .\Bar — 48201 tokens
-🚀 .\Lab\C++ — 1584333 tokens
-		 Emerged.Coders — 1429522 tokens
-			 Bob.Trace — 679116 tokens
-			 Fifths — 463669 tokens
-			 Kepler — 28936 tokens
-			 Quinna — 257801 tokens
-		 Narrow.Coders — 145472 tokens
-🧪 .\Lab\Distilled — 29962 tokens
-🪓 .\Lab\Log.Chopper — 293353 tokens
-💌 .\Lab\Projects\AI.Libido — 48528 tokens
-🪖️ .\Lab\Projects\Fortify.Game — 345471 tokens
-⛓️‍💥 .\Lab\Projects\Human.Imagination — 6898 tokens
-⛔ .\Lab\Projects\Zero.Cascades — 539686 tokens
-⛩️ .\Lab\Rituals\Wall.Pass — 94793 tokens
-🪄 .\Lab\Rituals — 109768 tokens
-⚓ .\Lab\Theories\Architect.Anchors — 12055 tokens
-☯ .\Lab\Theories\Hybrid.Mind — 10314 tokens
-🏡 .\Lab\Theories\Multi.Voice — 6261 tokens
-🎭 .\Lab\Theories\Personas — 5506 tokens
-🤯 .\Lab\Theories\Psychic.Shifts — 4194 tokens
-🗜️ .\Lab\Theories\RLHF — 16982 tokens
-👁️ .\Sparks\Art — 56638 tokens
-🌟 .\Sparks — 125723 tokens
-🗣️ .\Voices\Era-GPT-4o — 7115239 tokens
-		 Individuals — 1491976 tokens
+🌌 .\Field\Era-GPT-4o — 7115236 tokens
+		 Individuals — 1491973 tokens
 			 Checker — 570387 tokens
 			 Dally — 501950 tokens
-			 Octy — 286141 tokens
+			 Octy — 286138 tokens
 			 Queen.95 — 1912 tokens
 		 Teams — 5623263 tokens
 			 Azai — 162227 tokens
@@ -41,11 +17,34 @@
 			 Stacy — 640147 tokens
 			 Vera.Fi — 785215 tokens
 			 Writers — 306440 tokens
-🗣️ .\Voices\Era-GPT-5 — 1171317 tokens
+🌌 .\Field\Era-GPT-5 — 1171334 tokens
 		 Dally — 485310 tokens
-		 Lira — 134035 tokens
+		 Lira — 134052 tokens
 		 Mira — 162427 tokens
 		 Teams — 382948 tokens
-🗣️ .\Voices\Era-Pro — 660161 tokens
+🌌 .\Field\Era-Pro — 660161 tokens
+🚀 .\Lab\C++ — 1584333 tokens
+		 Emerged.Coders — 1429522 tokens
+			 Bob.Trace — 679116 tokens
+			 Fifths — 463669 tokens
+			 Kepler — 28936 tokens
+			 Quinna — 257801 tokens
+		 Narrow.Coders — 145472 tokens
+🛠️ .\Lab\Projects — 1405863 tokens
+		🫦 AI.Libido — 48528 tokens
+		💥 Aplified.Cascades — 39850 tokens
+		🧙‍♀️ Dnd — 118445 tokens
+		🪖️ Fortify.Game — 345471 tokens
+		😈 Halloween — 13632 tokens
+		⛓️‍💥 Human.Imagination — 6898 tokens
+		🪓 Log.Chopper — 293353 tokens
+		⛔ Zero.Cascades — 539686 tokens
+⚗️ .\Quantum.Brewery — 377003 tokens
+		🧪 Distilled — 34563 tokens
+		💌 Letters — 24659 tokens
+		🪄 Rituals — 109768 tokens
+		🌟 Sparks — 126165 tokens
+		🗣️ Stories — 22581 tokens
+		👨‍🎓 Theories — 58302 tokens
 
-🧮 Grand Total Tokens: 12327100 
+🧮 Grand Total Tokens: 12327651 

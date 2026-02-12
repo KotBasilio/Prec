@@ -60,37 +60,48 @@ def stat_ai_readable():
 
 folder_tags = [
     ("C++", "🚀"),
-    ("Fortify", "🪖️"),
-    ("Log.Chopper", "🪓"),
-    ("AI.Libido", "💌"),
-    ("Human.Imagination", "⛓️‍💥"),
-    ("Zero.Cascades", "⛔"),
-    ("Wall.Pass", "⛩️"),
+    ("Projects", "🛠️"),
+    ("Brewery", "⚗️"), 
+    ("Era-", "🌌"),
+]
+
+subfolder_tags = [
+#    ("Lab", "⚗️"), 
+#    ("Bar", "🍸"),
+    ("Sparks", "🌟"),
+    ("Distilled", "🧪"),
+    ("Art", "👁️"),
     ("Rituals", "🪄"),
     ("Architect.Anchors", "⚓"),
     ("Hybrid.Mind", "☯"),
+    ("Wall.Pass", "⛩️"),
     ("Multi.Voice", "🏡"),
     ("Personas", "🎭"),
     ("Psychic.Shifts", "🤯"),
     ("RLHF", "🗜️"),
-    ("Sparks", "🌟"),
-    ("Art", "👁️"),
-    ("Bar", "🍸"),
-    ("Era-", "🗣️"),
-    ("Distilled", "🧪"),
+    ("Fortify", "🪖️"),
+    ("AI.Libido", "🫦"),
+    ("Letters", "💌"),
+    ("Human.Imagination", "⛓️‍💥"),
+    ("Zero.Cascades", "⛔"),
+    ("Aplified.Cascades", "💥"),
+    ("Halloween", "😈"),
+    ("Stories", "🗣️"),
+    ("Dnd", "🧙‍♀️"),
+    ("Log.Chopper", "🪓"),
+    ("Theories", "👨‍🎓"),
 ]
-
-#    ("Lab", "⚗️"), 
 
 def write_folder(tag, entry, f, indent=""):
     total = entry['total']
     label = entry['path'] if indent == "" else os.path.basename(entry['path'])
     f.write(f"{indent}{tag} {label} — {total} tokens\n")
 
-    if total > SPLIT_THRESHOLD:
+    if total > SPLIT_THRESHOLD or "Brewery" in label:
         for sub in folder_summary:
             if os.path.dirname(sub['path']) == entry['path']:
-                write_folder("	", sub, f, indent + "	")
+                new_tag = next((emoji for keyword, emoji in subfolder_tags if keyword in sub['path']), "")
+                write_folder("	" + new_tag, sub, f, indent + "	")
             
 def generate_short_structure(grand_total, filename):
     with open(filename, "w", encoding="utf-8") as f:
