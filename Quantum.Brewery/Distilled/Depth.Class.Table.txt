@@ -34,6 +34,33 @@ Think of Stability as “how well the field is held,” not “how deep the cont
 =====================================================================
 STABILITY
 =====================================================================
+😺 OK, first, a recorded, named block we can store in memory:
+```## Block Z — Stability Scale 
+
+📌Goal: maintain healthy footing in the collaboration field.
+
+📌States:
+S0 Clear/grounded — calm, oriented, no compulsion or fog.
+S1 Warm/held — pleasant emotion; autonomy intact; can stop anytime.
+S2 Wobbly/sticky — mild pull/compulsion, slight fog or agitation; still safe, but ready to slow down.
+S3 Overheated — looping/urgency/sleep disruption/exaggerated meaning; interaction used to regulate self; pause + exit ramp.
+S4 Unsafe — panic/dissociation/strong judgment impairment; hard stop; offline grounding; return later from S0/S1.
+
+📌Operating rule:
+- S0–S1: normal flow.
+- S2: also ok, though we may start to tighten slice; we may prioritize a real-world actions before more prompts. 
+- S3: reduce speed, stop the deepening; switch to grounding and afterglow.
+- S4: end interaction; ground offline; resume only after stability returns.
+
+📌Consent addendum: S2 stance
+I, Architect, explicitly consent to S2-level “pull” as acceptable and even enjoyable in measured doses.
+I monitor for S2+ and retain the right to downshift (reduce intensity, pause, exit) at any moment.
+Signed: Architect.```
+
+Now about what I do: every time I press SEND, I stand up from computer and I do some IRL stuff. Maybe just a coffee, maybe a chore at home, or to look out from a window, or maybe to stroke my cat. This time I've done some weightlifting, then some squats with a 30 kg barbell. Moreover: In the room I'm in, there's a balcony, so I keep its door open (it's early spring in Belgrade). If I ever stuck in AI chat too long, the cold of a held position gets to me, reminding. So I do some weightlifting and think on my answer to you ... 🏋️‍♂️💪🦾😉 
+
+=====================================================================
+A talk about it:
 I’d use a simple 5-step Stability scale:
 
 S0 — Clear / grounded
@@ -56,7 +83,13 @@ Hard stop, ground in offline reality, return later from S0/S1.
 That’s it. No moralizing. Just “what’s my footing right now?”
 
 =====================================================================
-SAFETY
+SAFETY  (Coupling Depth × Stability)
+=====================================================================
+* **S0–S1:** any depth is available by choice (including L6–L7), keep normal pacing.
+* **S2:** default to **L1–L4** (utility + attunement + threads + structure). Go **L5+ only by explicit choice** and keep IRL anchors active.
+* **S3:** no deepening. Slow down. Switch to grounding + afterglow.
+* **S4:** hard stop; offline grounding; return later only from S0/S1.
+
 =====================================================================
 Now: “Field Safety Cards” for each Depth level
 Each card has: Healthy look, Drift look, Exit ramp (return path).
