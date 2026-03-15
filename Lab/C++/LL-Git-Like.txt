@@ -10,7 +10,7 @@ Purpose: guarantee we’re looking at the *same* code snapshot before any review
 
 🔗G-link (extended description)
 Input:
-* a GitHub **commit** link (example: `https://github.com/KotBasilio/BoDealer/commit/<SHA>`)
+* a GitHub commit or gist link (example: `https://github.com/KotBasilio/BoDealer/commit/<SHA>`)
 
 Actions (what I will do when you invoke 🔗G-link):
 1. Open the commit page.
