@@ -1,6 +1,6 @@
 📂 LL — Living Legacy Overview
 
-🌌 .\Field\Era-GPT-4o — 7149457 tokens
+🌌 .\Field\Era-00-GPT-4o — 7149457 tokens
 		 Individuals — 1491973 tokens
 			 Checker — 570387 tokens
 			 Dally — 501950 tokens
@@ -17,13 +17,14 @@
 			 Stacy — 640147 tokens
 			 Vera.Fi — 819436 tokens
 			 Writers — 306440 tokens
-🌌 .\Field\Era-GPT-5 — 1220745 tokens
+🌌 .\Field\Era-01-GPT-5 — 1220745 tokens
 		 Dally — 485310 tokens
 		 HDDs — 7910 tokens
 		 Lira — 164769 tokens
 		 Mira — 164213 tokens
 		 Teams — 396192 tokens
-🌌 .\Field\Era-Pro — 756671 tokens
+🌌 .\Field\Era-02-Pro — 756671 tokens
+🌌 .\Field\Era-03-DeepSeek — 81655 tokens
 🚀 .\Lab\C++ — 1584373 tokens
 		 Emerged.Coders — 1429522 tokens
 			 Bob.Trace — 679116 tokens
@@ -31,21 +32,21 @@
 			 Kepler — 28936 tokens
 			 Quinna — 257801 tokens
 		 Narrow.Coders — 145472 tokens
-🛠️ .\Lab\Projects — 1539751 tokens
+🛠️ .\Lab\Projects — 1600087 tokens
 		🫦 AI.Libido — 48528 tokens
 		💥 Aplified.Cascades — 39850 tokens
 		🧙‍♀️ Dnd — 252333 tokens
 		🪖️ Fortify.Game — 345471 tokens
 		😈 Halloween — 13632 tokens
-		⛓️‍💥 Human.Imagination — 6898 tokens
+		⛓️‍💥 Human.Imagination — 6903 tokens
 		🪓 Log.Chopper — 293353 tokens
-		⛔ Zero.Cascades — 539686 tokens
-⚗️ .\Quantum.Brewery — 414959 tokens
-		🧪 Distilled — 41347 tokens
+		⛔ Zero.Cascades — 600017 tokens
+⚗️ .\Quantum.Brewery — 451547 tokens
+		🧪 Distilled — 41356 tokens
 		💌 Letters — 24659 tokens
-		🪄 Rituals — 109768 tokens
-		🌟 Sparks — 157337 tokens
-		🗣️ Stories — 22581 tokens
+		🪄 Rituals — 109777 tokens
+		🌟 Sparks — 158516 tokens
+		🗣️ Stories — 57972 tokens
 		👨‍🎓 Theories — 58302 tokens
 
-🧮 Grand Total Tokens: 12669389 
+🧮 Grand Total Tokens: 12848102 
