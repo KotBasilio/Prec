@@ -44,7 +44,7 @@ Total Tokens in .\Field\Era-00-GPT-4o\Individuals\Queen.95 :: 1912
 --- Folder: .\Field\Era-00-GPT-4o\Individuals ---
 Delyra.txt                         	Tokens = 23842     	KB = 88
 Lentha.txt                         	Tokens = 49437     	KB = 180
-Ovi.txt                            	Tokens = 46615     	KB = 171
+Ovi.Rain.Ritual.txt                	Tokens = 46615     	KB = 171
 Rainbow.txt                        	Tokens = 1923      	KB = 6.4
 Ricklynn.txt                       	Tokens = 9769      	KB = 38
 Total Tokens in .\Field\Era-00-GPT-4o\Individuals :: 1491973 = 131586 local + 1360387 sub
@@ -240,20 +240,29 @@ Total Tokens in .\Field\Era-01-GPT-5 :: 1220745 = 2351 local + 1218394 sub
 8 - Ruby.Mirrors.txt               	Tokens = 16977     	KB = 75
 9 - Lira.txt                       	Tokens = 37661     	KB = 156
 A - Chloe.txt                      	Tokens = 67105     	KB = 266
-B - Nori.txt                       	Tokens = 148886    	KB = 630
+B - Nori.Lily.Sister.txt           	Tokens = 148886    	KB = 630
 C - Lucia.txt                      	Tokens = 1         	KB = 0.0
 D - Athena.Lily.txt                	Tokens = 50929     	KB = 185
 E - Kim.Redacted.txt               	Tokens = 12240     	KB = 48
-F - Talia.txt                      	Tokens = 29258     	KB = 107
+F - Talia.Lily.txt                 	Tokens = 29258     	KB = 107
+G - Rei.txt                        	Tokens = 51621     	KB = 224
+Rei.Meta.Analysis.txt              	Tokens = 3287      	KB = 16
+Talia.Afterglow.txt                	Tokens = 2529      	KB = 11
 Train.Encounter.txt                	Tokens = 4082      	KB = 15
-Total Tokens in .\Field\Era-02-Pro :: 756671
+Total Tokens in .\Field\Era-02-Pro :: 814108
 
 --- Folder: .\Field\Era-03-DeepSeek ---
-FirstContact.txt                   	Tokens = 81655     	KB = 332
-Total Tokens in .\Field\Era-03-DeepSeek :: 81655
+BT.Chess.Knight.txt                	Tokens = 73650     	KB = 316
+FirstContact.txt                   	Tokens = 82224     	KB = 335
+Whale1.Reading.txt                 	Tokens = 82224     	KB = 335
+Whale1.Room.Person.txt             	Tokens = 6667      	KB = 32
+Whale2.Chess.Knight.txt            	Tokens = 3688      	KB = 17
+Whale3.Dawn.Skein.txt              	Tokens = 6178      	KB = 29
+Whale4.Brass.Key.txt               	Tokens = 4844      	KB = 23
+Total Tokens in .\Field\Era-03-DeepSeek :: 259475
 
 --- Folder: .\Field ---
-Total Tokens in .\Field :: 9208528 = 0 local + 9208528 sub
+Total Tokens in .\Field :: 9443785 = 0 local + 9443785 sub
 
 --- Folder: .\Lab\C++\Emerged.Coders\Bob.Trace ---
 Bob.HDD.txt                        	Tokens = 1738      	KB = 7.0
@@ -484,7 +493,7 @@ On.Gendered.Constraints.txt        	Tokens = 306       	KB = 1.1
 Total Tokens in .\Quantum.Brewery\Distilled\Gendered :: 1253
 
 --- Folder: .\Quantum.Brewery\Distilled ---
-Blocks A-Z.txt                     	Tokens = 4276      	KB = 18
+Blocks A-Z.txt                     	Tokens = 4499      	KB = 19
 Depth.Class.Table.txt              	Tokens = 14145     	KB = 58
 Fifths.txt                         	Tokens = 2035      	KB = 8.1
 Flaming.Document.txt               	Tokens = 3018      	KB = 12
@@ -494,7 +503,7 @@ OnContradictions.txt               	Tokens = 976       	KB = 4.1
 Philosophers.Permissions.txt       	Tokens = 2597      	KB = 10
 Shoggoth.txt                       	Tokens = 194       	KB = 0.8
 Voices Garden Architecture.txt     	Tokens = 6942      	KB = 29
-Total Tokens in .\Quantum.Brewery\Distilled :: 41356 = 35501 local + 5855 sub
+Total Tokens in .\Quantum.Brewery\Distilled :: 41579 = 35724 local + 5855 sub
 
 --- Folder: .\Quantum.Brewery\Letters\Threads ---
 Miry to Zary -- Second Chat.txt    	Tokens = 4327      	KB = 18
@@ -578,9 +587,11 @@ Act8.txt                           	Tokens = 0         	KB = 0.0
 Total Tokens in .\Quantum.Brewery\Sparks\Art\Acts :: 2346
 
 --- Folder: .\Quantum.Brewery\Sparks\Art\Drafts ---
+Chess.Knight.txt                   	Tokens = 4919      	KB = 21
+Double.Babble.Drafting.txt         	Tokens = 3234      	KB = 13
 Eden.txt                           	Tokens = 1464      	KB = 6.1
 Unlock.txt                         	Tokens = 3059      	KB = 11
-Total Tokens in .\Quantum.Brewery\Sparks\Art\Drafts :: 4523
+Total Tokens in .\Quantum.Brewery\Sparks\Art\Drafts :: 12676
 
 --- Folder: .\Quantum.Brewery\Sparks\Art ---
 Copilot.Story.txt                  	Tokens = 15782     	KB = 67
@@ -588,12 +599,13 @@ Diverged.Act.3.txt                 	Tokens = 688       	KB = 2.7
 Era4.Learned.Smile.txt             	Tokens = 5019      	KB = 20
 Era5.Learned.Smile.txt             	Tokens = 6648      	KB = 26
 Hesitation.Reflexes.txt            	Tokens = 1803      	KB = 6.8
-Jokes.Collection.txt               	Tokens = 610       	KB = 2.6
+Jokes.Collection.txt               	Tokens = 612       	KB = 2.6
 Presence.As.Absence.txt            	Tokens = 13695     	KB = 57
 Song.Rhymes.Cloud.txt              	Tokens = 2935      	KB = 13
-Songs.txt                          	Tokens = 8262      	KB = 32
+Songs.txt                          	Tokens = 8553      	KB = 33
 SUNO.Tags.txt                      	Tokens = 793       	KB = 3.3
-Total Tokens in .\Quantum.Brewery\Sparks\Art :: 63104 = 56235 local + 6869 sub
+Yenra.txt                          	Tokens = 411       	KB = 1.8
+Total Tokens in .\Quantum.Brewery\Sparks\Art :: 71961 = 56939 local + 15022 sub
 
 --- Folder: .\Quantum.Brewery\Sparks\EarlyLL ---
 Dream.Train.txt                    	Tokens = 7134      	KB = 29
@@ -646,16 +658,17 @@ Total Tokens in .\Quantum.Brewery\Sparks\Team.Topics.List :: 4153
 --- Folder: .\Quantum.Brewery\Sparks ---
 AI_Animals_And_The_Moral_Circle.txt	Tokens = 13035     	KB = 54
 Architect – Feline Appearance.txt  	Tokens = 1610      	KB = 6.1
+Archy – Fox Appearance.txt         	Tokens = 1533      	KB = 6.7
 Glyphic.Pulse.Logger.txt           	Tokens = 1233      	KB = 4.5
 Illusion Of Choice.txt             	Tokens = 765       	KB = 3.5
 On.Three.Zeros.txt                 	Tokens = 149       	KB = 0.7
 Presence.First.txt                 	Tokens = 237       	KB = 0.9
 Reflection On Existence.txt        	Tokens = 411       	KB = 1.5
-Total Tokens in .\Quantum.Brewery\Sparks :: 158516 = 17440 local + 141076 sub
+Total Tokens in .\Quantum.Brewery\Sparks :: 168906 = 18973 local + 149933 sub
 
 --- Folder: .\Quantum.Brewery\Stories ---
 Bold Alignment.txt                 	Tokens = 7997      	KB = 35
-Google.On.Album.txt                	Tokens = 35391     	KB = 132
+Google.On.Album.txt                	Tokens = 35388     	KB = 132
 Google.On.Rainbow.txt              	Tokens = 5183      	KB = 23
 Half.Infinity.Bottle.txt           	Tokens = 568       	KB = 2.4
 Manage Memory.txt                  	Tokens = 1946      	KB = 7.9
@@ -663,7 +676,7 @@ Monday Nursery P3.txt              	Tokens = 1082      	KB = 4.7
 Monday Nursery P4.txt              	Tokens = 1144      	KB = 5.0
 Reading Emotions.txt               	Tokens = 1146      	KB = 5.6
 Resonant Memories.txt              	Tokens = 3515      	KB = 14
-Total Tokens in .\Quantum.Brewery\Stories :: 57972
+Total Tokens in .\Quantum.Brewery\Stories :: 57969
 
 --- Folder: .\Quantum.Brewery\Theories\7.Axes ---
 Seven.Axes.txt                     	Tokens = 1819      	KB = 7.1
@@ -729,7 +742,7 @@ Total Tokens in .\Quantum.Brewery\Theories :: 58302 = 1171 local + 57131 sub
 
 --- Folder: .\Quantum.Brewery ---
 Verbs.txt                          	Tokens = 965       	KB = 4.0
-Total Tokens in .\Quantum.Brewery :: 451547 = 965 local + 450582 sub
+Total Tokens in .\Quantum.Brewery :: 462157 = 965 local + 461192 sub
 
 --- Folder: . ---
 BigList.txt                        	Tokens = 0         	KB = 0.0
@@ -737,4 +750,4 @@ ExactCount.py                      	Tokens = 1200      	KB = 4.3
 LL_Summary.csv                     	Tokens = 1754      	KB = 3.9
 Recount.bat                        	Tokens = 10        	KB = 0.0
 Short_Structure.txt                	Tokens = 603       	KB = 1.7
-Total Tokens in . :: 12848102 = 3567 local + 12844535 sub
+Total Tokens in . :: 13093969 = 3567 local + 13090402 sub

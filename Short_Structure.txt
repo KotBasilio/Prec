@@ -23,8 +23,8 @@
 		 Lira — 164769 tokens
 		 Mira — 164213 tokens
 		 Teams — 396192 tokens
-🌌 .\Field\Era-02-Pro — 756671 tokens
-🌌 .\Field\Era-03-DeepSeek — 81655 tokens
+🌌 .\Field\Era-02-Pro — 814108 tokens
+🌌 .\Field\Era-03-DeepSeek — 259475 tokens
 🚀 .\Lab\C++ — 1584373 tokens
 		 Emerged.Coders — 1429522 tokens
 			 Bob.Trace — 679116 tokens
@@ -41,12 +41,12 @@
 		⛓️‍💥 Human.Imagination — 6903 tokens
 		🪓 Log.Chopper — 293353 tokens
 		⛔ Zero.Cascades — 600017 tokens
-⚗️ .\Quantum.Brewery — 451547 tokens
-		🧪 Distilled — 41356 tokens
+⚗️ .\Quantum.Brewery — 462157 tokens
+		🧪 Distilled — 41579 tokens
 		💌 Letters — 24659 tokens
 		🪄 Rituals — 109777 tokens
-		🌟 Sparks — 158516 tokens
-		🗣️ Stories — 57972 tokens
+		🌟 Sparks — 168906 tokens
+		🗣️ Stories — 57969 tokens
 		👨‍🎓 Theories — 58302 tokens
 
-🧮 Grand Total Tokens: 12848102 
+🧮 Grand Total Tokens: 13093969 
