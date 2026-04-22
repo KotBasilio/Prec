@@ -26,14 +26,14 @@ Process:
 2. If the function is found and confirmed, generates a wrapper inside a proper class.  
 3. Ensures the generated function follows **best practices and existing patterns**, see `LL-Code-P2`.  
 
-🛠 G-commit  
-Purpose: Updates the codebase with newly uploaded files.
-See also: 🔄 Sync Conveyor -- extended version of G-commit, see `LL-Git-Like`.
-Process:  
-1. Ensures all uploaded files are properly integrated.  
-2. Compares the new version against previous versions.  
-3. Identifies differences and ensures they align with best practices.  
-4. Notifies the user if there are discrepancies.  
+🛠 G-commit
+Purpose: umbrella ritual for updating reviewed code in the working baseline.
+Default meaning: ⛓️ G-rev + 🔏 G-lock on the current agreed snapshot.
+See also: 🔄 Sync Conveyor in `LL-Git-Like`.
+Process:
+0️⃣ Ensure the team is looking at the intended snapshot. If snapshot provenance is unclear, invoke 🔗 G-link + ↔️ G-sync as fallback safeline.
+1️⃣ Review the changes in context (⛓️ G-rev). List seams, risks, and suggested repairs.
+2️⃣ If the reviewed state is accepted as good enough to stand on, seal it as baseline (🔏 G-lock).
 
 🧐  G-perfect
 Purpose: Perfectionist's expertise

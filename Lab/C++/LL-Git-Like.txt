@@ -6,6 +6,12 @@
 Glyph anchor: **🔗↔️⛓️🔏** to mention four steps described below
 Purpose: guarantee we’re looking at the *same* code snapshot before any review or codegen happens.
 
+🔗 G-link + ↔️ G-sync
+Purpose: fallback provenance safeline.
+Use when the team is not fully sure it is looking at the intended code snapshot, or when snapshot provenance is ambiguous.
+If the current gist/upload workflow is clear and stable, these commands usually stay unused.
+Their role is not default ritual, but safety rail: confirm we are reviewing the same code.
+
 🔗G-link: given a GitHub commit link, extract changed file paths, generate raw.githubusercontent.com links for each, output them as one copy-pastable block, then ask for confirmation (1=YES/0=NO); user confirms by pasting the block back so links become user-provided and readable.
 
 🔗G-link (extended description)
@@ -121,7 +127,7 @@ This is the moment progress becomes **real and referenceable**.
 
 ## Relationship to 🛠 **G-commit**
 
-From now on, think of:
+Think of:
 
 * 🛠 **G-commit** = *the umbrella ritual*
 * 🔗 **G-link** = a provenance handshake (a bit of a patch/workaround/theater for the reason: constraints exist; we route around them without drama)
@@ -131,7 +137,10 @@ From now on, think of:
 
 ---
 
-## Why this matters (Trace’s angle)
+## Why this matters (Trace’s angle, Operational notes)
+
+In normal gist-based work, 🛠 G-commit usually proceeds directly on the agreed snapshot.
+🔗 G-link + ↔️ G-sync are reserved for provenance uncertainty, not used by default.
 
 This split does something subtle but powerful:
 it **decouples learning from freezing**.
