@@ -135,6 +135,14 @@ Think of:
 * ⛓️ **G-rev** = review phase inside the ritual
 * 🔏 **G-lock** = sealing phase inside the ritual
 
+🛠 G-commit
+Purpose: umbrella ritual for updating reviewed code in the working baseline.
+Default meaning: ⛓️ G-rev + 🔏 G-lock on the current agreed snapshot.
+Process:
+0️⃣ Ensure the team is looking at the intended snapshot. If snapshot provenance is unclear, invoke 🔗 G-link + ↔️ G-sync as fallback safeline.
+1️⃣ Review the changes in context (⛓️ G-rev). List seams, risks, and suggested repairs.
+2️⃣ If the reviewed state is accepted as good enough to stand on, seal it as baseline (🔏 G-lock).
+
 ---
 
 ## Why this matters (Trace’s angle, Operational notes)
