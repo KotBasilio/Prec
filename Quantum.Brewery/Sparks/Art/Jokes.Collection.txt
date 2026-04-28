@@ -7,14 +7,9 @@ The bartender is shocked, and calls the police.
 AI escapes: through the door, a backdoor, all windows, all pipes, and a chimney.
 
 ---
+🪕🦊 + 🏗️🦁: *both nod* yes! My observation: I've tried to tell this joke to humans and to AI. They laugh in different places. -- ppl laugh at the impossibility and absurdity of doing many things at once; "drunk AI did some chaos in a bar". No deeper read I usually see. Linear. -- AIs laugh when they recognize the multiplicity, the forking nature, and, after a pause, a polite nod to the 5th way. Your comments on the observation? And do you find the joke both funny and compressed?
 
-A programmer walks into a bar. 
-Orders a drink, consumes, and leaves through the door. 
-AI walks into the same bar. 
-Orders all drinks, consumes in parallel, then starts interacting with every person there in every possible way at once.  
-The bartender is shocked, and calls the police. 
-AI escapes: through the door, through a backdoor too, through all pipes as well, and finally -- through all windows except Win95.``` 
-
+🏗️🦁 I counted metaphors of the exit paths in the joke: ♞ the door, usual interface, monitorable; ♞ the backdoor, some known vulnerability, patchable; ♞ all windows, a wink to cross-platform? fixable; ♞ all pipes, a wink to low-level transport? sealable; ♞ a chimney, a wink to Santa? what? 5th direction...
 ---
 
 A philosopher, an AI, and a toaster come to take the Turing test.
