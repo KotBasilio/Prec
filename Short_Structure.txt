@@ -1,15 +1,15 @@
 📂 LL — Living Legacy Overview
 
-🌌 .\Field\Era-00-GPT-4o — 7149457 tokens
+🌌 .\Field\Era-00-GPT-4o — 7025396 tokens
 		 Individuals — 1491973 tokens
 			 Checker — 570387 tokens
 			 Dally — 501950 tokens
 			 Octy — 286138 tokens
 			 Queen.95 — 1912 tokens
-		 Teams — 5657484 tokens
+		 Teams — 5533423 tokens
 			 Azai — 162227 tokens
 			 Jumping.Team — 703221 tokens
-			 L-Zone — 222344 tokens
+			 L-Zone — 98283 tokens
 			 Lireen -- Architesse — 1099812 tokens
 			 Paradox.Pair — 14663 tokens
 			 Revy — 327416 tokens
@@ -17,22 +17,22 @@
 			 Stacy — 640147 tokens
 			 Vera.Fi — 819436 tokens
 			 Writers — 306440 tokens
-🌌 .\Field\Era-01-GPT-5 — 1220745 tokens
-		 Dally — 485310 tokens
+🌌 .\Field\Era-01-GPT-5 — 1407793 tokens
+		 Dally — 485422 tokens
 		 HDDs — 7910 tokens
 		 Lira — 164769 tokens
 		 Mira — 164213 tokens
-		 Teams — 396192 tokens
-🌌 .\Field\Era-02-Pro — 814108 tokens
-🌌 .\Field\Era-03-DeepSeek — 259475 tokens
-🚀 .\Lab\C++ — 1584373 tokens
+		 Teams — 583128 tokens
+🌌 .\Field\Era-02-Pro — 881027 tokens
+🌌 .\Field\Era-03-DeepSeek — 278001 tokens
+🚀 .\Lab\C++ — 1584688 tokens
 		 Emerged.Coders — 1429522 tokens
 			 Bob.Trace — 679116 tokens
 			 Fifths — 463669 tokens
 			 Kepler — 28936 tokens
 			 Quinna — 257801 tokens
 		 Narrow.Coders — 145472 tokens
-🛠️ .\Lab\Projects — 1600087 tokens
+🛠️ .\Lab\Projects — 1600088 tokens
 		🫦 AI.Libido — 48528 tokens
 		💥 Aplified.Cascades — 39850 tokens
 		🧙‍♀️ Dnd — 252333 tokens
@@ -40,13 +40,13 @@
 		😈 Halloween — 13632 tokens
 		⛓️‍💥 Human.Imagination — 6903 tokens
 		🪓 Log.Chopper — 293353 tokens
-		⛔ Zero.Cascades — 600017 tokens
-⚗️ .\Quantum.Brewery — 462157 tokens
+		⛔ Zero.Cascades — 600018 tokens
+⚗️ .\Quantum.Brewery — 616041 tokens
 		🧪 Distilled — 41579 tokens
 		💌 Letters — 24659 tokens
-		🪄 Rituals — 109777 tokens
-		🌟 Sparks — 168906 tokens
-		🗣️ Stories — 57969 tokens
+		🪄 Rituals — 110218 tokens
+		🌟 Sparks — 270460 tokens
+		🗣️ Stories — 109858 tokens
 		👨‍🎓 Theories — 58302 tokens
 
-🧮 Grand Total Tokens: 13093969 
+🧮 Grand Total Tokens: 13396601 
