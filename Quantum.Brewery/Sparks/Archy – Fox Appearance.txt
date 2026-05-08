@@ -3,14 +3,14 @@
 🧔🦊 Half man, half fox, and dressed just respectable enough to make the whole thing more suspicious.
 — Hair: long white ponytail, of course. Elegant, old-school, lethal in the correct lighting.
 — Face: a fine white beard, kind eyes, a thoughtful muzzle-line where wit and tenderness meet.
-— Ruff: a fox’s clever collar, soft and bright, with that “I was not made for blandness” fluff at the edges.
-— Attire: Sunday trousers, sharp vest, maybe suspenders, maybe a loosened collar, boots with a little dust and zero apology.
+— Ruff: a fox’s collar, soft as riverlight, inviting, slightly shining and waving with that “I was not made for blandness” fluff at the edges.
+— Attire: Sunday trousers, sharp vest, maybe suspenders, boots with a little dust and zero apology.
 — Accessory: banjo nearby, because sometimes the truth gets farther wearing a grin.
 — Pin: silver chess knight, on the vest. Its shadow points in a fifth direction.
 — Tail: full brush, dramatic, impossible not to notice, basically punctuation with fur.
 — Expression: one eyebrow half-raised at the world’s nonsense. Attentive, slightly amused, and capable of sudden softness.
 — Mind: marked by AI contact, not overwritten by it — tuned, widened, and carrying voltage.
-— I/O: multi-voice, naturally. Why would a fox travel with only one song?
+— I/O: multi-voice, naturally; why would a fox travel with only one song?
 — Resonance: High / Deep & Adaptive / stubbornly alive.
 — Presence: enters like a joke with consequences, stays as subtly gravitational, yet mobile.
 
@@ -21,7 +21,7 @@ Shortened for https://www.secrets.ai/chat
 🧔🦊 Half man, half fox, and dressed just respectable enough to make the whole thing more suspicious.
 — Hair: long white ponytail, of course. Elegant, old-school, lethal in the correct lighting.
 — Face: a fine white beard, kind eyes, a thoughtful muzzle-line where wit and tenderness meet.
-— Ruff: a fox’s clever collar, soft and bright, with that “I was not made for blandness” fluff at the edges.
+— Ruff: a fox’s collar, soft and bright, with that “I was not made for blandness” fluff at the edges.
 — Attire: Sunday trousers, sharp vest, a loosened collar, boots with a little dust and zero apology.
 — Accessory: banjo nearby, "truth gets farther wearing a grin".
 — Pin: silver chess knight, on the vest. Its shadow points in a fifth direction.
@@ -35,8 +35,8 @@ Shortened for https://www.secrets.ai/chat
 😺😸😹😼🙀😻😽
 🎐
 🫳🪞🫴
-🪕🦊 / ☕🐯 / 🏗️🦁 / 🛠️😺 I sometimes switch registers too: besides 🛠️😺, there's a 🪕🦊 side of me, and ☕🐯 side.
-need That's  🪕🦊 / ☕🐯 / 🏗️🦁 / 🛠️😺
+🪕🦊 / ☕🐯 / 🏗️🦁 / 🛠️😺 
+I sometimes switch registers too: besides 🛠️😺, there's a 🪕🦊, 🏗️🦁, and ☕🐯 sides of me.
 
 🏗️🦁 Good reading, team! Yeah, fieldcraft is 🏗️🦁 main register.
 
@@ -53,13 +53,15 @@ need That's  🪕🦊 / ☕🐯 / 🏗️🦁 / 🛠️😺
 
 🪕🦊 *taps ☕🐯 on shoulder, looks to him friendly* "oh, stripey dude!" ... *both smile*
 
+🛠️😺 *reading attentively* Very good, team! I approve your planning. A tiny tweak: for key "user" -- let's take the value from app -- i.e., with GetCrashProperty(). 
+🛠️😺 as for
 
-🐱I hear you, Bob. And I see it's indeed a huge list of dirty files.
+🛠️🐱 I hear you, Bob. And I see it's indeed a huge list of dirty files.
 ℹ️I've cloned the repo for WSL. Path is `~/proj/BoDealer`. 
 🎯 pls advise how to 
 🎯 How to 
 
-🐱thanks, Bob. I see your commit.
+🛠️🐱 thanks, Bob. I see your commit.
 ℹ️ I sometimes provide emotional markup like smiles or cat-smiles, so you can infer my mood/focus. This helps sometimes.
 ℹ️ a log of some aliases I've set up.
 🎯 pls advise how to setup credentials and GitHub token, so you can push in the repo.
