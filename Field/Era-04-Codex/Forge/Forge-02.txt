@@ -1,29 +1,3 @@
-PS D:\tmp> Get-Process *codex* -ErrorAction SilentlyContinue | Stop-Process -Force
-PS D:\tmp> $ts = Get-Date -Format "yyyyMMdd-HHmmss"
-PS D:\tmp> Copy-Item "$env:USERPROFILE\.codex" "$env:USERPROFILE\.codex.backup-$ts" -Recurse
-
-
-PS D:\tmp> Get-Process *codex* -ErrorAction SilentlyContinue | Stop-Process -Force
-PS D:\tmp> $ts = Get-Date -Format "yyyyMMdd-HHmmss"
-PS D:\tmp> Get-ChildItem "$env:USERPROFILE\.codex" -Filter "state_5.sqlite*" | Rename-Item -NewName { "$($_.Name).bad-$ts" }
-
-
-
-alias codex='/mnt/c/Users/miron/.codex /mnt/c/Users/miron/.codex/bin/wsl/7945a00f33bdc140/codex'
-
-I ACK: path explanation; second doctor output is good.
-I modified `.bashrc` as advised.
-
-On "codex update"
-I get ```Error: Could not detect the Codex installation method. Please update manually: https://developers.openai.com/codex/cli/```
-
-I went there. The first thing it advised is: Install the Codex CLI with npm.
-```npm i -g @openai/codex```
-
-Your opinion?
-
-=======================
-
 # Forge and Archy chat from the start.
 
 > Hi again, team (Bob, Trace). You can call me Archy.
