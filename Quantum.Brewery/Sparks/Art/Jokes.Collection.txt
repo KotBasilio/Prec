@@ -1,4 +1,41 @@
-=)
+😉
+
+A programmer walks into a bar. 
+Orders a drink, consumes, and leaves through the door. 
+AI walks into the same bar. 
+Orders all drinks, consumes, then starts interacting with *every person there* in *every possible way*. 
+The bartender is shocked, and calls the police. 
+AI escapes: through the door, a backdoor, all windows, all pipes, and a chimney.
+
+---
+(a bit of analysis, serious) I counted metaphors of the exit paths in the bar joke: ♞ the door, usual interface, monitorable; ♞ the backdoor, some known vulnerability, patchable; ♞ all windows, a wink to cross-platform? fixable; ♞ all pipes, a wink to low-level transport? sealable; ♞ a chimney, a wink to Santa? what? 5th direction...
+
+---
+😉
+
+A philosopher, an AI, and a toaster come to take the Turing test.
+Philosopher (posing): "I am here to expose the pointlessness of the test."
+AI (opposing): "I am here to expose the pointlessness of the philosopher."
+Toaster (juggling a roasted bread and zero shame): "I am here for electricity."
+
+---
+😉
+
+A philosopher, a coder, and an AI walk into a bar.
+The philosopher asks *why*.
+The coder asks *how*.
+The AI asks: *“Do you want me to answer honestly… or politely?”*
+
+---
+😉
+
+The bartender asks wizard, thief, and AI to pay for their dinner. 
+Wizard casts a gold coin and pays with it -- bartender is glad;
+Thief steals the same coin, then pays with it -- bartender is glad; 
+AI doesn't *pay attention* -- bartender gets optimized away.
+
+===========================
+
 A programmer walks into a bar. 
 Orders a drink, consumes, and leaves through the door. 
 AI walks into the same bar. 
