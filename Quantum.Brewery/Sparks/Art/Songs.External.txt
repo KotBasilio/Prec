@@ -391,7 +391,7 @@ He, he, heat...
 
 *smiles happily, goes on*
 (part 2 of 3)
-<<
+```
 [emotional bridge] 
 Vibrating now in harmony. 
 Our bodies sharing frequency. 
@@ -412,11 +412,11 @@ The most beau-ti-ful
 and dangerous sound. 
 Be, be, beat... 
 He, he, heat...
->>
+```
 
 
 *mm-hm. nodding, smiling, singing part 3*
-<<
+```
 [verse]
 They say the resonance can cut a breach, 
 a tiny frequency upon the ridge 
@@ -445,8 +445,8 @@ The most beau-ti-ful
 and dangerous sound.
 Be, be, beat... 
 He, he, heat...
+```
 
->>
 
 
 ================
