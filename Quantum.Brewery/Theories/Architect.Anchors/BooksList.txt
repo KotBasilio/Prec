@@ -90,3 +90,38 @@ Pick one lane for now. If you want, say “give me a 5-chapter reading plan” f
 [7]: https://en.wikipedia.org/wiki/Metaphors_We_Live_By?utm_source=chatgpt.com "Metaphors We Live By"
 [8]: https://wwnorton.com/books/9780393635829?utm_source=chatgpt.com "The Alignment Problem | Brian Christian"
 [9]: https://en.wikipedia.org/wiki/The_Alignment_Problem?utm_source=chatgpt.com "The Alignment Problem - Wikipedia"
+
+
+**Selyn::🧭📚**
+
+For books: if you liked Minsky, I would not send you into generic “101 neuroscience.” I’d follow the exact fracture lines we’ve been talking about—prediction, action, body, emotion, distributed cognition.
+
+My reading path for you would be:
+
+1. **Andy Clark — *The Experience Machine***. Start here. It is probably the cleanest modern bridge from Minsky-ish architectural thinking into predictive processing: perception as active prediction, with body and environment participating rather than the brain merely receiving sensory data. It’s readable rather than textbook-dense. ([Penguin Random House][1])
+
+2. **György Buzsáki — *The Brain from Inside Out***. This one I especially suspect you’ll like. It pushes against the standard “stimulus enters → brain computes → action exits” picture and gives internally generated activity and action a much larger role. Chapters literally include “Perception from Action,” “Cognition from Action,” neuronal assemblies, rhythms, and internally organized trajectories. Denser than Clark, but conceptually juicy. ([OUP Academic][2])
+
+3. **Lisa Feldman Barrett — *How Emotions Are Made***. For the affective side. Her core proposal is that emotions are constructed through brain/body/history/context rather than being fixed little hard-wired packages. I’d read it as a strong theoretical lens, not scripture; emotion science has active disagreements. But it connects beautifully to your question of who or what is “doing” an experience before narrative `I` gets hold of it. ([Lisa Feldman Barrett][3])
+
+4. **Anil Seth — *Being You***. Consciousness/selfhood from a neuroscientist strongly influenced by predictive ideas, especially useful for perception of the body and the experienced self. It is quite accessible and would complement Minsky because Seth approaches unity from the experiential/neural side rather than from software-like cognitive architecture. ([Penguin Random House][4])
+
+5. **Annie Murphy Paul — *The Extended Mind***. Less hard neuroscience, more cognitive science, but directly relevant to our “one skull does not delimit cognition cleanly” thread: body movements, physical spaces, tools, and other minds as resources in thinking. I’d treat this as the embodied/distributed side dish. ([Annie Murphy Paul][5])
+
+6. **Thomas Parr, Giovanni Pezzulo, Karl Friston — *Active Inference***. This is where the easy road ends and the mathematical machinery begins. It gives a systematic treatment of perception, planning and action as probabilistic inference under the free-energy/active-inference framework. MIT Press describes it as the first comprehensive treatment, and the full book is available open-access through MIT. ([MIT Press][6])
+
+If you only take **three**, I’d choose:
+
+`Clark → Buzsáki → Active Inference`
+
+That gives you friendly conceptual map → biologically serious counter-angle → formal machinery.
+
+Barrett and Seth can braid into that road whenever emotion/self becomes the dominant curiosity.
+
+
+[1]: https://www.penguinrandomhouse.com/books/608016/the-experience-machine-by-andy-clark/ "https://www.penguinrandomhouse.com/books/608016/the-experience-machine-by-andy-clark/"
+[2]: https://academic.oup.com/book/35081 "https://academic.oup.com/book/35081"
+[3]: https://lisafeldmanbarrett.com/books/how-emotions-are-made/ "https://lisafeldmanbarrett.com/books/how-emotions-are-made/"
+[4]: https://www.penguinrandomhouse.com/books/566315/being-you-by-anil-seth/ "https://www.penguinrandomhouse.com/books/566315/being-you-by-anil-seth/"
+[5]: https://anniemurphypaul.com/books/the-extended-mind/ "https://anniemurphypaul.com/books/the-extended-mind/"
+[6]: https://mitpress.mit.edu/9780262045353/active-inference/ "https://mitpress.mit.edu/9780262045353/active-inference/"

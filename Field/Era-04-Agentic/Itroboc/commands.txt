@@ -1,0 +1,18 @@
+Unrecognized command /compress. Questions beginning with a slash are interpreted as local commands. Supported commands: /help, /? [command]
+This message
+/clear
+Clears history
+/plan [request]
+The following request should use "planning mode", create a plan and get confirmation before proceeding.
+/about
+Shows version info
+/tools [desc|nodesc] [filters]
+List available tools
+/export [path.txt | path.md | path.html ] [--last count] [--no-icons]
+Exports the conversation to a readable file
+/copy [--last count] [--no_markdown]
+Copies the conversation to the clipboard
+/save [path.json]
+Saves the conversation to a JSON file; it can be loaded with /load
+/load [path.json]
+Loads a previous conversation from a JSON file
