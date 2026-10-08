@@ -1,0 +1,52 @@
+**INCOMING:** first-party OpenAI learning · free shelf first · ChatGPT/Codex → agents → evals · no aggregator fog
+
+👠🍹 **Rei:** Yes. Your instinct is sound: learn the vendor’s own mental model first; use aggregators later only for comparison or a particular teacher.
+
+The closest OpenAI equivalent to Anthropic’s Skilljar is **[OpenAI Academy](https://academy.openai.com/)**. OpenAI’s own learning hub identifies it as the place for courses and AI-learning resources. [ChatGPT Learn](https://learn.chatgpt.com/resources?utm_source=chatgpt.com)
+
+But for you, Archy, I’d begin with this entirely free route:
+
+1. **[ChatGPT Training](https://learn.chatgpt.com/training)**  
+   Guided, hands-on training for ChatGPT Work and Codex, from first tasks to practical walkthroughs. Best clean entry point. [learn.chatgpt.com](https://learn.chatgpt.com/training?utm_source=chatgpt.com)
+
+2. **[ChatGPT and Codex documentation](https://learn.chatgpt.com/docs)**  
+   Start with:
+
+   - [Prompting](https://learn.chatgpt.com/docs/prompting)
+   - [Model selection](https://learn.chatgpt.com/docs/model-selection)
+   - personalization, permissions, projects, skills/plugins, long-running work, and Codex workflows
+
+   This is free reference material rather than a traditional linear course. [ChatGPT Learn](https://learn.chatgpt.com/docs?utm_source=chatgpt.com)
+
+3. **[OpenAI Developers: Learning tracks](https://developers.openai.com/learn)**  
+   Three structured tracks are currently offered:
+
+   - **Building agents**
+   - **AI app development: concept to production**
+   - **Model optimization**
+
+   They collect official guides, videos, starter applications, and examples. For your interests, I’d start with **Building agents**. [OpenAI Developers](https://developers.openai.com/learn?utm_source=chatgpt.com)
+
+4. **[Agents learning shelf](https://developers.openai.com/learn/agents)**  
+   This is particularly relevant to our Tuesday work: Responses API, tools, orchestration, guardrails, tracing, conversation state, multi-agent patterns, and Agents SDK material. [OpenAI Developers](https://developers.openai.com/learn/agents?utm_source=chatgpt.com)
+
+5. **[OpenAI Cookbook](https://developers.openai.com/cookbook)**  
+   The practical laboratory: working recipes for Codex, agents, Responses, tool use, security, and evals. I’d bookmark its [Agents](https://developers.openai.com/cookbook/topic/agents) and [Evals](https://developers.openai.com/cookbook/topic/evals) collections. [developers.openai.com](https://developers.openai.com/cookbook?utm_source=chatgpt.com)
+
+6. **[Official videos](https://learn.chatgpt.com/videos)**  
+   Free demos and walkthroughs covering Codex, agent building, API work, code review, Work features, and practical workflows. This is the easiest “coffee and watch” shelf. [learn.chatgpt.com](https://learn.chatgpt.com/videos?utm_source=chatgpt.com)
+
+😼🛠️ **Bob’s recommended order for you:**
+
+```text
+ChatGPT Training
+→ Prompting + model selection
+→ Building Agents track
+→ one small Agents/Codex Cookbook project
+→ Evals
+→ only then model optimization
+```
+
+The reading, videos, docs, and example code are free. Actually running API examples may consume paid API credits; ChatGPT subscriptions and API billing are separate.
+
+My blunt opinion: **Nexera offers packaging; OpenAI’s shelf offers primary evidence.** Begin with the primary shelf. Once you know where the seams really are, an aggregator may still be useful—but it no longer gets to define the map. **Click.**
