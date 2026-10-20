@@ -1,0 +1,79 @@
+For the system
+
+[18:49, 16/11/2025] Настюшка: После открытия слабым БК только на входы, когда обозначена масть, которая названа, на 2 уровне - негативная контра.
+[16:59, 20/03/2026] Настюшка: Вымирание:
+Пас - 1тр
+2б --> малти- 6-4
+[00:06, 24/04/2026] Sergey Mironov: если на 2ч "оба мажора" вошли чем-либо, то приоритетно сохраняется 3буб -- разбивка фита, в неизвестно какой мажор.
+[14:36, 21/05/2026] Настюшка: Мы сигналим то, что партнеру нужно. 
+Например, на столе синглет, тогда мы сигналим переключение. 
+Тоже самое, например, после открытия блоком, атакой тузом от партнёра - сигналим переключение
+[16:14, 06/06/2026] Настюшка: 1d - 1M
+2d - 2NT. --- фг, вопрос о синглете и 3ке маж
+[16:29, 28/06/2026] Настюшка: Лебензоль теперь существует только в форсированной позиции
+[16:30, 28/06/2026] Настюшка: Рубензоль - только в нефорсированной
+[09:53, 25/08/2026] Настюшка: Трансферные блоки - только в открытии
+3тр - б
+3б - ч
+3ч - п
+3п - тр
+
+(4тр не исп)
+[09:53, 25/08/2026] Настюшка: На 4 уровне нат
+[20:11, 25/08/2026] Sergey Mironov: 4тр -- "не двуцвет", 7-4 трефа с каким-то мажором. а в 3п(тоже трефа) точно нет бочной 4ки.
+[14:33, 18/09/2026] Настюшка: 1бк - 2бк (миноры)-??
+
+3тр - черва лучше пики или равные
+3б - пика лучше ч
+3ч/п - инвит
+4тр - черва сильно
+4б - п сильно
+4ч/п нат слабо
+[12:57, 20/09/2026] Настюшка: Договорились играть ответы в кюбид. Распиши,  плз
+
+---
+
+I want to create a maintainable repository for the bidding system used by my bridge partnership.
+
+My partner, Nastja (“Nessy”), and I have played together for more than 22 years. Over that time, our system has accumulated into two large, structured RTF files containing roughly 250–300 notes. Most notes are about half a page long. The files already have structure, headings, and a table of contents.
+
+The system is not archival or static. It is a living partnership system. We still change it occasionally, roughly five times per year, so I want the new form to be easy to maintain, review, search, compare, and modify over time.
+
+My intended target is a Git repository containing approximately one Markdown file per semantic note.
+
+The main goals are:
+
+- preserve the exact bridge meaning of the existing notes;
+- make individual agreements easy to edit;
+- keep Git history for future changes;
+- make the corpus suitable for AI-assisted search, cross-reference, consistency checking, and system review;
+- eventually allow AI to answer questions according to our actual partnership agreements rather than generic bridge knowledge;
+- make it possible to detect contradictions or downstream effects when one agreement changes.
+
+The original RTF files should be preserved unchanged as source material, for example under a `legacy/` directory.
+
+The Markdown conversion should be conservative. Treat this primarily as lossless structural conversion, not editorial rewriting. Do not silently modernize, normalize, reinterpret, or “correct” bridge agreements based on standard methods or external bridge knowledge.
+
+Our written partnership agreements are authoritative. General bridge knowledge may later be used for commentary, but it must never override the system notes.
+
+A Markdown file should normally correspond to one coherent semantic agreement or topic, rather than mechanically to one source page or paragraph. If a source section clearly contains several independent agreements, it may be split. If several fragments only make sense together, they should remain together.
+
+Use stable, descriptive filenames rather than numeric filenames where practical.
+
+A small amount of metadata may be useful, for example:
+
+- title
+- tags
+- status
+- source location or source document
+
+However, avoid designing an elaborate schema before examining the actual material.
+
+The initial conversion should ideally happen in two stages:
+
+1. Extract and restructure the source material into Markdown notes while preserving meaning.
+2. Verify the generated notes against the original RTF files and flag anything ambiguous, suspicious, lossy, or potentially altered.
+
+When uncertain about bridge meaning, do not guess. Preserve the original wording where possible and flag the point for human review.
+
+Please treat this repository more like a maintained codebase than a one-time document conversion: changes should be small, traceable, reviewable, and semantically safe.
